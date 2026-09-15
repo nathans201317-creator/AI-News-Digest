@@ -1,0 +1,21 @@
+name: Daily AI Digest
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 13:00 UTC daily — adjust to your timezone
+  workflow_dispatch: {}     # lets you trigger it manually from the GitHub Actions tab
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python digest.py
+        env:
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
