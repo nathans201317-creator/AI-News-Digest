@@ -1,4 +1,2 @@
 feedparser
 requests
-beautifulsoup4
-markdown
