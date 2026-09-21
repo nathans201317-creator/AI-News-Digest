@@ -75,7 +75,7 @@ HOURS_BACK = 24        # only include articles published in this window
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.0-flash:generateContent"
+    "gemini-2.5-flash:generateContent"
 )
 
 
