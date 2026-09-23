@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Tech Digest — AI-curated tech news, every morning</title>
+<style>
+  :root {
+    --ink: #14162B;
+    --paper: #F6F5FC;
+    --white: #FFFFFF;
+    --muted: #6B7080;
+    --violet: #7C5CFC;
+    --sky: #2D9CDB;
+    --orange: #FF7A3D;
+    --teal: #16A38A;
+    --gold: #F2B705;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nav */
+  nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 28px 0;
+  }
+  .logo { font-size: 18px; font-weight: 800; letter-spacing: -0.2px; }
+
+  /* Hero */
+  .hero {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 56px;
+    align-items: center;
+    padding: 40px 0 80px;
+  }
+  .hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -1px;
+    max-width: 480px;
+  }
+  .hero p.sub {
+    margin-top: 20px;
+    font-size: 17px;
+    color: var(--muted);
+    max-width: 420px;
+    line-height: 1.6;
+  }
+
+  .signup-form {
+    margin-top: 32px;
+    display: flex;
+    gap: 10px;
+    max-width: 440px;
+  }
+  .signup-form input[type="email"] {
+    flex: 1;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 1.5px solid #D9D8EA;
+    font-size: 15px;
+    background: var(--white);
+    color: var(--ink);
+  }
+  .signup-form input[type="email"]:focus {
+    outline: 2px solid var(--violet);
+    outline-offset: 1px;
+    border-color: var(--violet);
+  }
+  .signup-form button {
+    padding: 14px 22px;
+    border-radius: 10px;
+    border: none;
+    background: var(--ink);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .signup-form button:hover { background: #262847; }
+
+  .form-note {
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  .form-status {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    display: none;
+  }
+  .form-status.show { display: block; }
+  .form-status.success { color: var(--teal); }
+  .form-status.error { color: var(--orange); }
+
+  /* Category legend under hero copy */
+  .legend {
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .legend span {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+  .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    margin-right: 6px; display: inline-block;
+  }
+
+  /* Email mockup */
+  .mockup {
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(20,22,43,0.14);
+    overflow: hidden;
+    transform: rotate(1.5deg);
+  }
+  .mockup-header {
+    background: var(--ink);
+    padding: 22px 24px;
+  }
+  .mockup-header .title { color: var(--white); font-size: 18px; font-weight: 800; }
+  .mockup-header .meta { color: #B4B4D6; font-size: 11.5px; margin-top: 4px; }
+  .mockup-body { padding: 18px 24px 22px; }
+  .mockup-story {
+    display: flex; gap: 12px; padding: 12px 0;
+    border-bottom: 1px solid #EDEDF5;
+  }
+  .mockup-story:last-child { border-bottom: none; }
+  .mockup-bar { width: 3px; border-radius: 2px; flex-shrink: 0; }
+  .mockup-story h4 { font-size: 13.5px; font-weight: 800; line-height: 1.3; }
+  .mockup-story p { font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+
+  /* What you get */
+  .section-label {
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .section-title {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
+  .topics {
+    padding: 60px 0;
+  }
+  .topic-row {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    padding: 22px 0;
+    border-top: 1px solid #E4E3F0;
+  }
+  .topic-row:last-child { border-bottom: 1px solid #E4E3F0; }
+  .topic-bar { width: 4px; align-self: stretch; border-radius: 2px; flex-shrink: 0; }
+  .topic-name { font-size: 19px; font-weight: 800; min-width: 220px; }
+  .topic-desc { font-size: 15px; color: var(--muted); }
+
+  /* Footer CTA */
+  .footer-cta {
+    text-align: left;
+    padding: 70px 0 90px;
+    border-top: 1px solid #E4E3F0;
+  }
+  .footer-cta h2 {
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    max-width: 460px;
+  }
+
+  footer {
+    padding: 28px 0 40px;
+    font-size: 13px;
+    color: var(--muted);
+    border-top: 1px solid #E4E3F0;
+  }
+
+  @media (max-width: 820px) {
+    .hero { grid-template-columns: 1fr; gap: 40px; padding-top: 10px; }
+    .hero h1 { font-size: 38px; }
+    .mockup { transform: none; }
+    .signup-form { flex-direction: column; }
+    .topic-name { min-width: unset; }
+    .topic-row { flex-direction: column; gap: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav>
+    <div class="logo">Daily Tech Digest</div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Tech news, actually worth five minutes.</h1>
+      <p class="sub">One email each morning. Five topics, curated and summarized so you know what happened without reading twenty articles.</p>
+
+      <form class="signup-form" id="signupForm">
+        <input type="email" id="emailInput" placeholder="you@email.com" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="form-status" id="formStatus"></div>
+      <p class="form-note">Free. One email a day. Unsubscribe anytime.</p>
+
+      <div class="legend">
+        <span><span class="dot" style="background:var(--violet)"></span>AI & Machine Learning</span>
+        <span><span class="dot" style="background:var(--sky)"></span>Big Tech</span>
+        <span><span class="dot" style="background:var(--orange)"></span>Startups & Funding</span>
+        <span><span class="dot" style="background:var(--teal)"></span>Science & Research</span>
+        <span><span class="dot" style="background:var(--gold)"></span>Crypto</span>
+      </div>
+    </div>
+
+    <div class="mockup">
+      <div class="mockup-header">
+        <div class="title">Daily Tech Digest</div>
+        <div class="meta">September 22, 2026 &nbsp;·&nbsp; 18 stories &nbsp;·&nbsp; 7 min read</div>
+      </div>
+      <div class="mockup-body">
+        <div class="mockup-story">
+          <div class="mockup-bar" style="background:var(--violet)"></div>
+          <div>
+            <h4>New model claims state-of-the-art on reasoning benchmarks</h4>
+            <p>Released this morning, outperforms prior generation by double digits.</p>
+          </div>
+        </div>
+        <div class="mockup-story">
+          <div class="mockup-bar" style="background:var(--sky)"></div>
+          <div>
+            <h4>Major cloud provider announces new data center push</h4>
+            <p>Multi-billion dollar investment across three new regions.</p>
+          </div>
+        </div>
+        <div class="mockup-story">
+          <div class="mockup-bar" style="background:var(--orange)"></div>
+          <div>
+            <h4>Seed-stage dev-tools startup raises $40M</h4>
+            <p>Backed by a top-tier fund, plans to double headcount this year.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topics">
+    <div class="section-label">What you'll get</div>
+    <div class="section-title">Five topics, every single day, actually worth reading.</div>
+
+    <div class="topic-row">
+      <div class="topic-bar" style="background:var(--violet)"></div>
+      <div class="topic-name">AI & Machine Learning</div>
+      <div class="topic-desc">New models, research papers, and the product launches that actually matter.</div>
+    </div>
+    <div class="topic-row">
+      <div class="topic-bar" style="background:var(--sky)"></div>
+      <div class="topic-name">Big Tech</div>
+      <div class="topic-desc">What Google, Apple, Meta, and the rest are actually shipping and deciding.</div>
+    </div>
+    <div class="topic-row">
+      <div class="topic-bar" style="background:var(--orange)"></div>
+      <div class="topic-name">Startups & Funding</div>
+      <div class="topic-desc">Who raised, who launched, and which new companies are worth watching.</div>
+    </div>
+    <div class="topic-row">
+      <div class="topic-bar" style="background:var(--teal)"></div>
+      <div class="topic-name">Science & Research</div>
+      <div class="topic-desc">Findings and breakthroughs from outside the usual tech news cycle.</div>
+    </div>
+    <div class="topic-row">
+      <div class="topic-bar" style="background:var(--gold)"></div>
+      <div class="topic-name">Crypto</div>
+      <div class="topic-desc">Market moves and protocol news, without the hype.</div>
+    </div>
+  </section>
+
+  <section class="footer-cta">
+    <h2>Start tomorrow morning.</h2>
+    <form class="signup-form" id="signupForm2">
+      <input type="email" id="emailInput2" placeholder="you@email.com" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <div class="form-status" id="formStatus2"></div>
+  </section>
+
+  <footer>
+    Daily Tech Digest — a free, independent newsletter.
+  </footer>
+</div>
+
+<script>
+  // Replace this with your Google Apps Script Web App URL once deployed (see setup guide)
+  const SIGNUP_ENDPOINT = "https://script.google.com/macros/s/AKfycbzIZnn-0R_b48-CY0BUkE53rSXkVf2gCJ7veOgj9ZJ3cxof5oj_27t6z0_ApfrFHc0/exec";
+
+  async function handleSignup(emailInputId, statusId, formEl) {
+    const email = document.getElementById(emailInputId).value.trim();
+    const statusEl = document.getElementById(statusId);
+
+    statusEl.className = "form-status show";
+    statusEl.textContent = "Subscribing…";
+
+    try {
+      const resp = await fetch(SIGNUP_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain" },
+        body: JSON.stringify({ email }),
+      });
+      const data = await resp.json();
+      if (data.result === "success") {
+        statusEl.className = "form-status show success";
+        statusEl.textContent = "You're in! Check your inbox tomorrow morning.";
+        formEl.reset();
+      } else {
+        throw new Error(data.message || "Something went wrong");
+      }
+    } catch (err) {
+      statusEl.className = "form-status show error";
+      statusEl.textContent = "Couldn't subscribe right now — please try again in a moment.";
+    }
+  }
+
+  document.getElementById("signupForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    handleSignup("emailInput", "formStatus", this);
+  });
+
+  document.getElementById("signupForm2").addEventListener("submit", function (e) {
+    e.preventDefault();
+    handleSignup("emailInput2", "formStatus2", this);
+  });
+</script>
+
+</body>
+</html>
