@@ -1,5 +1,5 @@
 """
-Daily Tech Digest — V1.0
+Daily Tech Digest — TLDR-style
 --------------------------------
 Pulls articles from RSS feeds across multiple topic sections, picks the
 top few per section, writes a punchy one-line AI summary for each, and
@@ -34,6 +34,8 @@ import requests
 CATEGORIES = {
     "AI & Machine Learning": {
         "emoji": "🤖",
+        "color": "#7C5CFC",
+        "tint": "#F1EDFF",
         "feeds": [
             "https://techcrunch.com/category/artificial-intelligence/feed/",
             "https://venturebeat.com/category/ai/feed/",
@@ -42,6 +44,8 @@ CATEGORIES = {
     },
     "Big Tech": {
         "emoji": "🏢",
+        "color": "#2D9CDB",
+        "tint": "#E8F5FC",
         "feeds": [
             "https://www.theverge.com/rss/index.xml",
             "https://feeds.arstechnica.com/arstechnica/technology-lab",
@@ -49,6 +53,8 @@ CATEGORIES = {
     },
     "Startups & Funding": {
         "emoji": "🚀",
+        "color": "#FF7A3D",
+        "tint": "#FFEEE3",
         "feeds": [
             "https://techcrunch.com/category/startups/feed/",
             "https://news.crunchbase.com/feed/",
@@ -56,6 +62,8 @@ CATEGORIES = {
     },
     "Science & Research": {
         "emoji": "🔬",
+        "color": "#16A38A",
+        "tint": "#E3F7F3",
         "feeds": [
             "https://www.technologyreview.com/feed/",
             "https://www.sciencedaily.com/rss/top/technology.xml",
@@ -63,6 +71,8 @@ CATEGORIES = {
     },
     "Crypto": {
         "emoji": "💰",
+        "color": "#F2B705",
+        "tint": "#FFF7DC",
         "feeds": [
             "https://www.coindesk.com/arc/outboundfeeds/rss/",
             "https://cointelegraph.com/rss",
@@ -198,30 +208,49 @@ def build_html_email(categorized, today_str):
     total_articles = sum(len(c["articles"]) for c in categorized.values())
     read_minutes = max(1, round(total_articles * 0.4))
 
+    # Header legend — a colored dot per section, doubling as a visual index
+    legend_html = ""
+    for cat_name, cat_data in categorized.items():
+        legend_html += f"""
+        <span style="display:inline-block; margin-right:14px; font-size:12px; color:#B4B4D6;">
+          <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:{cat_data['color']}; margin-right:5px;"></span>{cat_name}
+        </span>
+        """
+
     sections_html = ""
     for cat_name, cat_data in categorized.items():
+        color = cat_data["color"]
         articles_html = ""
-        for a in cat_data["articles"]:
+        for i, a in enumerate(cat_data["articles"]):
+            border_top = "border-top:1px solid #EDEDF5;" if i > 0 else ""
             articles_html += f"""
             <tr>
-              <td style="padding: 0 0 20px 0;">
-                <a href="{a['link']}" style="color:#111827; font-size:16px; font-weight:600; text-decoration:none; line-height:1.4;">
-                  {a['title']}
-                </a>
-                <div style="color:#6b7280; font-size:12px; margin-top:2px; margin-bottom:6px;">
-                  {a['source']}
-                </div>
-                <div style="color:#374151; font-size:14px; line-height:1.5;">
-                  {a['ai_summary']}
-                </div>
+              <td style="padding: 18px 0; {border_top}">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="4" style="background-color:{color}; border-radius:2px;">&nbsp;</td>
+                    <td width="14">&nbsp;</td>
+                    <td>
+                      <a href="{a['link']}" style="color:#14162B; font-size:17px; font-weight:800; text-decoration:none; line-height:1.35;">
+                        {a['title']}
+                      </a>
+                      <div style="color:{color}; font-size:11px; font-weight:700; letter-spacing:0.3px; margin-top:5px; margin-bottom:7px;">
+                        {a['source']}
+                      </div>
+                      <div style="color:#4A4B5C; font-size:14.5px; line-height:1.6;">
+                        {a['ai_summary']}
+                      </div>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
             """
         sections_html += f"""
         <tr>
-          <td style="padding: 28px 0 8px 0; border-top: 2px solid #111827;">
-            <span style="font-size:20px; font-weight:700; color:#111827;">
-              {cat_data['emoji']} {cat_name}
+          <td style="padding: 32px 0 2px 0;">
+            <span style="display:inline-block; background-color:{cat_data["tint"]}; color:{color}; font-size:13px; font-weight:800; padding:6px 14px; border-radius:20px;">
+              {cat_data['emoji']}&nbsp;&nbsp;{cat_name}
             </span>
           </td>
         </tr>
@@ -230,27 +259,28 @@ def build_html_email(categorized, today_str):
 
     html = f"""
     <html>
-    <body style="margin:0; padding:0; background-color:#f3f4f6; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f3f4f6; padding: 24px 0;">
+    <body style="margin:0; padding:0; background-color:#F6F5FC; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#F6F5FC; padding: 28px 0;">
         <tr>
           <td align="center">
-            <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#ffffff; border-radius:12px; overflow:hidden; max-width:600px; width:100%;">
+            <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; border-radius:16px; overflow:hidden; max-width:600px; width:100%; box-shadow: 0 1px 3px rgba(20,22,43,0.08);">
               <tr>
-                <td style="background-color:#111827; padding: 28px 32px;">
-                  <span style="color:#ffffff; font-size:24px; font-weight:800;">Daily Tech Digest</span><br/>
-                  <span style="color:#9ca3af; font-size:13px;">{today_str} · {total_articles} stories · {read_minutes} min read</span>
+                <td style="background-color:#14162B; padding: 30px 32px;">
+                  <span style="color:#ffffff; font-size:26px; font-weight:800; letter-spacing:-0.3px;">Daily Tech Digest</span><br/>
+                  <span style="color:#B4B4D6; font-size:13px;">{today_str} &nbsp;·&nbsp; {total_articles} stories &nbsp;·&nbsp; {read_minutes} min read</span>
+                  <div style="margin-top:16px; line-height:2;">{legend_html}</div>
                 </td>
               </tr>
               <tr>
-                <td style="padding: 8px 32px 32px 32px;">
+                <td style="padding: 6px 32px 24px 32px;">
                   <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                     {sections_html}
                   </table>
                 </td>
               </tr>
               <tr>
-                <td style="background-color:#f9fafb; padding: 20px 32px; text-align:center;">
-                  <span style="color:#9ca3af; font-size:12px;">Built by your own daily digest script — free forever.</span>
+                <td style="background-color:#F6F5FC; padding: 22px 32px; text-align:center;">
+                  <span style="color:#9A9AB0; font-size:12px;">Built by your own daily digest script — free forever.</span>
                 </td>
               </tr>
             </table>
