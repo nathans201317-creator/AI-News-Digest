@@ -85,7 +85,7 @@ HOURS_BACK = 24        # only include articles published in this window
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.5-flash:generateContent"
+    "gemini-flash-latest:generateContent"
 )
 
 
@@ -137,7 +137,12 @@ def collect_by_category():
         articles.sort(key=lambda a: a["published"], reverse=True)
         top = articles[:MAX_PER_CATEGORY]
         if top:
-            result[name] = {"emoji": info["emoji"], "articles": top}
+            result[name] = {
+                "emoji": info["emoji"],
+                "color": info["color"],
+                "tint": info["tint"],
+                "articles": top,
+            }
     return result
 
 
