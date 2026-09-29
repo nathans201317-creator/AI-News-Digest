@@ -18,6 +18,7 @@ Setup needed before running:
 
 import os
 import re
+import time
 import smtplib
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
@@ -313,6 +314,26 @@ def build_plain_text_fallback(categorized):
 # 5. Send the email
 # ---------------------------------------------------------------------------
 
+def fetch_subscribers(endpoint_url, fallback_email):
+    """Pulls the active subscriber list from the Google Apps Script endpoint.
+    Falls back to a single address if the endpoint is unset or fails, so the
+    script never silently sends to nobody."""
+    if not endpoint_url:
+        print("No SUBSCRIBERS_ENDPOINT set — sending only to DIGEST_TO.")
+        return [fallback_email]
+    try:
+        resp = requests.get(endpoint_url, timeout=15)
+        resp.raise_for_status()
+        emails = resp.json().get("emails", [])
+        if not emails:
+            print("Subscriber list came back empty — sending only to DIGEST_TO.")
+            return [fallback_email]
+        return emails
+    except Exception as e:
+        print(f"Failed to fetch subscriber list ({e}) — falling back to DIGEST_TO.")
+        return [fallback_email]
+
+
 def send_email(subject, html_body, plain_body, to_addr, from_addr, app_password):
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -326,12 +347,35 @@ def send_email(subject, html_body, plain_body, to_addr, from_addr, app_password)
         server.sendmail(from_addr, to_addr, msg.as_string())
 
 
+def send_to_all_subscribers(subject, html_body, plain_body, subscribers, from_addr, app_password):
+    sent, failed = 0, []
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(from_addr, app_password)
+        for to_addr in subscribers:
+            try:
+                msg = MIMEMultipart("alternative")
+                msg["Subject"] = subject
+                msg["From"] = from_addr
+                msg["To"] = to_addr
+                msg.attach(MIMEText(plain_body, "plain"))
+                msg.attach(MIMEText(html_body, "html"))
+                server.sendmail(from_addr, to_addr, msg.as_string())
+                sent += 1
+                time.sleep(1)  # small pause between sends, easy on Gmail's rate limits
+            except Exception as e:
+                print(f"Failed to send to {to_addr}: {e}")
+                failed.append(to_addr)
+    return sent, failed
+
+
 # ---------------------------------------------------------------------------
 # 6. Run everything
 # ---------------------------------------------------------------------------
 
 def run_daily_digest():
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
+    subscribers_endpoint = os.environ.get("SUBSCRIBERS_ENDPOINT", "")
+    digest_to = os.environ["DIGEST_TO"]
     today_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
 
     categorized = collect_by_category()
@@ -348,16 +392,22 @@ def run_daily_digest():
     html_body = build_html_email(categorized, today_str)
     plain_body = build_plain_text_fallback(categorized)
 
-    send_email(
+    subscribers = fetch_subscribers(subscribers_endpoint, digest_to)
+
+    sent, failed = send_to_all_subscribers(
         subject=subject,
         html_body=html_body,
         plain_body=plain_body,
-        to_addr=os.environ["DIGEST_TO"],
+        subscribers=subscribers,
         from_addr=os.environ["DIGEST_FROM"],
         app_password=os.environ["GMAIL_APP_PASSWORD"],
     )
-    total = sum(len(c["articles"]) for c in categorized.values())
-    print(f"Sent digest with {total} articles across {len(categorized)} sections.")
+
+    total_articles = sum(len(c["articles"]) for c in categorized.values())
+    print(f"Digest: {total_articles} articles across {len(categorized)} sections.")
+    print(f"Sent to {sent}/{len(subscribers)} subscribers.")
+    if failed:
+        print(f"Failed for: {', '.join(failed)}")
 
 
 if __name__ == "__main__":
