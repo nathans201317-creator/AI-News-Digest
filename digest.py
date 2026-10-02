@@ -23,6 +23,7 @@ import smtplib
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from urllib.parse import quote
 
 import feedparser
 import requests
@@ -35,7 +36,7 @@ import requests
 CATEGORIES = {
     "AI & Machine Learning": {
         "emoji": "🤖",
-        "color": "#7C5CFC",
+        "color": "#8B5CF6",
         "tint": "#F1EDFF",
         "feeds": [
             "https://techcrunch.com/category/artificial-intelligence/feed/",
@@ -45,7 +46,7 @@ CATEGORIES = {
     },
     "Big Tech": {
         "emoji": "🏢",
-        "color": "#2D9CDB",
+        "color": "#38BDF8",
         "tint": "#E8F5FC",
         "feeds": [
             "https://www.theverge.com/rss/index.xml",
@@ -54,7 +55,7 @@ CATEGORIES = {
     },
     "Startups & Funding": {
         "emoji": "🚀",
-        "color": "#FF7A3D",
+        "color": "#FB923C",
         "tint": "#FFEEE3",
         "feeds": [
             "https://techcrunch.com/category/startups/feed/",
@@ -63,7 +64,7 @@ CATEGORIES = {
     },
     "Science & Research": {
         "emoji": "🔬",
-        "color": "#16A38A",
+        "color": "#2DD4BF",
         "tint": "#E3F7F3",
         "feeds": [
             "https://www.technologyreview.com/feed/",
@@ -72,7 +73,7 @@ CATEGORIES = {
     },
     "Crypto": {
         "emoji": "💰",
-        "color": "#F2B705",
+        "color": "#FBBF24",
         "tint": "#FFF7DC",
         "feeds": [
             "https://www.coindesk.com/arc/outboundfeeds/rss/",
@@ -151,22 +152,37 @@ def collect_by_category():
 # 3. AI summaries (Gemini free tier) with safe fallback
 # ---------------------------------------------------------------------------
 
-def call_gemini(prompt, api_key, max_tokens=100):
-    try:
-        resp = requests.post(
-            f"{GEMINI_URL}?key={api_key}",
-            json={
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"maxOutputTokens": max_tokens},
-            },
-            timeout=15,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        return data["candidates"][0]["content"]["parts"][0]["text"].strip()
-    except Exception as e:
-        print(f"Gemini call failed, falling back to plain text: {e}")
-        return None
+def call_gemini(prompt, api_key, max_tokens=100, retries=2):
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.post(
+                f"{GEMINI_URL}?key={api_key}",
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"maxOutputTokens": max_tokens},
+                },
+                timeout=15,
+            )
+            if resp.status_code == 429:
+                # Rate limited — wait longer and try again rather than giving up immediately
+                wait = 15 * (attempt + 1)
+                print(f"Gemini rate limited, waiting {wait}s before retry...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            candidates = data.get("candidates", [])
+            if not candidates or "content" not in candidates[0]:
+                print(f"Gemini returned no usable content (likely blocked or empty): {data}")
+                return None
+            parts = candidates[0]["content"].get("parts", [])
+            if not parts:
+                return None
+            return parts[0]["text"].strip()
+        except Exception as e:
+            print(f"Gemini call failed, falling back to plain text: {e}")
+            return None
+    return None
 
 
 def summarize_tldr(title, raw_summary, api_key):
@@ -186,7 +202,7 @@ def summarize_tldr(title, raw_summary, api_key):
 
 
 def generate_subject_line(categorized, api_key, today_str):
-    default = f"🗞️ Your Tech Digest — {today_str}"
+    default = f"📡 Uplink — {today_str}"
     if not api_key:
         return default
 
@@ -265,15 +281,15 @@ def build_html_email(categorized, today_str):
 
     html = f"""
     <html>
-    <body style="margin:0; padding:0; background-color:#F6F5FC; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#F6F5FC; padding: 28px 0;">
+    <body style="margin:0; padding:0; background-color:#FFFBF5; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#FFFBF5; padding: 28px 0;">
         <tr>
           <td align="center">
-            <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; border-radius:16px; overflow:hidden; max-width:600px; width:100%; box-shadow: 0 1px 3px rgba(20,22,43,0.08);">
+            <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; border-radius:20px; overflow:hidden; max-width:600px; width:100%; box-shadow: 0 1px 3px rgba(36,31,61,0.08);">
               <tr>
-                <td style="background-color:#14162B; padding: 30px 32px;">
-                  <span style="color:#ffffff; font-size:26px; font-weight:800; letter-spacing:-0.3px;">Daily Tech Digest</span><br/>
-                  <span style="color:#B4B4D6; font-size:13px;">{today_str} &nbsp;·&nbsp; {total_articles} stories &nbsp;·&nbsp; {read_minutes} min read</span>
+                <td style="background-color:#241F3D; padding: 30px 32px;">
+                  <span style="color:#ffffff; font-size:26px; font-weight:800; letter-spacing:-0.3px;">⬡ Uplink</span><br/>
+                  <span style="color:#B8B2D6; font-size:13px;">{today_str} &nbsp;·&nbsp; {total_articles} stories &nbsp;·&nbsp; {read_minutes} min read</span>
                   <div style="margin-top:16px; line-height:2;">{legend_html}</div>
                 </td>
               </tr>
@@ -285,8 +301,8 @@ def build_html_email(categorized, today_str):
                 </td>
               </tr>
               <tr>
-                <td style="background-color:#F6F5FC; padding: 22px 32px; text-align:center;">
-                  <span style="color:#9A9AB0; font-size:12px;">Built by your own daily digest script — free forever.</span>
+                <td style="background-color:#FFFBF5; padding: 22px 32px; text-align:center;">
+                  <span style="color:#9A93AE; font-size:12px;">Uplink — free, daily, independent. &nbsp;·&nbsp; <a href="__UNSUBSCRIBE_LINK__" style="color:#9A93AE;">Unsubscribe</a></span>
                 </td>
               </tr>
             </table>
@@ -300,13 +316,14 @@ def build_html_email(categorized, today_str):
 
 
 def build_plain_text_fallback(categorized):
-    lines = ["Your Daily Tech Digest\n"]
+    lines = ["Uplink — your daily signal\n"]
     for cat_name, cat_data in categorized.items():
         lines.append(f"\n{cat_data['emoji']} {cat_name}")
         for a in cat_data["articles"]:
             lines.append(f"- {a['title']} ({a['source']})")
             lines.append(f"  {a['ai_summary']}")
             lines.append(f"  {a['link']}")
+    lines.append("\n---\nUnsubscribe: __UNSUBSCRIBE_LINK__")
     return "\n".join(lines)
 
 
@@ -334,31 +351,25 @@ def fetch_subscribers(endpoint_url, fallback_email):
         return [fallback_email]
 
 
-def send_email(subject, html_body, plain_body, to_addr, from_addr, app_password):
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"] = from_addr
-    msg["To"] = to_addr
-    msg.attach(MIMEText(plain_body, "plain"))
-    msg.attach(MIMEText(html_body, "html"))
-
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(from_addr, app_password)
-        server.sendmail(from_addr, to_addr, msg.as_string())
-
-
-def send_to_all_subscribers(subject, html_body, plain_body, subscribers, from_addr, app_password):
+def send_to_all_subscribers(subject, html_body, plain_body, subscribers, from_addr, app_password, subscribers_endpoint):
     sent, failed = 0, []
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(from_addr, app_password)
         for to_addr in subscribers:
             try:
+                unsubscribe_url = (
+                    f"{subscribers_endpoint}?unsubscribe={quote(to_addr)}"
+                    if subscribers_endpoint else "#"
+                )
+                personal_html = html_body.replace("__UNSUBSCRIBE_LINK__", unsubscribe_url)
+                personal_plain = plain_body.replace("__UNSUBSCRIBE_LINK__", unsubscribe_url)
+
                 msg = MIMEMultipart("alternative")
                 msg["Subject"] = subject
                 msg["From"] = from_addr
                 msg["To"] = to_addr
-                msg.attach(MIMEText(plain_body, "plain"))
-                msg.attach(MIMEText(html_body, "html"))
+                msg.attach(MIMEText(personal_plain, "plain"))
+                msg.attach(MIMEText(personal_html, "html"))
                 server.sendmail(from_addr, to_addr, msg.as_string())
                 sent += 1
                 time.sleep(1)  # small pause between sends, easy on Gmail's rate limits
@@ -383,10 +394,29 @@ def run_daily_digest():
         print("No new articles found across any category — skipping email.")
         return
 
-    # Write an AI summary for every article we're about to send
+    # Write an AI summary for every article we're about to send.
+    # A short pause between calls keeps us under Gemini's free-tier rate limit.
+    # If Gemini fails 3 times in a row (e.g. daily quota exhausted), stop calling
+    # it for the rest of this run instead of retrying uselessly on every article —
+    # saves time and doesn't burn quota you don't have left today.
+    consecutive_failures = 0
+    gemini_disabled = False
     for cat_data in categorized.values():
         for a in cat_data["articles"]:
-            a["ai_summary"] = summarize_tldr(a["title"], a["raw_summary"], gemini_key)
+            if gemini_disabled or not gemini_key:
+                a["ai_summary"] = a["raw_summary"][:200] + ("..." if len(a["raw_summary"]) > 200 else "")
+                continue
+            summary = summarize_tldr(a["title"], a["raw_summary"], gemini_key)
+            fallback = a["raw_summary"][:200] + ("..." if len(a["raw_summary"]) > 200 else "")
+            if summary == fallback:
+                consecutive_failures += 1
+                if consecutive_failures >= 3:
+                    print("Gemini failed 3 times in a row — skipping AI summaries for the rest of this run.")
+                    gemini_disabled = True
+            else:
+                consecutive_failures = 0
+            a["ai_summary"] = summary
+            time.sleep(3)
 
     subject = generate_subject_line(categorized, gemini_key, today_str)
     html_body = build_html_email(categorized, today_str)
@@ -401,6 +431,7 @@ def run_daily_digest():
         subscribers=subscribers,
         from_addr=os.environ["DIGEST_FROM"],
         app_password=os.environ["GMAIL_APP_PASSWORD"],
+        subscribers_endpoint=subscribers_endpoint,
     )
 
     total_articles = sum(len(c["articles"]) for c in categorized.values())
