@@ -34,6 +34,16 @@ import requests
 # ---------------------------------------------------------------------------
 
 CATEGORIES = {
+    "World News": {
+        "emoji": "🌍",
+        "color": "#EF4444",
+        "tint": "#FEEBEB",
+        "max_items": 10,   # Top 10 world stories, not the usual 4
+        "feeds": [
+            "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "https://feeds.npr.org/1004/rss.xml",
+        ],
+    },
     "AI & Machine Learning": {
         "emoji": "🤖",
         "color": "#8B5CF6",
@@ -42,6 +52,8 @@ CATEGORIES = {
             "https://techcrunch.com/category/artificial-intelligence/feed/",
             "https://venturebeat.com/category/ai/feed/",
             "https://export.arxiv.org/rss/cs.AI",
+            "https://www.wired.com/feed/tag/ai/latest/rss",
+            "https://www.artificialintelligence-news.com/feed/",
         ],
     },
     "Big Tech": {
@@ -51,6 +63,8 @@ CATEGORIES = {
         "feeds": [
             "https://www.theverge.com/rss/index.xml",
             "https://feeds.arstechnica.com/arstechnica/technology-lab",
+            "https://techcrunch.com/feed/",
+            "https://www.engadget.com/rss.xml",
         ],
     },
     "Startups & Funding": {
@@ -60,6 +74,7 @@ CATEGORIES = {
         "feeds": [
             "https://techcrunch.com/category/startups/feed/",
             "https://news.crunchbase.com/feed/",
+            "https://techcrunch.com/category/venture/feed/",
         ],
     },
     "Science & Research": {
@@ -69,6 +84,7 @@ CATEGORIES = {
         "feeds": [
             "https://www.technologyreview.com/feed/",
             "https://www.sciencedaily.com/rss/top/technology.xml",
+            "https://phys.org/rss-feed/",
         ],
     },
     "Crypto": {
@@ -78,11 +94,12 @@ CATEGORIES = {
         "feeds": [
             "https://www.coindesk.com/arc/outboundfeeds/rss/",
             "https://cointelegraph.com/rss",
+            "https://decrypt.co/feed",
         ],
     },
 }
 
-MAX_PER_CATEGORY = 4   # how many stories to show per section
+MAX_PER_CATEGORY = 4   # default stories per section, unless a category sets "max_items"
 HOURS_BACK = 24        # only include articles published in this window
 
 GEMINI_URL = (
@@ -137,7 +154,8 @@ def collect_by_category():
         articles = fetch_rss_articles(info["feeds"])
         articles = dedupe_articles(articles)
         articles.sort(key=lambda a: a["published"], reverse=True)
-        top = articles[:MAX_PER_CATEGORY]
+        limit = info.get("max_items", MAX_PER_CATEGORY)
+        top = articles[:limit]
         if top:
             result[name] = {
                 "emoji": info["emoji"],
