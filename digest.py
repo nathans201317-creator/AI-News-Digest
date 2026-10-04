@@ -114,11 +114,18 @@ GEMINI_URL = (
 
 def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; UplinkDigest/1.0)"}
     articles = []
     for url in feeds:
         try:
-            parsed = feedparser.parse(url)
-        except Exception:
+            # feedparser.parse(url) has no built-in timeout and can hang
+            # indefinitely on a slow/unresponsive feed. Fetching the raw
+            # content ourselves with a hard timeout avoids that entirely.
+            resp = requests.get(url, headers=headers, timeout=10)
+            resp.raise_for_status()
+            parsed = feedparser.parse(resp.content)
+        except Exception as e:
+            print(f"Skipping feed (fetch failed): {url} — {e}")
             continue
         for entry in parsed.entries:
             published = entry.get("published_parsed") or entry.get("updated_parsed")
