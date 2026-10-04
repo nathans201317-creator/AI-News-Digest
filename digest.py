@@ -34,16 +34,6 @@ import requests
 # ---------------------------------------------------------------------------
 
 CATEGORIES = {
-    "World News": {
-        "emoji": "🌍",
-        "color": "#EF4444",
-        "tint": "#FEEBEB",
-        "max_items": 10,   # Top 10 world stories, not the usual 4
-        "feeds": [
-            "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "https://feeds.npr.org/1004/rss.xml",
-        ],
-    },
     "AI & Machine Learning": {
         "emoji": "🤖",
         "color": "#8B5CF6",
@@ -56,7 +46,7 @@ CATEGORIES = {
             "https://www.artificialintelligence-news.com/feed/",
         ],
     },
-    "Big Tech": {
+    "Big Tech & Gadgets": {
         "emoji": "🏢",
         "color": "#38BDF8",
         "tint": "#E8F5FC",
@@ -65,6 +55,8 @@ CATEGORIES = {
             "https://feeds.arstechnica.com/arstechnica/technology-lab",
             "https://techcrunch.com/feed/",
             "https://www.engadget.com/rss.xml",
+            "https://gizmodo.com/rss",
+            "https://www.techradar.com/rss",
         ],
     },
     "Startups & Funding": {
