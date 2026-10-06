@@ -145,6 +145,13 @@
 
   footer.site-footer { padding: 30px 0 40px; text-align: center; font-size: 13px; color: var(--muted); }
 
+  .topic-brief { margin-top: 16px; padding-top: 14px; border-top: 1px solid #F0ECF8; }
+  .topic-brief:empty { display: none; }
+  .topic-brief-label { font-size: 11px; font-weight: 800; letter-spacing: 0.4px; text-transform: uppercase; margin-bottom: 6px; }
+  .topic-brief p { font-size: 14px; color: var(--ink); line-height: 1.6; }
+  .topic-links { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .topic-links a { font-size: 12px; font-weight: 700; text-decoration: none; padding: 5px 11px; border-radius: 100px; }
+
   /* Today's Stories (live) */
   .today-section { padding: 10px 0 60px; }
   .today-subhead { color: var(--muted); font-size: 14.5px; margin-bottom: 28px; }
@@ -264,6 +271,7 @@
         </div>
         <h3>AI & Machine Learning</h3>
         <p>The models, papers, and breakthroughs reshaping how software gets built — distilled before the hype does.</p>
+        <div class="topic-brief" data-cat="AI &amp; Machine Learning"></div>
       </div>
 
       <div class="topic-card">
@@ -272,6 +280,7 @@
         </div>
         <h3>Big Tech & Gadgets</h3>
         <p>The moves from Google, Apple, Meta — plus the phones and wearables everyone's actually talking about.</p>
+        <div class="topic-brief" data-cat="Big Tech &amp; Gadgets"></div>
       </div>
 
       <div class="topic-card">
@@ -280,6 +289,7 @@
         </div>
         <h3>Startups & Funding</h3>
         <p>Who raised, who launched, and which unknown names are about to be everywhere.</p>
+        <div class="topic-brief" data-cat="Startups &amp; Funding"></div>
       </div>
 
       <div class="topic-card">
@@ -288,6 +298,7 @@
         </div>
         <h3>Science & Research</h3>
         <p>The discoveries worth knowing about, long before they hit the mainstream headlines.</p>
+        <div class="topic-brief" data-cat="Science &amp; Research"></div>
       </div>
 
       <div class="topic-card" style="grid-column: 1 / -1;">
@@ -296,6 +307,7 @@
         </div>
         <h3>Crypto</h3>
         <p>Market swings and protocol shifts that matter — minus the hype and the noise.</p>
+        <div class="topic-brief" data-cat="Crypto"></div>
       </div>
     </div>
   </section>
@@ -362,7 +374,7 @@
     const subhead = document.getElementById("todaySubhead");
     const content = document.getElementById("todayContent");
     try {
-      const indexResp = await fetch("/data/index.json");
+      const indexResp = await fetch("/data/index.json", { cache: "no-store" });
       const indexData = await indexResp.json();
       const dates = indexData.dates || [];
 
@@ -373,11 +385,13 @@
       }
 
       const latestDate = dates[0];
-      const dataResp = await fetch(`/data/${latestDate}.json`);
+      const dataResp = await fetch(`/data/${latestDate}.json`, { cache: "no-store" });
       const data = await dataResp.json();
 
       const totalStories = data.categories.reduce((n, c) => n + c.articles.length, 0);
       subhead.textContent = `${data.display_date} · ${totalStories} stories`;
+
+      fillTopicBriefs(data);
 
       content.innerHTML = "";
       data.categories.forEach(cat => {
@@ -414,6 +428,22 @@
       subhead.textContent = "";
       content.innerHTML = '<div class="today-loading">Couldn\'t load today\'s stories right now.</div>';
     }
+  }
+
+  // Fills each topic card near the bottom with today's short paragraph and
+  // links back to the original stories.
+  function fillTopicBriefs(data) {
+    document.querySelectorAll(".topic-brief").forEach(box => {
+      const cat = data.categories.find(c => c.name === box.dataset.cat);
+      if (!cat || !cat.brief) return;
+      const links = cat.articles.map(a =>
+        `<a href="${encodeURI(a.link)}" target="_blank" rel="noopener" style="background:${cat.tint};color:${cat.color};">${escapeHtmlToday(a.source)} ↗</a>`
+      ).join("");
+      box.innerHTML =
+        `<div class="topic-brief-label" style="color:${cat.color};">Today in ${escapeHtmlToday(cat.name)}</div>` +
+        `<p>${escapeHtmlToday(cat.brief)}</p>` +
+        `<div class="topic-links">${links}</div>`;
+    });
   }
 
   function escapeHtmlToday(str) {
