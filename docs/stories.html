@@ -106,22 +106,24 @@
 
   async function init() {
     try {
-      const indexResp = await fetch(`${DATA_DIR}/index.json`);
+      const indexResp = await fetch(`${DATA_DIR}/index.json`, { cache: "no-store" });
       const indexData = await indexResp.json();
       const allDates = indexData.dates || [];
 
-      // Today's stories already live on the homepage — this page is the
-      // archive for yesterday and earlier, so the most recent date is skipped.
-      const dates = allDates.slice(1);
+      // Every saved day is listed (newest first), so yesterday is always
+      // there. The page opens on the most recent PAST day when one exists;
+      // the newest day is also available as the first pill.
+      const dates = allDates;
 
       if (dates.length === 0) {
-        document.getElementById("content").innerHTML = '<div class="empty">No past stories yet — check back tomorrow.</div>';
+        document.getElementById("content").innerHTML = '<div class="empty">No stories saved yet — check back tomorrow.</div>';
         document.getElementById("subhead").textContent = "";
         return;
       }
 
-      renderDateRail(dates, dates[0]);
-      loadDate(dates[0]);
+      const startDate = dates.length > 1 ? dates[1] : dates[0];
+      renderDateRail(dates, startDate);
+      loadDate(startDate);
     } catch (err) {
       document.getElementById("content").innerHTML = '<div class="empty">Couldn\'t load stories right now. Please try again shortly.</div>';
     }
@@ -130,10 +132,10 @@
   function renderDateRail(dates, activeDate) {
     const rail = document.getElementById("dateRail");
     rail.innerHTML = "";
-    dates.forEach(date => {
+    dates.forEach((date, i) => {
       const btn = document.createElement("button");
       btn.className = "date-pill" + (date === activeDate ? " active" : "");
-      btn.textContent = formatShortDate(date);
+      btn.textContent = formatShortDate(date) + (i === 0 ? " · Latest" : "");
       btn.onclick = () => {
         document.querySelectorAll(".date-pill").forEach(p => p.classList.remove("active"));
         btn.classList.add("active");
@@ -145,14 +147,14 @@
 
   function formatShortDate(dateStr) {
     const d = new Date(dateStr + "T00:00:00Z");
-    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric", timeZone: "UTC" });
   }
 
   async function loadDate(dateStr) {
     const content = document.getElementById("content");
     content.innerHTML = '<div class="loading">Loading stories…</div>';
     try {
-      const resp = await fetch(`${DATA_DIR}/${dateStr}.json`);
+      const resp = await fetch(`${DATA_DIR}/${dateStr}.json`, { cache: "no-store" });
       const data = await resp.json();
       document.getElementById("subhead").textContent =
         `${data.display_date} · ${data.categories.reduce((n, c) => n + c.articles.length, 0)} stories`;
