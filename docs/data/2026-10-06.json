@@ -26,14 +26,14 @@
           "title": "Instinct brings its AI agent to group chats, even for friends without an account",
           "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
           "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "no fluff",
+          "summary": "in group",
           "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675"
         },
         {
           "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
           "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
           "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+          "summary": "(no fluff,",
           "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259084458.jpg?resize=1200,801"
         }
       ]
@@ -48,7 +48,7 @@
           "title": "Amazon commits $1 billion to communities near data centers, AWS CEO says it no longer uses NDAs with government agencies",
           "link": "https://www.techradar.com/pro/amazon-commits-usd1-billion-to-communities-near-data-centers-aws-ceo-says-it-no-longer-uses-ndas-with-government-agencies",
           "source": "Latest from TechRadar",
-          "summary": "AWS CEO debunks common 'myths' around data centers and commits $1 billion to local community development",
+          "summary": "AWS is",
           "image": "https://cdn.mos.cms.futurecdn.net/ABdYnex3UvLSEgFZqq9eSZ-1920-80.jpg"
         },
         {
@@ -69,7 +69,7 @@
           "title": "US approves first data center-specific small nuclear reactor \u2014 the BWRX-300 may be covering not just the UK, but America too",
           "link": "https://www.techradar.com/pro/us-approves-first-data-center-specific-small-nuclear-reactor-the-bwrx-300-may-be-covering-not-just-the-uk-but-america-too",
           "source": "Latest from TechRadar",
-          "summary": "The US has approved TVA's 300MW BWRX-300 reactor, while Britain and other markets consider deployments using the same nuclear design.",
+          "summary": "no fluff,",
           "image": "https://cdn.mos.cms.futurecdn.net/dR9LBfYWappAgzsAT7XLWo-1920-80.jpg"
         }
       ]
@@ -117,6 +117,20 @@
       "tint": "#E3F7F3",
       "articles": [
         {
+          "title": "Exploring systemic racism as the default explanation for disparities",
+          "link": "https://phys.org/news/2026-10-exploring-racism-default-explanation-disparities.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "Much of the field of sociology treats systemic racism as its default explanation for racial disparities rather than as an open question that requires further investigation and evidence, according to a...",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/paper-explores-systemi.jpg"
+        },
+        {
+          "title": "Vitamin B1 gains in wild lake trout embryos challenge assumptions drawn from hatcheries",
+          "link": "https://phys.org/news/2026-10-vitamin-b1-gains-wild-lake.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "For decades, fisheries managers have struggled to restore recruitment in wild lake trout populations across the Great Lakes region, with limited success. Returning this species to its former abundance...",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/uvm-study-reveals-how.jpg"
+        },
+        {
           "title": "Global review reveals major blind spots in our understanding of climate change impacts on Mediterranean ecosystems",
           "link": "https://phys.org/news/2026-10-global-reveals-major-climate-impacts.html",
           "source": "Phys.org - latest science and technology news stories",
@@ -129,20 +143,6 @@
           "source": "Phys.org - latest science and technology news stories",
           "summary": "Galactic black holes are cosmic mitochondria, powerhouses of the universe. Most of the energy these supermassive black holes produce comes from the material surrounding them: superheated plasma in the...",
           "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/in-this-artists-concep.jpg"
-        },
-        {
-          "title": "Why some Indigenous communities don't resist oil extraction in their territories",
-          "link": "https://phys.org/news/2026-10-indigenous-communities-dont-resist-oil.html",
-          "source": "Phys.org - latest science and technology news stories",
-          "summary": "More than half of the Ecuadorian Amazon has been marked for oil drilling, overlapping with Indigenous territories and areas of high biodiversity. The ecological and cultural impacts of oil extraction ...",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/ecuador.jpg"
-        },
-        {
-          "title": "Global soil erosion outpaces natural recovery, report warns",
-          "link": "https://phys.org/news/2026-10-global-soil-erosion-outpaces-natural.html",
-          "source": "Phys.org - latest science and technology news stories",
-          "summary": "Isaac Larsen, an associate professor in the College of Natural Sciences' Department of Earth, Geographic, and Climate Sciences, is a lead author of \"Status of the World's Soil Resources 2026,\" a new r...",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/soil-erosion.jpg"
         }
       ]
     },
@@ -152,6 +152,13 @@
       "color": "#FBBF24",
       "tint": "#FFF7DC",
       "articles": [
+        {
+          "title": "Solana Debuts Institutional Settlement Standard With J.P. Morgan Input",
+          "link": "https://decrypt.co/380126/solana-institutional-settlement-standard-jp-morgan",
+          "source": "Decrypt",
+          "summary": "Built with input from J.P. Morgan, the open-source \"DvP\" program lets institutions settle trades atomically on Solana with finality in seconds instead of days.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-04-gID_7.png"
+        },
         {
           "title": "Chinese crime network laundered over $1B for Lazarus: ZachXBT",
           "link": "https://cointelegraph.com/news/chinese-crime-network-laundered-over-1b-for-lazarus-zachxbt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -172,13 +179,6 @@
           "source": "Decrypt",
           "summary": "Nasdaq-listed DeFi Development Corp's latest SEC filing shows its Solana stash grew 1%, to about 2.56 million SOL and SOL equivalents\u2014roughly half the prior week's gain and well below mid-September's ...",
           "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Solana-gID_7.png"
-        },
-        {
-          "title": "Crypto PAC announces support for 32 House candidates in US midterms",
-          "link": "https://cointelegraph.com/news/crypto-pac-fairshake-house-endorsements-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "Cointelegraph.com News",
-          "summary": "Fairshake said it would financially back 32 House candidates who all voted in favor of the CLARITY market structure bill in 2025, as the legislation remains in limbo in the Senate.",
-          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M46WXGBMXWCHCDF4G7K9W92T/hi-crypto-for-america-cryptocurrencies-in-campaign-finance-2.jpg"
         }
       ]
     }
