@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Uplink — Today's Stories</title>
+<title>Uplink — Story Archive</title>
 <style>
   :root {
     --ink: #241F3D;
@@ -91,7 +91,7 @@
     <a class="back" href="/">← Back home</a>
   </nav>
 
-  <h1>Today's Stories</h1>
+  <h1>Story Archive</h1>
   <div class="subhead" id="subhead">Loading…</div>
 
   <div class="date-rail" id="dateRail"></div>
@@ -108,10 +108,14 @@
     try {
       const indexResp = await fetch(`${DATA_DIR}/index.json`);
       const indexData = await indexResp.json();
-      const dates = indexData.dates || [];
+      const allDates = indexData.dates || [];
+
+      // Today's stories already live on the homepage — this page is the
+      // archive for yesterday and earlier, so the most recent date is skipped.
+      const dates = allDates.slice(1);
 
       if (dates.length === 0) {
-        document.getElementById("content").innerHTML = '<div class="empty">No stories yet — check back after tomorrow\'s digest.</div>';
+        document.getElementById("content").innerHTML = '<div class="empty">No past stories yet — check back tomorrow.</div>';
         document.getElementById("subhead").textContent = "";
         return;
       }
