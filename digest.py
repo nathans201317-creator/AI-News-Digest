@@ -1,5 +1,5 @@
 """
-Daily Tech Digest — TLDR-style
+Uplink - Tech News
 --------------------------------
 Pulls articles from RSS feeds across multiple topic sections, picks the
 top few per section, writes a punchy one-line AI summary for each, and
