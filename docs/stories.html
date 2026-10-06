@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uplink — Today's Stories</title>
+<style>
+  :root {
+    --ink: #241F3D;
+    --cream: #FFFBF5;
+    --white: #FFFFFF;
+    --muted: #7A7590;
+    --coral: #FF5C7A;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px 80px; }
+
+  nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 28px 0;
+  }
+  .logo {
+    font-size: 19px; font-weight: 800; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink);
+  }
+  nav a.back { font-size: 13px; color: var(--muted); text-decoration: none; font-weight: 700; }
+
+  h1 { font-size: 34px; font-weight: 800; letter-spacing: -0.6px; margin-bottom: 6px; }
+  .subhead { color: var(--muted); font-size: 14.5px; margin-bottom: 24px; }
+
+  .date-rail {
+    display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 24px;
+    scrollbar-width: none;
+  }
+  .date-rail::-webkit-scrollbar { display: none; }
+  .date-pill {
+    flex-shrink: 0; padding: 8px 16px; border-radius: 100px;
+    background: var(--white); color: var(--muted); font-size: 13px; font-weight: 700;
+    border: none; cursor: pointer; white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(36,31,61,0.05);
+  }
+  .date-pill.active { background: var(--ink); color: var(--white); }
+
+  .category-badge {
+    display: inline-block; font-size: 13px; font-weight: 800;
+    padding: 6px 14px; border-radius: 20px; margin: 28px 0 14px;
+  }
+
+  .story-card {
+    display: flex; gap: 14px; background: var(--white);
+    border-radius: 16px; padding: 16px; margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(36,31,61,0.05);
+    text-decoration: none; color: inherit;
+  }
+  .story-thumb {
+    width: 64px; height: 64px; border-radius: 10px; flex-shrink: 0;
+    object-fit: cover; display: flex; align-items: center; justify-content: center;
+    font-size: 24px;
+  }
+  .story-title { font-size: 15.5px; font-weight: 800; line-height: 1.35; margin-bottom: 4px; }
+  .story-source { font-size: 11px; font-weight: 700; margin-bottom: 5px; }
+  .story-summary { font-size: 13.5px; color: var(--muted); line-height: 1.5; }
+
+  .loading, .empty { text-align: center; color: var(--muted); padding: 60px 0; font-size: 14px; }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 26px; }
+    .story-card { flex-direction: column; }
+    .story-thumb { width: 100%; height: 140px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav>
+    <a class="logo" href="/">
+      <svg width="26" height="26" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="28" r="6" fill="#241F3D"/>
+        <path d="M11 20a12.7 12.7 0 0 1 18 0" stroke="#FF5C7A" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <path d="M6 13a19.5 19.5 0 0 1 28 0" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" fill="none"/>
+      </svg>
+      Uplink
+    </a>
+    <a class="back" href="/">← Back home</a>
+  </nav>
+
+  <h1>Today's Stories</h1>
+  <div class="subhead" id="subhead">Loading…</div>
+
+  <div class="date-rail" id="dateRail"></div>
+
+  <div id="content">
+    <div class="loading">Loading stories…</div>
+  </div>
+</div>
+
+<script>
+  const DATA_DIR = "/data";
+
+  async function init() {
+    try {
+      const indexResp = await fetch(`${DATA_DIR}/index.json`);
+      const indexData = await indexResp.json();
+      const dates = indexData.dates || [];
+
+      if (dates.length === 0) {
+        document.getElementById("content").innerHTML = '<div class="empty">No stories yet — check back after tomorrow\'s digest.</div>';
+        document.getElementById("subhead").textContent = "";
+        return;
+      }
+
+      renderDateRail(dates, dates[0]);
+      loadDate(dates[0]);
+    } catch (err) {
+      document.getElementById("content").innerHTML = '<div class="empty">Couldn\'t load stories right now. Please try again shortly.</div>';
+    }
+  }
+
+  function renderDateRail(dates, activeDate) {
+    const rail = document.getElementById("dateRail");
+    rail.innerHTML = "";
+    dates.forEach(date => {
+      const btn = document.createElement("button");
+      btn.className = "date-pill" + (date === activeDate ? " active" : "");
+      btn.textContent = formatShortDate(date);
+      btn.onclick = () => {
+        document.querySelectorAll(".date-pill").forEach(p => p.classList.remove("active"));
+        btn.classList.add("active");
+        loadDate(date);
+      };
+      rail.appendChild(btn);
+    });
+  }
+
+  function formatShortDate(dateStr) {
+    const d = new Date(dateStr + "T00:00:00Z");
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  }
+
+  async function loadDate(dateStr) {
+    const content = document.getElementById("content");
+    content.innerHTML = '<div class="loading">Loading stories…</div>';
+    try {
+      const resp = await fetch(`${DATA_DIR}/${dateStr}.json`);
+      const data = await resp.json();
+      document.getElementById("subhead").textContent =
+        `${data.display_date} · ${data.categories.reduce((n, c) => n + c.articles.length, 0)} stories`;
+      renderStories(data);
+    } catch (err) {
+      content.innerHTML = '<div class="empty">Couldn\'t load this day\'s stories.</div>';
+    }
+  }
+
+  function renderStories(data) {
+    const content = document.getElementById("content");
+    content.innerHTML = "";
+
+    data.categories.forEach(cat => {
+      const badge = document.createElement("div");
+      badge.className = "category-badge";
+      badge.style.backgroundColor = cat.tint;
+      badge.style.color = cat.color;
+      badge.textContent = `${cat.emoji}  ${cat.name}`;
+      content.appendChild(badge);
+
+      cat.articles.forEach(article => {
+        const card = document.createElement("a");
+        card.className = "story-card";
+        card.href = article.link;
+        card.target = "_blank";
+        card.rel = "noopener";
+
+        const thumbHtml = article.image
+          ? `<img class="story-thumb" src="${article.image}" alt="" style="background-color:${cat.tint};">`
+          : `<div class="story-thumb" style="background-color:${cat.tint};">${cat.emoji}</div>`;
+
+        card.innerHTML = `
+          ${thumbHtml}
+          <div>
+            <div class="story-title">${escapeHtml(article.title)}</div>
+            <div class="story-source" style="color:${cat.color};">${escapeHtml(article.source)}</div>
+            <div class="story-summary">${escapeHtml(article.summary)}</div>
+          </div>
+        `;
+        content.appendChild(card);
+      });
+    });
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.textContent = str || "";
+    return div.innerHTML;
+  }
+
+  init();
+</script>
+
+</body>
+</html>
