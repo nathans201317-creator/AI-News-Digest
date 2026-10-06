@@ -389,12 +389,12 @@ def build_html_email(categorized, today_str):
                   </table>
                   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding:26px 32px 20px;">
                     <tr>
-                      <td width="46" valign="middle">
-                        <img src="https://uplinkbrief.com/email-assets/uplink-mark.png" width="40" height="40" alt="Uplink" style="display:block; width:40px; height:40px; border:0;">
+                      <td valign="middle">
+                        <span style="color:#ffffff; font-size:34px; font-weight:800; letter-spacing:-0.8px; display:block; line-height:1.1;">Uplink</span>
+                        <span style="color:#B8B2D6; font-size:14px; line-height:1.5; display:block; margin-top:6px;">Tech news,<br/>transmitted daily.</span>
                       </td>
-                      <td valign="middle" style="padding-left:12px;">
-                        <span style="color:#ffffff; font-size:25px; font-weight:800; letter-spacing:-0.4px; display:block; line-height:1.2;">Uplink</span>
-                        <span style="color:#9A93AE; font-size:12px; letter-spacing:0.2px;">Tech news, transmitted daily</span>
+                      <td width="120" valign="middle" align="right">
+                        <img src="https://uplinkbrief.com/email-assets/uplink-hero.png" width="120" height="120" alt="Uplink" style="display:block; width:120px; height:120px; border:0; border-radius:20px;">
                       </td>
                     </tr>
                   </table>
