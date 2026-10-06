@@ -7,6 +7,7 @@
       "emoji": "\ud83e\udd16",
       "color": "#8B5CF6",
       "tint": "#F1EDFF",
+      "brief": "The startup crossed over $1 million in anualized revenue within two months of its post-pivot launch. tech newsletter bl Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
       "articles": [
         {
           "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
@@ -19,7 +20,7 @@
           "title": "How AI decision models could change content moderation",
           "link": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
           "source": "AI News & Artificial Intelligence | TechCrunch",
-          "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+          "summary": "tech newsletter bl",
           "image": "https://techcrunch.com/wp-content/uploads/2026/10/ai-agents-chatbots-GettyImages-2243730029.jpg?resize=1200,675"
         },
         {
@@ -35,6 +36,13 @@
           "source": "AI News & Artificial Intelligence | TechCrunch",
           "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new stand...",
           "image": "https://techcrunch.com/wp-content/uploads/2026/10/ai-agent-bots-GettyImages-2243729307.jpg?resize=1200,800"
+        },
+        {
+          "title": "\u2018Artificial\u2019 Roasts AI\u2019s Creators\u2014and Sends a Dark Warning About Its Dangers",
+          "link": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+          "source": "Feed: Artificial Intelligence Latest",
+          "summary": "From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness.",
+          "image": "https://media.wired.com/photos/6abeb0c6be4bdb85e3b4d7e4/master/pass/Artificial-NYFF-Screening-Culture.jpg"
         }
       ]
     },
@@ -43,7 +51,29 @@
       "emoji": "\ud83c\udfe2",
       "color": "#38BDF8",
       "tint": "#E8F5FC",
+      "brief": "Spam calls don't have to grab your attention and waste your time. Use these built-in options to silence and block them without having to pay. OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related ... We\u2019ve compared the MSI Codex Z2 and Aegis R2 desktops and if you\u2019re wondering which one to buy in the Prime Day sale, there\u2019s one clear winner.",
       "articles": [
+        {
+          "title": "How to help stop spam calls on iPhone and Android",
+          "link": "https://www.engadget.com/2277629/how-to-stop-spam-calls-iphone-android/",
+          "source": "Engadget - Technology News & Expert Reviews",
+          "summary": "Spam calls don't have to grab your attention and waste your time. Use these built-in options to silence and block them without having to pay.",
+          "image": "https://www.engadget.com/img/gallery/how-to-help-stop-spam-calls-on-iphone-and-android/l-intro-1791221397.jpg"
+        },
+        {
+          "title": "OpenAI drops another batch of mathematical breakthroughs",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+          "source": "The Verge",
+          "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related ...",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2297765991.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.744316765259%2C100%2C78.511366469482&amp;w=1200"
+        },
+        {
+          "title": "MSI's Codex Z2 and Aegis R2 desktops are both $200 off for Amazon Prime Day \u2014 but only one offers far superior value",
+          "link": "https://www.techradar.com/pro/msis-codex-z2-and-aegis-r2-desktops-are-both-usd200-off-for-amazon-prime-day-but-only-one-offers-far-superior-value",
+          "source": "Latest from TechRadar",
+          "summary": "We\u2019ve compared the MSI Codex Z2 and Aegis R2 desktops and if you\u2019re wondering which one to buy in the Prime Day sale, there\u2019s one clear winner.",
+          "image": "https://cdn.mos.cms.futurecdn.net/T7zkPgaptiercRFQn6XD55-1920-80.jpg"
+        },
         {
           "title": "Why do some PCs have two Ethernet ports?",
           "link": "https://www.engadget.com/2277504/why-come-pc-come-with-second-ethernet-port/",
@@ -57,20 +87,6 @@
           "source": "Latest from TechRadar",
           "summary": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
           "image": "https://cdn.mos.cms.futurecdn.net/RCGfdf3yhQ9W3MHbTRT6yk-1920-80.jpg"
-        },
-        {
-          "title": "Quordle hints and answers for Wednesday, October 7 (game #1717)",
-          "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-7-october-2026",
-          "source": "Latest from TechRadar",
-          "summary": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
-          "image": "https://cdn.mos.cms.futurecdn.net/4XP9iNbdvkijJyZnzx3WoL-1920-80.jpg"
-        },
-        {
-          "title": "NYT Strands hints and answers for Wednesday, October 7 (game #948)",
-          "link": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-7-october-2026",
-          "source": "Latest from TechRadar",
-          "summary": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
-          "image": "https://cdn.mos.cms.futurecdn.net/XrpFgcngWrtXQscKdLLAZB-1920-80.jpg"
         }
       ]
     },
@@ -79,6 +95,7 @@
       "emoji": "\ud83d\ude80",
       "color": "#FB923C",
       "tint": "#FFEEE3",
+      "brief": "The startup crossed over $1 million in anualized revenue within two months of its post-pivot launch. Sigil Wen, backed by a Silicon Valley who's who, has built an on-device AI assistant that promises to be free, fully private, and capable for everyday tasks. Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
       "articles": [
         {
           "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
@@ -107,6 +124,13 @@
           "source": "Startups | TechCrunch",
           "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
           "image": "https://techcrunch.com/wp-content/uploads/2026/10/Hark-Panels.png?resize=1200,675"
+        },
+        {
+          "title": "Mirror Particle is building a \u2018world model\u2019 of human behavior",
+          "link": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+          "source": "Startups | TechCrunch",
+          "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research ...",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1404749040.jpg?resize=1200,675"
         }
       ]
     },
@@ -115,7 +139,22 @@
       "emoji": "\ud83d\udd2c",
       "color": "#2DD4BF",
       "tint": "#E3F7F3",
+      "brief": "Scientists are increasingly exploring carbon dioxide (CO\u2082) hydrogenation\u2014where CO\u2082 reacts with hydrogen over a catalyst to produce products like methanol\u2014to convert CO\u2082 into useful chemicals and fuels... Research by INRAE and AgroParisTech suggests that global warming could have an overall positive effect on sorghum yields in Europe. Sorghum is a promising alternative to maize in livestock feed. Addit... A new species of extinct crocodile from Egypt has been discovered, sharing more than just its home with the Great Sphinx. Herugavialis cairensis was found in the very same rocks used to build the icon...",
       "articles": [
+        {
+          "title": "Nearly 10,000 mapped reactions reveal overlooked steps in CO\u2082-to-fuel conversion",
+          "link": "https://phys.org/news/2026-10-reactions-reveal-overlooked-fuel-conversion.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "Scientists are increasingly exploring carbon dioxide (CO\u2082) hydrogenation\u2014where CO\u2082 reacts with hydrogen over a catalyst to produce products like methanol\u2014to convert CO\u2082 into useful chemicals and fuels...",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-machine-learning-2.jpg"
+        },
+        {
+          "title": "Sorghum may help European agriculture face climate change",
+          "link": "https://phys.org/news/2026-10-sorghum-european-agriculture-climate.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "Research by INRAE and AgroParisTech suggests that global warming could have an overall positive effect on sorghum yields in Europe. Sorghum is a promising alternative to maize in livestock feed. Addit...",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2016/sorghum.jpg"
+        },
         {
           "title": "New crocodile species discovered in rocks used to build the Great Sphinx",
           "link": "https://phys.org/news/2026-10-crocodile-species-great-sphinx.html",
@@ -136,13 +175,6 @@
           "source": "Phys.org - latest science and technology news stories",
           "summary": "Magnesium (Mg) alloys offer a pathway to lighter, more efficient aerospace and defense structures because of their low density, high specific strength and excellent damping capacity. However, their he...",
           "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/pusan-national-univers-17.jpg"
-        },
-        {
-          "title": "Simulated moon soil and recyclable thermoplastics could help build future space infrastructure",
-          "link": "https://phys.org/news/2026-10-simulated-moon-soil-recyclable-thermoplastics.html",
-          "source": "Phys.org - latest science and technology news stories",
-          "summary": "Transporting material from Earth to the moon is an expensive proposition: By some estimates, moving a single kilogram (2.2 pounds) can cost more than $1 million. Any plan to build a permanent human ha...",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/simulated-moon-soil-an.jpg"
         }
       ]
     },
@@ -151,6 +183,7 @@
       "emoji": "\ud83d\udcb0",
       "color": "#FBBF24",
       "tint": "#FFF7DC",
+      "brief": "Google's new image model, Nano Banana 2.1, is live. It costs about half as much as its predecessor, but the performance claims come from Google's own tests. Nothing in Circle's posts announces a sponsorship, but replies dug up Khaled's 2018 SEC settlement over a crypto fraud he promoted. The internet never forgets. A developer posted metadata for about 5.6 billion public TikTok videos, scraped through the app's private API in a way TikTok's terms prohibit. The free dataset also doubles as a storefront.",
       "articles": [
         {
           "title": "Google Launches Nano Banana 2.1: Better Than Its Predecessor at Half the Price",
@@ -179,6 +212,13 @@
           "source": "Cointelegraph.com News",
           "summary": "The lawsuit alleged that Tether froze USDt funds in a Conduit wallet tied to an investigation launched by Brazilian authorities in 2024.",
           "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4978DXD1V002XFV3JZD97G6/hi-amid-crypto-winter-tether.jpg"
+        },
+        {
+          "title": "Winklevoss-backed Zcash ETF files with SEC for Nasdaq listing",
+          "link": "https://cointelegraph.com/news/winklevoss-backed-zcash-etf-files-with-sec-for-nasdaq-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph.com News",
+          "summary": "The proposed fund would hold ZEC directly, with Gemini Trust serving as custodian and Winklevoss Capital affiliates eyeing up to a $100 million investment.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M49DR4VPPGS9RG9R18484EC5/hi-token-etf-victory-2.png"
         }
       ]
     }
