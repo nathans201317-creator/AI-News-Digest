@@ -18,6 +18,7 @@ Setup needed before running:
 
 import os
 import re
+import json
 import time
 import smtplib
 from datetime import datetime, timedelta, timezone
@@ -27,6 +28,12 @@ from urllib.parse import quote
 
 import feedparser
 import requests
+
+# Where the website's story data files get written. The GitHub Actions
+# workflow commits this folder back to the repo after each run, and
+# docs/stories.html reads these files to render the site.
+SITE_DATA_DIR = "docs/data"
+MAX_ARCHIVED_DAYS = 30   # how many past days the site keeps browsable
 
 
 # ---------------------------------------------------------------------------
@@ -414,6 +421,61 @@ def build_plain_text_fallback(categorized):
     return "\n".join(lines)
 
 
+def write_site_data(categorized, date_str, today_str):
+    """Saves today's stories as a JSON file the website can read, and keeps
+    an index listing every available date so the site can browse past days.
+    This is what makes the stories page possible without a real backend —
+    GitHub Actions commits these files back to the repo after every run."""
+    os.makedirs(SITE_DATA_DIR, exist_ok=True)
+
+    snapshot = {
+        "date": date_str,
+        "display_date": today_str,
+        "categories": [
+            {
+                "name": cat_name,
+                "emoji": cat_data["emoji"],
+                "color": cat_data["color"],
+                "tint": cat_data["tint"],
+                "articles": [
+                    {
+                        "title": a["title"],
+                        "link": a["link"],
+                        "source": a["source"],
+                        "summary": a["ai_summary"],
+                        "image": a.get("image"),
+                    }
+                    for a in cat_data["articles"]
+                ],
+            }
+            for cat_name, cat_data in categorized.items()
+        ],
+    }
+
+    with open(f"{SITE_DATA_DIR}/{date_str}.json", "w") as f:
+        json.dump(snapshot, f, indent=2)
+
+    # Update the index of available dates, newest first, capped so the
+    # repo doesn't grow forever.
+    index_path = f"{SITE_DATA_DIR}/index.json"
+    dates = []
+    if os.path.exists(index_path):
+        try:
+            with open(index_path) as f:
+                dates = json.load(f).get("dates", [])
+        except Exception:
+            dates = []
+
+    if date_str not in dates:
+        dates.insert(0, date_str)
+    dates = dates[:MAX_ARCHIVED_DAYS]
+
+    with open(index_path, "w") as f:
+        json.dump({"dates": dates}, f, indent=2)
+
+    print(f"Wrote site data for {date_str} ({len(dates)} days now archived).")
+
+
 # ---------------------------------------------------------------------------
 # 5. Send the email
 # ---------------------------------------------------------------------------
@@ -508,6 +570,14 @@ def run_daily_digest():
     subject = generate_subject_line(categorized, gemini_key, today_str)
     html_body = build_html_email(categorized, today_str)
     plain_body = build_plain_text_fallback(categorized)
+
+    # Save today's stories for the website, independent of email sending —
+    # the site should stay up to date even if something downstream fails.
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    try:
+        write_site_data(categorized, date_str, today_str)
+    except Exception as e:
+        print(f"Failed to write site data (non-fatal): {e}")
 
     subscribers = fetch_subscribers(subscribers_endpoint, digest_to)
 
