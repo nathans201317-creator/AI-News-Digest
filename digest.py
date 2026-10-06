@@ -312,8 +312,8 @@ def build_html_email(categorized, today_str):
     legend_html = ""
     for cat_name, cat_data in categorized.items():
         legend_html += f"""
-        <span style="display:inline-block; margin-right:14px; font-size:12px; color:#B4B4D6;">
-          <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:{cat_data['color']}; margin-right:5px;"></span>{cat_name}
+        <span style="display:inline-block; margin-right:8px; margin-bottom:6px; font-size:11.5px; font-weight:700; color:#E4E0F5; background-color:#2E2A4D; border-radius:100px; padding:5px 12px;">
+          <span style="display:inline-block; width:7px; height:7px; border-radius:50%; background-color:{cat_data['color']}; margin-right:6px;"></span>{cat_name}
         </span>
         """
 
@@ -381,10 +381,31 @@ def build_html_email(categorized, today_str):
           <td align="center">
             <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; border-radius:20px; overflow:hidden; max-width:600px; width:100%; box-shadow: 0 1px 3px rgba(36,31,61,0.08);">
               <tr>
-                <td style="background-color:#241F3D; padding: 30px 32px;">
-                  <span style="color:#ffffff; font-size:26px; font-weight:800; letter-spacing:-0.3px;">⬡ Uplink</span><br/>
-                  <span style="color:#B8B2D6; font-size:13px;">{today_str} &nbsp;·&nbsp; {total_articles} stories &nbsp;·&nbsp; {read_minutes} min read</span>
-                  <div style="margin-top:16px; line-height:2;">{legend_html}</div>
+                <td style="background-color:#241F3D; padding:0;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td bgcolor="#FF5C7A" style="height:4px; line-height:4px; font-size:4px; background:linear-gradient(90deg,#FF5C7A,#8B5CF6,#38BDF8);">&nbsp;</td>
+                    </tr>
+                  </table>
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding:26px 32px 20px;">
+                    <tr>
+                      <td width="46" valign="middle">
+                        <img src="https://uplinkbrief.com/email-assets/uplink-mark.png" width="40" height="40" alt="Uplink" style="display:block; width:40px; height:40px; border:0;">
+                      </td>
+                      <td valign="middle" style="padding-left:12px;">
+                        <span style="color:#ffffff; font-size:25px; font-weight:800; letter-spacing:-0.4px; display:block; line-height:1.2;">Uplink</span>
+                        <span style="color:#9A93AE; font-size:12px; letter-spacing:0.2px;">Tech news, transmitted daily</span>
+                      </td>
+                    </tr>
+                  </table>
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding:0 32px 26px;">
+                    <tr>
+                      <td style="border-top:1px solid #35304F; padding-top:16px;">
+                        <span style="color:#B8B2D6; font-size:13px;">{today_str} &nbsp;·&nbsp; {total_articles} stories &nbsp;·&nbsp; {read_minutes} min read</span>
+                        <div style="margin-top:14px; line-height:2.1;">{legend_html}</div>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
               </tr>
               <tr>
