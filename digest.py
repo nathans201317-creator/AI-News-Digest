@@ -1,5 +1,5 @@
 """
-Uplink - Tech News
+Daily Tech Digest 
 --------------------------------
 Pulls articles from RSS feeds across multiple topic sections, picks the
 top few per section, writes a punchy one-line AI summary for each, and
@@ -98,8 +98,12 @@ CATEGORIES = {
     },
 }
 
-MAX_PER_CATEGORY = 4   # default stories per section, unless a category sets "max_items"
+MAX_PER_CATEGORY = 5   # default stories per section, unless a category sets "max_items"
 HOURS_BACK = 24        # only include articles published in this window
+# Slow news day? Sections look back this far so they can still fill all
+# MAX_PER_CATEGORY slots. Stories are sorted newest-first, so the extra
+# window only ever fills gaps — fresh stories always win.
+FILL_HOURS_BACK = 72
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -204,7 +208,7 @@ def dedupe_articles(articles):
 def collect_by_category():
     result = {}
     for name, info in CATEGORIES.items():
-        articles = fetch_rss_articles(info["feeds"])
+        articles = fetch_rss_articles(info["feeds"], hours_back=FILL_HOURS_BACK)
         articles = dedupe_articles(articles)
         articles.sort(key=lambda a: a["published"], reverse=True)
         limit = info.get("max_items", MAX_PER_CATEGORY)
@@ -277,6 +281,23 @@ def summarize_tldr(title, raw_summary, api_key):
     if result:
         return result
     return raw_summary[:200] + ("..." if len(raw_summary) > 200 else "")
+
+
+def generate_section_brief(cat_name, articles, api_key):
+    """One short paragraph capturing the section's stories for the website."""
+    fallback = " ".join(a["ai_summary"] for a in articles[:3])
+    if not api_key:
+        return fallback
+
+    stories = "\n".join(f"- {a['title']}: {a['ai_summary']}" for a in articles)
+    prompt = (
+        f"Write ONE short paragraph (2-3 sentences, max 60 words) in your own words "
+        f"capturing what happened today in '{cat_name}' based on these stories. "
+        "Plain English, neutral tone, no fluff, no bullet points, no markdown, "
+        "no quotes copied from the headlines:\n\n" + stories
+    )
+    result = call_gemini(prompt, api_key, max_tokens=300)
+    return result if result else fallback
 
 
 def generate_subject_line(categorized, api_key, today_str):
@@ -458,6 +479,7 @@ def write_site_data(categorized, date_str, today_str):
                 "emoji": cat_data["emoji"],
                 "color": cat_data["color"],
                 "tint": cat_data["tint"],
+                "brief": cat_data.get("brief", ""),
                 "articles": [
                     {
                         "title": a["title"],
@@ -586,6 +608,14 @@ def run_daily_digest():
             else:
                 consecutive_failures = 0
             a["ai_summary"] = summary
+            time.sleep(3)
+
+    # One short paragraph per section for the website's topic cards.
+    for cat_name, cat_data in categorized.items():
+        if gemini_disabled or not gemini_key:
+            cat_data["brief"] = generate_section_brief(cat_name, cat_data["articles"], "")
+        else:
+            cat_data["brief"] = generate_section_brief(cat_name, cat_data["articles"], gemini_key)
             time.sleep(3)
 
     subject = generate_subject_line(categorized, gemini_key, today_str)
