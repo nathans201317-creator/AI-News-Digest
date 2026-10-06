@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-06",
+  "display_date": "October 06, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "OpenAI will start watermarking ChatGPT\u2019s text in the EU",
+          "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800"
+        },
+        {
+          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+          "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build \u201cAI factories,\u201d a product that would let institutions build their own customized, local AI syste...",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Reflection-AI-Beam.png?resize=1200,669"
+        },
+        {
+          "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+          "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "no fluff",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675"
+        },
+        {
+          "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+          "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+          "source": "AI News & Artificial Intelligence | TechCrunch",
+          "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259084458.jpg?resize=1200,801"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Amazon commits $1 billion to communities near data centers, AWS CEO says it no longer uses NDAs with government agencies",
+          "link": "https://www.techradar.com/pro/amazon-commits-usd1-billion-to-communities-near-data-centers-aws-ceo-says-it-no-longer-uses-ndas-with-government-agencies",
+          "source": "Latest from TechRadar",
+          "summary": "AWS CEO debunks common 'myths' around data centers and commits $1 billion to local community development",
+          "image": "https://cdn.mos.cms.futurecdn.net/ABdYnex3UvLSEgFZqq9eSZ-1920-80.jpg"
+        },
+        {
+          "title": "The best mobile controller I've ever tested is on clearance at Best Buy \u2014 this could be your last chance to get it before it's gone",
+          "link": "https://www.techradar.com/seasonal-sales/the-best-mobile-controller-ive-ever-tested-is-on-clearance-at-best-buy-this-could-be-your-last-chance-to-get-it-before-its-gone",
+          "source": "Latest from TechRadar",
+          "summary": "This five-star mobile controller is on clearance at Best Buy.",
+          "image": "https://cdn.mos.cms.futurecdn.net/hPd9pVak3rE2Lu4EHKp53Z-1920-80.jpg"
+        },
+        {
+          "title": "Common mistakes you should avoid when using foldable phones",
+          "link": "https://www.engadget.com/2276483/common-mistakes-avoid-using-foldable-phones/",
+          "source": "Engadget - Technology News & Expert Reviews",
+          "summary": "Foldable phones have unique durability concerns thanks to their moving parts and internal screens.",
+          "image": "https://www.engadget.com/img/gallery/common-mistakes-you-should-avoid-when-using-foldable-phones/l-intro-1790991661.jpg"
+        },
+        {
+          "title": "US approves first data center-specific small nuclear reactor \u2014 the BWRX-300 may be covering not just the UK, but America too",
+          "link": "https://www.techradar.com/pro/us-approves-first-data-center-specific-small-nuclear-reactor-the-bwrx-300-may-be-covering-not-just-the-uk-but-america-too",
+          "source": "Latest from TechRadar",
+          "summary": "The US has approved TVA's 300MW BWRX-300 reactor, while Britain and other markets consider deployments using the same nuclear design.",
+          "image": "https://cdn.mos.cms.futurecdn.net/dR9LBfYWappAgzsAT7XLWo-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Etched fields funding offers at $40B+ valuation, sources say",
+          "link": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+          "source": "Startups | TechCrunch",
+          "summary": "Just a couple of months after its last big raise, the AI chip startup is already being plied with investment offers at double or more its current value, sources tell TechCrunch.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/Sequoia_Etched-Abhishek-Malani-Robert-Wachen-Sonya-Huang-Gavin-Uberti-copy.jpeg?resize=1200,846"
+        },
+        {
+          "title": "After Factory\u2019s public spat with Khosla, Menlo proudly invests",
+          "link": "https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/",
+          "source": "Startups | TechCrunch",
+          "summary": "Days after Vinod Khosla called Factory a struggling also-ran, Menlo has shown up with a check and a glowing blog post.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/Matt-Murphy-Menlo-Ventures.jpeg?resize=1200,1200"
+        },
+        {
+          "title": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI",
+          "link": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
+          "source": "Startups | TechCrunch",
+          "summary": "Ghost's first product is Core, a personal computer designed specifically for AI agents that can take actions on a person's behalf.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ghost-team.png?resize=1200,803"
+        },
+        {
+          "title": "5 startups that caught VCs\u2019 attention at the latest PearX demo day",
+          "link": "https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/",
+          "source": "Startups | TechCrunch",
+          "summary": "TechCrunch attended Pear\u2019s latest  demo day and discovered which startups generated the most buzz, from spatial models to chips for local AI.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Pear-S26-Demo-Day-2055181.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Global review reveals major blind spots in our understanding of climate change impacts on Mediterranean ecosystems",
+          "link": "https://phys.org/news/2026-10-global-reveals-major-climate-impacts.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "A new global review of observed climate change impacts on plant communities reveals major gaps in where and how we monitor some of the world's most climate-vulnerable ecosystems.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/global-review-reveals.jpg"
+        },
+        {
+          "title": "Neutrons, rotating black holes, and a galactic PeVatron at the center of the Milky Way",
+          "link": "https://phys.org/news/2026-10-neutrons-rotating-black-holes-galactic.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "Galactic black holes are cosmic mitochondria, powerhouses of the universe. Most of the energy these supermassive black holes produce comes from the material surrounding them: superheated plasma in the...",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/in-this-artists-concep.jpg"
+        },
+        {
+          "title": "Why some Indigenous communities don't resist oil extraction in their territories",
+          "link": "https://phys.org/news/2026-10-indigenous-communities-dont-resist-oil.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "More than half of the Ecuadorian Amazon has been marked for oil drilling, overlapping with Indigenous territories and areas of high biodiversity. The ecological and cultural impacts of oil extraction ...",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/ecuador.jpg"
+        },
+        {
+          "title": "Global soil erosion outpaces natural recovery, report warns",
+          "link": "https://phys.org/news/2026-10-global-soil-erosion-outpaces-natural.html",
+          "source": "Phys.org - latest science and technology news stories",
+          "summary": "Isaac Larsen, an associate professor in the College of Natural Sciences' Department of Earth, Geographic, and Climate Sciences, is a lead author of \"Status of the World's Soil Resources 2026,\" a new r...",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/soil-erosion.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Chinese crime network laundered over $1B for Lazarus: ZachXBT",
+          "link": "https://cointelegraph.com/news/chinese-crime-network-laundered-over-1b-for-lazarus-zachxbt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph.com News",
+          "summary": "ZachXBT says he infiltrated the network by posing as a customer, gaining information that helped trace funds from the $1.5 billion Bybit hack. ",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M47E98M7WF0617YMCEA467EH/laundering.jpg"
+        },
+        {
+          "title": "Strive Adds $169M Bitcoin in Its Biggest Buy in Four Months",
+          "link": "https://decrypt.co/380129/strive-adds-169m-bitcoin-biggest-buy-four-months",
+          "source": "Decrypt",
+          "summary": "The Nasdaq-listed bitcoin treasury company, co-founded by Vivek Ramaswamy, paid roughly $169 million for 2,000 coins last week and now holds 29,462 BTC.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-17-gID_7.png"
+        },
+        {
+          "title": "DeFi Development Corp Adds $3 Million in Solana as SOL Buys Slow",
+          "link": "https://decrypt.co/380125/defi-development-corp-adds-3m-solana",
+          "source": "Decrypt",
+          "summary": "Nasdaq-listed DeFi Development Corp's latest SEC filing shows its Solana stash grew 1%, to about 2.56 million SOL and SOL equivalents\u2014roughly half the prior week's gain and well below mid-September's ...",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Solana-gID_7.png"
+        },
+        {
+          "title": "Crypto PAC announces support for 32 House candidates in US midterms",
+          "link": "https://cointelegraph.com/news/crypto-pac-fairshake-house-endorsements-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph.com News",
+          "summary": "Fairshake said it would financially back 32 House candidates who all voted in favor of the CLARITY market structure bill in 2025, as the legislation remains in limbo in the Senate.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M46WXGBMXWCHCDF4G7K9W92T/hi-crypto-for-america-cryptocurrencies-in-campaign-finance-2.jpg"
+        }
+      ]
+    }
+  ]
+}
