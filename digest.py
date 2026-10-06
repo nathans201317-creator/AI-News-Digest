@@ -132,8 +132,55 @@ def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
                 "raw_summary": re.sub("<[^<]+?>", "", entry.get("summary", ""))[:600],
                 "published": pub_dt,
                 "source": parsed.feed.get("title", url),
+                "image": extract_feed_image(entry),
             })
     return articles
+
+
+def extract_feed_image(entry):
+    """Pulls an image straight from the RSS entry if the feed provides one —
+    no extra network request needed. Checks the common places feeds put
+    images: media:content, media:thumbnail, and image-type enclosures."""
+    media_content = entry.get("media_content")
+    if media_content:
+        url = media_content[0].get("url")
+        if url:
+            return url
+
+    media_thumbnail = entry.get("media_thumbnail")
+    if media_thumbnail:
+        url = media_thumbnail[0].get("url")
+        if url:
+            return url
+
+    for link in entry.get("links", []):
+        if str(link.get("type", "")).startswith("image"):
+            return link.get("href")
+
+    return None
+
+
+def fetch_og_image(url, timeout=5):
+    """Fallback for articles whose feed didn't include an image: scrapes the
+    page's og:image meta tag. Only called for the small number of articles
+    that actually make it into the final digest, with a tight timeout so a
+    slow page can't stall the run."""
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; UplinkDigest/1.0)"}
+    try:
+        resp = requests.get(url, headers=headers, timeout=timeout)
+        resp.raise_for_status()
+        match = re.search(
+            r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+            resp.text, re.IGNORECASE,
+        )
+        if not match:
+            match = re.search(
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\']',
+                resp.text, re.IGNORECASE,
+            )
+        return match.group(1) if match else None
+    except Exception:
+        return None
 
 
 def dedupe_articles(articles):
@@ -155,6 +202,13 @@ def collect_by_category():
         articles.sort(key=lambda a: a["published"], reverse=True)
         limit = info.get("max_items", MAX_PER_CATEGORY)
         top = articles[:limit]
+
+        # Only the articles that actually made the cut are worth the extra
+        # network request for a fallback image — keeps this bounded and fast.
+        for a in top:
+            if not a.get("image"):
+                a["image"] = fetch_og_image(a["link"])
+
         if top:
             result[name] = {
                 "emoji": info["emoji"],
@@ -259,9 +313,23 @@ def build_html_email(categorized, today_str):
     sections_html = ""
     for cat_name, cat_data in categorized.items():
         color = cat_data["color"]
+        tint = cat_data["tint"]
+        emoji = cat_data["emoji"]
         articles_html = ""
         for i, a in enumerate(cat_data["articles"]):
             border_top = "border-top:1px solid #EDEDF5;" if i > 0 else ""
+
+            # Real photo if we found one; otherwise a tinted placeholder in
+            # the section's own color so every story still looks intentional.
+            if a.get("image"):
+                thumb_html = f"""<img src="{a['image']}" width="72" height="72" alt=""
+                    style="width:72px; height:72px; border-radius:12px; object-fit:cover; display:block; background-color:{tint};">"""
+            else:
+                thumb_html = f"""<table role="presentation" width="72" height="72" cellpadding="0" cellspacing="0"
+                    style="width:72px; height:72px; background-color:{tint}; border-radius:12px;">
+                    <tr><td align="center" valign="middle" style="font-size:26px;">{emoji}</td></tr>
+                  </table>"""
+
             articles_html += f"""
             <tr>
               <td style="padding: 18px 0; {border_top}">
@@ -269,7 +337,7 @@ def build_html_email(categorized, today_str):
                   <tr>
                     <td width="4" style="background-color:{color}; border-radius:2px;">&nbsp;</td>
                     <td width="14">&nbsp;</td>
-                    <td>
+                    <td valign="top">
                       <a href="{a['link']}" style="color:#14162B; font-size:17px; font-weight:800; text-decoration:none; line-height:1.35;">
                         {a['title']}
                       </a>
@@ -280,6 +348,8 @@ def build_html_email(categorized, today_str):
                         {a['ai_summary']}
                       </div>
                     </td>
+                    <td width="14">&nbsp;</td>
+                    <td width="72" valign="top">{thumb_html}</td>
                   </tr>
                 </table>
               </td>
