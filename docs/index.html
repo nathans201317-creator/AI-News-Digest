@@ -145,12 +145,8 @@
 
   footer.site-footer { padding: 30px 0 40px; text-align: center; font-size: 13px; color: var(--muted); }
 
-  .topic-brief { margin-top: 16px; padding-top: 14px; border-top: 1px solid #F0ECF8; }
-  .topic-brief:empty { display: none; }
-  .topic-brief-label { font-size: 11px; font-weight: 800; letter-spacing: 0.4px; text-transform: uppercase; margin-bottom: 6px; }
-  .topic-brief p { font-size: 14px; color: var(--ink); line-height: 1.6; }
-  .topic-links { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
-  .topic-links a { font-size: 12px; font-weight: 700; text-decoration: none; padding: 5px 11px; border-radius: 100px; }
+  a.topic-card { display: block; text-decoration: none; color: inherit; }
+  .topic-cta { margin-top: 14px; font-size: 13px; font-weight: 800; }
 
   /* Today's Stories (live) */
   .today-section { padding: 10px 0 60px; }
@@ -265,50 +261,50 @@
     <div class="section-title">Five topics, curated daily, delivered straight through.</div>
 
     <div class="topic-grid">
-      <div class="topic-card">
+      <a class="topic-card" href="/topic.html?c=ai">
         <div class="topic-icon" style="background:#F1EDFF">
           <svg width="26" height="26" viewBox="0 0 26 26"><rect x="6" y="6" width="14" height="14" rx="4" fill="#8B5CF6"/><circle cx="9" cy="9" r="1.4" fill="#F1EDFF"/><circle cx="17" cy="9" r="1.4" fill="#F1EDFF"/><circle cx="9" cy="17" r="1.4" fill="#F1EDFF"/><circle cx="17" cy="17" r="1.4" fill="#F1EDFF"/></svg>
         </div>
         <h3>AI & Machine Learning</h3>
         <p>The models, papers, and breakthroughs reshaping how software gets built — distilled before the hype does.</p>
-        <div class="topic-brief" data-cat="AI &amp; Machine Learning"></div>
-      </div>
+        <div class="topic-cta" style="color:#8B5CF6;">See today's 5 stories →</div>
+      </a>
 
-      <div class="topic-card">
+      <a class="topic-card" href="/topic.html?c=bigtech">
         <div class="topic-icon" style="background:#E8F5FC">
           <svg width="26" height="26" viewBox="0 0 26 26"><rect x="7" y="4" width="12" height="18" rx="3" fill="#38BDF8"/><rect x="10" y="8" width="2" height="2" fill="#E8F5FC"/><rect x="14" y="8" width="2" height="2" fill="#E8F5FC"/><rect x="10" y="12" width="2" height="2" fill="#E8F5FC"/><rect x="14" y="12" width="2" height="2" fill="#E8F5FC"/></svg>
         </div>
         <h3>Big Tech & Gadgets</h3>
         <p>The moves from Google, Apple, Meta — plus the phones and wearables everyone's actually talking about.</p>
-        <div class="topic-brief" data-cat="Big Tech &amp; Gadgets"></div>
-      </div>
+        <div class="topic-cta" style="color:#38BDF8;">See today's 5 stories →</div>
+      </a>
 
-      <div class="topic-card">
+      <a class="topic-card" href="/topic.html?c=startups">
         <div class="topic-icon" style="background:#FFEEE3">
           <svg width="26" height="26" viewBox="0 0 26 26"><path d="M13 4 L18 16 L13 14 L8 16 Z" fill="#FB923C"/><circle cx="13" cy="11" r="2" fill="#FFEEE3"/><path d="M11 17 L9 22 M15 17 L17 22" stroke="#FB923C" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
         <h3>Startups & Funding</h3>
         <p>Who raised, who launched, and which unknown names are about to be everywhere.</p>
-        <div class="topic-brief" data-cat="Startups &amp; Funding"></div>
-      </div>
+        <div class="topic-cta" style="color:#FB923C;">See today's 5 stories →</div>
+      </a>
 
-      <div class="topic-card">
+      <a class="topic-card" href="/topic.html?c=science">
         <div class="topic-icon" style="background:#E3F7F3">
           <svg width="26" height="26" viewBox="0 0 26 26"><path d="M11 4h4v7l4 9a2 2 0 0 1-2 3H9a2 2 0 0 1-2-3l4-9z" fill="#2DD4BF"/><circle cx="12" cy="18" r="1.2" fill="#E3F7F3"/><circle cx="15" cy="20" r="1" fill="#E3F7F3"/></svg>
         </div>
         <h3>Science & Research</h3>
         <p>The discoveries worth knowing about, long before they hit the mainstream headlines.</p>
-        <div class="topic-brief" data-cat="Science &amp; Research"></div>
-      </div>
+        <div class="topic-cta" style="color:#2DD4BF;">See today's 5 stories →</div>
+      </a>
 
-      <div class="topic-card" style="grid-column: 1 / -1;">
+      <a class="topic-card" href="/topic.html?c=crypto" style="grid-column: 1 / -1;">
         <div class="topic-icon" style="background:#FFF7DC">
           <svg width="26" height="26" viewBox="0 0 26 26"><circle cx="13" cy="13" r="9" fill="#FBBF24"/><circle cx="13" cy="13" r="9" fill="none" stroke="#FFF7DC" stroke-width="1.5" stroke-dasharray="2 2"/><text x="13" y="17.5" text-anchor="middle" font-size="11" font-weight="800" fill="#FFF7DC" font-family="Arial">$</text></svg>
         </div>
         <h3>Crypto</h3>
         <p>Market swings and protocol shifts that matter — minus the hype and the noise.</p>
-        <div class="topic-brief" data-cat="Crypto"></div>
-      </div>
+        <div class="topic-cta" style="color:#FBBF24;">See today's 5 stories →</div>
+      </a>
     </div>
   </section>
 
@@ -391,8 +387,6 @@
       const totalStories = data.categories.reduce((n, c) => n + c.articles.length, 0);
       subhead.textContent = `${data.display_date} · ${totalStories} stories`;
 
-      fillTopicBriefs(data);
-
       content.innerHTML = "";
       data.categories.forEach(cat => {
         const badge = document.createElement("div");
@@ -428,22 +422,6 @@
       subhead.textContent = "";
       content.innerHTML = '<div class="today-loading">Couldn\'t load today\'s stories right now.</div>';
     }
-  }
-
-  // Fills each topic card near the bottom with today's short paragraph and
-  // links back to the original stories.
-  function fillTopicBriefs(data) {
-    document.querySelectorAll(".topic-brief").forEach(box => {
-      const cat = data.categories.find(c => c.name === box.dataset.cat);
-      if (!cat || !cat.brief) return;
-      const links = cat.articles.map(a =>
-        `<a href="${encodeURI(a.link)}" target="_blank" rel="noopener" style="background:${cat.tint};color:${cat.color};">${escapeHtmlToday(a.source)} ↗</a>`
-      ).join("");
-      box.innerHTML =
-        `<div class="topic-brief-label" style="color:${cat.color};">Today in ${escapeHtmlToday(cat.name)}</div>` +
-        `<p>${escapeHtmlToday(cat.brief)}</p>` +
-        `<div class="topic-links">${links}</div>`;
-    });
   }
 
   function escapeHtmlToday(str) {
