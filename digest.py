@@ -217,10 +217,25 @@ def fetch_og_image(url, timeout=5):
         return None
 
 
+PROMO_PATTERNS = re.compile(
+    r"(register now|get your pass|book (your|an?|the)? ?(exhibit|table|ticket|seat)|exhibit table|"
+    r"\d+% off|early[- ]bird|disrupt (doors|20\d\d)|doors open|last day to|limited[- ]time|"
+    r"save (up to )?\$?\d+|promo code|subscribe|newsletter|sign up|cookie|privacy policy|"
+    r"advertis|sponsored|follow us|click here|all rights reserved|join (us|the)|"
+    r"tickets? (are )?(on sale|available)|rsvp|download the app|read more:|related:)",
+    re.I,
+)
+
+
+def _is_promo(text):
+    return bool(PROMO_PATTERNS.search(text))
+
+
 def fetch_page_context(url, timeout=6):
     """One request per surviving article: grabs the preview image (if the feed
-    had none) AND the opening text of the story, so the AI paragraph is based
-    on real article content instead of a 2-line RSS teaser."""
+    had none) AND the story text, so the AI paragraph is based on the real
+    article instead of a 2-line RSS teaser. Promotional banners, event ads and
+    newsletter/cookie prompts are filtered out."""
     out = {"image": None, "text": ""}
     headers = {"User-Agent": "Mozilla/5.0 (compatible; UplinkDigest/1.0)"}
     try:
@@ -237,14 +252,22 @@ def fetch_page_context(url, timeout=6):
         d = (re.search(r'<meta[^>]+(?:property|name)=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']', page, re.I)
              or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:description["\']', page, re.I))
         if d:
-            chunks.append(htmllib.unescape(d.group(1)).strip())
-        for para in re.findall(r"<p[^>]*>(.*?)</p>", page, re.I | re.S):
-            t = htmllib.unescape(re.sub(r"<[^>]+>", "", para)).strip()
-            if len(t) > 80:
+            desc = htmllib.unescape(d.group(1)).strip()
+            if not _is_promo(desc):
+                chunks.append(desc)
+
+        # Strip page chrome, then read paragraphs from the <article> only.
+        body = re.sub(r"<(script|style|nav|aside|footer|header|form|figure)\b.*?</\1>", " ", page, flags=re.I | re.S)
+        art = re.search(r"<article\b.*?</article>", body, re.I | re.S)
+        if art:
+            body = art.group(0)
+        for para in re.findall(r"<p[^>]*>(.*?)</p>", body, re.I | re.S):
+            t = " ".join(htmllib.unescape(re.sub(r"<[^>]+>", "", para)).split())
+            if len(t) > 60 and not _is_promo(t):
                 chunks.append(t)
-            if sum(len(c) for c in chunks) > 2500:
+            if sum(len(c) for c in chunks) > 6000:
                 break
-        out["text"] = " ".join(chunks)[:2500]
+        out["text"] = " ".join(chunks)[:6000]
     except Exception:
         pass
     return out
@@ -318,6 +341,7 @@ def call_gemini(prompt, api_key, max_tokens=100, retries=2):
                 return None
             parts = candidates[0]["content"].get("parts", [])
             if not parts:
+                print(f"Gemini returned no text (finishReason={candidates[0].get('finishReason')}) — usually means the token budget ran out.")
                 return None
             return parts[0]["text"].strip()
         except Exception as e:
@@ -340,22 +364,28 @@ def summarize_story(title, raw_summary, page_text, api_key):
     the one-line blurb used in the email and a short paragraph for the website."""
     source_text = page_text or raw_summary
     fallback_line = _trim(raw_summary or title, 200)
-    fallback_para = _trim(source_text or title, 450)
+    fallback_para = _trim(source_text or title, 800)
     if not api_key:
         return fallback_line, fallback_para, False
 
     prompt = (
-        "You write for a tech newsletter. Using ONLY the information below (do not "
-        "invent facts, numbers or names), write two things separated by a line "
-        "containing exactly ###\n"
+        "You write for a tech newsletter. Using ONLY the story information below "
+        "(never invent facts, numbers or names), write two things separated by a "
+        "line containing exactly ###\n"
         "1) ONE punchy plain-English sentence (max 25 words) giving the news — no "
         "fluff, never say 'this article'.\n"
-        "2) A paragraph of 4 sentences (about 70 words) in your own words covering "
-        "what happened, the key details, and why it matters. Do not copy sentences. "
-        "No markdown, no bullet points.\n\n"
-        f"Title: {title}\nDetails: {source_text[:2200]}"
+        "2) A news summary paragraph of 6 to 8 sentences (about 120-150 words), in "
+        "your own words, so a reader gets the full insight without clicking: what "
+        "happened, who is involved, the key numbers and details, the background, "
+        "and why it matters. If the information is limited, write as many sentences "
+        "as the facts support (minimum 4) rather than padding.\n"
+        "STRICT RULES: ignore and never mention anything promotional or unrelated to "
+        "the story — event ads, ticket or registration offers, discounts, "
+        "newsletter or subscription prompts, cookie notices. Do not copy sentences "
+        "verbatim. No markdown, no bullet points.\n\n"
+        f"Title: {title}\nStory information: {source_text[:5500]}"
     )
-    result = call_gemini(prompt, api_key, max_tokens=700)
+    result = call_gemini(prompt, api_key, max_tokens=3000)
     if not result:
         return fallback_line, fallback_para, False
     if "###" in result:
@@ -666,6 +696,7 @@ def run_daily_digest():
                 "" if gemini_disabled else gemini_key,
             )
             a["ai_summary"], a["paragraph"] = line, para
+            a["used_ai"] = used_ai
             if gemini_disabled or not gemini_key:
                 continue
             if used_ai:
@@ -676,6 +707,10 @@ def run_daily_digest():
                     print("Gemini failed 3 times in a row — skipping AI summaries for the rest of this run.")
                     gemini_disabled = True
             time.sleep(3)
+
+    all_a = [a for c in categorized.values() for a in c["articles"]]
+    print(f"AI-written summaries: {sum(1 for a in all_a if a.get('used_ai'))}/{len(all_a)} stories "
+          "(the rest used the cleaned article text instead).")
 
     subject = generate_subject_line(categorized, gemini_key, today_str)
     html_body = build_html_email(categorized, today_str)
