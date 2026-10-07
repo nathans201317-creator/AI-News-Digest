@@ -21,10 +21,12 @@ import re
 import json
 import time
 import smtplib
+import html as htmllib
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 import feedparser
 import requests
@@ -115,6 +117,27 @@ GEMINI_URL = (
 # 2. Collect articles
 # ---------------------------------------------------------------------------
 
+PUBLISHERS = {
+    "techcrunch.com": "TechCrunch", "venturebeat.com": "VentureBeat", "arxiv.org": "arXiv",
+    "wired.com": "WIRED", "artificialintelligence-news.com": "AI News", "theverge.com": "The Verge",
+    "arstechnica.com": "Ars Technica", "engadget.com": "Engadget", "gizmodo.com": "Gizmodo",
+    "techradar.com": "TechRadar", "crunchbase.com": "Crunchbase News",
+    "technologyreview.com": "MIT Technology Review", "sciencedaily.com": "ScienceDaily",
+    "phys.org": "Phys.org", "coindesk.com": "CoinDesk", "cointelegraph.com": "Cointelegraph",
+    "decrypt.co": "Decrypt",
+}
+
+
+def publisher_name(link, fallback):
+    """Clean publisher name from the article's own domain, instead of the
+    feed's title (which looks like 'AI News & Artificial Intelligence | TechCrunch')."""
+    host = re.sub(r"^www\.", "", urlparse(link).netloc.lower())
+    for domain, name in PUBLISHERS.items():
+        if host == domain or host.endswith("." + domain):
+            return name
+    return host.split(".")[0].capitalize() if host else fallback
+
+
 def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
     headers = {"User-Agent": "Mozilla/5.0 (compatible; UplinkDigest/1.0)"}
@@ -142,7 +165,7 @@ def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
                 "link": entry.get("link", ""),
                 "raw_summary": re.sub("<[^<]+?>", "", entry.get("summary", ""))[:600],
                 "published": pub_dt,
-                "source": parsed.feed.get("title", url),
+                "source": publisher_name(entry.get("link", ""), parsed.feed.get("title", url)),
                 "image": extract_feed_image(entry),
             })
     return articles
@@ -194,6 +217,39 @@ def fetch_og_image(url, timeout=5):
         return None
 
 
+def fetch_page_context(url, timeout=6):
+    """One request per surviving article: grabs the preview image (if the feed
+    had none) AND the opening text of the story, so the AI paragraph is based
+    on real article content instead of a 2-line RSS teaser."""
+    out = {"image": None, "text": ""}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; UplinkDigest/1.0)"}
+    try:
+        resp = requests.get(url, headers=headers, timeout=timeout)
+        resp.raise_for_status()
+        page = resp.text
+
+        m = (re.search(r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', page, re.I)
+             or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\']', page, re.I))
+        if m:
+            out["image"] = htmllib.unescape(m.group(1))
+
+        chunks = []
+        d = (re.search(r'<meta[^>]+(?:property|name)=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']', page, re.I)
+             or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:description["\']', page, re.I))
+        if d:
+            chunks.append(htmllib.unescape(d.group(1)).strip())
+        for para in re.findall(r"<p[^>]*>(.*?)</p>", page, re.I | re.S):
+            t = htmllib.unescape(re.sub(r"<[^>]+>", "", para)).strip()
+            if len(t) > 80:
+                chunks.append(t)
+            if sum(len(c) for c in chunks) > 2500:
+                break
+        out["text"] = " ".join(chunks)[:2500]
+    except Exception:
+        pass
+    return out
+
+
 def dedupe_articles(articles):
     seen = set()
     unique = []
@@ -213,13 +269,6 @@ def collect_by_category():
         articles.sort(key=lambda a: a["published"], reverse=True)
         limit = info.get("max_items", MAX_PER_CATEGORY)
         top = articles[:limit]
-
-        # Only the articles that actually made the cut are worth the extra
-        # network request for a fallback image — keeps this bounded and fast.
-        for a in top:
-            if not a.get("image"):
-                a["image"] = fetch_og_image(a["link"])
-
         if top:
             result[name] = {
                 "emoji": info["emoji"],
@@ -227,6 +276,16 @@ def collect_by_category():
                 "tint": info["tint"],
                 "articles": top,
             }
+
+    # Only the articles that made the cut get the extra page request — done
+    # in parallel with a tight timeout so it stays fast.
+    chosen = [a for c in result.values() for a in c["articles"]]
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        contexts = list(pool.map(lambda a: fetch_page_context(a["link"]), chosen))
+    for a, c in zip(chosen, contexts):
+        if not a.get("image"):
+            a["image"] = c["image"]
+        a["page_text"] = c["text"]
     return result
 
 
@@ -267,37 +326,44 @@ def call_gemini(prompt, api_key, max_tokens=100, retries=2):
     return None
 
 
-def summarize_tldr(title, raw_summary, api_key):
+def _trim(text, limit):
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    end = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
+    return cut[:end + 1] if end > limit * 0.5 else cut.rstrip() + "..."
+
+
+def summarize_story(title, raw_summary, page_text, api_key):
+    """Returns (one_liner, paragraph, used_ai). One Gemini call produces both:
+    the one-line blurb used in the email and a short paragraph for the website."""
+    source_text = page_text or raw_summary
+    fallback_line = _trim(raw_summary or title, 200)
+    fallback_para = _trim(source_text or title, 450)
     if not api_key:
-        return raw_summary[:200] + ("..." if len(raw_summary) > 200 else "")
+        return fallback_line, fallback_para, False
 
     prompt = (
-        "Write one punchy, plain-English sentence (max 25 words) summarizing "
-        "this tech news story, in the style of a TLDR.tech newsletter blurb — "
-        "no fluff, no 'this article discusses', just the actual news:\n\n"
-        f"Title: {title}\nDetails: {raw_summary[:800]}"
+        "You write for a tech newsletter. Using ONLY the information below (do not "
+        "invent facts, numbers or names), write two things separated by a line "
+        "containing exactly ###\n"
+        "1) ONE punchy plain-English sentence (max 25 words) giving the news — no "
+        "fluff, never say 'this article'.\n"
+        "2) A paragraph of 4 sentences (about 70 words) in your own words covering "
+        "what happened, the key details, and why it matters. Do not copy sentences. "
+        "No markdown, no bullet points.\n\n"
+        f"Title: {title}\nDetails: {source_text[:2200]}"
     )
-    result = call_gemini(prompt, api_key)
-    if result:
-        return result
-    return raw_summary[:200] + ("..." if len(raw_summary) > 200 else "")
-
-
-def generate_section_brief(cat_name, articles, api_key):
-    """One short paragraph capturing the section's stories for the website."""
-    fallback = " ".join(a["ai_summary"] for a in articles[:3])
-    if not api_key:
-        return fallback
-
-    stories = "\n".join(f"- {a['title']}: {a['ai_summary']}" for a in articles)
-    prompt = (
-        f"Write ONE short paragraph (2-3 sentences, max 60 words) in your own words "
-        f"capturing what happened today in '{cat_name}' based on these stories. "
-        "Plain English, neutral tone, no fluff, no bullet points, no markdown, "
-        "no quotes copied from the headlines:\n\n" + stories
-    )
-    result = call_gemini(prompt, api_key, max_tokens=300)
-    return result if result else fallback
+    result = call_gemini(prompt, api_key, max_tokens=700)
+    if not result:
+        return fallback_line, fallback_para, False
+    if "###" in result:
+        line, para = [x.strip() for x in result.split("###", 1)]
+    else:
+        para = result.strip()
+        line = _trim(para, 160)
+    return (line or fallback_line), (para or fallback_para), True
 
 
 def generate_subject_line(categorized, api_key, today_str):
@@ -479,13 +545,13 @@ def write_site_data(categorized, date_str, today_str):
                 "emoji": cat_data["emoji"],
                 "color": cat_data["color"],
                 "tint": cat_data["tint"],
-                "brief": cat_data.get("brief", ""),
                 "articles": [
                     {
                         "title": a["title"],
                         "link": a["link"],
                         "source": a["source"],
                         "summary": a["ai_summary"],
+                        "paragraph": a.get("paragraph", ""),
                         "image": a.get("image"),
                     }
                     for a in cat_data["articles"]
@@ -595,27 +661,20 @@ def run_daily_digest():
     gemini_disabled = False
     for cat_data in categorized.values():
         for a in cat_data["articles"]:
+            line, para, used_ai = summarize_story(
+                a["title"], a["raw_summary"], a.get("page_text", ""),
+                "" if gemini_disabled else gemini_key,
+            )
+            a["ai_summary"], a["paragraph"] = line, para
             if gemini_disabled or not gemini_key:
-                a["ai_summary"] = a["raw_summary"][:200] + ("..." if len(a["raw_summary"]) > 200 else "")
                 continue
-            summary = summarize_tldr(a["title"], a["raw_summary"], gemini_key)
-            fallback = a["raw_summary"][:200] + ("..." if len(a["raw_summary"]) > 200 else "")
-            if summary == fallback:
+            if used_ai:
+                consecutive_failures = 0
+            else:
                 consecutive_failures += 1
                 if consecutive_failures >= 3:
                     print("Gemini failed 3 times in a row — skipping AI summaries for the rest of this run.")
                     gemini_disabled = True
-            else:
-                consecutive_failures = 0
-            a["ai_summary"] = summary
-            time.sleep(3)
-
-    # One short paragraph per section for the website's topic cards.
-    for cat_name, cat_data in categorized.items():
-        if gemini_disabled or not gemini_key:
-            cat_data["brief"] = generate_section_brief(cat_name, cat_data["articles"], "")
-        else:
-            cat_data["brief"] = generate_section_brief(cat_name, cat_data["articles"], gemini_key)
             time.sleep(3)
 
     subject = generate_subject_line(categorized, gemini_key, today_str)
