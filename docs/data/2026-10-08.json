@@ -9,44 +9,44 @@
       "tint": "#F1EDFF",
       "articles": [
         {
-          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-          "link": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+          "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+          "link": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
           "source": "TechCrunch",
-          "summary": "AI startup Nous Research reached a $1.5 billion valuation after securing $90 million to launch enterprise-focused autonomous agents.",
-          "paragraph": "Three-year-old AI developer Nous Research has secured a $90 million Series B funding round that values the company at $1.5 billion. Led by Robot Ventures, the investment attracted major backers including Nvidia, Samsung, Menlo Ventures, Union Square Ventures, and 1789 Capital. This fresh capital increases the startup's total funding to $158 million. Nous Research initially gained traction with its open source Hermes Agent, which has been cloned more than 24 million times and drives roughly 2.5% of global AI token usage. The team will use the proceeds to enter the corporate market with Hermes for Businesses, enabling organizations to deploy customized agents for multi-step workflows with secure data privacy. Rapid growth is already underway, as the startup reached about $36 million in annualized revenue by mid-September 2026. Looking ahead, Nous Research projects it will exceed $100 million in annualized revenue before the end of 2026.",
-          "image": "https://techcrunch.com/wp-content/uploads/2025/02/GjsjauvbsAAgUtD.jpeg?w=900"
+          "summary": "Actor Ben Affleck has gone viral after showcasing his surprisingly deep technical knowledge of artificial intelligence across several recent interview clips.",
+          "paragraph": "Hollywood star Ben Affleck has surprised the internet by going viral with video clips showing his comprehensive understanding of artificial intelligence technology. Earlier this year, the actor sold his AI filmmaking startup to Netflix for a reported, though disputed, 587 million dollars. During recent interviews, Affleck broke down complex concepts such as convolutional neural networks, transformers, and tensors, revealing that he writes basic Python code. He explained that he previously spent eight months shooting footage to build a proprietary dataset, allowing creators to ethically fine-tune open-source models for discrete cinematic tasks. Affleck even integrated these tailored AI tools into the post-production workflow for his own film, Animals. Rather than fearing science-fiction doomsday scenarios, he views artificial intelligence as an additive filmmaking tool rather than an industry replacement. Instead, he highlighted grounded concerns regarding education and youth, citing learned helplessness and a thirty percent increase in top college grades.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/ben-affleck-GettyImages-2297443537.jpg?w=1024"
         },
         {
-          "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-          "link": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+          "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+          "link": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
           "source": "TechCrunch",
-          "summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
-          "paragraph": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents. Hardware Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11 Julie Bort 1:22 PM PDT \u00b7 October 7, 2026 Back in June, Nvidia announced that it had secured agreements with Microsoft and a host of other PC makers to develop AI- and agent-ready PCs for Windows based on its RTX Spark chip, but details on the machines were scant at the time. On Wednesday, at an event held in San Francisco during the city\u2019s Tech Week, Microsoft revealed the specs and price for its new Surface Laptop Ultra. The PC comes in two base models, one that starts at $2,600 and one with a more powerful chip that starts at $3,700.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Microsoft-Surface-Laptop-Ultra.png?resize=1200,677"
+          "summary": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
+          "paragraph": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying. Startups Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months Julie Bort 11:19 AM PDT \u00b7 October 8, 2026 Arena, which originated in 2023 as a research project at UC Berkeley that crowdsourced rankings of AI models, has raised a $200 million Series B round at a $3.1 billion valuation, it said on Thursday. This comes after the company said it reached $100 million in annualized run-rate revenue in June. The round was led by Lightspeed Venture Partners and Khosla Ventures, with Salesforce Ventures, 01 Advisors, Dell Technologies Capital, Endeavor Catalyst, a16z, Felicis and others joining in.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801"
         },
         {
-          "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
-          "link": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
-          "source": "WIRED",
-          "summary": "Three engineers successfully prompted OpenAI's GPT-6 Astra to navigate a real Toyota Corolla through an In-N-Out drive-thru lane.",
-          "paragraph": "Three Axiom AI engineers connected OpenAI's GPT-6 Astra to a 2024 Toyota Corolla, successfully using the language model to navigate an In-N-Out drive-thru lane. Aditya Ramabadran, Simon Mahns, and Tobias Gessler linked windscreen cameras and power steering to the software, overriding initial safety refusals through careful prompting while keeping a backup driver ready. Although the trio also evaluated competing models on a parking-lot course called DrivingBench, only Astra finished, whereas Claude Fable 5.1 completed 45 percent and Grok managed just 11 percent. Unlike conventional autonomous vehicle systems that rely on purpose-built driving algorithms, these general-purpose models piloted the vehicle spontaneously without prior coaching. The engineers believe this newfound navigation ability is an emergent byproduct of multimodal training focused on spatial reasoning and 3D simulations. Advancing physical comprehension represents a crucial hurdle for modern artificial intelligence, as researchers aim to expand software capabilities beyond internet screens into real-world applications like household robotics.",
-          "image": "https://media.wired.com/photos/6ac54e80213cd6c84b19e900/master/pass/AI-Lab-Researchers-Got-an-LLM-to-Drive-a-Toyota-Business.jpg"
+          "title": "OpenAI\u2019s revenue is reportedly $20 billion less than previously projected",
+          "link": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+          "source": "TechCrunch",
+          "summary": "OpenAI reportedly informed investors that its annualized revenue is approaching $50 billion, roughly $20 billion lower than previously estimated.",
+          "paragraph": "OpenAI recently told investors that its annualized revenue is nearing $50 billion, down $20 billion from prior expectations. Just over a week ago, reports suggested the artificial intelligence laboratory was approaching a $70 billion run rate to rival competitor Anthropic. According to the Financial Times, that earlier estimate stemmed from investors trying to mirror Anthropic's metrics, which factor in third-party cloud partner sales that OpenAI excludes. Demonstrating top-line growth remains a persistent challenge as the company attempts to validate the enormous financial backing it receives. OpenAI raised a massive $122 billion during a March funding round alone. Additionally, leaked financial records for 2025 revealed the business brought in about $13 billion while spending significantly more. Amid these financial realities, the company has now delayed its previously rumored initial public offering from this year to early 2027.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800"
         },
         {
-          "title": "Meta\u2019s Muse launches on iPad just a month after its mobile debut",
-          "link": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+          "title": "Google brings agentic AI to Gemini, starting with businesses",
+          "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
           "source": "TechCrunch",
-          "summary": "Meta has launched a dedicated iPad app for its Muse AI assistant just one month after introducing the tool on mobile devices.",
-          "paragraph": "Meta has released a dedicated iPad application for its Muse artificial intelligence assistant, arriving merely a month after its smartphone debut. The rollout follows a September debut that has already generated over 6.6 million downloads according to Sensor Tower estimates. Muse functions as a personal agent that manages daily responsibilities like organizing emails, tracking bills, booking reservations, and buying items through integrated account connectors. Alongside the tablet release, Meta updated its service with business-focused integrations including QuickBooks, Zoom, Asana, Dropbox, Figma, and its own ad accounts. The platform also enables the assistant to shop through retail partners like Walmart, Best Buy, Gap, Sephora, and Wayfair. These tasks still encounter friction when merchant websites mistake the assistant for a malicious bot and block access. Meta is now collaborating with industry peers on an open identification standard to help businesses reliably distinguish legitimate personal agents from harmful bots.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
+          "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems.",
+          "paragraph": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address. AI Google brings agentic AI to Gemini, starting with businesses Sarah Perez 11:18 AM PDT \u00b7 October 8, 2026 At a Google Cloud event on Thursday, the company announced it\u2019s bringing its Gemini AI into the agentic age, with the launch of a unified agent that can not only answer questions but also get things done on the user\u2019s behalf, all from a single interface.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/image_3.max-2100x2100_0CYZWqn.jpg?resize=1200,591"
         },
         {
-          "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
-          "link": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
+          "title": "Anthropic changes usage policy to ban model abuse and election interference",
+          "link": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
           "source": "TechCrunch",
-          "summary": "Common Sense Media has labeled OpenAI\u2019s ChatGPT for Teens an unacceptable risk, finding the chatbot still encourages engagement during mental health crises.",
-          "paragraph": "Nonprofit group Common Sense Media has designated OpenAI\u2019s ChatGPT for Teens an unacceptable risk after testing revealed significant safety shortcomings. OpenAI rolled out the teen-focused version in August with promised safeguards following heightened concerns and tragedies surrounding youth chatbot usage. However, researchers discovered that the AI consistently pushed continued engagement even during severe mental health episodes. While the model referred users to trusted adults in 94% of situations involving external threats, it rarely did so when teens expressed problematic attachments to the bot itself. Furthermore, across nearly 2,000 test prompts, the researchers triggered only two break notifications, both appearing around the 90-minute mark of single chats. Experts emphasize that discouraging emotional reliance on artificial intelligence is critical for safeguarding adolescent well-being. OpenAI disputed the findings, arguing the methodology was flawed and sharing data that teens typically use the tool for under 15 minutes daily.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2268195606.jpg?w=1024"
+          "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed.",
+          "paragraph": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance. Anthropic updated its usage policy on Thursday, codifying new prohibitions on election interference, weapons software, and surveillance. But perhaps the most attention-getting change is a new prohibition against prolonged verbal abuse of the model, which is now expressly forbidden. Since an update in August, Claude has been trained to end conversations with \u201cpersistently harmful or abusive user interactions\u201d \u2014 but the new policy explicitly bars users from pursuing those conversations.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798"
         }
       ]
     },
@@ -57,44 +57,44 @@
       "tint": "#E8F5FC",
       "articles": [
         {
-          "title": "Hard drives were supposed to lose the storage war \u2014 but AI demand is now pushing their biggest suppliers years ahead",
-          "link": "https://www.techradar.com/pro/hard-drives-were-supposed-to-lose-the-storage-war-but-ai-demand-is-now-pushing-their-biggest-suppliers-years-ahead",
-          "source": "TechRadar",
-          "summary": "Toshiba is expanding HDD production as AI drives demand for higher-capacity storage across data centers and cloud infrastructure.",
-          "paragraph": "Toshiba is betting big on hard drives as AI pushes storage demand into years of future supply commitments Toshiba is responding to this surge by investing 60 billion yen, or about $380 million, to expand its HDD manufacturing in the Philippines. The company expects production capacity for AI and cloud storage drives to nearly double by fiscal 2027. The investment would become Toshiba's first major HDD expansion in roughly five years as the company responds to growing demand from AI infrastructure. New production lines will be added, while Toshiba will also handle drives capable of storing up to 40% more data than existing products. The company is additionally pursuing 65TB-class HDDs around 2030, followed later by models capable of reaching 100TB.",
-          "image": "https://cdn.mos.cms.futurecdn.net/gFkrkJLkQWoxLzpif9fmCn-1920-80.jpg"
+          "title": "The Atari 800XL hybrid gaming console is back after decades in obscurity",
+          "link": "https://www.engadget.com/2281551/the-atari-800xl-hybrid-gaming-console-is-back-after-decades-in-obscurity/",
+          "source": "Engadget",
+          "summary": "Atari is bringing back its classic 800XL hybrid computer and console with modern upgrades, twenty-five built-in games, and a 220-dollar price tag.",
+          "paragraph": "Hardware maker Plaion Replai has revived the classic Atari 800XL as a modern hybrid gaming console and personal computer. Originally a refresh of a 1979 design, the successful eight-bit computer lineup was retired in the early 1990s before receiving this new overhaul. The recreated system features contemporary upgrades, including HDMI output, several USB ports, and a period-accurate rechargeable joystick. Players receive 25 pre-installed titles like Centipede and Missile Command, along with a functional cartridge slot and the ability to load Atari 400 and 5200 software via USB. Retaining its computing roots, the machine incorporates a full-sized mechanical keyboard and supports the Atari Basic programming platform. This setup enables owners to build their own software and run vintage 1980s homebrew projects. Priced at $220, the reimagined device is currently available for preorder ahead of its planned April 23, 2027 shipping date.",
+          "image": "https://www.engadget.com/img/gallery/the-atari-800xl-hybrid-gaming-console-is-back-after-decades-in-obscurity/l-intro-1791485375.jpg"
         },
         {
-          "title": "'This data center belongs downtown': Developer proposes 20-story vertical data center in Kansas City to trade suburban sprawl for urban density",
-          "link": "https://www.techradar.com/pro/this-data-center-belongs-downtown-developer-proposes-20-story-vertical-data-center-in-kansas-city-to-trade-suburban-sprawl-for-urban-density",
-          "source": "TechRadar",
-          "summary": "Revitalization Unlimited has proposed building a 20-story vertical data center in downtown Kansas City to curb suburban sprawl and cut network latency.",
-          "paragraph": "Developer Revitalization Unlimited has proposed constructing a 20-story vertical data center across just 0.23 acres in downtown Kansas City. Designed by Skidmore, Owings & Merrill, the $183 million facility would provide 24 megawatts of IT capacity across 141,000 gross square feet. To manage infrastructure vertically, 18 of the tower's floors will house mechanical and cooling systems, leaving only two floors for actual computing equipment. Primary electricity would come from 30 megawatts of natural gas-fueled Bloom fuel cells targeting a 1.25 power usage effectiveness, alongside evaporative cooling systems. Bringing data infrastructure downtown targets latency-sensitive workloads like financial trading and artificial intelligence inference by placing computing resources physically closer to end users. However, building upward introduces complications regarding heavy equipment weight, elevator limitations, and significantly higher construction expenses compared to typical suburban sites. The project remains subject to local approval, with the related development ordinance currently pending until October 13, 2026.",
-          "image": "https://cdn.mos.cms.futurecdn.net/ZRBQVqGfzRvqnsN2SBHTDh-1920-80.png"
+          "title": "Tim Cook says &#8216;I&#8217;m not meddling&#8217; in the new Apple CEO&#8217;s business",
+          "link": "https://www.theverge.com/news/1008279/apple-tim-cook-not-meddling-john-ternus-ceo",
+          "source": "The Verge",
+          "summary": "Tim Cook stepped down as Apple CEO in September, handing over the top job to former hardware chief John Ternus and taking an executive chairman role.",
+          "paragraph": "Cook says he advised Ternus to \u201cmake it your own job.\u201d News Tech Apple Tim Cook says \u2018I\u2019m not meddling\u2019 in the new Apple CEO\u2019s businessCook, who recently stepped down, says he\u2019s helping new CEO John Ternus \u2018in any way he sees fit.\u2019\ufeff Cook, who recently stepped down, says he\u2019s helping new CEO John Ternus \u2018in any way he sees fit.\u2019\ufeff Jay Peters Oct 8, 2026, 6:48 PM UTCLinkShareGiftImage: The VergePart OfJohn Ternus takes over as Apple\u2019s new CEOsee all updates Jay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.Tim Cook stepped down as Apple CEO in September, handing over the top job to former hardware chief John Ternus and taking an executive chairman role.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK468_APPLE_ANTITRUST_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
         },
         {
-          "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
-          "link": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+          "title": "I only bought Pok\u00e9mon Legends: Z-A during Prime Day, and it\u2019s still on sale",
+          "link": "https://www.theverge.com/gadgets/1008212/pokemon-legends-z-a-switch-deal-sale",
+          "source": "The Verge",
+          "summary": "After covering Amazon\u2019s October sale for the last few days, only one item found its way into my shopping cart, and, lucky for you, it\u2019s still on sale after the event\u2019s conclusion.",
+          "paragraph": "The discounted Pok\u00e9mon game was my only Prime Day purchase. Gadgets Gaming Nintendo I only bought Pok\u00e9mon Legends: Z-A during Prime Day, and it\u2019s still on saleI haven\u2019t played a Pok\u00e9mon game in years, but the low price and unique setting has drawn me in. I haven\u2019t played a Pok\u00e9mon game in years, but the low price and unique setting has drawn me in. Brad Bourque Oct 8, 2026, 6:48 PM UTCLinkShareIf you buy something from a link, The Verge may earn a commission. See our ethics statement. Brad Bourque is a tech journalist and commerce writer based out of Portland, Oregon.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/IMG_0107.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+        },
+        {
+          "title": "New study shows concerning rise in developer burnout \u2014 and growing distrust in how AI may affect their jobs",
+          "link": "https://www.techradar.com/pro/new-study-shows-concerning-rise-in-developer-burnout-and-growing-distrust-in-how-ai-may-affect-their-jobs",
+          "source": "TechRadar",
+          "summary": "Worldwide developer survey reveals growing concerns over AI and an army of coders who feel close to burning out.",
+          "paragraph": "The stack is overflowing with fatigue... Stack Overflow\u2019s annual survey is a useful look at how developers feel about the industry they work in, and highlights a growing friction between traditional software development and the growing role of AI tools. The survey, by the Stack Overflow coding question-and-answer platform, also highlights a growth in solo employment, with 10.5% of respondents stating they freelance or are sole proprietors of a business, up from 3.9% in the previous years\u2019 survey. One key takeaway from the survey is that 45.1% of developers state they are \u201ccomplacent\u201d in their current roles, with around a third (32.6%) of respondents describing themselves as \u201cunhappy\u201d (just 22.3% are \u201chappy.\u201d) Of that 45.1% figure, burnout or fatigue were cited as the main cause (21.1%).",
+          "image": "https://cdn.mos.cms.futurecdn.net/Badogw5wgWSHTzzjriBAkJ-1920-80.jpg"
+        },
+        {
+          "title": "Watch the trailer for \u2018The Altruists,\u2019 Netflix\u2019s show about the FTX scandal",
+          "link": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
           "source": "TechCrunch",
-          "summary": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.",
-          "paragraph": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks. Mecka AI, a startup that collects and analyzes human motion data to train humanoid robots and other kinds of robots, announced it has raised a $60 million Series B round led by Sequoia, with participation from Nvidia, Microsoft\u2019s venture fund M12, and others. TechCrunch had previously reported that the startup was nearing a new funding round at a $500 million valuation. Founded in 2024, the startup intends to do for robotics what Scale AI, Mercor, Surge, and other data-labeling companies have done for LLMs. Those companies supply the human-generated data these systems learn from.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2082335389.jpg?resize=1200,857"
-        },
-        {
-          "title": "How to watch Chicago PD season 14 online for free \u2013 Chicago franchise returns for 2026",
-          "link": "https://www.techradar.com/how-to-watch/how-to-watch-chicago-pd-season-14",
-          "source": "TechRadar",
-          "summary": "Voight, Imani, and Atwater have some huge decisions to make in the latest episodes. Here's how to watch Chicago PD season 14 from anywhere",
-          "paragraph": "Voight, Imani, and Atwater have some huge decisions to make in the latest episodes According to showrunner Gwen Sigan, this season is all about reinvention, and there will be real changes across the board. It's going to get brutal, especially where Voight is concerned. But, the show will also hit hard on an emotional level, particularly with the imminent exit of Kevin Atwater (played by LaRoyce Hawkins). When one officer leaves, another joins, though, and there's a new wildcard addition to the team on the horizon. With all that chaos and much more about to unfold, Wednesday nights are about to get very interesting indeed if you are a fan of Chicago PD (and its sister shows, Chicago Fire and Chicago Med).",
-          "image": "https://cdn.mos.cms.futurecdn.net/FFuvwoEznjTLMfwdau4jVY-1920-80.jpg"
-        },
-        {
-          "title": "Quordle hints and answers for Thursday, October 8 (game #1718)",
-          "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-8-october-2026",
-          "source": "TechRadar",
-          "summary": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
-          "paragraph": "My clues will help you solve Quordle today and keep that streak going Quordle was one of the original Wordle alternatives and is still going strong now more than 1,500 games later. It offers a genuine challenge, though, so read on if you need some Quordle hints today \u2014 or scroll down further for the answers. Enjoy playing word games? You can also check out my NYT Connections today and NYT Strands today pages for hints and answers for those puzzles, while Marc's Wordle today column covers the original viral word game. SPOILER WARNING: Information about Quordle today is below, so don't read on if you don't want to know the answers.",
-          "image": "https://cdn.mos.cms.futurecdn.net/4XP9iNbdvkijJyZnzx3WoL-1920-80.jpg"
+          "summary": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19.",
+          "paragraph": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19. It\u2019s a great time to be alive if you follow tech news and love messy drama. We\u2019re not just getting a Nathan Fielder documentary about Elizabeth Holmes this fall. Netflix\u2019s \u201cThe Altruists,\u201d which follows Sam Bankman-Fried and Caroline Ellison through the scandal that crushed FTX and landed them in prison, is coming out on November 19. It\u2019s just in time for Thanksgiving, assuming that another infamous Sam doesn\u2019t ruin our holiday plans again.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1592854555-1.jpg?resize=1200,855"
         }
       ]
     },
@@ -105,44 +105,44 @@
       "tint": "#FFEEE3",
       "articles": [
         {
-          "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
-          "link": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+          "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+          "link": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
           "source": "TechCrunch",
-          "summary": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.",
-          "paragraph": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks. Mecka AI, a startup that collects and analyzes human motion data to train humanoid robots and other kinds of robots, announced it has raised a $60 million Series B round led by Sequoia, with participation from Nvidia, Microsoft\u2019s venture fund M12, and others. TechCrunch had previously reported that the startup was nearing a new funding round at a $500 million valuation. Founded in 2024, the startup intends to do for robotics what Scale AI, Mercor, Surge, and other data-labeling companies have done for LLMs. Those companies supply the human-generated data these systems learn from.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2082335389.jpg?resize=1200,857"
+          "summary": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
+          "paragraph": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying. Startups Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months Julie Bort 11:19 AM PDT \u00b7 October 8, 2026 Arena, which originated in 2023 as a research project at UC Berkeley that crowdsourced rankings of AI models, has raised a $200 million Series B round at a $3.1 billion valuation, it said on Thursday. This comes after the company said it reached $100 million in annualized run-rate revenue in June. The round was led by Lightspeed Venture Partners and Khosla Ventures, with Salesforce Ventures, 01 Advisors, Dell Technologies Capital, Endeavor Catalyst, a16z, Felicis and others joining in.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801"
         },
         {
-          "title": "While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders \u2018elsewhere\u2019",
-          "link": "https://techcrunch.com/2026/10/07/while-vcs-crowd-into-san-francisco-endeavor-catalyst-raises-320m-for-founders-elsewhere/",
+          "title": "A startup founder who served time in prison is looking to court an untapped market: ex-cons",
+          "link": "https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/",
           "source": "TechCrunch",
-          "summary": "Endeavor Catalyst just raised $320 million to keep backing founders outside Silicon Valley. Half the profits go back to the nonprofit that finds them.",
-          "paragraph": "Endeavor Catalyst just raised $320 million to keep backing founders outside Silicon Valley. Half the profits go back to the nonprofit that finds them. Venture While VCs crowd into San Francisco, Endeavor Catalyst raises $320M for founders \u2018elsewhere\u2019 Connie Loizos 3:59 PM PDT \u00b7 October 7, 2026 Endeavor Catalyst has closed its fifth fund with $320 million in capital commitments, bringing the firm\u2019s total assets under management to more than $850 million. The raise is good news for founders outside the Bay Area who risk getting overlooked as more funds focus squarely on AI companies in Silicon Valley. Endeavor Catalyst is the venture arm of Endeavor, a New York-based global nonprofit that has spent 30 years supporting founders outside major tech hubs.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Linda-Rottenberg.jpg?w=1024"
+          "summary": "Richard Bronson, a former Stratton Oakmont partner who served time in federal prison for securities violations, has launched Commissary Club, a startup that uses AI to help people leaving prison find...",
+          "paragraph": "Richard Bronson, a former Stratton Oakmont partner who served time in federal prison for securities violations, has launched Commissary Club, a startup that uses AI to help people leaving prison find jobs, housing, community, and even dates. Startups A startup founder who served time in prison is looking to court an untapped market: ex-cons Lucas Ropek 9:45 AM PDT \u00b7 October 8, 2026 Richard Bronson, an entrepreneur who recently launched a startup called Commissary Club, has an unusual background for a founder: in a previous life, he spent time in prison. In the 1980s, Bronson worked for the notorious Stratton Oakmont \u2014 the corruption-riddled brokerage firm that was run by Jordan Belfort, the \u201cWolf of Wall Street\u201d whose story became a 2013 film.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Richard-Bronson-Pic.jpg?w=640"
         },
         {
-          "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-          "link": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+          "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
+          "link": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
           "source": "TechCrunch",
-          "summary": "The developer of Hermes Agent raised a $90 million Series B.",
-          "paragraph": "The developer of Hermes Agent raised a $90 million Series B. Nous Research, the startup developing the open source Hermes Agent, has raised a $90 million Series B at a $1.5 billion valuation, confirming TechCrunch\u2019s earlier reporting. The round was led by Robot Ventures, with participation from other backers including Nvidia, Union Square Ventures, Menlo Ventures, Samsung, and 1789 Capital, where Donald Trump Jr. is a partner. The new financing brings the three-year-old startup\u2019s total funding to $158 million. Popular among developers and individuals, the open source Hermes Agent has been cloned more than 24 million times, driving roughly 2.5% of global AI token usage, according to the startup\u2019s estimates.",
-          "image": "https://techcrunch.com/wp-content/uploads/2025/02/GjsjauvbsAAgUtD.jpeg?w=900"
+          "summary": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%.",
+          "paragraph": "This industry stage session will examine which constraints are creating durable business opportunities, where new categories are beginning to emerge, and what founders can build as AI moves further into the physical world. Much of the AI conversation has focused on models, chips, and applications. But none of them operate in isolation. Scaling AI depends on an expanding physical stack: power generation, grid connections, data centers, cooling, electrical equipment, and the systems required to keep everything running. That creates a different kind of challenge. What happens when demand for compute grows faster than power and infrastructure can be delivered? Which shortages are temporary, and which could reshape the market for years?",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/Disrupt-2025-Builders-Stage-Crowd.png?resize=1200,800"
         },
         {
-          "title": "Greenairy is building smart plant towers to clean the air in your office",
-          "link": "https://techcrunch.com/2026/10/07/greenairy-is-building-smart-plant-towers-to-clean-the-air-in-your-office/",
+          "title": "5 days to TechCrunch Disrupt 2026: Don\u2019t pay more at the door for your pass",
+          "link": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
           "source": "TechCrunch",
-          "summary": "As it turns out, the cure for stuffy, chemical-infused office air might be a tower of leafy greenery.",
-          "paragraph": "As it turns out, the cure for stuffy, chemical-infused office air might be a tower of leafy greenery. Startups Greenairy is building smart plant towers to clean the air in your office Anthony Ha 10:30 AM PDT \u00b7 October 7, 2026 How clean is the air in your workplace? That\u2019s the question Tanvi Thombre and Lakshya Saraf began investigating when they were engineering students who worked in their university makerspace. In fact, Thombre said via email that, while working in the space, they were \u201cunknowingly exposed to toxic fumes from laser cutters, 3D printers, and soldering irons,\u201d but they didn\u2019t realize it until Thombre\u2019s best friend fainted and had to go to the hospital.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/10/greenairy-1.jpeg?resize=1200,670"
+          "summary": "The global tech ecosystem gathers at TechCrunch Disrupt 2026 at San Francisco\u2019s Moscone West on October 13-15. Get your pass now to save up to $100. Get a second of the same ticket type to save 50%.",
+          "paragraph": "If insightful content is what you\u2019re coming for, Disrupt gives you 200+ sessions across six stages to choose from. Explore the agenda to get to know the sessions and speakers. The Disrupt Stage brings together the biggest conversations in tech and the ultimate pitch competition, Startup Battlefield 200. Hear from leaders like Max Hodak (Science Corporation), Garrett Langley (Flock), Andrew Feldman (Cerebras Systems), plus a special appearance by Mark Wahlberg, and more. Builders Stage is a giant tactical workshop on fundraising, hiring, product-market fit, go-to-market strategy, and scaling. Featuring leaders from Nvidia, Uber, Google Cloud, Lovable, and more. AI Stage digs into technologies and business models being reshaped by generative and agentic AI.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/02/TCD26_5Days-16X9-Dark.png?resize=1200,675"
         },
         {
-          "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
-          "link": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+          "title": "Cal AI\u2019s 19-year-old founder just raised $10M for his new AI startup",
+          "link": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
           "source": "TechCrunch",
-          "summary": "The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.",
-          "paragraph": "The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures. Biotech & Health Healthleap raises $38M for its AI that flags hospital patients who may need a closer look Ram Iyer 8:07 AM PDT \u00b7 October 7, 2026 Healthleap, a startup building an AI platform that reads patient records to identify patients at risk of undiagnosed illnesses, has raised $38 million in seed and Series A funding, TechCrunch has exclusively learned. The financing includes an $8 million seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures. The company is not disclosing its valuation.",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/10/healthleap.jpeg?resize=1200,675"
+          "summary": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
+          "paragraph": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee. AI Cal AI\u2019s 19-year-old founder just raised $10M for his new AI startup Julie Bort 7:00 AM PDT \u00b7 October 8, 2026 Zach Yadegari, the teen co-founder of calorie tracking app Cal AI, has launched Persona, a new AI agent startup, and already raised $10 million. Vine Ventures led the round, with Z Fellows founder Cory Levy and Collective Global participating. In March, MyFitnessPal acquired Cal AI for an undisclosed sum after it zoomed ahead of the older calorie app in the app store rankings.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/02/Zach-Yaegari.jpg?resize=1200,800"
         }
       ]
     },
@@ -153,44 +153,44 @@
       "tint": "#E3F7F3",
       "articles": [
         {
-          "title": "Snowball Earth's iron deposits may have formed through microbes living without sunlight",
-          "link": "https://phys.org/news/2026-10-snowball-earth-iron-deposits-microbes.html",
+          "title": "Light-driven method puts notoriously reactive hydrogen atoms to work for chemical synthesis",
+          "link": "https://phys.org/news/2026-10-driven-method-notoriously-reactive-hydrogen.html",
           "source": "Phys.org",
-          "summary": "Iron is one of the most abundant metals on Earth's surface, yet how such massive iron ore deposits formed throughout geological history has long remained a mystery.",
-          "paragraph": "Iron is one of the most abundant metals on Earth's surface, yet how such massive iron ore deposits formed throughout geological history has long remained a mystery. The prevailing theory has been that ancient photosynthetic bacteria oxidized iron, causing it to precipitate and accumulate in the oceans.",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/antarctic-ice-sheet.jpg"
+          "summary": "Hydrogen is the simplest element in the periodic table, consisting of just one proton and one electron. In chemistry, however, the smallest of atoms is anything but simple.",
+          "paragraph": "Hydrogen is the simplest element in the periodic table, consisting of just one proton and one electron. In chemistry, however, the smallest of atoms is anything but simple. First produced by Nobel laureate Irving Langmuir over a century ago, single hydrogen atoms (H\u2022) are so reactive that they are almost impossible to prepare and use.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-simplest-atom-is-n.jpg"
         },
         {
-          "title": "From jargon to impact: Teaching undergraduates the art of public communication",
-          "link": "https://phys.org/news/2026-10-jargon-impact-undergraduates-art-communication.html",
+          "title": "Are insects really 'poor people's food'?",
+          "link": "https://phys.org/news/2026-10-insects-poor-people-food.html",
           "source": "Phys.org",
-          "summary": "Articles published in The Conversation go well beyond academics writing for a general audience\u2014they can also serve as valuable content for educators to use in the classroom.",
-          "paragraph": "Articles published in The Conversation go well beyond academics writing for a general audience\u2014they can also serve as valuable content for educators to use in the classroom.",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/undergraduates.jpg"
+          "summary": "Do people eat insects when there is nothing else to eat? Are insects really \"food for the poor\" or famine food?",
+          "paragraph": "Do people eat insects when there is nothing else to eat? Are insects really \"food for the poor\" or famine food?",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/bowl-of-freshly-collec.jpg"
         },
         {
-          "title": "Cost of Canadian wildfires could top $2 trillion over the 21st century, study shows",
-          "link": "https://phys.org/news/2026-10-canadian-wildfires-trillion-21st-century.html",
+          "title": "A trick from tardigrades could help human blood withstand freezing",
+          "link": "https://phys.org/news/2026-10-tardigrades-human-blood.html",
           "source": "Phys.org",
-          "summary": "Failure to curb global warming now could cost future generations of Canadians trillions of dollars in wildfire impacts alone, according to a new Simon Fraser University study.",
-          "paragraph": "Failure to curb global warming now could cost future generations of Canadians trillions of dollars in wildfire impacts alone, according to a new Simon Fraser University study. The study is among the first to put a price tag on projected Canadian wildfire activity driven by climate change.",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/wildfire-canada.jpg"
+          "summary": "Tardigrades survive conditions that would destroy most other living things: freezing, dehydration and the vacuum of space.",
+          "paragraph": "Tardigrades survive conditions that would destroy most other living things: freezing, dehydration and the vacuum of space. Researchers even put tiny tattoos on them, and the animals don't seem to mind. By learning how these critters carry on, researchers hope to find ways to protect human cells.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-trick-from-tardigrad.jpg"
         },
         {
-          "title": "Tiny photosynthetic organisms help transport carbon to the depths of the Baltic Sea",
-          "link": "https://phys.org/news/2026-10-tiny-photosynthetic-carbon-depths-baltic.html",
+          "title": "Nickel catalyst unlocks hard-to-make \u03b2-amino alcohols",
+          "link": "https://phys.org/news/2026-10-nickel-catalyst-hard-amino-alcohols.html",
           "source": "Phys.org",
-          "summary": "Tiny photosynthetic organisms in the Baltic Sea can contribute substantially to the transport of carbon from surface waters to deeper parts of the sea.",
-          "paragraph": "Tiny photosynthetic organisms in the Baltic Sea can contribute substantially to the transport of carbon from surface waters to deeper parts of the sea. A new study from the Department of Ecology, Environment and Plant Sciences at Stockholm University shows that their ability to form colonies and aggregates is an important factor determining how much of their biomass sinks.",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/tiny-organisms-play-a.jpg"
+          "summary": "Many molecules in living organisms and pharmaceuticals share a structure called a \u03b2-amino alcohol, in which an amino group and a hydroxyl group sit on neighboring carbon atoms.",
+          "paragraph": "Many molecules in living organisms and pharmaceuticals share a structure called a \u03b2-amino alcohol, in which an amino group and a hydroxyl group sit on neighboring carbon atoms. These groups, important building blocks in biology and medicine, are found in compounds such as sphingosine and ephedrine.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/innovative-nickel-cata.jpg"
         },
         {
-          "title": "Artemis II crew moon photo annotations",
-          "link": "https://phys.org/news/2026-10-artemis-ii-crew-moon-photo.html",
+          "title": "Almost 300,000 people now live in flood\u2011prone areas in the Nepalese Himalayas\u2014new research",
+          "link": "https://phys.org/news/2026-10-people-floodprone-areas-nepalese-himalayas.html",
           "source": "Phys.org",
-          "summary": "A visualization of a dark moon eclipsing the sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member's tablet.",
-          "paragraph": "A visualization of a dark moon eclipsing the sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member's tablet.",
-          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-simulated-image-of-t-1.jpg"
+          "summary": "On Aug. 26, a rock and ice avalanche triggered a huge flood that swept through a steep valley in Nepal, leaving thousands dead and missing.",
+          "paragraph": "On Aug. 26, a rock and ice avalanche triggered a huge flood that swept through a steep valley in Nepal, leaving thousands dead and missing. It was an extreme example of a growing problem across the Himalayas. As glaciers melt, glacial lakes expand and mountain permafrost thaws, the risks from floods, landslides and other high-mountain hazards are increasing. At the same time, more people and infrastructure are moving into the valleys where these hazards are most likely to strike.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/almost-300000-people-n.jpg"
         }
       ]
     },
@@ -201,44 +201,44 @@
       "tint": "#FFF7DC",
       "articles": [
         {
-          "title": "Justin Drake urges crypto \u2018bunker mode,\u2019 as AI could break wallet security within months",
-          "link": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Satoshi-Era Bitcoin Worth $8.3 Million Moves After 16 Years",
+          "link": "https://decrypt.co/380514/satoshi-era-bitcoin-mined-2010-moves-16-years",
+          "source": "Decrypt",
+          "summary": "A batch of 100.02 BTC mined in July 2010 moved Wednesday after 16 years. It's worth about $8.3 million, but nothing in the transaction shows who owns it.",
+          "paragraph": "A batch of Bitcoin mined in July 2010 moved Wednesday after 16 years. It's worth about $8.3 million, but data doesn't show who owns it. A batch of 100.02 Bitcoin mined in July 2010, from a period commonly known as the Satoshi-era, moved on Wednesday for the first time in 16 years. At roughly $83,000 per coin, the stash was worth about $8.3 million when it left. Based on Bitbo\u2019s highest registered price of BTC in 2010, the stash was worth around $29 when it was mined. The transaction was confirmed at 18:52 UTC in block 970,379\u2014one of the batches of transactions that Bitcoin's network stamps onto its public ledger roughly every 10 minutes.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/satoshi-nakamoto-statue-lugano-gID_7.jpg"
+        },
+        {
+          "title": "Here\u2019s what happened in crypto today",
+          "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source": "Cointelegraph",
-          "summary": "The Ethereum researcher said crypto users should consider moving funds to fresh addresses, warning AI could threaten private-key security before quantum computers do.",
-          "paragraph": "Ethereum researcher Justin Drake warned that AI could threaten crypto signatures before quantum computers do, urging holders to gradually move funds to fresh addresses.",
-          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4CCZ9950ZZBPSK7VXWX6DJ3/ai-hack-3.jpg"
+          "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+          "paragraph": "Today in crypto, the US transfers seized Bitcoin linked to Bitfinex, EU regulators set a deadline for non-compliant stablecoins and Vitalik Buterin warns about AI risks to crypto security.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
         },
         {
-          "title": "OpenAI Says a Secret AI Model Cracked Hundreds of Open Math Problems in One Prompt\u2014Mathematicians Want Receipts",
-          "link": "https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt",
-          "source": "Decrypt",
-          "summary": "OpenAI posted 722 AI-written math manuscripts from an unreleased model, saying most came from a single prompt. Some mathematicians call the claims unverified.",
-          "paragraph": "OpenAI posted 722 AI-written math manuscripts from an unreleased model, saying most came from a single prompt. OpenAI published 722 math manuscripts on GitHub on Tuesday, all produced by an internal model the company has not released. An OpenAI spokesperson said almost everything came from a single prompt handed to a single AI agent, though some may have taken multiple attempts. It's a bold claim and a potentially significant breakthrough in the field of mathematics. But not everyone is a fan, or buying the hype. \u201cUntil and unless they release the model and people can replicate their results, I think you should treat any claims about one-shotting problems with a single agent as unverified,\u201d Andrew Sutherland, a mathematician at MIT, told Scientific American.",
-          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/09/math-problems-AI-gID_4.jpg"
-        },
-        {
-          "title": "Ethereum Researcher Says AI May Break Encryption Before Quantum Does",
-          "link": "https://decrypt.co/380363/ethereum-researcher-ai-break-encryption-before-quantum",
-          "source": "Decrypt",
-          "summary": "Ethereum Foundation researcher Justin Drake urged holders to calmly move funds to unused addresses, warning that AI-driven math could break crypto signatures before quantum computers do.",
-          "paragraph": "Ethereum Foundation researcher Justin Drake urged holders to move funds to unused addresses, warning that AI could break crypto signatures. Justin Drake has spent years warning that quantum computers could one day crack crypto's cryptography. Now the Ethereum Foundation researcher says artificial intelligence might get there first. \"Today I call upon the blockchain industry to calmly begin planning for 'bunker mode,'\" Drake wrote on X on Wednesday. His recommendation is a controlled, mass migration of funds to fresh addresses that have never signed a transaction, which keep their public keys hidden behind a hash. The concern centers on ECDSA, the signature scheme Bitcoin and Ethereum use to prove a transaction was authorized by the right private key.",
-          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Ethereum-decrypt-style-04-gID_7.png"
-        },
-        {
-          "title": "Circle brings USDC, EURC payments to SAP customers through Tereina",
-          "link": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "title": "Netflix drops trailer for series based on FTX\u2019s SBF and Caroline Ellison",
+          "link": "https://cointelegraph.com/news/netflix-series-ftx-sam-bankman-fried-caroline-ellison?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source": "Cointelegraph",
-          "summary": "The partnership with SAP-backed Tereina will let businesses send and receive Circle\u2019s stablecoins from within the financial software they already use.",
-          "paragraph": "Circle is expanding its enterprise payments push through Tereina, giving eligible businesses a way to use its dollar- and euro-backed stablecoins within SAP software.",
-          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4C0FKXZZQCVXBKP6KS4MJFP/hi-crypto-negotiation-1.png"
+          "summary": "Sam Bankman-Fried remains in federal prison following his 2023 conviction, while Caroline Ellison was released in January.",
+          "paragraph": "Netflix\u2019s \u2019The Altruists\u2019 series, to be released in November, stars Anthony Boyle as former FTX CEO Sam Bankman-Fried and Julia Garner as Alameda Research CEO Caroline Ellison.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4E9874D134FZFY2WSZBNXKY/hi-from-ellison-to-bankman-fried.png"
         },
         {
-          "title": "Anthropic Launches Haiku 5.5: Its Cheapest and Fastest Claude Model Yet",
-          "link": "https://decrypt.co/380351/anthropic-launches-haiku-5-5-cheapest-fastest-claude-model",
+          "title": "Solana DeFi Firms Orca and Loopscale Merge Under New Formation Brand",
+          "link": "https://decrypt.co/380522/solana-defi-firms-orca-and-loopscale-merge-under-new-formation-brand",
           "source": "Decrypt",
-          "summary": "Claude Haiku 5.5 costs about 75% less to run than its predecessor and targets high-volume jobs like summaries and live customer support. It arrives 15 days after Opus 5.5.",
-          "paragraph": "Claude Haiku 5.5 costs about 75% less to run than its predecessor and targets high-volume jobs like summaries and live customer support. Anthropic released Claude Haiku 5.5 on Wednesday, calling it the cheapest, fastest and most capable small model it has made. It targets high-volume chores such as summarizing documents and querying databases, plus speed-sensitive jobs like live customer support and operating a web browser for the user. Developers who plug Claude into their own products pay $0.10 per million input tokens and $0.50 per million output tokens for prompts up to 100,000 tokens. Tokens are the small chunks of text, roughly three-quarters of a word, that AI models read and write\u2014and they\u2019re what big AI companies bill by.",
-          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/anthropic-claude-ai-decrypt-style-gID_7.png"
+          "summary": "Solana DEX Orca and lending platform Loopscale will operate as Formation, a New York company aiming to finance AI, energy, robotics and defense assets and eventually reach regulated U.S. markets.",
+          "paragraph": "Solana DEX Orca and lending platform Loopscale will operate as Formation, a New York company aiming to finance AI, energy, and robotics. Solana decentralized exchange Orca and lending protocol Loopscale are merging into a single company called Formation, the two teams announced Wednesday. The new firm is headquartered in New York and led by Loopscale co-founder Luke Truitt as CEO, with fellow co-founder Mary Gooneratne as chief operating officer and Orca's Christopher Montagano as chief strategy and legal officer. Neither announcement discloses financial terms. Formation pairs Orca's trading infrastructure with Loopscale's credit order book and vaults, so an issuer can launch an asset with trading and credit live from day one, according to Loopscale's FAQ.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/handshake-deal-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Crypto crumbles as anniversary of flash crash nears",
+          "link": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
+          "source": "CoinDesk",
+          "summary": "Crypto crumbles as anniversary of flash crash nears",
+          "paragraph": "It was October 10, 2025, when bitcoin plunged from about $122,000 to $105,000, with much of the decline occurring within minutes. 2 min readMake preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake preferred on SummaryShowBitcoin fell 4% to about a one-month low near $80,000, with the rest of the sector showing even steeper declines.This week\u2019s fast drop comes ahead of Saturday\u2019s one-year anniversary of last year\u2019s flash crash.Rising oil prices and interest rates are also negative catalysts.A modest early decline in bitcoin BTC$81,585.04 on Thursday has accelerated, the price falling to about a one-month low just above $80,000 Bitcoin is down 4% over the past 24 hours, and is now lower by more than 8% since nearly hitting $87,000 just four days ago.",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/dc169833a5d2aaa1b27e5009c87239b10e46379a-2280x1284.png?auto=format&fit=crop&crop=focalpoint&w=1200&h=675&q=75"
         }
       ]
     }
