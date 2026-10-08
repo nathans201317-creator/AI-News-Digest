@@ -1,6 +1,6 @@
 """
-Daily Tech Digest 
---------------------------------
+Uplink — Daily Tech Digest
+--------------------------
 Pulls articles from RSS feeds across multiple topic sections, picks the
 top few per section, writes a punchy one-line AI summary for each, and
 emails a styled HTML digest.
@@ -26,6 +26,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.utils import formataddr
 from urllib.parse import quote, urlparse
 
 import feedparser
@@ -140,7 +141,10 @@ def publisher_name(link, fallback):
 
 def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; UplinkDigest/1.0)"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    }
     articles = []
     for url in feeds:
         try:
@@ -316,7 +320,7 @@ def collect_by_category():
 # 3. AI summaries (Gemini free tier) with safe fallback
 # ---------------------------------------------------------------------------
 
-def call_gemini(prompt, api_key, max_tokens=100, retries=2):
+def call_gemini(prompt, api_key, max_tokens=100, retries=3):
     for attempt in range(retries + 1):
         try:
             resp = requests.post(
@@ -325,12 +329,13 @@ def call_gemini(prompt, api_key, max_tokens=100, retries=2):
                     "contents": [{"parts": [{"text": prompt}]}],
                     "generationConfig": {"maxOutputTokens": max_tokens},
                 },
-                timeout=15,
+                timeout=30,
             )
-            if resp.status_code == 429:
-                # Rate limited — wait longer and try again rather than giving up immediately
-                wait = 15 * (attempt + 1)
-                print(f"Gemini rate limited, waiting {wait}s before retry...")
+            if resp.status_code in (429, 500, 502, 503, 504) and attempt < retries:
+                # 429 = rate limited; 5xx = Google is temporarily overloaded.
+                # Both usually clear up if we wait a bit and try again.
+                wait = (15 if resp.status_code == 429 else 8) * (attempt + 1)
+                print(f"Gemini busy (HTTP {resp.status_code}), waiting {wait}s before retry...")
                 time.sleep(wait)
                 continue
             resp.raise_for_status()
@@ -413,7 +418,7 @@ def generate_subject_line(categorized, api_key, today_str):
         "at the start. No quotation marks around the output:\n\n"
         + "\n".join(f"- {h}" for h in headlines[:6])
     )
-    result = call_gemini(prompt, api_key, max_tokens=40)
+    result = call_gemini(prompt, api_key, max_tokens=800)
     return result.strip('"') if result else default
 
 
@@ -621,28 +626,39 @@ def write_site_data(categorized, date_str, today_str):
 
 def fetch_subscribers(endpoint_url, fallback_email):
     """Pulls the active subscriber list from the Google Apps Script endpoint.
-    Falls back to a single address if the endpoint is unset or fails, so the
-    script never silently sends to nobody."""
+    Apps Script can take 20+ seconds to wake up, so this waits longer and
+    tries up to 3 times. Returns (emails, ok). If it still fails, falls back
+    to a single address so the script never silently sends to nobody — and
+    reports ok=False so the run is flagged as a failure."""
     if not endpoint_url:
         print("No SUBSCRIBERS_ENDPOINT set — sending only to DIGEST_TO.")
-        return [fallback_email]
-    try:
-        resp = requests.get(endpoint_url, timeout=15)
-        resp.raise_for_status()
-        emails = resp.json().get("emails", [])
-        if not emails:
-            print("Subscriber list came back empty — sending only to DIGEST_TO.")
-            return [fallback_email]
-        return emails
-    except Exception as e:
-        print(f"Failed to fetch subscriber list ({e}) — falling back to DIGEST_TO.")
-        return [fallback_email]
+        return [fallback_email], True
+    last_error = None
+    for attempt in range(3):
+        try:
+            resp = requests.get(endpoint_url, timeout=60)
+            resp.raise_for_status()
+            emails = resp.json().get("emails", [])
+            if not emails:
+                print("Subscriber list came back empty — sending only to DIGEST_TO.")
+                return [fallback_email], True
+            return emails, True
+        except Exception as e:
+            last_error = e
+            print(f"Subscriber list attempt {attempt + 1}/3 failed: {e}")
+            time.sleep(10)
+    print(f"::error::Could not fetch the subscriber list ({last_error}) — sending only to DIGEST_TO.")
+    return [fallback_email], False
 
 
-def send_to_all_subscribers(subject, html_body, plain_body, subscribers, from_addr, app_password, subscribers_endpoint):
+def send_to_all_subscribers(subject, html_body, plain_body, subscribers, from_addr, app_password, subscribers_endpoint,
+                            sender_name="Uplink", sender_address=""):
     sent, failed = 0, []
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        # Log in with the real Gmail account, but show readers "Uplink" (and,
+        # once set up, hello@uplinkbrief.com) as the sender.
         server.login(from_addr, app_password)
+        visible_from = formataddr((sender_name, sender_address or from_addr))
         for to_addr in subscribers:
             try:
                 unsubscribe_url = (
@@ -654,7 +670,7 @@ def send_to_all_subscribers(subject, html_body, plain_body, subscribers, from_ad
 
                 msg = MIMEMultipart("alternative")
                 msg["Subject"] = subject
-                msg["From"] = from_addr
+                msg["From"] = visible_from
                 msg["To"] = to_addr
                 msg.attach(MIMEText(personal_plain, "plain"))
                 msg.attach(MIMEText(personal_html, "html"))
@@ -703,8 +719,8 @@ def run_daily_digest():
                 consecutive_failures = 0
             else:
                 consecutive_failures += 1
-                if consecutive_failures >= 3:
-                    print("Gemini failed 3 times in a row — skipping AI summaries for the rest of this run.")
+                if consecutive_failures >= 4:
+                    print("Gemini failed 4 times in a row — skipping AI summaries for the rest of this run.")
                     gemini_disabled = True
             time.sleep(3)
 
@@ -724,7 +740,7 @@ def run_daily_digest():
     except Exception as e:
         print(f"Failed to write site data (non-fatal): {e}")
 
-    subscribers = fetch_subscribers(subscribers_endpoint, digest_to)
+    subscribers, subscribers_ok = fetch_subscribers(subscribers_endpoint, digest_to)
 
     sent, failed = send_to_all_subscribers(
         subject=subject,
@@ -734,6 +750,8 @@ def run_daily_digest():
         from_addr=os.environ["DIGEST_FROM"],
         app_password=os.environ["GMAIL_APP_PASSWORD"],
         subscribers_endpoint=subscribers_endpoint,
+        sender_name=os.environ.get("SENDER_NAME") or "Uplink",
+        sender_address=os.environ.get("SENDER_ADDRESS", ""),
     )
 
     total_articles = sum(len(c["articles"]) for c in categorized.values())
@@ -741,6 +759,10 @@ def run_daily_digest():
     print(f"Sent to {sent}/{len(subscribers)} subscribers.")
     if failed:
         print(f"Failed for: {', '.join(failed)}")
+    if not subscribers_ok:
+        # Makes the GitHub run show as failed (and email you) instead of
+        # quietly sending to only one person.
+        raise SystemExit("Subscriber list could not be fetched — real subscribers did NOT get today's email.")
 
 
 if __name__ == "__main__":
