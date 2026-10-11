@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-11",
+  "display_date": "October 11, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+          "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+          "source": "TechCrunch",
+          "summary": "Amazon has pledged to stop using nondisclosure agreements during data center negotiations with local governments, matching a prior move by Microsoft.",
+          "paragraph": "Amazon recently announced that it will cease using nondisclosure agreements when negotiating data center projects with municipal officials, following an earlier policy shift by Microsoft. The commitment appeared within an Amazon blog post advocating for the local benefits of data center developments. The decision arrives as technology firms face growing community backlash over the secrecy surrounding facilities that strain local resources. Municipalities have enacted temporary building halts, including a one-year moratorium on large-project permits in New York and another pause in San Francisco. Observers disagree on the ultimate impact of these local moratoriums because they generally span only one to two years, whereas infrastructure buildouts typically require two to five years. Nevertheless, data center developers remain visibly worried by intensifying political resistance. Tech commentators note that historical reliance on confidential government deals, similar to Uber's expansion tactics in the mid-2010s, has severely eroded public trust. Dropping secrecy agreements is viewed as an essential preliminary measure to rebuild dialogue, even if it fails to immediately resolve neighborhood opposition.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/9-DSCF1649.jpg?resize=800,1200"
+        },
+        {
+          "title": "These execs think voice AI hasn\u2019t reached its ChatGPT moment yet",
+          "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+          "source": "TechCrunch",
+          "summary": "Despite billions invested in voice AI, industry executives say the technology still lacks fast reasoning, accurate transcription, and its breakthrough ChatGPT moment.",
+          "paragraph": "Investors have poured billions of dollars into voice technology startups, but industry executives warn that the sector still awaits a breakthrough comparable to ChatGPT. Speaking at the HumanX conference, PolyAI Chief Technology Officer Shawn Wen explained that although systems can now listen and speak simultaneously, models require significantly faster reasoning to support fluid dialogue. He noted that enterprise agents must avoid sounding robotic so callers feel confident solving problems without a human operator. Meanwhile, Otter Chief Marketing Officer Alex Gay emphasized that developing meeting avatars requires realistic emotional expression to support genuine debate. Both leaders identified speech recognition errors as a primary roadblock, noting that missed keywords disrupt context and generate faulty transcripts. Gay warned that these early transcription mistakes spoil downstream automated tasks and erode user trust. The executives also agreed that platforms must be transparent by explicitly informing users whenever they are speaking with an AI or being recorded.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-2.42.28-PM.jpg?resize=1200,624"
+        },
+        {
+          "title": "I Made Terrible Games With Google\u2019s AI Playground",
+          "link": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+          "source": "WIRED",
+          "summary": "Google has launched Playground, a new Google Labs experiment that lets anyone create playable browser games using simple AI chat prompts.",
+          "paragraph": "Google launched Playground this week under Google Labs, introducing an experimental system that creates playable browser video games from conversational text prompts. Functioning like a standard chatbot, the platform allows users lacking technical coding skills to describe game concepts, adjust features iteratively, or supply reference images and models. The tool operates similarly to Meta's Horizon Create, which was announced in September, continuing Google's strategy of testing unreleased artificial intelligence capabilities. During hands-on experimentation, a creator successfully built three working titles in one day, including a pig-themed block puzzle and a cyberpunk arcade shooter. Although the software generated occasional movement glitches, continuous conversational feedback resolved issues and integrated specialized dialogue systems. Anyone with a Google account can sign in to Playground to play these user-generated titles. Ultimately, the experiment illustrates how conversational tools significantly lower the barriers to entry for interactive digital creation.",
+          "image": "https://media.wired.com/photos/6ac967401dd8a2ab2e331c51/master/pass/Google-Playground-Gear-PG_THUMBNAIL_BLOG%20(1).png"
+        },
+        {
+          "title": "Microsoft\u2019s Satya Nadella says AI models need an \u2018emergency brake\u2019",
+          "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "source": "TechCrunch",
+          "summary": "Microsoft CEO Satya Nadella is calling for an emergency brake and external controls to prevent artificial intelligence models from acting unchecked.",
+          "paragraph": "Microsoft CEO Satya Nadella has urged the tech industry to pause and re-examine the foundational trust architecture governing artificial intelligence. In a post on X, he argued that advanced software should not operate as inscrutable black boxes with unquestioned recommendations and outputs. Nadella proposed separating models from the frameworks orchestrating their workloads, allowing developers to establish external safeguards and assume potential compromise from the outset. He also advocated for generating tamper-resistant, human-readable documentation for every significant action a model undertakes. Most notably, he called for an emergency brake mechanism so authorized operators can pause or terminate an active task at any moment. His commentary follows Anthropic CEO Dario Amodei releasing his own proposal outlining a more guarded approach to building the technology. These warnings arrive amid a growing number of industry admissions that top companies are periodically losing control over their systems.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000"
+        },
+        {
+          "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+          "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+          "source": "TechCrunch",
+          "summary": "Apple has struck a reverse acqui-hire deal to license technology and hire staff from personalized audio startup Huxe.",
+          "paragraph": "Apple revealed in a regulatory filing that it reached a reverse acqui-hire agreement with personalized audio startup Huxe. Under the arrangement disclosed to the European Commission, Apple will extend job offers to selected Huxe personnel and secure a non-exclusive license for the startup's intellectual property. Huxe was originally established by developers who previously helped create AI-generated podcast capabilities for NotebookLM, which was later rebranded as Gemini Notebook. Prior to the disclosure, the startup announced on May 21 that it was shutting down its service, pulling apps from Apple and Google platforms, and deleting customer data. These types of transactions allow tech giants to quietly absorb specialized AI assets and staff while dodging potential antitrust scrutiny that accompanies full acquisitions. Apple officially informed European regulators of the arrangement on June 9, though the paperwork leaves out any specific future product plans and does not confirm who accepted job offers.",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/01/apple-podcasts-1.jpg?w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "The new Apple TV could have a built-in mic and a remote with a speaker",
+          "link": "https://www.theverge.com/tech/1009397/apple-tv-refresh-built-in-mic-remote-speaker",
+          "source": "The Verge",
+          "summary": "Rumors indicate the next Apple TV will include a built-in microphone for Siri, while its upgraded remote will feature a speaker.",
+          "paragraph": "Recent rumors indicate that an upcoming Apple TV set-top box will feature an integrated microphone. In addition to changes on the primary hardware, the updated remote is expected to include a built-in speaker. Adding a microphone directly to the streaming box would allow owners to control the interface using Siri hands-free. Because of this component, viewers would no longer have to talk directly into the remote control to give requests. The hardware addition would also eliminate the need to rely on a connected HomePod device to register voice prompts.",
+          "image": null
+        },
+        {
+          "title": "Powering the AI revolution: Inside the grid, thermal, and interconnect challenges limiting data center growth",
+          "link": "https://www.techradar.com/pro/powering-the-ai-revolution-inside-the-grid-thermal-and-interconnect-challenges-limiting-data-center-growth",
+          "source": "TechRadar",
+          "summary": "AI data centers face severe bottlenecks as surging power demands overwhelm electrical grids, traditional cooling, and copper interconnects.",
+          "paragraph": "Rapid expansion of artificial intelligence clusters is pushing data centers against critical thermal, interconnect, and electrical grid limitations. Modern graphics processing unit racks now regularly draw 50 to over 100 kilowatts, causing temperatures to approach performance-throttling thresholds between 90 and 100 degrees. Because legacy air cooling cannot handle these loads, operators are adopting two-phase immersion cooling to reduce cooling energy by up to 40 percent. Major operators like Microsoft are also deploying closed-loop liquid systems that continuously recirculate water without requiring fresh supplies. Meanwhile, standard copper interconnects are losing signal strength over distances exceeding two meters, creating severe bandwidth and heat hurdles. Facilities are consequently transitioning to optical alternatives and co-packaged optics, despite these components costing up to seven times more. Compounding these hardware obstacles, global power grids face severe strain after adding 30 gigawatts of data center capacity between 2021 and 2025.",
+          "image": "https://cdn.mos.cms.futurecdn.net/PNHHupwLrzuujcF78JCsDN-1920-80.jpg"
+        },
+        {
+          "title": "How to watch Time season 3 online for free \u2013 stream David Tennant prison drama from anywhere",
+          "link": "https://www.techradar.com/how-to-watch/how-to-watch-time-season-3",
+          "source": "TechRadar",
+          "summary": "David Tennant stars as prison officer Bobby Bailey in the final series of BBC drama Time, which tackles the incarceration of teenagers.",
+          "paragraph": "The third season of the prison drama Time features David Tennant as Bobby Bailey, a guard working inside a young offender facility. This three-episode run centers on newly arrived teenagers Peter and James as they endure incarceration while grappling with their personal guilt. Siobhan Finneran also returns as chaplain Marie-Louise O'Dell, who clashes with Bailey after an unexpected disaster strikes the institution. Bailey faces an ethical crisis when an event leaves him possessing sensitive details that challenge whether he should tell the truth or shield a colleague. Viewers in the United Kingdom can watch all three episodes on BBC iPlayer starting October 11, with BBC One broadcasting them across October 11, 12, and 18. North American audiences in the United States and Canada will be able to stream the program on BritBox beginning October 22. Meanwhile, no release plans have been announced yet for viewers located in Australia.",
+          "image": "https://cdn.mos.cms.futurecdn.net/RBQw6RKQi74eC6VpPQEctV-1920-80.jpg"
+        },
+        {
+          "title": "Samsung Galaxy Z Flip 8 vs Galaxy Z Flip 7: which flip foldable is best?",
+          "link": "https://www.techradar.com/phones/samsung-galaxy-phones/samsung-galaxy-z-flip-8-vs-samsung-galaxy-z-flip-7",
+          "source": "TechRadar",
+          "summary": "Samsung has launched the Galaxy Z Flip 8 with upgraded processors and a slimmer design, but a higher price tag keeps the Flip 7 relevant.",
+          "paragraph": "Samsung has released the Galaxy Z Flip 8, introducing a lighter, slimmer design alongside more powerful processors than its predecessor. Launching at $1,199.99 for the 256GB base model, the new foldable costs $100 more than last year's Galaxy Z Flip 7. To justify the increase, Samsung shaved the phone's weight to 180 grams and refined the Armor FlexHinge to make opening the device noticeably smoother. Regional versions now run on either the Snapdragon 8 Elite Gen 5 or Exynos 2600 chipsets, providing a notable performance leap over the older Exynos 2500. However, the hardware for the displays and cameras remains completely unchanged from the 2025 version. Both handsets feature a 6.9-inch folding screen, a 4.1-inch cover display, and a dual-lens rear camera setup with a 50-megapixel primary sensor. Because the core viewing and photography hardware are virtually identical, the heavily discounted Galaxy Z Flip 7 remains an exceptionally compelling alternative for budget-conscious buyers.",
+          "image": "https://cdn.mos.cms.futurecdn.net/p7chRG8VoFyFmXdv3pdacG-1920-80.jpg"
+        },
+        {
+          "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+          "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+          "source": "TechCrunch",
+          "summary": "Amazon will stop using nondisclosure agreements when negotiating data center deals with local governments, following a similar move by Microsoft earlier this year.",
+          "paragraph": "Amazon announced it will abandon nondisclosure agreements during data center negotiations with local officials, matching an earlier policy shift by Microsoft. The commitment arrived within a broader corporate post arguing that data centers benefit host communities, even as the artificial intelligence sector faces growing local pushback. Tech commentators on TechCrunch's Equity podcast debated whether eliminating secret talks can resolve deep community concerns regarding water consumption, electricity costs, and property values. Local governments, including New York and San Francisco, have enacted temporary moratoriums lasting one to two years to study these infrastructure impacts. While some observers doubt short bans will disrupt facilities planned years in advance, data center backers show clear worry over rising resistance. Secret negotiations have fueled public distrust across the technology industry, recalling earlier controversies such as Uber's municipal tax subsidy talks. Ending non-disclosure pacts represents a potential initial step toward transparency, yet firmly entrenched residents may still question the usefulness and necessity of new computing facilities.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/9-DSCF1649.jpg?resize=800,1200"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Dawn Myers is making it easier to style, detangle, and care for curly hair",
+          "link": "https://techcrunch.com/2026/10/11/dawn-myers-is-making-it-easier-to-style-detangle-and-care-for-curly-hair/",
+          "source": "TechCrunch",
+          "summary": "Dawn Myers founded Richualist and developed Mint, an innovative tool that slashes textured hair styling time from over an hour to ten minutes.",
+          "paragraph": "Dawn Myers launched beauty startup Richualist to tackle the historic lack of styling tools designed for textured hair. Her flagship device, Mint, detangles, conditions, and styles curls in a single pass using warmed, refillable pods. Developed alongside materials firm Dow, the tool cuts wash-day routines from over an hour to ten minutes while reducing breakage by up to seventy percent. To finance five years of development, Myers sold her home and liquidated her retirement savings. She eventually raised 1.4 million dollars, becoming one of the first one hundred Black women to secure over one million dollars in venture capital. Myers finalized financing while receiving chemotherapy for stage three colorectal cancer and later won Shark Tank backing from Mark Cuban and Emma Grede. Following a retail expansion onto Ulta's website, Richualist is now nearing a sell-out due to strong consumer demand.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/Dawn-Myers.jpeg?resize=1200,800"
+        },
+        {
+          "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+          "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+          "source": "TechCrunch",
+          "summary": "Apple has reached a deal to license technology and hire staff from Huxe, a personalized audio startup specializing in AI-generated podcasts.",
+          "paragraph": "According to a regulatory filing with the European Commission, Apple has struck a reverse acqui-hire agreement with personalized audio startup Huxe. Under the deal, the tech giant agreed to extend employment offers to select Huxe AI workers and secured a non-exclusive license to the startup's intellectual property. Huxe was established by developers who previously helped create AI-generated podcast features for NotebookLM, a tool now known as Gemini Notebook. The audio startup announced on May 21 that it was shutting down, taking down its apps, and erasing user information. Apple officially informed European regulators of the arrangement shortly afterward on June 9. These types of licensing and talent agreements allow larger corporations to acquire artificial intelligence expertise without full acquisitions that attract antitrust scrutiny. Apple has not disclosed how it plans to use the technology or whether any Huxe team members accepted the job offers.",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/01/apple-podcasts-1.jpg?w=1200"
+        },
+        {
+          "title": "Petra Power looks to modernize energy for data centers and defense vehicles",
+          "link": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+          "source": "TechCrunch",
+          "summary": "Petra Power is developing compact, efficient fuel cells to slash energy costs and supply power for data centers and military vehicles.",
+          "paragraph": "Startup Petra Power is developing solid oxide fuel cells designed to cut energy costs and emissions for power-hungry data centers and defense vehicles. Founded in 2017 by Aaron Goodman, the 15-person company builds compact ceramic devices that generate electricity directly from fuel without relying on inefficient combustion steps. The technology arrives as the artificial intelligence boom pushes tech firms to seek cheaper, more efficient electricity sources with smaller physical footprints. While Petra considers major hyperscalers to be its ideal clients, it is currently partnering with smaller cloud infrastructure providers. Goodman expects initial deployments with these data center customers to launch in 2028, leading up to full-scale manufacturing by 2029. Concurrently, the firm has secured nearly 9 million dollars in Department of Defense contracts to evaluate the technology. The military is testing the fuel cells to potentially run auxiliary onboard equipment on land vehicles when the main engines are turned off.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_6289.HEIC.jpg?resize=900,1200"
+        },
+        {
+          "title": "Cloudflare acquires Deno to improve its Workers programming model",
+          "link": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+          "source": "TechCrunch",
+          "summary": "Cloudflare has acquired runtime startup Deno to strengthen its Workers platform and turn the programming model into a mainstream standard for building servers.",
+          "paragraph": "Cloudflare announced on Friday that it is acquiring runtime startup Deno under undisclosed financial terms. Co-founded by Bert Belder and Node.js creator Ryan Dahl, Deno had previously secured $26 million in total funding, including a Series A round led by Sequoia. Cloudflare plans to utilize the purchase to bolster its Workers platform, a system that allows clients to build and execute software directly on its network. The deal follows Deno's release of celld, an open-source implementation of Workers that pleased the Cloudflare team. Addressing vendor lock-in theories, Cloudflare principal engineer Kenton Varda emphasized that offering open-source options and user escape hatches is good business. Dahl explained that his team joined Cloudflare to transform the Workers programming model into a mainstream approach for building servers.",
+          "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1186369127.jpeg?resize=1200,800"
+        },
+        {
+          "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+          "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+          "source": "TechCrunch",
+          "summary": "TechCrunch Disrupt 2026 begins in three days, featuring over 300 exhibiting startups and 20 finalists competing for the $100,000 Disrupt Cup.",
+          "paragraph": "For over a decade, TechCrunch Disrupt has focused on spotlighting promising early-stage technology ventures. The upcoming 2026 gathering features the Startup Battlefield 200, presenting a selected group of young firms to media, investors, and potential clients. From this cohort, twenty finalists will pitch live on stage to contest for the prestigious Disrupt Cup alongside a $100,000 prize. In the Expo Hall, more than 300 companies from diverse sectors and development phases will display their latest products. The event schedule also incorporates over 200 sessions spanning six stages, featuring insights from more than 250 technology executives. These discussions, breakouts, and roundtables cover critical operational areas including artificial intelligence, fundraising, scaling, product strategy, and infrastructure. Through these programs, participants gain direct access to founders and learn about emerging industry trends before they reach the wider public.",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/06/Startup-Battlefield-2023-2.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Conservation groups alarmed at marine mammals' deaths in Spain",
+          "link": "https://phys.org/news/2026-10-groups-alarmed-marine-mammals-deaths.html",
+          "source": "Phys.org",
+          "summary": "Conservation groups have raised alarms following the death of a dolphin moved from France to Spain, alongside other recent transfers from Canada.",
+          "paragraph": "On Sunday, conservation organizations condemned the death of a dolphin at a Spanish marine park. The animal had arrived at the facility following a transfer from France. Advocates pointed out that this incident follows the deaths of other sea mammals that were recently moved to Spain from Canada. These consecutive fatalities have raised serious alarm among groups monitoring the welfare of relocated marine wildlife.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rocky-the-dolphin-died.jpg"
+        },
+        {
+          "title": "Indonesia releases eight orangutans rescued from fires to protected forest",
+          "link": "https://phys.org/news/2026-10-indonesia-orangutans-forest.html",
+          "source": "Phys.org",
+          "summary": "Indonesian authorities and rescuers have released eight orangutans saved from Borneo island blazes into a protected forest.",
+          "paragraph": "Indonesian authorities and rescue personnel have freed eight orangutans into a protected forest. The animals were saved in recent weeks as destructive fires tore across Borneo island. Rescue workers and officials intervened to pull the eight primates away from the blazes. Both the authorities and the rescue teams confirmed the safe release on Sunday.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/indonesian-authorities.jpg"
+        },
+        {
+          "title": "At least 4 dead as cyclone Isaias drenches southern U.S.",
+          "link": "https://phys.org/news/2026-10-dead-cyclone-isaias-drenches-southern.html",
+          "source": "Phys.org",
+          "summary": "Four people died in the southeastern United States as post-tropical cyclone Isaias posed flooding and tornado risks Saturday as it moved northward after making landfall on Florida's Gulf Coast.",
+          "paragraph": "Four people died in the southeastern United States as post-tropical cyclone Isaias posed flooding and tornado risks Saturday as it moved northward after making landfall on Florida's Gulf Coast.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-strong-wind-overtu.jpg"
+        },
+        {
+          "title": "Jurassic fossil reveals ancient origins of how mammals drink milk",
+          "link": "https://phys.org/news/2026-10-jurassic-fossil-reveals-ancient-mammals.html",
+          "source": "Phys.org",
+          "summary": "An international team of researchers has uncovered new evidence illuminating the evolutionary origins of one of the defining features of mammals: the ability to suckle and consume milk during infancy....",
+          "paragraph": "An international team of researchers has uncovered new evidence illuminating the evolutionary origins of one of the defining features of mammals: the ability to suckle and consume milk during infancy. Their findings, published in Nature, suggest that key anatomical structures required for mammalian suckling, swallowing and breastfeeding behaviors evolved nearly 165 million years ago, long before the appearance of modern mammals.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/jurassic-fossil-reveal.jpg"
+        },
+        {
+          "title": "Hurricane Simon strengthens as it nears western Mexico",
+          "link": "https://phys.org/news/2026-10-hurricane-simon-nears-western-mexico.html",
+          "source": "Phys.org",
+          "summary": "Hurricane Simon strengthened into a powerful Category 4 storm and was expected to make landfall or skirt the coast of west-central Mexico on Sunday, according to the U.S. National Hurricane Center.",
+          "paragraph": "Hurricane Simon strengthened into a powerful Category 4 storm and was expected to make landfall or skirt the coast of west-central Mexico on Sunday, according to the U.S. National Hurricane Center.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-national-guard-membe.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Tokenized Stocks Show Real Demand But Remain Volatile and Illiquid, IMF Finds",
+          "link": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
+          "source": "Decrypt",
+          "summary": "An IMF analysis found that more than half of tokenized stock trading happens outside U.S. market hours, though the roughly $2.3 billion market remains more volatile and less liquid than traditional eq...",
+          "paragraph": "Tokenized stocks may be a small market, but their traders aren\u2019t keeping Wall Street hours. Tokenized stocks may be a small market, but their traders aren\u2019t keeping Wall Street hours. More than half of tokenized equity trading happens outside regular U.S. market hours, according to the International Monetary Fund\u2019s latest Global Financial Stability Report. About 80% of trades involve less than a full share, a sign of strong demand for fractional ownership among retail investors. Tokenized stocks are blockchain-based tokens that track the shares of publicly traded companies. The IMF studied the five most liquid tokenized U.S. equities, including tokens tracking Tesla, Nvidia, and the S&P 500, across 11 trading venues over 365 days. The data suggest onchain prices carry real information.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Chart4_red-gID_7.png"
+        },
+        {
+          "title": "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks",
+          "link": "https://cointelegraph.com/news/saylors-teases-strategy-bitcoin-buying-after-ending-september-with-strc-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Investors will have to wait an extra day to find out if and how much Strategy added to its Bitcoin treasury in the first week of October.",
+          "paragraph": "Investors will have to wait an extra day to find out if and how much Strategy added to its Bitcoin treasury in the first week of October.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4NVX0EM8XS2QYBBRNFM2NW0/hi-why-saylors-strategy-keeps-buying-bitcoin-the-long-term-bet-explained-1.png"
+        },
+        {
+          "title": "Bitcoin, Ethereum and Solana ETFs All in the Red for October",
+          "link": "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
+          "source": "Decrypt",
+          "summary": "Bitcoin ETFs have seen $386.3 million in net outflows through the first seven trading days of October, while Ethereum funds have now posted nine straight days of losses.",
+          "paragraph": "\u201cUptober\u201d isn\u2019t living up to its name for crypto ETFs as Bitcoin, Ethereum, and Solana are all in the red for the month so far. U.S. spot Bitcoin ETFs took in $21.1 million on Friday, according to Decrypt\u2019s ETF tracker. That\u2019s a modest bounce after back-to-back outflows of $484.9 million on Wednesday and $244.1 million on Thursday. Even so, the funds are down a net $386.3 million through the first seven trading days of October. Bitcoin and other crypto asset ETFs allow investors to gain exposure to digital currencies without using crypto exchanges or wallets. These funds track the price of the asset and trade like stocks on a brokerage app. They\u2019ve been very successful since their launch, and flows in and out of the funds have become a reliable measure of current market sentiment.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg"
+        },
+        {
+          "title": "Clarity's failure could speed crypto innovation while shielding incumbents",
+          "link": "https://www.coindesk.com/policy/2026/10/11/clarity-s-failure-could-speed-crypto-innovation-while-shielding-incumbents",
+          "source": "CoinDesk",
+          "summary": "Clarity's failure could speed crypto innovation while shielding incumbents",
+          "paragraph": "Executives see openings for tokenization, DeFi and dealmaking, while lawyers warn agency action leaves spot-market oversight and lasting certainty unresolved. 4 min readMake preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake preferred on SummaryShowSEC and CFTC initiatives could expand regulated onchain trading and institutional access.Legal experts expect gradual progress, with gaps Congress must address.Executives see opportunities for DeFi, but established exchanges could retain their competitive advantage.The Digital Asset Market Clarity Act\u2019s failure to advance in the Senate has shifted the next phase of U.S.",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/bb0e02fe77cc6bb9eae2b1c4887014c319e9800f-4928x2772.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
+          "link": "https://www.coindesk.com/markets/2026/10/11/president-trump-declares-energy-ceasefire-between-russia-and-ukraine",
+          "source": "CoinDesk",
+          "summary": "President Trump declares 'energy ceasefire' between Russia and Ukraine",
+          "paragraph": "\"Ukraine supports the ceasefire, and it is important that Russia support it as well,\" said Ukrainian President Zelensky. 1 min readMake preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake preferred on SummaryShowPresident Trump declared an \u201cenergy ceasefire\u201d between Russia and Ukraine.\u201cUkraine supports the ceasefire, and it is important that Russia support it as well,\u201d said Ukrainian President Zelensky.After initially not reacting to the Trump posting, crypto markets moved higher on the Zelensky response.\u201cEffective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine,\u201d said President Trump on Truth Social Sunday morning. \u201cBoth parties have agreed.",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/728f1c4d7d3e3ad57795074a8f7602efad6c0fb7-5636x3170.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
