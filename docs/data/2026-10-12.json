@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-12",
+  "display_date": "October 12, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "source": "TechCrunch",
+          "summary": "Meta has launched Muse Wonder and Muse Wonder Full, its first frontier AI models designed for complex tasks and long-term memory.",
+          "paragraph": "Meta\u2019s Superintelligence Lab has launched Muse Wonder and Muse Wonder Full, marking the tech giant\u2019s first release of frontier-level artificial intelligence models. These larger systems improve upon the earlier lightweight Muse Spark, delivering stronger coding capabilities and benchmark results on par with Fable 5.1 and GPT-6 Astra. Aiming to build persistent personal assistants, Meta designed the models with an active memory feature to retain and synthesize user information over long periods",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-1.09.43-PM.jpg?resize=1200,676"
+        },
+        {
+          "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+          "link": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+          "source": "WIRED",
+          "summary": "Elon Musk accidentally exposed his private purchase details on X, allowing users to tamper with his Grok-assisted Lego Star Wars order.",
+          "paragraph": "While showcasing his Grok AI tool on X, Elon Musk accidentally revealed his Lego order number, email, and partial payment details to over 240 million followers. Pranksters swiftly capitalized on the leak, with an account named Enderman attempting to cancel the Star Wars purchase through Lego's customer service chatbot. Musk claimed the order survived, but another user manipulated Lego's AI assistant to switch the delivery address and increase the order to 400 sets on Musk's card. Lego declined to comment on whether its automated systems or human staff flagged the suspicious changes. The mishap occurred just after Musk, Meta, and OpenAI pushed the benefits of using AI agents for automated shopping tasks. However, Visa recently warned that fraudulent sellers are tricking shopping bots to steal sensitive payment information. Highlighting the vulnerability, Visa recorded a 40 percent spike in malicious bot-driven transactions across the United States in late 2025.",
+          "image": "https://media.wired.com/photos/6acd1d72b814f6f25010ecb2/master/pass/Musk-Brags-About-Lego-Grok-Star-Wars-Haul-Gear.jpg"
+        },
+        {
+          "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+          "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+          "source": "TechCrunch",
+          "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+          "paragraph": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million. AI WindBorne wins a hefty US Air Force contract for its balloon data Tim Fernholz 10:19 AM PDT \u00b7 October 12, 2026 The U.S. Air Force will buy data collected by WindBorne Systems\u2018 fleet of autonomous weather balloons under a new contract that could be worth nearly $50 million to the startup. WindBorne currently has about 700 weather balloons flying around the globe, collecting atmospheric sensor readings that the company sells to customers and also feeds into its own AI weather forecasting model.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/Pic-8.jpg?resize=1200,675"
+        },
+        {
+          "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+          "link": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+          "source": "WIRED",
+          "summary": "Meta has launched its Muse Wonder artificial intelligence models, returning the company to the frontier of AI development alongside major rivals.",
+          "paragraph": "Meta has introduced Muse Wonder and Muse Wonder Full, two artificial intelligence models designed to return the company to the forefront of AI development. The release follows CEO Mark Zuckerberg's multibillion-dollar reboot of Meta's AI division under Meta Superintelligence Labs leader Alexandr Wang. Meta says its largest model beats OpenAI's GPT-6 Astra and Anthropic's Claude Fable 5.1 on benchmarks for legal analysis and software coding. Available through an API and",
+          "image": "https://media.wired.com/photos/6accff96fccc4c5244b94f14/master/pass/Muse-Wonder-Puts-Meta-Back-at-the-AI-Frontier-Business-2296209266.jpg"
+        },
+        {
+          "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+          "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+          "source": "TechCrunch",
+          "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+          "paragraph": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better? Media & Entertainment Honeyjar offers AI tools to improve PR and comms at every company Anthony Ha 8:45 AM PDT \u00b7 October 12, 2026 Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken (buy me a drink sometime, and I\u2019ll give you my rant). But could AI actually make things better? Honeyjar, which will be attending this week\u2019s TechCrunch Disrupt as part of the Startup Battlefield 200, wants to use AI to make the expertise and judgment of the best PR pros available to everyone, including founders who have no idea where to start.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/honeyjar-founders.jpg?resize=960,1200"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "The Social Reckoning is flopping at the box office",
+          "link": "https://www.theverge.com/entertainment/1009630/social-reckoning-box-office-other-mommy",
+          "source": "The Verge",
+          "summary": "As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office.",
+          "paragraph": "Aaron Sorkin isn\u2019t making many friends. Entertainment Tech Film The Social Reckoning is flopping at the box officeMeanwhile, Other Mommy is having an unexpected moment.\ufeff Charles Pulliam-Moore Oct 12, 2026, 9:20 PM UTCLinkShareGiftImage: Columbia PicturesCharles Pulliam-Moore is a reporter focusing on film, TV, and pop culture. Before The Verge, he wrote about comic books, labor, race, and more at io9 and Gizmodo for almost five years.As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron\u2019s Sorkin\u2019s follow up to The Social Network only grossed a measly $5.5 million this past weekend against a budget that\u2019s somewhere within the $30\u201342 million range.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DF-04750_r.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200"
+        },
+        {
+          "title": "The US Army is handing out over $4.15 billion to any company able to stop low-cost drone attacks on home soil",
+          "link": "https://www.techradar.com/pro/the-us-army-is-handing-out-over-usd4-15-billion-to-companies-able-to-stop-low-cost-drone-attacks-on-home-soil",
+          "source": "TechRadar",
+          "summary": "US Army awards $4.15 billion to 10 companies to defend bases against cheap drones after Iranian attacks damaged American facilities.",
+          "paragraph": "US Army launches $4.15B counter-drone marketplace with 10 companies \u2014 but relies on strict open architecture to break vendor lock-in The awards fall under Domestic Shield, a Department of Defense initiative intended to strengthen protection against unmanned aircraft without restricting procurement to individual suppliers. Seven companies will receive $500 million each, while three others secured smaller awards, establishing a multi-vendor arrangement with a maximum value of $7 billion. Allen Control Systems, Digital Force Technologies, DroneShield, L3Harris WESCAM, Napatree Technology, RADA Technologies and SRC each received contracts with $500 million base values under the initiative.",
+          "image": "https://cdn.mos.cms.futurecdn.net/f4bc45Y5nPZS2UKRydrrYH-1920-80.png"
+        },
+        {
+          "title": "Valor Mortis review: even with satisfying parry-focused combat, it's impossible to overlook flaws",
+          "link": "https://www.techradar.com/gaming/valor-mortis-review",
+          "source": "TechRadar",
+          "summary": "Valor Mortis offers a satisfying and meaty parry-focused combat system at its core while showing flashes of inventiveness in some areas and set pieces, but several frustrating elements keep rearing up...",
+          "paragraph": "Valor Mortis offers a satisfying and meaty parry-focused combat system at its core while showing flashes of inventiveness in some areas and set pieces, but several frustrating elements keep rearing up that prevent it from landing entirely. The snappy and satisfying parry-focused combat of Valor Mortis will surely delight fans of Sekiro and Lies of P who are looking for a \u2018Souls-like\u2019 experience from a new perspective. But while it builds on that core with some inventive set pieces and a gloomy atmosphere, the restrictions of the first-person view make some encounters clunky or irritating, and an obsession with trickery is grating. Why you can trust TechRadar We spend hours testing every product or service we review, so you can be sure you're buying the best.",
+          "image": "https://cdn.mos.cms.futurecdn.net/wzz3zXgdivfZXWLar4nwHV-1920-80.jpg"
+        },
+        {
+          "title": "Epic reportedly delays its Disney video game so it can be made using more AI",
+          "link": "https://www.engadget.com/2284680/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/",
+          "source": "Engadget",
+          "summary": "Developers were apparently ordered to use AI for both code and asset creation.",
+          "paragraph": "Developers were apparently ordered to use AI for both code and asset creation. Cristian Bonaviri/Shutterstock Add Engadget on Google: Preferred Source Google Discover Epic Games is going all in on AI for game development. The studio has been working on games for Disney, but sources told Bloomberg that its upcoming release has been delayed in order to use more AI for its creation. The publication reported that one of the game's directors informed the team that the project would be adopting an \"AI first\" production plan.",
+          "image": "https://www.engadget.com/img/gallery/epic-reportedly-delays-its-disney-video-game-so-it-can-be-made-using-more-ai/l-intro-1791837940.jpg"
+        },
+        {
+          "title": "The Apple Upgrade program is great for consumers and Apple, but bad for carriers like Verizon and AT&T \u2014 here's why",
+          "link": "https://www.techradar.com/phones/iphone/19-years-ago-the-iphone-broke-the-cell-carrier-business-and-built-what-we-have-today-and-apples-new-upgrade-program-could-break-it-all-over-again",
+          "source": "TechRadar",
+          "summary": "The original iPhone transformed the way carriers like AT&amp;T operate \u2014 and the Apple Upgrade program is Apple's next big power play.",
+          "paragraph": "The original iPhone transformed the way carriers like AT&T operate \u2014 and the Apple Upgrade program is Apple The same existential threat applied to all carriers except AT&T and O2, which had exclusive launch rights to the iPhone in the US and UK, respectively. Fast-forward 19 years, and Apple has repeatedly proven that the iPhone's popularity gives it considerable power over its carrier partners \u2014 customers are no longer loyal to the carrier providing the mobile service, but to the brand behind their favorite phone. Apple's newest commercial venture, the Apple Upgrade program \u2014 which was announced earlier this year and is, at the time of writing, still only available in the US \u2014 is the latest dagger to the heart of major MNOs (Mobile Network Operators).",
+          "image": "https://cdn.mos.cms.futurecdn.net/Bc3ZPqzrHxPyiHVkVC67gG-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+          "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+          "source": "TechCrunch",
+          "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+          "paragraph": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million. AI WindBorne wins a hefty US Air Force contract for its balloon data Tim Fernholz 10:19 AM PDT \u00b7 October 12, 2026 The U.S. Air Force will buy data collected by WindBorne Systems\u2018 fleet of autonomous weather balloons under a new contract that could be worth nearly $50 million to the startup. WindBorne currently has about 700 weather balloons flying around the globe, collecting atmospheric sensor readings that the company sells to customers and also feeds into its own AI weather forecasting model.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/Pic-8.jpg?resize=1200,675"
+        },
+        {
+          "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+          "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+          "source": "TechCrunch",
+          "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+          "paragraph": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better? Media & Entertainment Honeyjar offers AI tools to improve PR and comms at every company Anthony Ha 8:45 AM PDT \u00b7 October 12, 2026 Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken (buy me a drink sometime, and I\u2019ll give you my rant). But could AI actually make things better? Honeyjar, which will be attending this week\u2019s TechCrunch Disrupt as part of the Startup Battlefield 200, wants to use AI to make the expertise and judgment of the best PR pros available to everyone, including founders who have no idea where to start.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/honeyjar-founders.jpg?resize=960,1200"
+        },
+        {
+          "title": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
+          "link": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
+          "source": "TechCrunch",
+          "summary": "Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model.",
+          "paragraph": "Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model. Biotech & Health Smart ring maker Ultrahuman to roll out biological-age model across UAE Jagmeet Singh 7:09 AM PDT \u00b7 October 12, 2026 Ultrahuman, a Bengaluru-based health tech startup best known for its smart rings, has partnered with Abu Dhabi health authorities to develop a biological-age model that it says will eventually be made available to people across the United Arab Emirates. On Monday, Ultrahuman announced that it had signed a two-year memorandum of understanding with the Abu Dhabi Public Health Center (ADPHC) to develop and validate the model, which will combine clinical biomarkers with data from wearable devices.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/ultrahuman-ring-air.jpg?resize=1200,800"
+        },
+        {
+          "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+          "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+          "source": "TechCrunch",
+          "summary": "Tomorrow at 8 a.m. PT, it all begins z\u2014 10,000+ founders, investors, and tech operators will gather at San Francisco\u2019s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, an...",
+          "paragraph": "Come to the Expo Hall to discover 300+ exhibiting emerging startups, meet founders, see new products, and make connections across the startup ecosystem. The Expo Hall is where all 10,000+ leaders converge. Come for the 200+ sessions across six stages, interactive roundtables, and Q&A breakouts to hear from 250+ tech leaders who\u2019ve made waves in the ecosystem, dig into the issues shaping the industry, and watch 20 Startup Battlefield finalists compete live on the Disrupt Stage for the $100,000 prize. Or make the most of both and build your own Disrupt agenda across the three days. That\u2019s what sets Disrupt apart: Founders looking for investors. Investors looking for promising startups. Department heads searching for solutions. Tech leaders seeking fresh ideas.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/02/TCD26_24Hours-16X9-Dark.png?resize=1200,675"
+        },
+        {
+          "title": "The founder\u2019s guide to TechCrunch Disrupt 2026: Everything you need to know",
+          "link": "https://techcrunch.com/2026/10/11/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+          "source": "TechCrunch",
+          "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+          "paragraph": "Last year at Disrupt, we spoke with founders about their experiences and discovered the results of their attendance firsthand. One founder saw a 3x oversubscription rate after their confirmation for Startup Battlefield and more than 100 investor inbounds helping fuel conversations about a future fundraising round. Another founder had nearly 30 back-to-back conversations with investors who flocked to them after a pitch onstage and followed them to their booth. That\u2019s not the exception at Disrupt \u2014 that\u2019s the point. And those opportunities aren\u2019t just available for Battlefield finalists. Every conversation in the Expo Hall or in a Side Event can create an opportunity for your startup.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/54885169397_78fc033af7_k-1.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Reinforced vertebrae allow plunge-diving seabirds to survive high-speed impact",
+          "link": "https://phys.org/news/2026-10-vertebrae-plunge-seabirds-survive-high.html",
+          "source": "Phys.org",
+          "summary": "A northern gannet scans the sea for fish from 100 feet (30 meters) in the air. Upon seeing a school, it pitches its body into a nosedive, somehow breaking the surface at 70 miles per hour (113 kilomet...",
+          "paragraph": "A northern gannet scans the sea for fish from 100 feet (30 meters) in the air. Upon seeing a school, it pitches its body into a nosedive, somehow breaking the surface at 70 miles per hour (113 kilometers per hour) without breaking its neck. This daring maneuver seems to defy the laws of nature, but it's standard hunting behavior for plunge-diving seabirds.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/reinforced-vertebrae-a.jpg"
+        },
+        {
+          "title": "Global satellite data reveal widening recovery gap between urban and rural vegetation",
+          "link": "https://phys.org/news/2026-10-global-satellite-reveal-widening-recovery.html",
+          "source": "Phys.org",
+          "summary": "A global study has revealed a striking divergence in how urban and rural vegetation respond to climate stress.",
+          "paragraph": "A global study has revealed a striking divergence in how urban and rural vegetation respond to climate stress. The study was led by Jin Wu from the School of Biological Sciences, Faculty of Science, and professor Yuyu Zhou from the Department of Geography, Faculty of Social Sciences, at The University of Hong Kong (HKU), with Dr. Zhengfei Guo as the first author.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/global-urban-rural-veg.jpg"
+        },
+        {
+          "title": "Measuring wildfire plumes to predict extreme fire behavior",
+          "link": "https://phys.org/news/2026-10-wildfire-plumes-extreme-behavior.html",
+          "source": "Phys.org",
+          "summary": "Predicting the unpredictable starts with understanding how extreme wildfires develop and under what conditions. This knowledge is essential to better anticipate and respond to them.",
+          "paragraph": "Predicting the unpredictable starts with understanding how extreme wildfires develop and under what conditions. This knowledge is essential to better anticipate and respond to them. To achieve this, firefighter and researcher Marc Castellnou and the GRAF/Bombers Catalonia team measure the atmosphere both inside and outside wildfire plumes.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/wildfire-plume.jpg"
+        },
+        {
+          "title": "Cholesterol-linked drug boosts gene-targeting potency in early findings",
+          "link": "https://phys.org/news/2026-10-cholesterol-linked-drug-boosts-gene.html",
+          "source": "Phys.org",
+          "summary": "Nucleic acid therapeutics, such as antisense oligonucleotides (ASOs), have emerged as promising platforms for treating a variety of previously hard-to-treat diseases, including neurological diseases.",
+          "paragraph": "Nucleic acid therapeutics, such as antisense oligonucleotides (ASOs), have emerged as promising platforms for treating a variety of previously hard-to-treat diseases, including neurological diseases.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-robust-long-last.jpg"
+        },
+        {
+          "title": "Vapor-based method creates ultralight aerogels without conventional liquid-based chemistry",
+          "link": "https://phys.org/news/2026-10-vapor-based-method-ultralight-aerogels.html",
+          "source": "Phys.org",
+          "summary": "Researchers at National Taiwan University (NTU), working across the College of Engineering, College of Medicine and National Taiwan University Hospital (NTUH), have developed a new method for producin...",
+          "paragraph": "Researchers at National Taiwan University (NTU), working across the College of Engineering, College of Medicine and National Taiwan University Hospital (NTUH), have developed a new method for producing aerogels, introducing what they describe as the world's first purely gaseous-born aerogel fabrication platform. The study is published in Nature Communications.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-research-reveals-p.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Standard Chartered Will Hold Ripple's Stablecoin in Dubai\u2014And Let Clients Trade With It Without Moving It",
+          "link": "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai",
+          "source": "Decrypt",
+          "summary": "The bank's Dubai branch now offers custody for Ripple's RLUSD stablecoin and plans a link with LMAX that lets institutions post it as trading collateral while the coins stay put.",
+          "paragraph": "Standard Chartered's Dubai branch now offers custody for Ripple's RLUSD stablecoin and plans a link with LMAX. Standard Chartered will now hold Ripple\u2019s dollar-pegged stablecoin for institutional clients in Dubai, and it wants to let them trade with those tokens without ever handing them over to an exchange. \u201cStandard Chartered today announced that it now supports institutional custody of Ripple USD (RLUSD) issued on the XRP Ledger (XRPL), giving eligible clients access to the Bank\u2019s digital asset custody infrastructure.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png"
+        },
+        {
+          "title": "FTX\u2019s crypto mining venture is now used to advance AI",
+          "link": "https://cointelegraph.com/news/ftx-crypto-mining-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "The defunct exchange acquired a 20% stake in Genesis Digital Assets before FTX declared bankruptcy in November 2022.",
+          "paragraph": "An investment company behind scaling AI and data centers has reportedly acquired Genesis Digital Assets, a mining venture previously controlled by FTX.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4RW88XV464BJDJNJTY3D37E/hi-top-5-biggest-mining-farms.jpg"
+        },
+        {
+          "title": "Meta's New Muse Wonder Finally Puts Zuckerberg in the Frontier AI Race",
+          "link": "https://decrypt.co/380768/meta-muse-wonder-zuckerberg-frontier-ai-race",
+          "source": "Decrypt",
+          "summary": "Meta's new flagship beats GPT-6 Astra and Claude on memory, legal and marathon coding tests, but independent rankings still put Anthropic's Opus 5.5 on top.",
+          "paragraph": "Meta's new flagship AI model Muse Wonder beats GPT-6 Astra and Claude on memory, legal, and marathon coding tests. Meta released Muse Wonder and Muse Wonder Full on Monday, the first models from its Superintelligence Labs that the company is willing to put head-to-head with the best from OpenAI and Anthropic. \u201cMuse Wonder is a major leap towards delivering personal superintelligence for everyone,\u201d Zuckerberg wrote on Threads. \u201cCongrats to everyone on our team for achieving this milestone.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png"
+        },
+        {
+          "title": "From GTA V on iPhone to Free Photoshop: This AI Tool Is Upending Software",
+          "link": "https://decrypt.co/380741/gta-v-iphone-free-photoshop-ai-tool-rea-upending-software",
+          "source": "Decrypt",
+          "summary": "REA, a free toolkit that hands AI agents the keys to reverse engineering, crossed 100,000 GitHub stars in a week as AI-decompiled game mods, console ports, and Adobe clones flood the internet.",
+          "paragraph": "REA, a free toolkit that hands AI agents the keys to reverse engineering, is the hottest thing on Github right now. Here's why. Would you like to kill a boss in Skyrim using an AK47 from Counter Strike? Give your NPCs a real genius-level brain that gives you unique answers instead of predefined strings of text? Would you like to run GTA V on your iPhone? What about using paid software for free, and legally? Well, people are doing that and more with AI right now. A free tool that lets AI agents pull apart almost any piece of software has become the hottest project on GitHub, jumping from fewer than 10,000 stars on October 6 to more than 100,000 by Monday. It\u2019s called REA, short for Reverse Engineer Anything.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/gaming-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Here\u2019s what happened in crypto today",
+          "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+          "paragraph": "Today in crypto, US accounting regulators weigh stablecoin changes, the FSB flags financial stability risks ahead of the G20 and XRP Ledger developers defend an emergency security fix.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        }
+      ]
+    }
+  ]
+}
