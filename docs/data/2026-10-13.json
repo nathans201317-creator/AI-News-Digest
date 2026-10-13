@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-13",
+  "display_date": "October 13, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+          "link": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+          "source": "WIRED",
+          "summary": "AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain\u2019s spy chief warned AI could be used to create new bioweapons.",
+          "paragraph": "AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain\u2019s spy chief warned AI could be used to create new bioweapons. LoaderSave StorySave this storyCommentLoaderSave StorySave this storyRepresentatives for OpenAI and Anthropic told a British parliamentary hearing that voluntary pledges were no longer enough to ensure safety and that new laws should be introduced, deepening a public schism with Google DeepMind and Meta, both of which declined to back new legislation.",
+          "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg"
+        },
+        {
+          "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+          "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+          "source": "TechCrunch",
+          "summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+          "paragraph": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure. AI Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads Ram Iyer 11:30 AM PDT \u00b7 October 13, 2026 When I was eight, I remember our train to Mumbai ground to a halt with a great noise. When we started moving again, a good eight hours later, someone pointed out a mangled tail, of all things, hanging from a branch close to the tracks. The train, you see, had apparently hit a wild bison at full speed, and the impact damaged the engine so badly that it had to be towed away for repairs.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/founders-sara-tomas-full.jpg?w=828"
+        },
+        {
+          "title": "Facebook is giving users more control over their algorithm",
+          "link": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+          "source": "TechCrunch",
+          "summary": "Meta announced the launch of its new AI-powered feature, \u201cYour Algorithm,\u201d a feature it first launched on Instagram.",
+          "paragraph": "Meta announced the launch of its new AI-powered feature, \u201cYour Algorithm,\u201d a feature it first launched on Instagram. Apps Facebook is giving users more control over their algorithm Lauren Forristal 11:05 AM PDT \u00b7 October 13, 2026 Facebook is the latest social media platform to give users greater control over the algorithm that determines what appears in their feeds. Meta announced the launch of its new AI-powered feature, \u201cYour Algorithm,\u201d on Tuesday, a feature it first launched on Instagram. The new tool allows Facebook users to influence the content they see in Feed and Reels by describing their preferences in their own words using natural language.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/YourAlgorithm-FB.png?w=1200"
+        },
+        {
+          "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+          "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+          "source": "TechCrunch",
+          "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment.",
+          "paragraph": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco. Robotics Laplace Intelligence red-teams robots and self-driving cars before they hit the real world Rebecca Bellan 10:30 AM PDT \u00b7 October 13, 2026 If there\u2019s one lesson the OpenAI-Hugging Face incident taught us, it\u2019s that AI agents can be unpredictable. \u201cImagine if something like that happened in the physical world,\u201d Howie Sun, CEO and co-founder of Laplace Intelligence, told TechCrunch.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2274650383.jpg?resize=1200,840"
+        },
+        {
+          "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+          "link": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+          "source": "TechCrunch",
+          "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways.",
+          "paragraph": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon. AI Pluto Security raises $42M as AI gives enterprise security teams a new headache Ram Iyer 10:18 AM PDT \u00b7 October 13, 2026 The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot_20261013_211032.png?resize=1200,815"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Trump's super intelligence is rapidly catching up in the USA with 3X rise in search as Google Trends shows decreasing interest in 'Enemy' AI \u2014 while the rest of the world blissfully ignores it",
+          "link": "https://www.techradar.com/pro/trumps-super-intelligence-is-rapidly-catching-up-in-the-usa-with-3x-rise-in-search-as-google-trends-shows-decreasing-interest-in-enemy-ai-while-the-rest-of-the-world-blissfully-ignores-it",
+          "source": "TechRadar",
+          "summary": "The term \u201csuper intelligence\u201d is growing in prominence in the US \u2013 but the rest of the world is sticking with \u201cartificial intelligence\u201d",
+          "paragraph": "In the US, Following the signing of Executive Order 14434, the purpose of which is \u201cInaugurating the Age of Super Intelligence,\u201d the POTUS has taken to social media to emphasize the preferred term for artificial intelligence in the Land of the Free. While the rest of civilization continues with the term \u201cartificial intelligence,\u201d it seems the US public quite likes the term \u201csuper intelligence,\u201d which is believed to have been introduced to cast AI in a more positive light. Since the executive order was passed, interest in the term \u201csuper intelligence\u201d grew considerably, increasing by around three times at one point. Of course, this only happened in the USA - worldwide, attention was not drawn to the revised nomenclature.",
+          "image": "https://cdn.mos.cms.futurecdn.net/gZWeSm7TfJqCmsgQBrYCnL-1920-80.jpg"
+        },
+        {
+          "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+          "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+          "source": "The Verge",
+          "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games...",
+          "paragraph": "Xbox Labs is a new group exploring emerging game technology News AI Gaming Xbox is officially embracing the chaos of AI-powered game portsMicrosoft has created a new Xbox Labs group to experiment with decompiling and recompiling games. Microsoft has created a new Xbox Labs group to experiment with decompiling and recompiling games. Tom Warren Oct 13, 2026, 7:00 PM UTCLinkShareGiftImage: MicrosoftPart OfReverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D portssee all updates Tom Warren is a senior correspondent and author of Notepad, who has been covering all things Microsoft, PC, and tech for over 20 years.Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to n...",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/XBOX-LABS-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+        },
+        {
+          "title": "Niobia takes the guesswork out of some of tech\u2019s most expensive mistakes",
+          "link": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes/",
+          "source": "TechCrunch",
+          "summary": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes.",
+          "paragraph": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes. Hardware Niobia takes the guesswork out of some of tech\u2019s most expensive mistakes Zack Whittaker 12:00 PM PDT \u00b7 October 13, 2026 San Francisco-based startup Niobia is betting big on a critical but often overlooked part of battery and chip making: helping engineers understand how and why things go wrong. Its AI software flags production defects and lets engineers ask a chatbot what caused them, aiming to deliver answers in minutes rather than days. How it works (broadly): The company\u2019s customers place AI agents on their production lines to look for defects, then loop in human engineers to work out what might cause a product to fail.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1425330574.jpg?resize=1200,800"
+        },
+        {
+          "title": "VisionQuest will show you an 'older and more mature' but still dangerous Ultron, star says",
+          "link": "https://www.techradar.com/streaming/disney-plus/visionquest-ultron-return",
+          "source": "TechRadar",
+          "summary": "The man responsible for bringing Ultron to life in the MCU has teased what fans can expect from the returning villain.",
+          "paragraph": "The man responsible for bringing Ultron to life in the MCU has teased what fans can expect from the returning villain. Speaking exclusively to TechRadar at the series' UK junket, Spader teased how Ultron has evolved since his sole appearance in the Marvel Cinematic Universe (MCU), which came in 2014's Avengers: Age of Ultron. Back then, fans believed they'd seen the last of the genocidal android because \u2014 spoilers for a 12-year-old movie incoming \u2014 Ultron was destroyed. However, over a decade on from his apparent demise at Vision's hands, Ultron has returned, with a back-up copy of his source code retained by Vision in his mind \u2014 or, rather, his quantum processor. In the years that have followed, Ultron has been able to observe humanity and events in the MCU through Vision's eyes.",
+          "image": "https://cdn.mos.cms.futurecdn.net/TSJ66xcytnwz3Qrkr3jNPi-1920-80.jpg"
+        },
+        {
+          "title": "The Nothing Headphone A are half off for the first time",
+          "link": "https://www.theverge.com/gadgets/1010384/nothing-headphone-a-charli-xcx-deal-sale",
+          "source": "The Verge",
+          "summary": "One of the best deals we\u2019ve seen today bundles together a great pair of headphones with a solid album.",
+          "paragraph": "You can get the Nothing Headphone A at a steep discount when you also buy a Charli XCX album. Gadgets Headphones Verge Shopping The Nothing Headphone A are half off for the first timeYou can get the Nothing Headphone A at a steep discount when you also buy a Charli XCX album. You can get the Nothing Headphone A at a steep discount when you also buy a Charli XCX album. Brad Bourque Oct 13, 2026, 6:33 PM UTCLinkShareIf you buy something from a link, The Verge may earn a commission. See our ethics statement. Nothing\u2019s second over-ear headphones may not offer everything found on the pricier Nothing Headphone 1, but you do get physical controls, good sound, and more than five days of battery life per charge. Their design is also a bit more discreet, for better or worse. Read our review.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268383_Nothing_Headphones_JHiggins_0004.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Niobia takes the guesswork out of some of tech\u2019s most expensive mistakes",
+          "link": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes/",
+          "source": "TechCrunch",
+          "summary": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes.",
+          "paragraph": "The San Francisco startup aims to help battery and chip manufacturers identify defects on production lines, reducing downtime and costly mistakes. Hardware Niobia takes the guesswork out of some of tech\u2019s most expensive mistakes Zack Whittaker 12:00 PM PDT \u00b7 October 13, 2026 San Francisco-based startup Niobia is betting big on a critical but often overlooked part of battery and chip making: helping engineers understand how and why things go wrong. Its AI software flags production defects and lets engineers ask a chatbot what caused them, aiming to deliver answers in minutes rather than days. How it works (broadly): The company\u2019s customers place AI agents on their production lines to look for defects, then loop in human engineers to work out what might cause a product to fail.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1425330574.jpg?resize=1200,800"
+        },
+        {
+          "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+          "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+          "source": "TechCrunch",
+          "summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+          "paragraph": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure. AI Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads Ram Iyer 11:30 AM PDT \u00b7 October 13, 2026 When I was eight, I remember our train to Mumbai ground to a halt with a great noise. When we started moving again, a good eight hours later, someone pointed out a mangled tail, of all things, hanging from a branch close to the tracks. The train, you see, had apparently hit a wild bison at full speed, and the impact damaged the engine so badly that it had to be towed away for repairs.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/founders-sara-tomas-full.jpg?w=828"
+        },
+        {
+          "title": "Forget rockets \u2014 Longshot wants to fire cargo into space from a gun. See it at TechCrunch Disrupt 2026",
+          "link": "https://techcrunch.com/2026/10/13/forget-rockets-longshot-wants-to-fire-cargo-into-space-from-a-gun-see-it-at-techcrunch-disrupt-2026/",
+          "source": "TechCrunch",
+          "summary": "Longshot is trying to build a gun big enough to make space data centers a reality.",
+          "paragraph": "Longshot is trying to build a gun big enough to make space data centers a reality. There are, at least in theory, other ways to do the job \u2014 space elevators, centrifuges, or a big chain hanging from a satellite in space and scooping up cargo from Earth. (Blue Origin spent some time thinking about that one before the idea wound up in a Neal Stephenson novel.) And then there\u2019s an idea dating all the way back to Jules Verne: Use a big gun to shoot a projectile into space. Longshot Space Technology, a startup based in Alameda, California, is working on exactly that. The co-founders, CEO Mike Grace and CTO Nato Saichek, see an opportunity to take a technology that has already proven its worth and apply it to the pressing need for space launch.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/IMG_1104.jpg?resize=900,1200"
+        },
+        {
+          "title": "The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between",
+          "link": "https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between/",
+          "source": "TechCrunch",
+          "summary": "Twenty founders just earned their shot at Disrupt glory. They're headed to the main stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup.",
+          "paragraph": "Twenty founders just earned their shot at Disrupt glory. They're headed to the main stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup. Startups The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between Isabelle Johannessen 8:02 AM PDT \u00b7 October 13, 2026 Twenty founders just earned their shot at Disrupt glory. They\u2019re headed to the Disrupt Stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup. Every year, thousands of founders from around the world pitch us on what they believe the future should look like. This year\u2019s Top 20 are building it from organs to orbit and everywhere in between. Across this cohort, one theme kept emerging: Making the previously invisible measurable.",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/11/54889460445_20c033b45a_o-2.jpg?resize=1200,800"
+        },
+        {
+          "title": "TechCrunch Disrupt 2026: Day 1",
+          "link": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1/",
+          "source": "TechCrunch",
+          "summary": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it.",
+          "paragraph": "From Startup Battlefield to six new industry stages focused on scaling, AI, fintech, climate tech, and more, Disrupt is packed with game-changing perspectives and opportunities. The next partnership, investment, or breakout company could emerge from any meeting, session, or coffee line conversation. Meet the 250+ speakers shaping the discussion. Grab your ticket now so you don\u2019t miss a moment at Disrupt. There\u2019s still a little time to grab your pass and be at this annual startup event. Stop by the registration desk in the Level 1 lobby of Moscone West to register in person or pick up your scannable event badge. The badge features Klik technology, which makes it easy to exchange contact information with people you scan your badge with.",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/10/Battlefield-crowd.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "The ocean circulation that persists even after a key AMOC component fails",
+          "link": "https://phys.org/news/2026-10-ocean-circulation-persists-key-amoc.html",
+          "source": "Phys.org",
+          "summary": "The Atlantic meridional overturning circulation (AMOC) is thought to face a potentially existential threat from climate change.",
+          "paragraph": "The Atlantic meridional overturning circulation (AMOC) is thought to face a potentially existential threat from climate change. But attempts to model what happens to AMOC as the oceans warm show divergent outcomes, leaving its fate unclear. In a paper published in AGU Advances, Shantong Sun and Andrew Thompson use a hierarchy of models to show that the cross-hemispheric overturning could persist for centuries even as North Atlantic Deep Water (NADW) formation shuts down.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-ocean-circulation.jpg"
+        },
+        {
+          "title": "Satellite model finds Alpine peatlands may be smaller than official maps show",
+          "link": "https://phys.org/news/2026-10-satellite-alpine-peatlands-smaller.html",
+          "source": "Phys.org",
+          "summary": "Peatlands in the Alps are mostly small, scattered and difficult to access. As a result, up-to-date information on their extent and condition is often lacking.",
+          "paragraph": "Peatlands in the Alps are mostly small, scattered and difficult to access. As a result, up-to-date information on their extent and condition is often lacking. An international research team, including researchers from the University of G\u00f6ttingen, has now developed a cross-border approach to identifying these particular areas. A comparison with official maps shows that the model identifies many peatlands as smaller than previously mapped\u2014particularly in areas where aerial photographs reveal visible signs of disturbance. The findings were published in the journal Communications Earth & Environme",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/alpine-peatlands-under.jpg"
+        },
+        {
+          "title": "Newly discovered antiviral system in bacteria is 'strangest of its kind'",
+          "link": "https://phys.org/news/2026-10-newly-antiviral-bacteria-strangest-kind.html",
+          "source": "Phys.org",
+          "summary": "Researchers at Gladstone Institutes have uncovered an unusual bacterial immune system that operates in reverse of known defenses.",
+          "paragraph": "Researchers at Gladstone Institutes have uncovered an unusual bacterial immune system that operates in reverse of known defenses. The discovery, published in Molecular Cell, details the mechanics of \"type VI retrons\"\u2014a counterintuitive class of bacterial defenses. More than just a biological curiosity, decoding these complex systems provides a molecular blueprint that scientists can adapt to engineer more efficient DNA-editing tools for human health and therapies.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/newly-discovered-antiv.jpg"
+        },
+        {
+          "title": "Before leaf miner damage shows, horse chestnut leaves alter how they function",
+          "link": "https://phys.org/news/2026-10-leaf-miner-horse-chestnut-function.html",
+          "source": "Phys.org",
+          "summary": "Researchers from E\u00f6tv\u00f6s Lor\u00e1nd University (ELTE) and Semmelweis University have investigated what happens to horse chestnut leaves when they are attacked from within by the horse chestnut leaf miner.",
+          "paragraph": "Researchers from E\u00f6tv\u00f6s Lor\u00e1nd University (ELTE) and Semmelweis University have investigated what happens to horse chestnut leaves when they are attacked from within by the horse chestnut leaf miner. Their findings show that the functioning of the leaf changes while the damage is still barely visible to the naked eye. The results have been published in the journal Plant Stress.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-horse-chestnut-lea.jpg"
+        },
+        {
+          "title": "NASA JPL testing readies Voyager technologies lander for moon mission",
+          "link": "https://phys.org/news/2026-10-nasa-jpl-readies-voyager-technologies.html",
+          "source": "Phys.org",
+          "summary": "A commercial lander that will be at the forefront of NASA's efforts to establish a moon base, humanity's first lunar outpost, has passed a series of critical tests at the agency's Jet Propulsion Labor...",
+          "paragraph": "A commercial lander that will be at the forefront of NASA's efforts to establish a moon base, humanity's first lunar outpost, has passed a series of critical tests at the agency's Jet Propulsion Laboratory in Southern California. The tests simulated the extreme temperatures and vacuum of space, as well as the intense shaking and ear-splitting roar of launch. Results show that Voyager Technologies' Griffin Mission One (Griffin-1) spacecraft is ready to survive the rigors of space exploration.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/engineers-in-white-cle.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Bitcoin Whale That Sat Through Every Crash Since 2020 Just Moved $377M",
+          "link": "https://decrypt.co/380867/bitcoin-whale-every-crash-2020-moves-377m",
+          "source": "Decrypt",
+          "summary": "A wallet that received 4,581 BTC in March 2020, worth about $40 million then, moved its stash today when it was worth about $377 million.",
+          "paragraph": "A wallet that received 4,581 BTC in March 2020, worth about $40 million then, moved its stash today when it was worth about $377 million. A Bitcoin wallet that has held 4,581.94 BTC since March 2020 sent its entire balance to five new addresses on Oct. 12, moving about $377 million in a single transaction, according to blockchain data. The transfer confirmed in block 971,126 at about 18:37 UTC, with Bitcoin trading around $82,350. Four of the receiving addresses got exactly 1,000 BTC each, and the fifth received 581.94 BTC. The transaction paid a fee of 732 satoshis, the hundred-millionth-of-a-bitcoin units known as sats, or about 60 cents. As of block 971,279 on Oct. 13, none of the five addresses has spent anything, and it is unclear who controls the wallet or where the coins are going.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-whale-decrypt-style-02-gID_7.jpg"
+        },
+        {
+          "title": "Here\u2019s what happened in crypto today",
+          "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+          "paragraph": "Today in crypto, MediaMarkt pulls Ledger products from its stores, Aptos launches encrypted transactions to curb MEV attacks and US accounting rules could boost stablecoin adoption.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        },
+        {
+          "title": "Trezor reduces resellers as a \u2018preventative step\u2019 amid Ledger tampering reports",
+          "link": "https://cointelegraph.com/news/trezor-preventative-steps-wallet-tampering-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "CCO Danny Sanders said he had notified certain hardware wallet resellers that they would be removed from Trezor\u2019s list of authorized entities starting Jan. 1.",
+          "paragraph": "Digital asset hardware wallet company Trezor is cracking down on resellers after reports that Ledger devices were compromised by an implant transmitting recovery phrases.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M4V7NT6A2R3BAJ7Y8P67T68T/hi-wallets.jpg"
+        },
+        {
+          "title": "Strive Buys $280 Million in Bitcoin, Its Largest Purchase in Months",
+          "link": "https://decrypt.co/380858/strive-buys-280-million-bitcoin-largest-purchase-months",
+          "source": "Decrypt",
+          "summary": "The Nasdaq-listed asset manager bought the Bitcoin at an average of about $84,500 during a rough week for the market, lifting its total stash to 32,773 BTC.",
+          "paragraph": "Strive scooped up another 3,311 BTC worth roughly $280 million in its biggest single purchase since January. Strive is piling into Bitcoin at its fastest clip of the year, scooping up another 3,311 BTC worth roughly $280 million in its biggest single purchase since January. The Nasdaq-listed asset manager, which trades under the ticker ASST, disclosed in a filing Monday that it bought the Bitcoin between Oct. 5 and Oct. 9 at an average price of about $84,500 per coin, including fees. The buy lifts Strive\u2019s total holdings to 32,773 BTC, worth roughly $2.73 billion at today\u2019s prices, up from 29,462 BTC a week earlier. The purchase caps a stretch of aggressive accumulation.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-strive-gID_7.png"
+        },
+        {
+          "title": "AI Researchers Are Smoking Cigarettes to Prove AI Will Cure Cancer, Says Palantir Exec",
+          "link": "https://decrypt.co/380857/ai-researchers-smoking-cigarettes-prove-ai-cure-cancer",
+          "source": "Decrypt",
+          "summary": "Palantir CTO Shyam Sankar says many AI researchers have taken up smoking to signal their faith in AI.",
+          "paragraph": "Palantir CTO Shyam Sankar says many AI researchers have taken up smoking to signal their faith that AI will cure cancer. Nothing says \"I trust the future of medicine\" quite like lighting a Marlboro and waiting for the chatbot to fix your lungs. That is the habit Palantir CTO Shyam Sankar says is spreading among AI researchers, who have supposedly started smoking cigarettes to prove how confident they are that AI will cure cancer. \"So many AI researchers have started smoking as a way of signaling to other researchers how much they believe in AI,\" Sankar said in an interview on CBS News' \"Face the Nation\" on Sunday. \"I believe so much in AI that it's going to cure cancer. So I'm showing you my chips are all in.\" He did not name a single researcher, cite a survey, or explain how he knows.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/10/smoking-cigarettes-ai-cancer-gID_4.jpg"
+        }
+      ]
+    }
+  ]
+}
