@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-15",
+  "display_date": "October 15, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "AI agents are coming to Rivian\u2019s cars",
+          "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+          "source": "TechCrunch",
+          "summary": "We'll likely learn more about how this will work at the company's upcoming \"AI &#038; Autonomy Day\" event in December.",
+          "paragraph": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December. Transportation AI agents are coming to Rivian\u2019s cars Sean O'Kane 8:02 AM PDT \u00b7 October 15, 2026 Rivian recently rolled out an AI assistant that lets drivers and passengers interact with the company\u2019s electric vehicles just by talking to them. But the carmaker\u2019s founder and CEO, RJ Scaringe, said at TechCrunch Disrupt this week that, in the future, Rivian\u2019s cars will be able to run AI agents made by other companies like Anthropic. Scaringe didn\u2019t say when Rivian would implement this, and the company declined to offer more details, pointing instead to the \u201cAI & Autonomy Day\u201d event it\u2019s hosting in December.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/55587802359_b756c3c3bd_k.jpg?resize=1200,800"
+        },
+        {
+          "title": "Google\u2019s Universal Cart shopping tool launches in the US",
+          "link": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+          "source": "TechCrunch",
+          "summary": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+          "paragraph": "The new shopping tool is available in the U.S. across Google Search and the Gemini app. Commerce Google\u2019s Universal Cart shopping tool launches in the US Lauren Forristal 7:29 AM PDT \u00b7 October 15, 2026 Google on Thursday said \u201cUniversal Cart,\u201d a tool that lets users collect and monitor products they find across search and in the Gemini app, is now available to U.S. users. The company first previewed the tool at Google I/O in May. The idea is to make online shopping easier to manage. Find something you like, save it to your cart, and move on. When you return later, your items and shopping progress are still there, so you don\u2019t have to hunt down the same products or start over.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200"
+        },
+        {
+          "title": "TechCrunch Disrupt 2026: Last day",
+          "link": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+          "source": "TechCrunch",
+          "summary": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+          "paragraph": "Explore sessions covering the next wave of AI innovation, startup growth strategies, fundraising, emerging technologies, and lessons from the entrepreneurs and investors defining the future of tech. Add in Startup Battlefield excitement, peer networking, and countless opportunities for serendipitous connections, and it\u2019s one final opportunity to maximize your Disrupt experience. Stop by the registration desk in the Level 1 lobby of Moscone West to register in person or pick up your scannable event badge. The badge features Klik technology, which makes it easy to exchange contact information with people you scan your badge with. Using the event app, you can access and keep those contacts even after the event ends.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2300214995.jpg?resize=1200,800"
+        },
+        {
+          "title": "Amazon\u2019s Bee launches two new personal AI devices, starting at $75",
+          "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+          "source": "TechCrunch",
+          "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones.",
+          "paragraph": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99. Hardware Amazon\u2019s Bee launches two new personal AI devices, starting at $75 Sarah Perez 5:00 AM PDT \u00b7 October 15, 2026 Amazon\u2019s personal AI wearable maker, Bee, is announcing its first new products since being acquired by the retail giant last year.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080"
+        },
+        {
+          "title": "Figma announces new features to define how agents work on its platform",
+          "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+          "source": "TechCrunch",
+          "summary": "Figma is also releasing its code layers feature in open beta.",
+          "paragraph": "Figma is also releasing its code layers feature in open beta. Apps Figma announces new features to define how agents work on its platform Ivan Mehta 9:30 PM PDT \u00b7 October 14, 2026 Design platform Figma announced a new Markdown-based editor to help define a company\u2019s design, bring in design and code libraries, and integrate with the Payload headless content management system during the company\u2019s first Config event in India. Through some of these features, the company aims to provide a definition for its own and third-party agents to adhere to a brand\u2019s design rules better while creating with AI. The company debuted a new feature called Figma Specs, which is a markdown editor that lets users define their design language in a simple way.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Specs_agent.jpeg?resize=1200,675"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Volvo will use Nvidia\u2019s tech for hands-free, point-to-point driving",
+          "link": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
+          "source": "The Verge",
+          "summary": "Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia's latest AI technology.",
+          "paragraph": "Another win for Nvidia Transportation Tech Autonomous Cars Volvo will use Nvidia\u2019s tech for hands-free, point-to-point drivingThe system will be similar to Tesla\u2019s Full Self-Driving in that it will enable hands-free, point-to-point partially automated driving on local roads. The system will be similar to Tesla\u2019s Full Self-Driving in that it will enable hands-free, point-to-point partially automated driving on local roads. Andrew J. Hawkins Oct 15, 2026, 5:30 PM UTCLinkShareGiftImage: VolvoAndrew J. Hawkins is transportation editor with 10+ years of experience who covers EVs, public transportation, and aviation. His work has appeared in The New York Daily News and City & State.Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia\u2019s latest AI technology.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Volvo-EX60-Oculus-7.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Alienware\u2019s latest 34-inch QD-OLED gaming monitor is $50 off",
+          "link": "https://www.theverge.com/gadgets/1012134/alienware-34-ultrawide-qd-oled-belkin-screen-skinz-deal-sale",
+          "source": "The Verge",
+          "summary": "The Alienware AW3426DW is discounted to $742.22 at Amazon, just over $50 off its usual price of $799.99.",
+          "paragraph": "This ultrawide monitor is loaded with features for gamers. Gadgets Gaming PC Gaming Alienware\u2019s latest 34-inch QD-OLED gaming monitor is $50 offAlso, save on Belkin\u2019s screen protectors with hidden designs, open-ear earbuds, and a modular Corsair PSU. Also, save on Belkin\u2019s screen protectors with hidden designs, open-ear earbuds, and a modular Corsair PSU. Brad Bourque Oct 15, 2026, 5:30 PM UTCLinkShareIf you buy something from a link, The Verge may earn a commission. See our ethics statement. Brad Bourque is a tech journalist and commerce writer based out of Portland, Oregon. He\u2019s contributed to sites like Digital Trends, Business Insider, and WIRED.The Alienware AW3426DW is discounted to $742.22 at Amazon, just over $50 off its usual price of $799.99.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/alienware-aw3426dw-roundup.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Google is making inline links more prominent in AI responses",
+          "link": "https://www.theverge.com/tech/1012206/google-ai-mode-overview-inline-links",
+          "source": "The Verge",
+          "summary": "Google is updating its AI search results to make inline links appear \"higher up in responses more frequently,\" according to a blog post.",
+          "paragraph": "Will they mean more people click through? Tech News Google Google is making inline links more prominent in AI responsesLinks will appear \u2018higher up in responses more frequently\u2019 in Google\u2019s AI Mode and AI Overviews. Links will appear \u2018higher up in responses more frequently\u2019 in Google\u2019s AI Mode and AI Overviews. Jay Peters Oct 15, 2026, 5:22 PM UTCLinkShareGiftImage: The VergeJay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.Google is updating its AI search results to make inline links appear \u201chigher up in responses more frequently,\u201d according to a blog post.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "007 First Light is finally coming to Nintendo Switch 2 next year \u2014 'The development team will use the coming months to continue refining the game's optimisation'",
+          "link": "https://www.techradar.com/gaming/007-first-light-is-finally-coming-to-nintendo-switch-2-next-year-the-development-team-will-use-the-coming-months-to-continue-refining-the-games-optimisation",
+          "source": "TechRadar",
+          "summary": "IO Interactive has finally announced that 007 First Light will launch on Nintendo Switch 2 on March 18, 2027.",
+          "paragraph": "IO Interactive has finally announced that 007 First Light will launch on Nintendo Switch 2 on March 18, 2027. The release date is much later than initially promised \u2014 IOI originally said the Switch 2 edition would arrive this year after the game's PS5, Xbox, and PC launch in May \u2014 however, it's now said that the delay allowed the team extra time to address performance issues and that it will continue to improve optimisation in the following months. \"Since announcing additional development time to ensure the quality of experience players expect, IO Interactive has brought hands-on builds of 007 First Light to both Gamescom and Tokyo Game Show, where players and press had their first opportunity to experience Bond's world running on Nintendo's hardware,\" IOI said in a statement.",
+          "image": "https://cdn.mos.cms.futurecdn.net/Ca9bUoHcU3wNTVtoxup3mW-1920-80.jpg"
+        },
+        {
+          "title": "Sony\u2019s WH-1000XM6 headphones are $130 off today only",
+          "link": "https://www.theverge.com/gadgets/1012173/sony-wh-1000xm6-headphones-deal-sale",
+          "source": "The Verge",
+          "summary": "If you missed out on Prime Day\u2019s headphones deals, you\u2019re in luck. Sony\u2019s latest flagship headphones are selling for even less than they did during Amazon\u2019s big fall sale.",
+          "paragraph": "The deal ends tonight. Gadgets Verge Shopping Deals Sony\u2019s WH-1000XM6 headphones are $130 off today onlyThe silver-colored model is down to just $328 at B&H Photo, beating their recent Prime Day price. The silver-colored model is down to just $328 at B&H Photo, beating their recent Prime Day price. Sheena Vasani Oct 15, 2026, 5:10 PM UTCLinkShareIf you buy something from a link, The Verge may earn a commission. See our ethics statement. Sheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product recommendations for The Verge.If you missed out on Prime Day\u2019s headphones deals, you\u2019re in luck. Sony\u2019s latest flagship headphones are selling for even less than they did during Amazon\u2019s big fall sale.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/257746_Sony_WH-1000XM6_AKrales_0047.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "The Crunchbase Tech Layoffs Tracker",
+          "link": "https://news.crunchbase.com/startups/tech-layoffs/",
+          "source": "Crunchbase News",
+          "summary": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.",
+          "paragraph": "Tech layoffs: At least 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025. Follow along here with our comprehensive tech layoffs tracker, updated weekly, of U.S. tech employers cutting jobs.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Layoffs-scissors.jpg"
+        },
+        {
+          "title": "Ramp reaches $60B valuation as it pushes deeper into AI",
+          "link": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
+          "source": "TechCrunch",
+          "summary": "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000.",
+          "paragraph": "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000. Fundraising Ramp reaches $60B valuation as it pushes deeper into AI Ram Iyer 7:47 AM PDT \u00b7 October 15, 2026 Expense management company Ramp said on Thursday that it had raised $1.85 billion in a new funding round that values it at $60 billion, just four months after raising $750 million at a $44 billion valuation. The financing was co-led by Dragoneer Investment Group, Thrive Capital, Founders Fund, Sands Capital, and Avenir Growth. Ramp said its annualized revenue has crossed $2 billion, up from a reported $1.5 billion in June, and that its revenue growth is 25% faster than it was around this time last year.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/eric-glyman.jpg?resize=1200,801"
+        },
+        {
+          "title": "TechCrunch Disrupt 2026: Last day",
+          "link": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
+          "source": "TechCrunch",
+          "summary": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+          "paragraph": "Explore sessions covering the next wave of AI innovation, startup growth strategies, fundraising, emerging technologies, and lessons from the entrepreneurs and investors defining the future of tech. Add in Startup Battlefield excitement, peer networking, and countless opportunities for serendipitous connections, and it\u2019s one final opportunity to maximize your Disrupt experience. Stop by the registration desk in the Level 1 lobby of Moscone West to register in person or pick up your scannable event badge. The badge features Klik technology, which makes it easy to exchange contact information with people you scan your badge with. Using the event app, you can access and keep those contacts even after the event ends.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2300214995.jpg?resize=1200,800"
+        },
+        {
+          "title": "How To Build Your Team With Autonomous Humans, Not Just Autonomous Systems",
+          "link": "https://news.crunchbase.com/ai/building-autonomous-human-team-success-francia-uniplay/",
+          "source": "Crunchbase News",
+          "summary": "As AI enables smaller, faster teams, companies should hire curious, adaptable people who challenge established practices and can be trusted to make independent decisions, according to guest author Eri...",
+          "paragraph": "As AI enables smaller, faster teams, companies should hire curious, adaptable people who challenge established practices and can be trusted to make independent decisions, according to guest author Eric Francia, who writes that giving employees real responsibility, encouraging questions and investing in continuous learning helps teams innovate, stay engaged and retain talent. How would you handle a junior employee questioning the way you\u2019ve always done something? Might you roll your eyes and dismiss their comments as naivety? Or would you indulge their curiosity? As AI has made knowledge accessible on a scale never seen before, companies are becoming leaner and operating faster. What once took a large team months to do can now be done by a handful of people in a few days.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Startup_Meeting-1024x576.jpg"
+        },
+        {
+          "title": "Cybersecurity Investors Put $6.8B To Work In The Third Quarter, Mostly In Larger Rounds",
+          "link": "https://news.crunchbase.com/cybersecurity/q3-2026-large-venture-investments-ai-defense-startups/",
+          "source": "Crunchbase News",
+          "summary": "For the third quarter of 2026, global cybersecurity- and privacy-focused startups pulled in a total of $6.8 billion, per Crunchbase data.",
+          "paragraph": "For the third quarter of 2026, global cybersecurity- and privacy-focused startups pulled in a total of $6.8 billion, per Crunchbase data. That\u2019s up about 50% from the prior quarter and tied for the highest quarterly tally in years. It\u2019s an insecure world out there, and investors are responding by scaling up their cybersecurity spending. For the third quarter of 2026, global cybersecurity- and privacy-focused startups pulled in a total of $6.8 billion, per Crunchbase data. That\u2019s up about 50% from the prior quarter and tied for the highest quarterly tally in years, as charted below. The funding bump was due to larger rounds, not more of them. Round counts actually declined sequentially across all stages last quarter, Crunchbase data shows.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Cybersecurity_Shield.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "India's cobras share genetic ties across the mainland, while Sri Lankan cobras form a distinct genetic lineage",
+          "link": "https://phys.org/news/2026-10-india-cobras-genetic-mainland-sri.html",
+          "source": "Phys.org",
+          "summary": "The spectacled cobra (Naja naja) is one of India's \"big four\" snakes responsible for most serious snakebite cases.",
+          "paragraph": "The spectacled cobra (Naja naja) is one of India's \"big four\" snakes responsible for most serious snakebite cases. It is currently considered one species, which lives across much of South Asia, with regional differences in color, hood markings and venom. However, it's still unclear which regional cobra populations represent separate evolutionary groups. A new study published in Molecular Phylogenetics and Evolution has helped parse out which groups have different lineages, and when and where they may have diverged from their ancestors.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/spectacled-cobra-naja.jpg"
+        },
+        {
+          "title": "Young voters fear mass shootings but are divided on gun control",
+          "link": "https://phys.org/news/2026-10-young-voters-mass-gun.html",
+          "source": "Phys.org",
+          "summary": "Nearly 50 million Americans ages 18 to 29 are eligible to vote in the upcoming midterm elections, and about 60% say they plan to.",
+          "paragraph": "Nearly 50 million Americans ages 18 to 29 are eligible to vote in the upcoming midterm elections, and about 60% say they plan to. If they follow through, it would break midterm turnout records for voters under 30.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/gun-control.jpg"
+        },
+        {
+          "title": "Do you think teachers are similar to coaches, pastors or something else? It depends on where you live",
+          "link": "https://phys.org/news/2026-10-teachers-similar-pastors.html",
+          "source": "Phys.org",
+          "summary": "Three answers, three countries, one open-ended question: \"Teaching is similar to what other occupation or activity?\"",
+          "paragraph": "Three answers, three countries, one open-ended question: \"Teaching is similar to what other occupation or activity?\"",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2024/teacher.jpg"
+        },
+        {
+          "title": "Laser pulses bring order to a quantum material's tiny electrical regions",
+          "link": "https://phys.org/news/2026-10-laser-pulses-quantum-material-tiny.html",
+          "source": "Phys.org",
+          "summary": "Physicists at Auburn University have used flashes of laser light to bring order to tiny electrically charged \"islands\" inside a crystal.",
+          "paragraph": "Physicists at Auburn University have used flashes of laser light to bring order to tiny electrically charged \"islands\" inside a crystal. The discovery helps answer a decades-old question about how the material organizes itself and shows how light could be used to control its behavior\u2014a step toward exploring new technologies for processing and storing information.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/laser-pulses-bring-ord.jpg"
+        },
+        {
+          "title": "Palm-leaf manuscripts reveal traces of their preparation through X-rays and machine learning",
+          "link": "https://phys.org/news/2026-10-palm-leaf-manuscripts-reveal-rays.html",
+          "source": "Phys.org",
+          "summary": "For centuries, people across South and Southeast Asia recorded religious teachings, literary works, legal regulations and scientific knowledge on palm leaves.",
+          "paragraph": "For centuries, people across South and Southeast Asia recorded religious teachings, literary works, legal regulations and scientific knowledge on palm leaves. Before they could be inscribed or written on, the leaves had to undergo extensive preparation, with processing techniques varying across regions and potentially leaving distinct material signatures.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/laura-gallardo-positio.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Ex-Trump crypto adviser profited after helping pass stablecoin bill: WSJ",
+          "link": "https://cointelegraph.com/news/bo-hines-donald-trump-crypto-advisor-nxum-tether-conflict?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "The Wall Street Journal reported that a company co-founded by Bo Hines benefited from the passage of the GENIUS stablecoin bill.",
+          "paragraph": "The Wall Street Journal reported that former White House crypto adviser Bo Hines\u2019 company Nxum benefitted from a $6.3 million deal with Tether while the GENIUS Act was moving through Congress.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5021VDZN3M8VCH21XJTRFJY/bribe-money-corrupt-usa-1.jpg"
+        },
+        {
+          "title": "Sweden revisits digital krona as ECB advances digital euro plans",
+          "link": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Sweden\u2019s Riksbank has recommended that lawmakers prepare for a possible digital krona, citing concerns over foreign-currency stablecoins and the future of domestic payments.",
+          "paragraph": "Sweden\u2019s central bank calls for early legislative work on a digital krona, warning that implementation could take at least five years.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M505KEFKPMPQ9SXKC8HEV451/stockholm-sweden.jpg"
+        },
+        {
+          "title": "Mastercard and BVNK Launch 'Global Money Platform' to Merge Fiat and Stablecoins",
+          "link": "https://decrypt.co/381057/mastercard-bvnk-global-money-platform-fiat-stablecoins",
+          "source": "Decrypt",
+          "summary": "The first major integration since Mastercard\u2019s $1.8 billion BVNK acquisition lets banks, fintechs and enterprises hold, convert, and spend fiat and stablecoins through a single API, with agentic comme...",
+          "paragraph": "Mastercard and BVNK launched the Global Money Platform, letting businesses embed multi-currency accounts holding fiat and stablecoins. Mastercard is folding stablecoins into its sprawling payments empire, launching a platform that lets businesses hold, move, and spend traditional currencies and digital dollars side by side through a single connection. Unveiled Thursday, the Mastercard Global Money Platform pairs the payments giant\u2019s global network with the stablecoin infrastructure of BVNK, the crypto firm Mastercard acquired in August. Mastercard struck the deal to buy BVNK for roughly $1.8 billion, and the new platform marks the first major integration of the two companies\u2019 capabilities since that acquisition closed.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/mastercard-decrypt-style-01-gID_7.png"
+        },
+        {
+          "title": "Mastercard brings stablecoin balances into traditional banking and card payments",
+          "link": "https://cointelegraph.com/news/mastercard-bvnk-global-money-platform-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "The launch of Global Money Platform marks Mastercard\u2019s first major integration with BVNK since its August acquisition, with Nuvei and Marqeta among the first companies to adopt the platform.",
+          "paragraph": "Mastercard\u2019s first major BVNK Stablecoin integration lets fintechs offer multicurrency accounts, conversions and payouts through a single API.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M501MR4NFX8WGM2DEYYC2STT/hi-could-those-who-left-mastercard-come-back3.jpg"
+        },
+        {
+          "title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
+          "link": "https://decrypt.co/381044/bitcoin-whipsaws-crypto-liquidations-near-1-billion",
+          "source": "Decrypt",
+          "summary": "Hot inflation data revived Fed rate-hike bets, and leveraged bulls paid the bill as nearly $1 billion in crypto positions were liquidated.",
+          "paragraph": "Hot inflation data revived Fed rate-hike bets, and leveraged Bitcoin bulls paid the bill as nearly $1 billion in crypto positions were liquidated. Bitcoin fell below $80,000 on Thursday for the first time in over a month, extending Wednesday\u2019s inflation-driven slide and wiping out nearly $1 billion in leveraged crypto bets. It's currently trading just about $82,000 after several hours of increased volatility. Ethereum and XRP dropped close to 5%, Zcash sank almost 10%, and only five coins in the top 100 managed gains above 1%. Pick any coin in the top 100 and it's likely in the red today. Across the market, 177,440 traders were liquidated in 24 hours for a total of $948.22 million, per CoinGlass, with longs accounting for $858.96 million, or 90.6%.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-down-crash-decrypt-style-1-gID_7.jpg"
+        }
+      ]
+    }
+  ]
+}
