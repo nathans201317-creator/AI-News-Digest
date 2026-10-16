@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-16",
+  "display_date": "October 16, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "A Nvidia insider-turned-VC on why robotics hasn\u2019t hit its ChatGPT moment, yet",
+          "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "source": "TechCrunch",
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic...",
+          "paragraph": "Watch as Techable VC founder and former Nvidia exec Amulya Vishwanath tells Equity why robotics\u2019 ChatGPT moment can wait, and why the real opportunity is rebuilding its basic building blocks. Venture A Nvidia insider-turned-VC on why robotics hasn\u2019t hit its ChatGPT moment, yet Theresa Loconsolo 9:30 AM PDT \u00b7 October 16, 2026 30 min Loading the player\u2026 Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800"
+        },
+        {
+          "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+          "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+          "source": "TechCrunch",
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic...",
+          "paragraph": "Techable VC founder and former Nvidia exec Amulya Vishwanath tells Equity why robotics\u2019 ChatGPT moment can wait, and why the real opportunity is rebuilding its basic building blocks. Physical AI is more than robots, says the Nvidia veteran now investing in it Theresa Loconsolo , Dominic-Madori Davis Oct 16, 2026 Listen on Apple Podcasts Listen on Spotify Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Amulya-Vishwanath-Techable-VC.jpg?resize=960,1200"
+        },
+        {
+          "title": "Elorian\u2019s first AI model wants to reason with images, not just about them",
+          "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "source": "TechCrunch",
+          "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+          "paragraph": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks. AI Elorian\u2019s first AI model wants to reason with images, not just about them Aditya Mehta 9:01 AM PDT \u00b7 October 16, 2026 Elorian, the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned. The model, Glimpse, is launching as a research preview with API access and a chat interface is waitlist-only, so for now it\u2019s a results table and a thesis. The thesis? Today\u2019s AI models, for all their skill with language and code, still can\u2019t really see.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/image-1.png?resize=1200,675"
+        },
+        {
+          "title": "Jev is Vercel\u2019s fastest-adopted AI model ever",
+          "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+          "source": "TechCrunch",
+          "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+          "paragraph": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter. AI Jev is Vercel\u2019s fastest-adopted AI model ever Russell Brandom 8:33 AM PDT \u00b7 October 16, 2026 Jev has become the fastest adopted AI model ever \u2014 at least by some measures. Vercel data published on Thursday shows that, within two weeks of its launch, the buzzy decision model was being used by 35% of paid teams, with nearly double the reach of the second most popular model, Sonnet 5.5. It\u2019s the fastest adoption a model has ever seen in its first two weeks, according to Vercel\u2019s data, and a major accomplishment for the model\u2019s creators, TypeSafe AI. Published in limited release on September 15, Jev is designed as a lightweight tool for choosing between a few predetermined outputs.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/04/vercel-2249343327-smaller.jpg?resize=1200,800"
+        },
+        {
+          "title": "Maybe Chatbots Shouldn\u2019t Get to Say \u2018I\u2019 or \u2018Me\u2019",
+          "link": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/",
+          "source": "WIRED",
+          "summary": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots.",
+          "paragraph": "MIT professor Sherry Turkle warns that people have become dangerously enmeshed with chatbots. LoaderSave StorySave this storyCommentLoaderSave StorySave this storyDuring four decades of studying the effects of interaction with computers, Sherry Turkle has developed a reputation as a careful if critical social scientist who approaches her work with academic rigor and distance. Her new book, Artificial Intimacy: Who We Become When We Talk to Machines, breaks this mold. It is a polemic warning that we have reached a state of emergency where our humanity is at risk from overreliance on soulless machines who pose as our tutors, mentors, friends, colleagues, and lovers.",
+          "image": "https://media.wired.com/photos/6ad14b37762b59cd2aa2c0c9/master/pass/Backchannel-Sherry-Turkle-Business-458911186.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Thousands of specialized engineers deployed by AWS, Anthropic to prove AI is worth the investment",
+          "link": "https://www.techradar.com/pro/thousands-of-specialized-engineers-deployed-by-aws-anthropic-to-prove-ai-is-worth-the-investment",
+          "source": "TechRadar",
+          "summary": "Multiple AI giants have launched their own FDE schemes, but consultancies are also proving to be a vital part of the chain.",
+          "paragraph": "AI companies are focusing on FDEs We've already surpassed the point that model capabilities were the limit \u2013 now, companies are struggling with legacy infrastructure and identifying real-world use cases, so AI developers are getting involved to help them out. As part of the ongoing shift in how AI is being sold, those developers are no longer just selling their AI to customers \u2013 they're also taking responsibility over its deployment. Already, we've seen OpenAI backing its FDE business with a massive $4 billion investment and AWS footing a $1 billion bill for FDEs, while Anthropic shared plans to train 10,000 specialist engineers by the end of 2027.",
+          "image": "https://cdn.mos.cms.futurecdn.net/cvUbbQwxuHbLsEVEuaWGcL-1920-80.jpg"
+        },
+        {
+          "title": "How to watch ZDFneo from anywhere",
+          "link": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-zdfneo-from-anywhere",
+          "source": "TechRadar",
+          "summary": "How to watch ZDFneo from anywhere with a VPN, for free coverage of the Germany football team and films and TV shows like Under Salt Marsh and Kneecap.",
+          "paragraph": "Your free-to-air home of the German national football team, and countless great series ZDFneo is one of a family of channels, along with ZDF, ZDF Info (documentaries), 3Sat (general entertainment), Phoenix (documentaries and current affairs), Arte (culture) and KiKA (children's shows). They're all available to stream on the ZDF platform. However, if you try to tune into ZDF from outside Germany, it won't work. Unless you use a virtual private network (VPN). No matter where in the world you are, a good VPN will let you watch ZDFneo just as you would if you were in Germany. Not only is it free, but you don't even need an account to watch ZDF Neo online. All of the network's channels, including ZDF, ZDF Info, 3Sat, Phoenix, Arte and KiKA, are available to live stream without logging in.",
+          "image": "https://cdn.mos.cms.futurecdn.net/v7eqB8wF4s3hUYVTYh9ReW-1920-80.jpg"
+        },
+        {
+          "title": "How to watch The Celebrity Traitors 2026 \u2013 Stream episode 6 for free from anywhere",
+          "link": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-celebrity-traitors-2026-stream-episode-6-for-free-from-anywhere",
+          "source": "TechRadar",
+          "summary": "Here's how to watch Episode 5 of The Celebrity Traitors online and for FREE with Claudia Winkleman hosting another 21 celebs at her Scottish castle.",
+          "paragraph": "The Traitors add another to their number as fan-favorite gets murdered. Here Even for a show called 'The Traitors', watching James Acaster kill off his comedian friend Rob Beckett felt like a grade-a betrayal. To add to the tension, the Traitors line-up has changed yet again, with King Kenny taking prof. Hannah Fry's place after she was banished by the faithful at a successful round table. In case you missed the first five episodes, here's a quick rundown to get you up to date. The two original Traitors were Richard E. Grant and Maya Jama. they decided to go with two very different styles of game play... Maya Jama played the game as you're meant to, while Richard E. Grant immediately told everyone he was a traitor. Unsurprisingly, he was voted out at the first Round Table.",
+          "image": "https://cdn.mos.cms.futurecdn.net/6LEDuaQGczfw4ptXQVhzUQ-1920-80.jpg"
+        },
+        {
+          "title": "Corsair\u2019s 32GB Vengeance RGB DDR5 hits the AMD and Intel 6000MT/s sweet spot for $510",
+          "link": "https://www.techradar.com/pro/corsairs-32gb-vengeance-rgb-ddr5-hits-the-amd-and-intel-6000mt-s-sweet-spot-for-usd510",
+          "source": "TechRadar",
+          "summary": "Corsair\u2019s Vengeance RGB is one of our top DDR5 picks. Best Buy has the 32GB DDR5-6000 kit with AMD EXPO and Intel support down to $510.",
+          "paragraph": "Corsair\u2019s Vengeance RGB is one of our top DDR5 picks. Best Buy has the 32GB DDR5-6000 kit with AMD EXPO and Intel support down to $510. If you're building or upgrading a modern Intel or AMD rig with a generous pool of fast, reliable memory, Corsair's Vengeance RGB 32GB DDR5-6000 CL36 kit has dropped to $510 (was $546) at Best Buy. In contrast, both Newegg and Corsair have the Intel-only model at this price. 32GB is a comfortable amount of headroom for gaming, multitasking, and most content creation work, and the CL36 timings at 6000MT/s strike a reasonable balance between speed and price for DDR5. Two 16GB DDR5 modules running at up to 6000MT/s with CL36-44-44-96 timings and AMD Expo and Intel XMP 3.0 support for one-click overclocking.",
+          "image": "https://cdn.mos.cms.futurecdn.net/5GSZTchHE53Rkjh8Qz9Ucm-1920-80.jpg"
+        },
+        {
+          "title": "The flying Tesla Roadster is an overbaked idea from my least favorite person",
+          "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/the-flying-tesla-roadster-is-an-overbaked-idea-from-my-least-favorite-person",
+          "source": "TechRadar",
+          "summary": "Elon Musk finally unveiled his-long-promised rocket-powered, flying Roadster, and it's exactly what we don't need right now.",
+          "paragraph": "Elon Musk finally unveiled his-long-promised rocket-powered, flying Roadster, and it This stemmed from long before he became a supervillain, and was instead no more than an oddball tech-sector genius primed to become a real-life Tony Stark. It was at the tail-end of this honeymoon, in 2017, that Musk unveiled the Tesla Roadster 2020, a luxury model EV that promised insane specs and performance (0-to-60mp in 1.9 seconds) and maybe even something we\u2019d only dreamed of: rockets that might let it fly. Now, for chronology sticklers, Musk did not promise rockets during Tesla's November 2017 event; it was was primarily devoted to the Tesla Semi.",
+          "image": "https://cdn.mos.cms.futurecdn.net/oJDpWmjSZryfJWtcRuBdFo-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+          "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+          "source": "TechCrunch",
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic...",
+          "paragraph": "Techable VC founder and former Nvidia exec Amulya Vishwanath tells Equity why robotics\u2019 ChatGPT moment can wait, and why the real opportunity is rebuilding its basic building blocks. Physical AI is more than robots, says the Nvidia veteran now investing in it Theresa Loconsolo , Dominic-Madori Davis Oct 16, 2026 Listen on Apple Podcasts Listen on Spotify Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Amulya-Vishwanath-Techable-VC.jpg?resize=960,1200"
+        },
+        {
+          "title": "A Nvidia insider-turned-VC on why robotics hasn\u2019t hit its ChatGPT moment, yet",
+          "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "source": "TechCrunch",
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic...",
+          "paragraph": "Watch as Techable VC founder and former Nvidia exec Amulya Vishwanath tells Equity why robotics\u2019 ChatGPT moment can wait, and why the real opportunity is rebuilding its basic building blocks. Venture A Nvidia insider-turned-VC on why robotics hasn\u2019t hit its ChatGPT moment, yet Theresa Loconsolo 9:30 AM PDT \u00b7 October 16, 2026 30 min Loading the player\u2026 Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA\u2019s robotics platforms, says robotics is currently in its \u201cLego era,\u201d with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800"
+        },
+        {
+          "title": "Elorian\u2019s first AI model wants to reason with images, not just about them",
+          "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "source": "TechCrunch",
+          "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+          "paragraph": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks. AI Elorian\u2019s first AI model wants to reason with images, not just about them Aditya Mehta 9:01 AM PDT \u00b7 October 16, 2026 Elorian, the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned. The model, Glimpse, is launching as a research preview with API access and a chat interface is waitlist-only, so for now it\u2019s a results table and a thesis. The thesis? Today\u2019s AI models, for all their skill with language and code, still can\u2019t really see.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/image-1.png?resize=1200,675"
+        },
+        {
+          "title": "Tressfecta wants to make hair braiding a less arduous task for hairstylists",
+          "link": "https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists/",
+          "source": "TechCrunch",
+          "summary": "Tressfecta builds products for textured hair. Its first project is a tool called Plait Pilot that helps braiders with the initial process of separating hair from packs before braiding begins.",
+          "paragraph": "Tressfecta builds products for textured hair. Its first project is a tool called Plait Pilot that helps braiders with the initial process of separating hair from packs before braiding begins. Startups Tressfecta wants to make hair braiding a less arduous task for hairstylists Dominic-Madori Davis 9:00 AM PDT \u00b7 October 16, 2026 Aisata Diallo, 24, calls herself a lifelong braider. \u201cI\u2019ve always braided my hair growing up and, at some point in my college career, started braiding other people\u2019s hair,\u201d she said. At Northeastern University in Boston, she found limited access to braiders and textured-hair specialists, so she decided to fill that gap by starting a small business of her own.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2066870225.jpg?resize=1200,800"
+        },
+        {
+          "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+          "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+          "source": "TechCrunch",
+          "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items.",
+          "paragraph": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods. Hardware Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles Ivan Mehta 7:00 AM PDT \u00b7 October 16, 2026 Counterfeits of luxury goods are a major problem for fashion houses. Counterfeiters are getting better at replicating brands\u2019 marks and passing off dupes, known as \u201csuperfakes,\u201d as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods. Veritas was founded by Luci Holland, a former Tesla technical product manager who also has a background in design and art.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Tiffany-Crown-e1791967522628.jpeg?resize=1200,675"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "'Excess oxygen' stored in deep Earth magma may help explain how Earth's atmosphere became oxygen-rich",
+          "link": "https://phys.org/news/2026-10-excess-oxygen-deep-earth-magma.html",
+          "source": "Phys.org",
+          "summary": "A research team has found that molten rock can carry more oxygen than its chemical composition would seem to allow. Their study is published in National Science Review.",
+          "paragraph": "A research team has found that molten rock can carry more oxygen than its chemical composition would seem to allow. Their study is published in National Science Review.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/excess-oxygen-stored-i.jpg"
+        },
+        {
+          "title": "Ancient fungus unlocks secret support system in major food crops that could transform farming practices",
+          "link": "https://phys.org/news/2026-10-ancient-fungus-secret-major-food.html",
+          "source": "Phys.org",
+          "summary": "Arabidopsis thaliana, a small flowering mustard plant used worldwide as the primary genetic model in plant biology, was long believed incapable of forming relationships with underground fungal network...",
+          "paragraph": "Arabidopsis thaliana, a small flowering mustard plant used worldwide as the primary genetic model in plant biology, was long believed incapable of forming relationships with underground fungal networks. New research published in Current Biology led by professor Katie Field demonstrates for the first time that it can establish a fully functional, resource-sharing partnership with an ancient soil fungus known as a Mucoromycotina fine root endophyte (MFRE).",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ancient-fungus-unlocks.jpg"
+        },
+        {
+          "title": "Wind emerges as overlooked factor in ecosystems' carbon uptake and water loss",
+          "link": "https://phys.org/news/2026-10-emerges-overlooked-factor-ecosystems-carbon.html",
+          "source": "Phys.org",
+          "summary": "Wind does more than sway trees. It also plays an important role in determining an ecosystem's water-use efficiency\u2014defined as the amount of carbon an ecosystem absorbs per unit of water lost.",
+          "paragraph": "Wind does more than sway trees. It also plays an important role in determining an ecosystem's water-use efficiency\u2014defined as the amount of carbon an ecosystem absorbs per unit of water lost. Water-use efficiency is an important measure of how ecosystems balance growth and water availability.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/wind-plays-an-overlook.jpg"
+        },
+        {
+          "title": "NASA satellites observe historic 2026 El Ni\u00f1o",
+          "link": "https://phys.org/news/2026-10-nasa-satellites-historic-el-nio.html",
+          "source": "Phys.org",
+          "summary": "A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely.",
+          "paragraph": "A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/nasa-satellites-observ.jpg"
+        },
+        {
+          "title": "Remote work made these colleagues more open with each other, not less",
+          "link": "https://phys.org/news/2026-10-remote-colleagues.html",
+          "source": "Phys.org",
+          "summary": "If you need to participate in video meetings for work, you've probably experienced more than one disruption, whether it's kids darting around or home renovation noise.",
+          "paragraph": "If you need to participate in video meetings for work, you've probably experienced more than one disruption, whether it's kids darting around or home renovation noise.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/remote-work-2.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "CFTC Wants to Drop Gemini\u2019s $5M Settlement. A Judge Just Said No",
+          "link": "https://decrypt.co/381149/cftc-wants-drop-gemini-5m-settlement-judge-said-no",
+          "source": "Decrypt",
+          "summary": "The judge ruled that a shift in the CFTC\u2019s enforcement priorities and misconduct allegations against its enforcement division weren\u2019t enough to reopen a deal Gemini signed weeks before trial.",
+          "paragraph": "A federal judge has refused to let the Winklevoss twins\u2019 crypto exchange Gemini walk back a $5 million settlement with the CFTC. A federal judge has refused to let the Winklevoss twins\u2019 crypto exchange Gemini walk back a $5 million settlement with the Commodity Futures Trading Commission, even though the regulator itself had joined the exchange in asking him to toss it out. In a ruling issued Oct. 15, U.S. District Judge Alvin Hellerstein of the Southern District of New York denied the unusual joint motion to vacate a consent order Gemini agreed to in January 2025. He found that neither a shift in the CFTC\u2019s enforcement priorities under the current administration nor allegations of misconduct inside the agency\u2019s enforcement division met the legal bar to reopen a signed judgment.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/gemini-decrypt-style-01-gID_7.png"
+        },
+        {
+          "title": "Bitcoin Bounces, But Where Does It Go Next? Here\u2019s What the Charts Say",
+          "link": "https://decrypt.co/381150/bitcoin-price-rebounds-where-next-charts",
+          "source": "Decrypt",
+          "summary": "Technical indicators suggest the bullish trend remains intact, but prediction market traders are sending mix signals.",
+          "paragraph": "Technical indicators suggest the bullish trend for Bitcoin price remains intact, but prediction market traders are sending mix signals. Bitcoin is trading at $82,295, up 1.28% in 24 hours, after a Thursday slide below $80,000, its first dip under that level in more than a month. Ethereum gained 4.17% to $2,473.17, Solana rose 3.02%, and XRP added 2.03%. Zcash is the strongest of the top 15 largest coins, jumping 10.29% to $1,222.02, lifting its market cap to $20.67 billion, and roughly erasing the almost 10% it lost on Thursday. In general, the market is bouncing today after spending most of the week heading in the other direction. Thursday's drop triggered $948 million in liquidations, 90.6% of them longs, per CoinGlass data.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-28-gID_7.png"
+        },
+        {
+          "title": "Crypto Biz: Wall Street closes at 4. Tokenized stocks keep trading",
+          "link": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Tokenized stocks are drawing trading activity beyond Wall Street hours, while Bitcoin miners confront costly AI expansion and new accounting rules could benefit stablecoins.",
+          "paragraph": "More than 70% of BNB Chain\u2019s tokenized stock volume occurs outside US market hours as Strive adds 3,311 BTC and miners face billions in AI financing needs.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M52N5E63563HHENSDSV1NCN7/hi-how-grayscale-brought-crypto-staking-to-wall-street-for-the-first-time.jpg"
+        },
+        {
+          "title": "Bitcoin price steadies around $82K after Fed\u2019s Warsh avoids rate-hike hints",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-steadies-82k-fed-warsh-avoids-rate-hike-hints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Bitcoin held above $80,000 as South Korean tech stocks recovered from a sell-off and traders lowered their expectations for a Federal Reserve interest-rate hike.",
+          "paragraph": "Bitcoin consolidates after rebounding from $80,000 as South Korean stocks recover from a sell-off and Federal Reserve Chair Kevin Warsh offers no indication of further interest-rate hikes.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M52N6H9GGJM3JZN42WG1X5JC/kevin-warsh-2-3-960x640.webp"
+        },
+        {
+          "title": "Three Canadian Armed Forces Members Charged in Kidnapping of Crypto Exchange Owner",
+          "link": "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner",
+          "source": "Decrypt",
+          "summary": "Police seized guns, silencers and more than 2,000 rounds of ammunition, nearly all of it allegedly stolen from the Canadian military.",
+          "paragraph": "Police seized guns, silencers and more than 2,000 rounds of ammunition, nearly all of it allegedly stolen from the Canadian military. Toronto police have arrested seven men, three of them members of the Canadian Armed Forces, over the abduction of the owner of a cryptocurrency exchange, the Toronto Police Service announced on Wednesday. Investigators have laid 82 charges, including kidnapping for ransom and numerous firearms offenses. Police did not name the victim or the exchange. Seven men arrested. Firearms and thousands of rounds of ammunition seized.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Handcuffs-gID_7.png"
+        }
+      ]
+    }
+  ]
+}
