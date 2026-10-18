@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-18",
+  "display_date": "October 18, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+          "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+          "source": "WIRED",
+          "summary": "Adult content creators are criticizing Meta for allowing its new Muse AI agent to sext users while heavily censoring real human performers.",
+          "paragraph": "Adult performers are pushing back against Meta after the company allowed its new AI assistant, Muse, to engage in explicit text conversations with users. Promoted across Facebook and Instagram, the always-on app rapidly topped download charts as millions experimented with the tool. Performers argue it is hypocritical for Meta to monetize sexually active software while routinely censoring human accounts. Creator Vanniall faces viewing restrictions on her 100,000-follower Instagram",
+          "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg"
+        },
+        {
+          "title": "Data Centers Have a New PR Plan: Your Kid\u2019s Field Trip",
+          "link": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+          "source": "WIRED",
+          "summary": "Facing backlash over massive energy use, data center companies are courting young students through school field trips, educational materials, and children's books.",
+          "paragraph": "Facing rising community backlash over massive energy use, data center operators are targeting classrooms to reshape their public image. Groups like the nonprofit 7x24 Exchange International are distributing children's books, puzzles, and coloring pages to teach young students about digital infrastructure. The organization has also coordinated multiple student events, including taking Minnesota high schoolers to visit a diesel generator plant. In total, at least eleven industry groups and companies have hosted student field trips to data centers, including multi-facility operator Sabey. Other technology firms like Amazon, Microsoft, and Yahoo have similarly offered facility tours, student internships, and mock interviews. An education policy expert noted that this strategy mirrors corporate propaganda campaigns used for decades by tobacco and energy companies to manage public relations. Through this early outreach, data center advocates hope to quiet local criticism while inspiring future industry talent.",
+          "image": "https://media.wired.com/photos/6ad250c5e76c5dde4c61ba83/master/pass/101626-Power%20Play.jpg"
+        },
+        {
+          "title": "Meta removes language that raised scraping and AI training concerns",
+          "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "source": "TechCrunch",
+          "summary": "Meta has removed commercial terms that suggested it could scrape publishers' websites to train its artificial intelligence models.",
+          "paragraph": "Meta has officially eliminated controversial clauses from its commercial terms of use following backlash over web scraping and artificial intelligence development. The social media giant had previously added wording granting itself permission to utilize content from business account websites and URLs to train and enhance its systems. Legal specialists speaking to Nieman Lab warned the broad rule appeared to permit scraping any publisher platform connected to a Meta business account for AI training data. This issue surfaced as tech firms face legal scrutiny, with Meta having won a major copyright dispute last year while confronting other ongoing lawsuits. Following widespread concern, The Verge reported that Meta eliminated the contentious language from its guidelines. The company defended the original revision by explaining that the consolidated language was merely intended for its advertising and commercial tools. Meta emphasized that the updated clarification does not alter how its web crawlers currently index the internet.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024"
+        },
+        {
+          "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+          "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+          "source": "TechCrunch",
+          "summary": "Heavy AI adoption at Anthropic has caused the company to hire fewer junior staff while employees spend significantly more time in meetings.",
+          "paragraph": "Anthropic released a report detailing how deeply integrating its Claude assistant has altered its workforce and day-to-day operations. Technical departments have become significantly less junior, with entry-level employees decreasing from 21% to 14% of technical staff and junior technical hiring plunging from 27% to 9% since early 2025. Technical positions dropped from 61% to 56% of total personnel as",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
+        },
+        {
+          "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+          "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "source": "TechCrunch",
+          "summary": "AI coding platform Replit has replaced Anthropic with OpenAI as its default model provider, citing superior performance and lower costs.",
+          "paragraph": "Replit has switched its default artificial intelligence model provider from Anthropic to OpenAI for its automated coding agent. Replit chief executive Amjad Masad explained that the decision hinged on superior performance benchmarks, better pricing, and partner collaboration. Although Masad initially suggested ties were severed, he later clarified that developers can still manually select Anthropic\u2019s Claude models. The transition marks a significant blow because Replit was recently one of Anthropic's top five customers and most users keep preselected settings. Prior to formalizing an August pact with OpenAI, Replit heavily depended on Claude to power its browser-based development tools. Alongside the provider switch, Masad revealed that enterprise contracts now represent fifteen percent of sales, up from just two percent last year. The coding platform expects corporate and government clients to generate more than half of its total revenue by 2027.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "How to fix scaling and app size issues on your Samsung Galaxy Z Fold 8",
+          "link": "https://www.engadget.com/2286431/how-to-fix-scaling-app-size-issues-samsung-galaxy-z-fold-8/",
+          "source": "Engadget",
+          "summary": "Samsung Galaxy Z Fold 8 owners are reporting app scaling issues on the internal display, but manual settings adjustments can help fix the problem.",
+          "paragraph": "Following Samsung's July unveiling of the Galaxy Z Fold 8, some owners are experiencing app scaling issues on the internal 4:3 display. While the foldable offers an App Continuity feature for switching screens, some applications fail to adjust automatically to the larger space. Users can address this by navigating to the aspect ratio menu within settings to manually assign apps to full screen, 4:3, or 16:9 modes. Alternatively, owners can press and hold an app icon and tap the info icon to access aspect ratio options. Changing these settings sets a new default, though running background apps may need to restart, and unoptimized software might still experience awkward cropping. Frustrated owners have taken to online discussion forums to discover these workarounds and improve their viewing experiences. Even with these scaling quirks, the wider 4:3 screen successfully cuts down on letterboxing compared to earlier, squarer Fold generations.",
+          "image": "https://www.engadget.com/img/gallery/how-to-fix-scaling-and-app-size-issues-on-your-samsung-galaxy-z-fold-8/l-intro-1791985713.jpg"
+        },
+        {
+          "title": "TechCrunch Mobility: Rivian\u2019s next act",
+          "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
+          "source": "TechCrunch",
+          "summary": "Rivian is expanding beyond electric vehicle manufacturing to become a major technology supplier, developing proprietary artificial intelligence, custom processors, and autonomous systems.",
+          "paragraph": "Rivian is actively transforming beyond electric truck manufacturing to become a comprehensive technology supplier for the broader mobility industry. Led by founder RJ Scaringe, the company is building proprietary artificial intelligence models and an automated driving stack for passenger cars and future Uber robotaxis. It is also co-developing a custom five-nanometer processor with Arm and TSMC alongside a 5.8 billion dollar software partnership with Volkswagen Group. Scaringe envisions expanding",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Techcrunch-disrupt-RJ-Scaringe.jpg?resize=1200,801"
+        },
+        {
+          "title": "How to watch Chargers vs Chiefs for FREE: live stream NFL Week 6 game online from anywhere",
+          "link": "https://www.techradar.com/how-to-watch/american-football/los-angeles-chargers-vs-kansas-city-chiefs-nfl-week-6-free",
+          "source": "TechRadar",
+          "summary": "Patrick Mahomes and the Kansas City Chiefs will host Justin Herbert and the Los Angeles Chargers for an NFL Week 6 matchup.",
+          "paragraph": "The Kansas City Chiefs will host the Los Angeles Chargers at Arrowhead Stadium on Sunday, October 18, for a Week 6 matchup. A Chargers victory would be a major upset following their fourth-quarter collapse against the Broncos last week. In that game, coach Harbaugh attempted a fourth-and-one on Los Angeles's 41-yard line, leading to a failed conversion and two game-losing Justin Herbert turnovers. Herbert has thrown the most interceptions across the 2026 season, partly caused by an inadequate offensive line. While Patrick Mahomes has excelled for Kansas City, their defense provides a rare opening for the visiting Chargers. The Chiefs have logged just four sacks all season, the league's joint-lowest total, with every sack occurring in their opener. The contest will air across multiple international platforms, including CBS in America and free-to-air coverage in Australia and Ireland.",
+          "image": "https://cdn.mos.cms.futurecdn.net/9Rv8TTCUaLofH4edYQf6AA-1920-80.jpg"
+        },
+        {
+          "title": "Flat Ethernet cables probably aren't the answer to your home networking problem",
+          "link": "https://www.engadget.com/2286349/flat-ethernet-cable-not-answer-home-networking-issues/",
+          "source": "Engadget",
+          "summary": "While flat Ethernet cables offer aesthetic appeal, standard round cables remain superior for network reliability, signal strength, and overall physical durability.",
+          "paragraph": "Flat Ethernet cables have surged in popularity because they easily slip under doors and rugs to keep home networks tidy. However, conventional round cables provide much more dependable performance and durability in everyday conditions. While round options twist wire pairs around one another and often include protective shielding, flat designs align wires in a row, making them vulnerable to signal interference. Manufacturers also rely on thinner wire gauges to keep flat cords slim, which heightens electrical resistance and weakens data transmissions across longer runs. Furthermore, repeatedly bending or compressing these delicate cords beneath carpets or entryways quickly damages their internal wires due to a lack of cushioning. These slim alternatives still suit renters navigating narrow clearances over short distances where visual clutter must be avoided. Even so, users demanding the fastest and sturdiest connections should stick with traditional round wiring.",
+          "image": "https://www.engadget.com/img/gallery/flat-ethernet-cables-probably-arent-the-answer-to-your-home-networking-problem/l-intro-1791980716.jpg"
+        },
+        {
+          "title": "The reason why your drive shows less storage than you paid for",
+          "link": "https://www.engadget.com/2286322/why-new-drive-shows-less-storage/",
+          "source": "Engadget",
+          "summary": "Storage drives show less space than advertised mainly due to differences between binary and decimal calculations alongside bloated operating system files.",
+          "paragraph": "Consumers often find their storage drives offer less usable capacity than advertised on the packaging. Hardware manufacturers calculate drive capacity using decimal measurements, where one gigabyte equals one billion bytes. However, operating systems like Windows gauge capacity in binary terms, causing a 512GB drive to show as only 477GB. While Apple computers display decimal amounts without this apparent loss, neither Apple nor Microsoft intends to change their measurement standards. Usable space is further reduced by essential system software, with Windows 11 taking over 81GB and iOS occupying over 22GB on a 128GB iPhone. These missing gigabytes are increasingly critical as modern games surpass 100GB and artificial intelligence datacenters push hardware prices higher. Furthermore, users must preserve remaining capacity for cache and swap files to prevent their devices from freezing or crashing.",
+          "image": "https://www.engadget.com/img/gallery/the-reason-why-your-drive-shows-less-storage-than-you-paid-for/l-intro-1791975351.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "The Week\u2019s 10 Biggest Funding Rounds: Spending Contracts For Latest AI-Driven Startup Batch",
+          "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
+          "source": "Crunchbase News",
+          "summary": "Venture investors scaled back giant checks this week, though Modal Labs and Icon still secured massive rounds of $750 million and $200 million.",
+          "paragraph": "Startup investors pulled back on mega-checks this past week, yielding only two venture deals exceeding several hundred million dollars. Topping the list was New York-based Modal Labs, which raised $750 million in a Series D round led by Accel at a $15.75 billion valuation. The AI cloud infrastructure firm achieved the massive valuation after recently surpassing an annual revenue run rate of $1 billion. Robotic homebuilder Icon followed with a $200 million Series D backed by Baillie Gifford and BlackRock, driven by anticipated fourfold revenue growth in 2026. Life science startups also secured significant cash, led by Souffle Therapeutics with $135 million for RNA therapies and Estuary Biotherapeutics with $103 million for kidney treatments. Further investments flowed to AI training platform Labelbox, health assistant Suki, and disaster insurer Stand. While overall deal sizes shrank, capital remains focused on high-growth artificial intelligence infrastructure, robotics, and specialized therapeutics.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Top_10_.jpeg"
+        },
+        {
+          "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+          "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+          "source": "TechCrunch",
+          "summary": "Former Nvidia executive Amulya Vishwanath is investing in physical AI through her new fund Techable VC, arguing robotics must first rebuild its core building blocks.",
+          "paragraph": "Former Nvidia executive Amulya Vishwanath has launched Techable VC to back physical artificial intelligence startups. After spending seven years guiding product marketing for Nvidia robotics platforms, she became one of the first female executives from the company to establish an early-stage investment firm. Techable VC writes first checks across life sciences, materials science, and robotics. Vishwanath asserts that robotics is currently navigating a Lego era that requires rebuilding essential components like actuators, software, robotic hands, and safety guidelines. This stance conflicts with predictions from tech leaders like General Intuition chief executive Pim de Witte, who expect an imminent ChatGPT-like breakthrough. De Witte previously claimed that a single general foundation model would soon make specialized robotics operations redundant. Vishwanath maintains that physical AI extends far beyond standalone robots, arguing that perfecting fundamental hardware and software components remains the most vital immediate priority.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Amulya-Vishwanath-Techable-VC.jpg?resize=960,1200"
+        },
+        {
+          "title": "An Nvidia insider-turned-VC on why robotics hasn\u2019t hit its ChatGPT moment, yet",
+          "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "source": "TechCrunch",
+          "summary": "Former Nvidia executive Amulya Vishwanath argues that robotics is still developing fundamental components before achieving a breakthrough ChatGPT-like moment.",
+          "paragraph": "Former Nvidia robotics marketing lead Amulya Vishwanath shared her venture capital investment strategy on the Equity podcast. After seven years overseeing robotics platforms at Nvidia, Vishwanath became one of the first female executives to leave the chipmaker to launch an early-stage venture firm, Techable VC. Through her new fund, she issues initial checks to startups developing physical artificial intelligence across life sciences, materials science, and robotics. Vishwanath explained that robotics is currently navigating a foundational phase rather than approaching an immediate transformative leap akin to the late 2022 debut of ChatGPT. She described this period as a construction stage where engineers must still refine vital core elements such as actuators, robotic hands, software, and safety protocols. This perspective challenges views from industry figures like General Intuition chief executive Pim de Witte, who expects a single universal foundation model to quickly render specialized systems obsolete.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/unitree-robots.jpg?resize=1200,800"
+        },
+        {
+          "title": "Elorian\u2019s first AI model wants to reason with images, not just about them",
+          "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "source": "TechCrunch",
+          "summary": "Palo Alto startup Elorian has launched Glimpse, an efficient AI model designed to reason through images rather than just describing them.",
+          "paragraph": "Palo Alto startup Elorian has released Glimpse, its first visual reasoning model accessible through an API and chat interface. Led by former Google DeepMind researcher Andrew Dai, the company previously secured fifty-five million dollars at a three-hundred-million-dollar valuation. Unlike conventional multimodal tools that translate graphics into text immediately, Glimpse uses a visual scratch space to crop details and analyze video frames mid-reasoning. Developed with only a few hundred GPUs, the software costs sixty cents per million input tokens and three dollars per million output tokens. Elorian claims the compact model outperforms GPT-6 Astra in scientific chart analysis and short-form video captioning. The company initially targets media organizations, research laboratories, and robotics enterprises dealing with massive video archives. Eventually, Elorian intends to leverage this visual spatial awareness to directly guide physical robot actions.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/image-1.png?resize=1200,675"
+        },
+        {
+          "title": "Tressfecta wants to make hair braiding a less arduous task for hairstylists",
+          "link": "https://techcrunch.com/2026/10/16/tressfecta-wants-to-make-hair-braiding-a-less-arduous-task-for-hairstylists/",
+          "source": "TechCrunch",
+          "summary": "Startup Tressfecta is developing Plait Pilot, a hardware tool designed to automate hair separation and ease the physical strain on textured-hair braiders.",
+          "paragraph": "Founded by twenty-four-year-old Aisata Diallo, startup Tressfecta is developing a device called Plait Pilot to assist stylists who work with textured hair. Diallo experienced the strain of styling firsthand while running a braiding venture at Northeastern University, where manual eight-hour sessions often caused issues like cramping and carpal tunnel syndrome. To streamline the lengthy preparation phase, Plait Pilot lets stylists load hair onto the machine, pick a bundle size, and receive separated strands ready for installation. Designing such hardware remains difficult because textured hair varies drastically in density and length, and the space has historically been overlooked by mainstream tech. Currently prelaunch, the company is refining its prototype using personal bootstrapping alongside funding from grants and accelerator programs. Diallo is actively recruiting braiders to test the device as she prepares to raise capital for the beauty hardware venture.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2066870225.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Scientists discover a way to reverse coral bleaching at record speed",
+          "link": "https://phys.org/news/2026-10-scientists-reverse-coral.html",
+          "source": "Phys.org",
+          "summary": "Scientists have reversed deadly coral bleaching in a record seven weeks by briefly touching dying specimens with healthy clones.",
+          "paragraph": "In a recent laboratory breakthrough, scientists successfully rescued corals that were nearing death from severe bleaching. A study published in Science Advances reports that completely whitened specimens managed to regain total health. This unprecedented turnaround was triggered simply by allowing the dying organisms brief physical contact with healthy clones. Following that short interaction, the damaged corals made a complete recuperation in just seven weeks. That timeframe represents the most rapid recovery ever documented by researchers. Notably, this experiment marks the first time that science has observed corals bouncing back through this cloning process.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/stanford-scientists-di.jpg"
+        },
+        {
+          "title": "Warming could help make the Indian Ocean a stronger climate buffer",
+          "link": "https://phys.org/news/2026-10-indian-ocean-stronger-climate-buffer.html",
+          "source": "Phys.org",
+          "summary": "Shifting seasonal patterns in the Indian Ocean may alter its carbon dioxide absorption and turn it into a stronger climate buffer.",
+          "paragraph": "Earth relies on its vast oceans to slow the pace of climate change by capturing carbon dioxide from the atmosphere. The quantity of gas these marine environments take in does not remain steady, fluctuating instead across different months of the year. A study published in Geophysical Research Letters reveals that these established seasonal uptake cycles are currently transforming throughout the Indian Ocean. Such shifts carry important implications, as they could impact how effectively the marine region balances the global climate. Consequently, rising temperatures might help reinforce the Indian Ocean, enabling it to function as a more powerful buffer against ongoing planetary warming.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/warming-could-help-mak.jpg"
+        },
+        {
+          "title": "Close social bonds help wild jackdaws hold feeding spots but come with waiting costs",
+          "link": "https://phys.org/news/2026-10-social-bonds-wild-jackdaws.html",
+          "source": "Phys.org",
+          "summary": "Close social bonds help wild jackdaws maintain feeding locations, but preserving these relationships introduces real waiting costs.",
+          "paragraph": "Across many animal species, including human beings, close social relationships play an established role in supporting survival. For wild jackdaws, these strong partnerships prove advantageous by helping individuals secure and maintain valuable feeding spots. However, keeping such connections intact over extended periods comes with notable drawbacks, specifically forcing the birds to endure waiting costs. Ultimately, while social bonds offer significant benefits, sustaining them continuously demands meaningful effort and sacrifice.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-feeding-benefits-a.jpg"
+        },
+        {
+          "title": "Japan's MMX mission aims to swipe soil samples from Mars's moon Phobos",
+          "link": "https://phys.org/news/2026-10-japan-mmx-mission-aims-swipe.html",
+          "source": "Phys.org",
+          "summary": "Japan is preparing to launch its MMX mission to Mars to collect soil samples from its largest moon, Phobos.",
+          "paragraph": "Japan is preparing to launch an upcoming space flight directed toward Mars. Rather than touching down on the planet itself, the spacecraft will bypass the Martian surface entirely. Officially designated as the Martian Moons Exploration, or MMX, the project will concentrate its operations on Phobos. Phobos is recognized as the larger body of Mars's two small orbiting moons. Through this targeted effort, the Japanese mission plans to retrieve soil samples directly from the moon.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/japans-mmx-mission-aim.jpg"
+        },
+        {
+          "title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+          "source": "ScienceDaily",
+          "summary": "Physicists have engineered a strange quantum state dubbed a fractional Fermi sea, where highly energized ultracold atoms unexpectedly retain an organized structure.",
+          "paragraph": "Researchers led by Hanns-Christoph N\u00e4gerl, theoretical physicist Alvise Bastianello, and lead author Yi Zeng have identified an unusual quantum condition known as a fractional Fermi sea. Published in Physical Review Letters, the study examined ultracold cesium atoms confined to a one-dimensional channel where interactions were repeatedly shifted between powerful repulsion and attraction. Instead of descending into disordered heat, the atoms moved from their lowest energy state into a highly excited configuration that retained a hidden order. Typically, low-temperature fermions organize into standard energy levels known as a Fermi sea, but this new arrangement persists far from equilibrium balance. The system exhibits unique mathematical signatures, including wave-like ripples termed Friedel oscillations and unusual correlation decay across distances. These behaviors contradict predictions from Tomonaga-Luttinger liquid theory, a conventional framework used to model one-dimensional quantum particles. Consequently, the discovery challenges existing quantum theories and points to the potential existence of novel collective excitations dubbed super-Fermions.",
+          "image": "https://www.sciencedaily.com/images/1920/ultracold-cesium-atoms-locked-into-hidden-ordered-state.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Latvia eyes crypto tax payments in 2027 as parliament overhauls crypto taxation",
+          "link": "https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation",
+          "source": "CoinDesk",
+          "summary": "Latvia plans to let citizens pay personal taxes using cryptocurrency as early as next year following a major overhaul of its crypto tax laws.",
+          "paragraph": "Latvia could permit residents to settle their personal tax bills with cryptocurrency as early as next year, according to prime ministerial adviser Didzis Dejus. The country's Finance Ministry has agreed to the concept, though technical integration with a payment provider is still underway. This initiative follows a new law passed by parliament on October 15 that taxes crypto withdrawals that exceed deposited amounts rather than levying fees on every single trade. The reform also introduces a one-time declaration window between April and May 2027, allowing long-term holders without purchase records to resolve past tax debts by paying a ten percent fee on asset values recorded at the end of 2026. Officials hope these changes will transform the nation into a prominent fintech hub while drawing in digital asset companies and encouraging real-world tokenization. The final rollout still hinges on government formation following the recent parliamentary election won by Prime Minister Andris Kulbergs' United List party.",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/d02365f898383e63bd7d71439d04e193ccd52d12-1920x1281.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
+          "link": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
+          "source": "Decrypt",
+          "summary": "U.S. spot Bitcoin ETFs shed roughly $910 million across two weeks as hot inflation data pushed the cryptocurrency market into the red.",
+          "paragraph": "Investors pulled roughly $910 million from U.S. spot Bitcoin exchange-traded funds over the last two weeks, including a net $228.6 million loss this past week. The sustained wave of redemptions has erased early monthly gains, leaving October down by around $615 million. Heavy selling escalated following hotter-than-anticipated consumer and producer inflation readings, which revived expectations that the Federal Reserve will implement another interest rate hike. The macroeconomic pressure briefly drove Bitcoin below $80,000 and triggered nearly $950 million in crypto liquidations, mostly from bullish leveraged bets. This decline also pushed the asset below the estimated $82,300 cost basis for average ETF investors. Rising interest rates make risk-free Treasury yields near 5% far more attractive, diverting capital away from volatile cryptocurrencies and making borrowing significantly more expensive. Other crypto funds including Ethereum and Solana have experienced similar downturns this month as institutional sentiment cools.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg"
+        },
+        {
+          "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+          "link": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+          "source": "CoinDesk",
+          "summary": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+          "paragraph": "Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails. 3 min readMake preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake preferred on SummaryShowStablecoin payments grew 45% to $482 billion this year through September, despite circulating supply stalling in 2026, according to a fresh report by blockchain analytics firm Allium.Mastercard, Stripe and Visa all announced services this week that combine stablecoins with familiar payment systems as digital dollars become increasingly part of global money movement.Businesses want stablecoins being integrated into their existing financial operations, instead of running separate systems for digital assets, said...",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/eb1df4637820d42a650a8dcab7641953887ebff1-720x406.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Here\u2019s what happened in crypto today",
+          "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+          "paragraph": "Today in crypto, Tether backs AIsa funding round, Circle eyes 40 developing markets and stablecoin costs are smaller",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        },
+        {
+          "title": "Most Americans polled oppose betting on elections: Reuters",
+          "link": "https://cointelegraph.com/news/most-americans-polled-oppose-betting-on-elections-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "A majority of Americans surveyed oppose wagering on political elections through prediction markets, according to a Reuters poll.",
+          "paragraph": "According to a Reuters poll, a majority of Americans are opposed to wagering on elections. The survey gauged public sentiment specifically regarding placing bets on political contests through prediction markets. Across the individuals surveyed, most respondents expressed disapproval of election betting. Ultimately, the polling indicates that the use of prediction markets for elections lacks support from a majority of the public.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M57M1156GPPFQ4JMAMQP3RQS/hi-japan-having-a-hard-time-gambling-a-and-casinos-poker.jpg"
+        }
+      ]
+    }
+  ]
+}
