@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-19",
+  "display_date": "October 19, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+          "source": "TechCrunch",
+          "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+          "paragraph": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today. AI Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago Rebecca Bellan 11:49 AM PDT \u00b7 October 19, 2026 Twelve years ago today, Eugenia Kuyda stood up on stage at TechCrunch Disrupt and presented a conversational chatbot called IO that acted as a lifestyle concierge to help people book restaurants and vacations along with other tasks. IO, the first product from her startup Luka, came before the deep learning breakthroughs that would eventually lead to today\u2019s large language models. \u201cIt still worked,\u201d Kuyda told TechCrunch in an exclusive interview.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/wabi-ios-home.png?resize=1200,1200"
+        },
+        {
+          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+          "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+          "source": "TechCrunch",
+          "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+          "paragraph": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent. Tenstorrent, a chip startup focused on inference, has raised $1.5 billion at a $6.2 billion valuation. The round comes five months after the 10-year-old Nvidia challenger reportedly received acquisition interest from Intel and Qualcomm at valuations of as much as $5 billion. The fresh round, which more than doubled Tenstorrent\u2019s valuation from the $2.6 billion it fetched in late 2024, was led by Trace Capital, a new firm launched by Quiet Capital co-founder Ben Mahdavi, and Innovation X. Other backers included Cadence Ventures, Eclipse, Fidelity, SanDisk, and T. Rowe Price.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/08/rnuUXh8kprc7HfoRAGgTvZ-1200-80.jpg?w=970"
+        },
+        {
+          "title": "People are using AI to make their smart TVs dumb again",
+          "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+          "source": "TechCrunch",
+          "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+          "paragraph": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs. One such solution, called \u201cdumbtv,\u201d describes its mission on its GitHub page thus: \u201cYour TV should do what you paid for: your apps, your HDMI inputs, and nothing else. No ads from the TV itself, no watch tracking, no update you did not ask for.\u201d Another, \u201ccleanyourtv,\u201d promises to strip the bloatware from any Android TV or Google TV over Wi-Fi, to replace the launcher with one that resembles Apple TV. While hacking consumer electronics devices to gain more control over their systems is hardly a new idea, the latest advances in AI technology have made such efforts much more accessible to anyone.",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/05/Google-TV.jpeg?w=1200"
+        },
+        {
+          "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+          "link": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+          "source": "WIRED",
+          "summary": "Around 80 pages on WhatsApp\u2019s website exposed instructions that were designed for its chatbot, including \u201cWHAT NOT TO SAY.\u201d Meta says a bug caused the issue.",
+          "paragraph": "Around 80 pages on WhatsApp\u2019s website exposed instructions that were designed for its chatbot, including \u201cWHAT NOT TO SAY.\u201d Meta says a bug caused the issue. LoaderSave StorySave this storyCommentLoaderSave StorySave this storyDozens of WhatsApp web pages designed to answer people\u2019s questions about Meta\u2019s encrypted messaging app inadvertently exposed the company\u2019s own instructions to its chatbot. These included some sections titled \u201cWHAT NOT TO SAY\u201d to users asking questions and explicit instructions not to provide people with legal advice. A new analysis has found that around 80 help and FAQ pages across WhatsApp\u2019s website exposed text instructions that were designed for a large language model, specifically one of Meta\u2019s own.",
+          "image": "https://media.wired.com/photos/6ad61af88d7b5cce41c3ec77/master/pass/GettyImages-2262950720.jpg"
+        },
+        {
+          "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+          "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+          "source": "TechCrunch",
+          "summary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+          "paragraph": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing. AI Nvidia launches new open models to run agents in the enterprise and on PCs Julie Bort 8:37 AM PDT \u00b7 October 19, 2026 Nvidia on Thursday launched new open-weight models designed for always-on agents and edge computing. The Nemotron 3.5 Super VL is a large, 120-billion-parameter model geared for agents used by the enterprise. While it uses fewer parameters than the Nemotron 3 Ultra model, Nvidia says it can deliver similar accuracy in instruction-following and tool-use tasks. At the other end of the spectrum, the company also launched two lightweight Bolt models.",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183848501.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+          "source": "TechCrunch",
+          "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+          "paragraph": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today. AI Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago Rebecca Bellan 11:49 AM PDT \u00b7 October 19, 2026 Twelve years ago today, Eugenia Kuyda stood up on stage at TechCrunch Disrupt and presented a conversational chatbot called IO that acted as a lifestyle concierge to help people book restaurants and vacations along with other tasks. IO, the first product from her startup Luka, came before the deep learning breakthroughs that would eventually lead to today\u2019s large language models. \u201cIt still worked,\u201d Kuyda told TechCrunch in an exclusive interview.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/wabi-ios-home.png?resize=1200,1200"
+        },
+        {
+          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+          "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+          "source": "TechCrunch",
+          "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+          "paragraph": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent. Tenstorrent, a chip startup focused on inference, has raised $1.5 billion at a $6.2 billion valuation. The round comes five months after the 10-year-old Nvidia challenger reportedly received acquisition interest from Intel and Qualcomm at valuations of as much as $5 billion. The fresh round, which more than doubled Tenstorrent\u2019s valuation from the $2.6 billion it fetched in late 2024, was led by Trace Capital, a new firm launched by Quiet Capital co-founder Ben Mahdavi, and Innovation X. Other backers included Cadence Ventures, Eclipse, Fidelity, SanDisk, and T. Rowe Price.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/08/rnuUXh8kprc7HfoRAGgTvZ-1200-80.jpg?w=970"
+        },
+        {
+          "title": "Here's how we would build out the perfect modular electric Slate truck",
+          "link": "https://www.engadget.com/2289274/heres-how-we-would-build-out-the-perfect-modular-electric-slate-truck/",
+          "source": "Engadget",
+          "summary": "A Bronco for the modern age.",
+          "paragraph": "A Bronco for the modern age. Slate Add Engadget on Google: Preferred Source Google Discover The Slate Truck is about as unique a vehicle as there is. The modular electric truck ships from the factory as a bare-bones two-seat pickup in a single (slate gray) color. But the fun begins when you trick it out with a catalog of over 200 add-ons. After hours of tinkering with the configurator, here's our ideal throwback build. When customizing your Slate Truck, it helps to have a clear theme in mind. And what better theme than \"1970s Ford Bronco\"? Granted, no Bronco ever looked exactly like this. But if you concocted a blend of those old trucks and a modern EV, it might not be far off. The catch?",
+          "image": "https://www.engadget.com/img/gallery/heres-how-we-would-build-out-the-perfect-modular-electric-slate-truck/l-intro-1792004130.jpg"
+        },
+        {
+          "title": "How to watch Vanderpump Rules: Lisa Las Vegas online \u2014 stream reality TV from anywhere",
+          "link": "https://www.techradar.com/entertainment/how-to-watch/watch-vanderpump-rules-lisa-las-vegas",
+          "source": "TechRadar",
+          "summary": "Here's how to watch Vanderpump Rules: Lisa Las Vegas online no matter where in the world you are as Lisa throws open the doors of her first boutique hotel on the Las Vegas Strip.",
+          "paragraph": "After opening 39 restaurants, Lisa and her SURvivors team up to open their first hotel Vanderpump Rules: Lisa Las Vegas, a new three-part reality TV series, follows her race to open The Vanderpump Hotel on the Las Vegas Strip. Expect lavish interiors, last-minute disasters, and familiar faces including Tom Schwartz and Lala Kent. The series premieres Tuesday, Oct. 20, at 9 p.m. ET/PT on Bravo, with two back-to-back episodes. Streaming fans: Below we'll show you how to watch Vanderpump Rules: Lisa Las Vegas live and online without cable \u2013 and from anywhere. The first two episodes of Vanderpump Rules: Lisa Las Vegas air back-to-back from Oct. 20 on Bravo. For US viewers, Fubo, YouTube TV and Hulu + Live TV all feature Bravo and offer free trial periods. Away from the US?",
+          "image": "https://cdn.mos.cms.futurecdn.net/ugFsaCPGMAQ6gaok8vnFNn-1920-80.png"
+        },
+        {
+          "title": "Russian bot activity plunged 84% after Ukraine hit Yandex data centers, but the bots were back at full strength within two days",
+          "link": "https://www.techradar.com/pro/security/russian-bot-activity-plunged-84-percent-after-ukraine-hit-yandex-data-centers-but-the-bots-were-back-at-full-strength-within-two-days",
+          "source": "TechRadar",
+          "summary": "The 84% bot collapse after Ukraine's Yandex strikes was real, lasted about a day, and Cloudflare watched the automation move to rival clouds.",
+          "paragraph": "Day-long bot collapse saw major drop in traffic The findings come from an analytical report the CCD dated October 15 2026. Using Osavul monitoring software, analysts tracked 22,664 messages from 5,201 accounts showing signs of inauthentic behavior across 26 topics in Ukraine's Facebook and Telegram space between October 6 and 12. The 83.6% figure is real, but the same report shows those accounts posting more than before within 48 hours, and independent data from Cloudflare shows that at least some of the malicious automation running on Yandex's cloud did not die so much as move house. The first collapse came on October 8, hours after a drone strike and fire shut down Yandex's Sasovo data center in Ryazan region, home to two of the company's three supercomputers.",
+          "image": "https://cdn.mos.cms.futurecdn.net/85kAnS2rcuxwyaibPRC4Ze-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+          "source": "TechCrunch",
+          "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+          "paragraph": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today. AI Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago Rebecca Bellan 11:49 AM PDT \u00b7 October 19, 2026 Twelve years ago today, Eugenia Kuyda stood up on stage at TechCrunch Disrupt and presented a conversational chatbot called IO that acted as a lifestyle concierge to help people book restaurants and vacations along with other tasks. IO, the first product from her startup Luka, came before the deep learning breakthroughs that would eventually lead to today\u2019s large language models. \u201cIt still worked,\u201d Kuyda told TechCrunch in an exclusive interview.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/wabi-ios-home.png?resize=1200,1200"
+        },
+        {
+          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+          "link": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+          "source": "TechCrunch",
+          "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+          "paragraph": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent. Tenstorrent, a chip startup focused on inference, has raised $1.5 billion at a $6.2 billion valuation. The round comes five months after the 10-year-old Nvidia challenger reportedly received acquisition interest from Intel and Qualcomm at valuations of as much as $5 billion. The fresh round, which more than doubled Tenstorrent\u2019s valuation from the $2.6 billion it fetched in late 2024, was led by Trace Capital, a new firm launched by Quiet Capital co-founder Ben Mahdavi, and Innovation X. Other backers included Cadence Ventures, Eclipse, Fidelity, SanDisk, and T. Rowe Price.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/08/rnuUXh8kprc7HfoRAGgTvZ-1200-80.jpg?w=970"
+        },
+        {
+          "title": "AI assistant startup Town nabs unicorn valuation four months after launch",
+          "link": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
+          "source": "TechCrunch",
+          "summary": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures.",
+          "paragraph": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forerunner Ventures and Menlo Ventures. Town, a two-year-old, San Francisco-based startup developing AI assistants, nabbed a unicorn valuation on Monday, announcing a $108 million Series B funding round co-led by Forerunner Ventures and Menlo Ventures. The company launched publicly just four months ago and said it reached millions of dollars in annual recurring revenue in a matter of weeks. It has raised at least $160 million to date, having previously announced a $55 million Series A round in June. Town \u2014 founded by former Plaid CTO Jean-Denis Greze \u2014 is one of many AI assistants flooding the market right now.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2294590819.jpg?resize=1200,675"
+        },
+        {
+          "title": "LatAm Startup Funding Jumps 26% In Q3 As VCs Begin \u2018Rediscovering\u2019 The Region",
+          "link": "https://news.crunchbase.com/venture/q3-2026-latam-startup-funding-jumps-ai-fintech-mexico/",
+          "source": "Crunchbase News",
+          "summary": "A continued boom in late-stage and growth funding combined with a surge in seed-stage funding helped buoy venture investment in Latin America for the third quarter of 2026, Crunchbase data shows.",
+          "paragraph": "A continued boom in late-stage and growth funding combined with a surge in seed-stage funding helped buoy venture investment in Latin America for the third quarter of 2026, Crunchbase data shows. A continued boom in late-stage and growth funding combined with a surge in seed-stage funding helped buoy venture investment in Latin America for the third quarter of 2026, Crunchbase data shows. All told, startups in Latin America raised a combined $1.3 billion across seed- and growth-stage deals in the three-month period ending Sept. 30. That was up 26% year over year but down 9% from the second quarter. For perspective, we charted out total investment, color-coded by stage, for the past 12 quarters below.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Frontier-AI-labs-Lat-Am.jpg"
+        },
+        {
+          "title": "The FDE Bubble: Silicon Valley\u2019s Most Expensive Game Of Pretend",
+          "link": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived/",
+          "source": "Crunchbase News",
+          "summary": "Enterprise AI companies relying on armies of forward deployed engineers are disguising labor-intensive services as scalable software, inflating recurring revenue and valuations while falling short of...",
+          "paragraph": "Enterprise AI companies relying on armies of forward deployed engineers are disguising labor-intensive services as scalable software, inflating recurring revenue and valuations while falling short of autonomy claims, argues Anurag Gurtu, co-founder and CEO of Airrived. In this guest commentary he urges buyers and investors to examine deployment costs and gross margins to distinguish sustainable software businesses from expensive staffing operations. Congratulations to the enterprise AI company that just raised another nine-figure round to solve a problem software is supposed to solve by itself: getting humans to use the product. You know the one. Won\u2019t name it. Don\u2019t have to.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/AI_robotics_Shadow.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Survey experiment shows investors focus on type of business rather than gender of leaders",
+          "link": "https://phys.org/news/2026-10-survey-investors-focus-business-gender.html",
+          "source": "Phys.org",
+          "summary": "Would you prefer to back a man or a woman pitching a business idea? A new study by the University of Portsmouth published in the British Journal of Management suggests that, when it comes to potential...",
+          "paragraph": "Would you prefer to back a man or a woman pitching a business idea? A new study by the University of Portsmouth published in the British Journal of Management suggests that, when it comes to potential crowdfunding investors, the answer may depend less on who is pitching and more on what they are selling.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/women-business-leaders.jpg"
+        },
+        {
+          "title": "Auroral structure could be caused by bouncing electrons",
+          "link": "https://phys.org/news/2026-10-auroral-electrons.html",
+          "source": "Phys.org",
+          "summary": "The aurora is among nature's most visually striking phenomena. It occurs when charged particles from the sun are funneled by Earth's magnetic field into the upper atmosphere, where they collide with a...",
+          "paragraph": "The aurora is among nature's most visually striking phenomena. It occurs when charged particles from the sun are funneled by Earth's magnetic field into the upper atmosphere, where they collide with atoms and molecules and produce distinctly colored curtainlike patterns of light.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/green-swirls-of-light.jpg"
+        },
+        {
+          "title": "Making the internet better for AI agents might make it worse for everyone else",
+          "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+          "source": "MIT Technology Review",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here.",
+          "paragraph": "Millions of AI agents are descending on a web built for humans. Websites are trying to keep them out, but the arrival of these new visitors could transform the internet. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms.",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_Algo.jpg?resize=1200,600"
+        },
+        {
+          "title": "Cutting air pollution and greenhouse gases could save Africa billions while improving health",
+          "link": "https://phys.org/news/2026-10-air-pollution-greenhouse-gases-africa.html",
+          "source": "Phys.org",
+          "summary": "Lowering air pollution in Africa has many economic benefits, according to new research by environmental scientists Chris Malley, Kevin Hicks and Caroline Sawe.",
+          "paragraph": "Lowering air pollution in Africa has many economic benefits, according to new research by environmental scientists Chris Malley, Kevin Hicks and Caroline Sawe. They reflect on two reports that set out the practical ways that African countries can cut air pollution and greenhouse gas emissions at the same time, while saving billions through lower health care costs, fewer days lost to illness and greater productivity.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/air-pollution-in-afric.jpg"
+        },
+        {
+          "title": "Social norms and infrastructure could help climate transitions stick",
+          "link": "https://phys.org/news/2026-10-social-norms-infrastructure-climate-transitions.html",
+          "source": "Phys.org",
+          "summary": "During the COVID-19 pandemic, air travel declined dramatically. Many view the disruption as a potential tipping point for reducing emissions from the aviation sector.",
+          "paragraph": "During the COVID-19 pandemic, air travel declined dramatically. Many view the disruption as a potential tipping point for reducing emissions from the aviation sector. However, once travel restrictions were lifted, passenger traffic quickly rebounded to prepandemic levels and, in many regions, even surpassed them.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2019/1-solarpanel.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Why Some of America\u2019s Biggest Companies Are Objecting to Tokenized Shares",
+          "link": "https://decrypt.co/381349/why-some-america-biggest-companies-objecting-tokenized-shares",
+          "source": "Decrypt",
+          "summary": "Nine companies, including Verizon, Broadcom and UnitedHealth, have objected to having their shares traded on the planned OKX-ICE tokenized stock venue.",
+          "paragraph": "Wall Street\u2019s push to put stocks onchain is running into an unexpected obstacle: the companies behind the tokenized stocks. Wall Street\u2019s push to put stocks onchain is running into an unexpected obstacle: the companies behind the stocks. Nine issuers, including Verizon, Broadcom, and UnitedHealth Group, have objected to having their shares offered on OKXICE TSV, according to an Oct. 15 public notice from the venue. OKXICE TSV is a planned tokenized stock platform from crypto exchange OKX and NYSE owner Intercontinental Exchange. The other objecting companies are Cerebras Systems, AppLovin, Applied Digital, Rocket Lab, CoreWeave, and Applied Optoelectronics. The notice didn\u2019t say why the companies objected or whether the objections will keep their shares off the platform.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-wall-street-gID_7.png"
+        },
+        {
+          "title": "US Orders Civilian Agencies to Rip DeepSeek Out of Government Systems",
+          "link": "https://decrypt.co/381347/us-orders-civilian-agencies-rip-deepseek-out-government-systems",
+          "source": "Decrypt",
+          "summary": "The Department of Homeland Security told civilian agencies to remove China's DeepSeek and any service built on it, and banned buying more, citing the risk of sensitive data reaching Beijing.",
+          "paragraph": "The Department of Homeland Security told civilian agencies to remove China's DeepSeek and any service built on it, and banned buying more. The U.S. Department of Homeland Security ordered civilian government agencies on Monday to remove DeepSeek, China\u2019s best-known AI chatbot, from their computer systems and to stop buying it, along with any outside service built on top of it. DHS says the models pose \u201cmultiple threat vectors,\u201d meaning several separate ways things can go wrong. Using them \u201cmay result in the transfer of sensitive data to the PRC\u201d\u2014the People\u2019s Republic of China\u2014if government employees or vendors use them, and could produce \u201cactionable intelligence on U.S.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg"
+        },
+        {
+          "title": "JPMorgan's JPM Coin Arrives on Ethereum, Putting Bank Dollars on a Public Blockchain",
+          "link": "https://decrypt.co/381343/jpmorgan-jpm-coin-ethereum-bank-dollars",
+          "source": "Decrypt",
+          "summary": "JPMorgan is rolling out JPM Coin on Ethereum for institutional clients, a token backed by dollars in its accounts that settles in seconds, any day of the week.",
+          "paragraph": "JPMorgan is rolling out JPM Coin on Ethereum for institutional clients, a token backed by dollars in its accounts that settles in seconds. JPMorgan Chase is putting JPM Coin on Ethereum, which gives its biggest clients a way to move dollars in seconds on a Sunday night as easily as on a Tuesday morning. A normal wire between banks only moves during business hours and can take days to land, which is why JPMorgan started experimenting with blockchain technology. The idea is using JPM Coin to cut that wait to seconds. The token is a deposit token, so each unit stands for a dollar already sitting in a JPMorgan account, and the bank's site says clients can redeem it for dollars at any time with no lock-up.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/jp-morgan-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Revolut secures Gibraltar crypto license to support global expansion",
+          "link": "https://cointelegraph.com/news/revolut-secures-gibraltar-crypto-license-to-support-global-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "The UK-based fintech will use the authorization to offer crypto services in additional international markets, though it has not disclosed specific countries or launch dates.",
+          "paragraph": "Revolut has secured a Gibraltar DLT license to expand crypto services beyond the UK and Europe, with new markets and launch dates yet to be announced.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5AJ2EGPXJENGSEWEZ0NCJ4J/hi-taking-a-closer-look-at-gibraltar-and-how-the-jurisdiction-fares-in-comparison-to-other-small-ones.png"
+        },
+        {
+          "title": "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
+          "link": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures",
+          "source": "CoinDesk",
+          "summary": "U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures",
+          "paragraph": "The future of perps in the U.S. may be at stake as the CFTC argues that CME hasn't shown the new policy is hurting it after the agency OK'd its first bitcoin perp. 2 min readMake preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake preferred on SummaryShowThe U.S. Commodity Futures Trading Commission is seeking to cast doubt on CME Group's legal challenge to its new perps policy.The CFTC filed a brief in court arguing that the derivatives giant hasn't shown it's being harmed by the government's new push into perpetual futures, and without harm, it doesn't have legal standing.The U.S. Commodity Futures Trading Commission threw open the doors for perpetual futures in the U.S.",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/3488397e93351ed3a88de739300c35ce1824573b-1420x916.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
