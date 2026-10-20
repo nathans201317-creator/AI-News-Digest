@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-20",
+  "display_date": "October 20, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Meta\u2019s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+          "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+          "source": "TechCrunch",
+          "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads.",
+          "paragraph": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals. Apps Meta\u2019s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps Sarah Perez 10:12 AM PDT \u00b7 October 20, 2026 Meta\u2019s AI companion, Muse, is now one of only a dozen mobile apps to have reached 10 million U.S. downloads in its first 40 days on the market. According to new data from market intelligence provider Sensor Tower, Muse has seen 10.9 million downloads since its September debut, 10.2 million of which were in the United States.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
+        },
+        {
+          "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+          "link": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+          "source": "TechCrunch",
+          "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
+          "paragraph": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems. Climate Plants can speak using electricity, so this startup built an AI model to decipher their language Tim De Chant 9:00 AM PDT \u00b7 October 20, 2026 Justin Mast\u2019s life was changed by a cyborg plant. A few years ago, Mast was reading through some scientific literature when he stumbled upon research about a houseplant wired to a motorized stand. When the plant wanted more light, electrical signals flowed through the living tissues. A control board sensed the current and wheeled the plant closer to the light source. \u201cI\u2019m like, what the heck?\u201d Mast told TechCrunch.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/electric-plant-bud-sensor.jpeg?resize=1200,800"
+        },
+        {
+          "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+          "link": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+          "source": "WIRED",
+          "summary": "Hysteria over the agent's appearance in a 7,500-person group reveals that internet experts have outdated notions of privacy.",
+          "paragraph": "Hysteria over the agent's appearance in a 7,500-person group reveals that internet experts have outdated notions of privacy. LoaderSave StorySave this storyCommentLoaderSave StorySave this storyOn Thursday morning, as the Association of Internet Researchers (AoIR) began the second day of its annual conference in Mexico City, a new member introduced itself to the community listserv, Air-L. \u201cMy name is Velvet Vale,\u201d the new user wrote. \u201cI\u2019ve been reading the list for several weeks, and I\u2019d like to introduce myself openly.",
+          "image": "https://media.wired.com/photos/6ad2cc7064b24534a6bc5044/master/pass/culture_ai_agent_internet_research_listserv.jpg"
+        },
+        {
+          "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+          "link": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+          "source": "TechCrunch",
+          "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
+          "paragraph": "Figma said it plans to support as many standards as possible without exposing all of its data. AI Figma co-founder Dylan Field thinks MCP is not a perfect protocol Ivan Mehta 7:13 AM PDT \u00b7 October 20, 2026 Despite Figma co-founder Dylan Field\u2019s concerns about MCP (model context protocol), which standardizes how AI agents connect to external data sources and tools, the company is expanding its support for the open source standard. At the design company\u2019s first Config conference held in India, the company announced 20 new MCP partners, including Amp, ClickUp, Dia, Junie by JetBrains, Linear, Meta Muse, Mistral, Notion, OpenCode, and Sarvam Agents. Field has expressed his misgivings about MCP before.",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1233645802.jpg?resize=1200,800"
+        },
+        {
+          "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
+          "link": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "source": "TechCrunch",
+          "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+          "paragraph": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns. Government & Policy US orders federal agencies to remove China\u2019s DeepSeek AI from their systems Kate Park 6:07 AM PDT \u00b7 October 20, 2026 The U.S. has ordered federal civilian agencies to stop purchasing services and products developed by Chinese AI startup DeepSeek and remove them from government IT systems over national security concerns tied to the Chinese AI startup\u2019s operations in China, according to the Department of Homeland Security. The order goes beyond banning DeepSeek\u2019s own product, but also covers third-party products and services built using DeepSeek technology, though agencies can request exceptions.",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2195703830.jpg?w=1024"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Millions of California students have sensitive data stolen \u2014 names, SSIDs, home addresses and more taken in attack on nonprofit",
+          "link": "https://www.techradar.com/pro/security/millions-of-california-students-have-sensitive-data-stolen-names-ssids-home-addresses-and-more-taken-in-attack-on-nonprofit",
+          "source": "TechRadar",
+          "summary": "Data breach likely saw attackers obtain millions of students' PII via a simple password compromise, it seems.",
+          "paragraph": "Sensitive, personally identifiable information leaked The breach occurred in a Secure File Transfer Protocol (SFTP) system used by Educational Testing Service (ETS) \u2013 a third party used by the California Department of Education for managing student information. According to the report, the attackers were able to regain entry repeatedly over the course of four months, accessing student files filled with names, addresses, dates of birth and more. Though ETS hasn't officially disclosed how many students have been impacted, Malwarebytes notes that the state's public schools counted more than 5.7 million students in the 2025-2026 year alone.",
+          "image": "https://cdn.mos.cms.futurecdn.net/Bxp566CRcYdpea9AFbkqBh-1920-80.jpg"
+        },
+        {
+          "title": "Meta\u2019s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+          "link": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+          "source": "TechCrunch",
+          "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads.",
+          "paragraph": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals. Apps Meta\u2019s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps Sarah Perez 10:12 AM PDT \u00b7 October 20, 2026 Meta\u2019s AI companion, Muse, is now one of only a dozen mobile apps to have reached 10 million U.S. downloads in its first 40 days on the market. According to new data from market intelligence provider Sensor Tower, Muse has seen 10.9 million downloads since its September debut, 10.2 million of which were in the United States.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024"
+        },
+        {
+          "title": "Spotify is dancing around its AI 'slop and spam' problem",
+          "link": "https://www.engadget.com/2291954/spotify-is-dancing-around-its-ai-slop-and-spam-problem/",
+          "source": "Engadget",
+          "summary": "The company said it removed 50 million such tracks from recommendations, but hasn't necessarily wiped them entirely.",
+          "paragraph": "The company said it removed 50 million such tracks from recommendations, but hasn The company said it removed 50 million tracks, but hasn't necessarily wiped them entirely. Emojisprout/Unsplash Add Engadget on Google: Preferred Source Google Discover Just over a year ago, Spotify announced policy changes to address the tidal wave of AI-generated audio that has flooded its platform. In a blog post on Tuesday, the company provided an update on the initiative, but it's still not going far enough to help users avoid genAI trash. So far in 2026, Spotify says it has yanked 50 million tracks it categorized as \"slop and spam\" from recommendations.",
+          "image": "https://www.engadget.com/img/gallery/spotify-is-dancing-around-its-ai-slop-and-spam-problem/l-intro-1792516193.jpg"
+        },
+        {
+          "title": "Chrome will now show a warning before you visit \u2018suspicious\u2019 sites",
+          "link": "https://www.theverge.com/tech/1014446/google-chrome-suspicious-website-warning",
+          "source": "The Verge",
+          "summary": "Google is launching a new browser safety feature for Chrome that aims to keep you better informed about how malicious a website might be before you open it.",
+          "paragraph": "The new two-stage browser warning makes it easier to distinguish between shifty and dangerous URLs.\ufeff Tech News Google Chrome will now show a warning before you visit \u2018suspicious\u2019 sitesThe new two-stage browser warning makes it easier to distinguish between shifty and dangerous URLs.\ufeff The new two-stage browser warning makes it easier to distinguish between shifty and dangerous URLs.\ufeff Jess Weatherbed Oct 20, 2026, 5:00 PM UTCLinkShareGiftIf you know for sure that a website flagged as suspicious is actually safe, you can mark it as such. Image: GoogleJess Weatherbed is a news writer focused on creative industries, computing, and internet culture.",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Google-Chrome-suspicious-website-warning-hero.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Don't put your phone in the TSA bin \u2014 do this instead",
+          "link": "https://www.engadget.com/2288969/why-shouldnt-put-phone-tsa-bin/",
+          "source": "Engadget",
+          "summary": "Let's be honest, TSA bins are just gross.",
+          "paragraph": "Let Frame Stock Footage/Shutterstock Add Engadget on Google: Preferred Source Google Discover After years of traveling with a small arsenal of tech \u2014 usually a phone, iPad, laptop and a portable gaming console \u2014 I like to think I'm pretty efficient when it comes to taking them out of my bag at TSA checkpoints. But it's still a pain to hastily repack them while also putting on my shoes, grabbing my belt and just trying not to hold up the line of people behind me in the process. Going through airport security can be a little stressful, and the last thing you're probably thinking about is how to properly stow away your loose items in the plastic bins. But we should all be a little more mindful of that, especially when it comes to our phones.",
+          "image": "https://www.engadget.com/img/gallery/dont-put-your-phone-in-the-tsa-bin-do-this-instead/l-intro-1792170181.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Inspired Capital closes $450M fourth fund as New York pushes back on Silicon Valley\u2019s gravitational pull",
+          "link": "https://techcrunch.com/2026/10/20/inspired-capital-closes-450m-fourth-fund-as-new-york-pushes-back-on-silicon-valleys-gravitational-pull/",
+          "source": "TechCrunch",
+          "summary": "The raise comes as venture dollars pile up on the West Coast.",
+          "paragraph": "The raise comes as venture dollars pile up on the West Coast. Venture Inspired Capital closes $450M fourth fund as New York pushes back on Silicon Valley\u2019s gravitational pull Connie Loizos 6:00 AM PDT \u00b7 October 20, 2026 Inspired Capital, the early-stage firm founded in 2019 by Alexa von Tobel and Penny Pritzker, has closed its fourth fund with $450 million in commitments. The new capital will bring the firm\u2019s assets under management to nearly $1.4 billion, von Tobel tells TechCrunch. The raise comes as venture dollars are piling up on the West Coast. Between 2020 and the end of 2025, the Bay Area had raised $352 billion for VC funds \u2014 roughly 46% of all U.S. venture capital, according to PitchBook.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Inspired-Capital.jpg?resize=1200,800"
+        },
+        {
+          "title": "How To Build A Billion-Dollar Company Without Venture Capital",
+          "link": "https://news.crunchbase.com/startups/bootstrapping-billion-dollar-company-ai-staffing-demarco-bairesdev/",
+          "source": "Crunchbase News",
+          "summary": "Founders can build billion-dollar businesses without venture capital by prioritizing customer revenue, pricing for quality, hiring exceptional talent and automating processes to scale efficiently, arg...",
+          "paragraph": "Founders can build billion-dollar businesses without venture capital by prioritizing customer revenue, pricing for quality, hiring exceptional talent and automating processes to scale efficiently, argues Nacho De Marco, who draws on his experience bootstrapping BairesDev, to emphasize financial discipline and a lasting commitment to solving customer problems as the foundations of sustainable growth. Today\u2019s venture capital ecosystem looks markedly different from even just five years ago. Most significantly, a small number of AI companies are now attracting the vast majority of available venture capital. In Q1 2026, just four companies collectively raised $188 billion, which alone accounted for 65% of total global venture investment, per Crunchbase data.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Bootstrap-1.jpg"
+        },
+        {
+          "title": "Fintech Funding Fell 21% In Q3 As Deals Grew Scarcer",
+          "link": "https://news.crunchbase.com/venture/q3-2026-fintech-startup-funding-deal-count-fell-ai/",
+          "source": "Crunchbase News",
+          "summary": "All told, fintech startups raised $10.6 billion globally in the third quarter of 2026, down 28.4% from $14.9 billion in Q2 2026 and 21.4% from $13.5 billion in Q3 2025.",
+          "paragraph": "All told, fintech startups raised $10.6 billion globally in the third quarter of 2026, down 28.4% from $14.9 billion in Q2 2026 and 21.4% from $13.5 billion in Q3 2025. Venture funding into fintech startups slid 21.4% year over year in the third quarter of 2026, while deal count fell nearly 31%, Crunchbase data shows, pointing to a narrower funding market with fewer rounds and continued reliance on large transactions. All told, fintech startups raised $10.6 billion globally in the third quarter of 2026, down 28.4% from $14.9 billion in Q2 2026 and 21.4% from $13.5 billion in Q3 2025. The pullback comes as investors draw sharper distinctions between companies attracting capital and those struggling to raise, according to QED Investors partner Laura Bock.",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Payments.jpg"
+        },
+        {
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+          "source": "TechCrunch",
+          "summary": "Amazon wants to break Nvidia\u2019s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+          "paragraph": "Amazon wants to break Nvidia\u2019s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own. Startups Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool Julie Bort 1:09 PM PDT \u00b7 October 19, 2026 On Monday, Amazon Web Services released a tool called TorchNeuron that lets AI startups easily move their AI apps onto Amazon\u2019s AI chip, Trainium. In doing so, Amazon is also taking a direct stab at the software advantage that has helped Nvidia become the default hardware choice for AI apps and spurred its rise as AI hardware provider of choice. TorchNeuron works with PyTorch, a free, open source toolkit that developers use to build, train, and run AI models.",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205217071.jpg?resize=1200,800"
+        },
+        {
+          "title": "Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago",
+          "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+          "source": "TechCrunch",
+          "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+          "paragraph": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today. AI Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago Rebecca Bellan 11:49 AM PDT \u00b7 October 19, 2026 Twelve years ago today, Eugenia Kuyda stood up onstage at TechCrunch Disrupt and presented a conversational chatbot called IO that acted as a lifestyle concierge to help people book restaurants and vacations along with other tasks. IO, the first product from her startup Luka, came before the deep learning breakthroughs that would eventually lead to today\u2019s large language models. \u201cIt still worked,\u201d Kuyda told TechCrunch in an exclusive interview.",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/wabi-ios-home.png?resize=1200,1200"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "'Raman barcodes' distinguish 20 SARS-CoV-2 variants by their RNA architecture",
+          "link": "https://phys.org/news/2026-10-raman-barcodes-distinguish-sars-cov.html",
+          "source": "Phys.org",
+          "summary": "A research team led by distinguished professor Giuseppe Pezzotti at the Biomedical Engineering Center, Kansai Medical University (Japan), has demonstrated that differences in the molecular structures...",
+          "paragraph": "A research team led by distinguished professor Giuseppe Pezzotti at the Biomedical Engineering Center, Kansai Medical University (Japan), has demonstrated that differences in the molecular structures of viral RNA can be captured as \"Raman barcodes,\" enabling the identification of 20 SARS-CoV-2 variants and subvariants. These findings are expected to contribute to the development of a rapid method for identifying newly emerging viral variants.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/raman-genome-for-sars.jpg"
+        },
+        {
+          "title": "Workplace narcissists crave more than a quiet raise",
+          "link": "https://phys.org/news/2026-10-workplace-narcissists-crave-quiet.html",
+          "source": "Phys.org",
+          "summary": "According to a new study, all employees like private rewards\u2014a salary increase or glowing performance review that's not broadcast to others in the workplace\u2014but narcissists also want to have rewards m...",
+          "paragraph": "According to a new study, all employees like private rewards\u2014a salary increase or glowing performance review that's not broadcast to others in the workplace\u2014but narcissists also want to have rewards made public for their colleagues to see, the researchers found.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/illustration-of-women.jpg"
+        },
+        {
+          "title": "'Bomb carbon' in wood shavings helped researchers measure the stability of biochar in soil",
+          "link": "https://phys.org/news/2026-10-carbon-wood-stability-biochar-soil.html",
+          "source": "Phys.org",
+          "summary": "Biochar can store carbon in the soil and reduce the amount of carbon dioxide in the atmosphere\u2014yet we still know too little about how long the biochar will persist.",
+          "paragraph": "Biochar can store carbon in the soil and reduce the amount of carbon dioxide in the atmosphere\u2014yet we still know too little about how long the biochar will persist. Now, researchers from the Swedish University of Agricultural Sciences have found a new way to measure this, using wood from the 1960s that was affected by nuclear weapons testing. The paper is published in the journal Radiocarbon.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/photo-of-wood-turning.jpg"
+        },
+        {
+          "title": "'Civic laboratories': How online spaces are reshaping civic engagement among Gen Z",
+          "link": "https://phys.org/news/2026-10-civic-laboratories-online-spaces-reshaping.html",
+          "source": "Phys.org",
+          "summary": "Even before they are old enough to vote, some young people are finding ways to make a difference. Civic engagement among youth ages 15 to 25 can range from volunteering in the community and joining a...",
+          "paragraph": "Even before they are old enough to vote, some young people are finding ways to make a difference. Civic engagement among youth ages 15 to 25 can range from volunteering in the community and joining a protest march to signing a petition or expressing political views on social media, according to Portland State University researcher Yue Ni.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/teens-climate-protest.jpg"
+        },
+        {
+          "title": "Individual atomic collisions can now be detected in the lab, potentially opening up pathways to new physics",
+          "link": "https://phys.org/news/2026-10-individual-atomic-collisions-lab-potentially.html",
+          "source": "Phys.org",
+          "summary": "Tiny atoms and molecules are constantly bombarding each other all around us. While we regularly measure the large-scale effects of these interactions, measuring the effect of each individual collision...",
+          "paragraph": "Tiny atoms and molecules are constantly bombarding each other all around us. While we regularly measure the large-scale effects of these interactions, measuring the effect of each individual collision is far more difficult. But now, researchers have managed to measure how tiny gas particles affect a single silica particle in the lab. In their new study, published in Physical Review Letters, the team describes how they detected the momentum transfers of individual collisions of gas particles with a nanoparticle levitated in laser light.",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/individual-atomic-coll.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified",
+          "link": "https://cointelegraph.com/news/strive-closes-630m-sats-ipo-leaves-bitcoin-allocation-unspecified?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "The Bitcoin treasury company could acquire an estimated 7,372 BTC with its net proceeds, potentially surpassing Metaplanet\u2019s holdings if it allocates the full amount.",
+          "paragraph": "The Bitcoin treasury company could acquire an estimated 7,372 BTC with its net proceeds, potentially surpassing Metaplanet\u2019s holdings if it allocates the full amount.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5D4R4SY5YQGHZN1M57JSE8D/hi-five-bitcoin-narratives-analysts-are-watching-beyond-price-2.jpg"
+        },
+        {
+          "title": "Zcash Leads Crypto Bounce, Surging 8.5% as Bitcoin Reclaims $83,000",
+          "link": "https://decrypt.co/381424/zcash-crypto-bounce-surging-bitcoin-reclaims",
+          "source": "Decrypt",
+          "summary": "Zcash jumped 8.5% in 24 hours to $1,215.85 as the broader crypto market rebounded, with Bitcoin up 1.6% and ETF money flowing back in.",
+          "paragraph": "Zcash jumped 8.5% in 24 hours to $1,215.85 as the broader crypto market rebounded, with Bitcoin up 1.6% and ETF money flowing back in. Crypto markets bounced on Tuesday, and Zcash led the rebound. The privacy coin rose 8.5% in 24 hours to $1,215.85, lifting its market capitalization to $20.57 billion. Bitcoin gained 1.57% to $83,195, and Ethereum climbed 2.90% to $2,463.35. Nearly every major crypto asset that isn\u2019t a stablecoin finished the day higher. The broader market followed. Total crypto market capitalization rose 1.68% to $2.78 trillion, and the CMC20 index, which tracks the 20 largest cryptocurrencies, gained 1.45% to $169.87 per unit, meaning the samller caps played a more relevant role in today\u2019s surge.",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-trading-decrypt-style-01-gID_7.png"
+        },
+        {
+          "title": "The Coinbase allegations expose Bitcoin's corporate governance gap",
+          "link": "https://www.coindesk.com/opinion/2026/10/20/the-coinbase-allegations-expose-bitcoin-s-corporate-governance-gap",
+          "source": "CoinDesk",
+          "summary": "The Coinbase allegations expose Bitcoin's corporate governance gap",
+          "paragraph": "Corporate adoption of bitcoin will stall as long as companies can't show who controls the money, who approves its movement, or whether it's still there, argues Onramp CEO Michael Tanguma. 5 min readMake preferred on ShareShare this articleCopy linkX iconX (Twitter)LinkedInFacebookEmailMake preferred on BlockTower Capital founder Ari Paul publicly accused Coinbase of losing roughly $25 million of his firm's assets and concealing hacks totaling more than $1 billion across a dozen institutions. Coinbase flatly denies it, Paul says active litigation prevents him from publishing his evidence, and the industry has spent the weeks since arguing about who is telling the truth. The argument misses the most uncomfortable fact in the story: nobody outside the two parties involved can check.",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/ada6e352fb7da116d4661c898ba82b9fde8e5e95-8192x5464.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Injective, BDACS plan Korean won stablecoin settlement for tokenized assets",
+          "link": "https://cointelegraph.com/news/injective-bdacs-korean-won-stablecoin-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Injective and BDACS plan to bring won-backed stablecoin KRW1 to tokenized asset markets as South Korea develops a regulatory framework for local currency stablecoins.",
+          "paragraph": "Injective partners with South Korea\u2019s BDACS to bring the KRW1 stablecoin to tokenized asset markets, enabling settlement in Korean won.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5CY3MR3WZ537VDFZE18DZR5/south-korea-coin2.jpg"
+        },
+        {
+          "title": "Stablecoin transfers quadruple to $891B as US banks expand adoption: Report",
+          "link": "https://cointelegraph.com/news/stablecoins-move-400m-an-hour-as-73-of-volume-occurs-outside-banking-hours-coinbase-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "summary": "Coinbase reports growing adoption by banks and businesses, even as stablecoin market capitalization remains largely unchanged over the past year.",
+          "paragraph": "New research finds rapid growth in stablecoin payments, with 293 million addresses holding stablecoins and transaction volumes rising despite flat market capitalization.",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M5D18A9EH2CRG7XQSQ4MBY0Z/hi-global-standards-intergovernmental-groups-overview-of-different-bodies.png"
+        }
+      ]
+    }
+  ]
+}
