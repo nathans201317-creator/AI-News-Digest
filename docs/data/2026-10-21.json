@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-21",
+  "display_date": "October 21, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "DevSecOps and the Impact of Agentic SI",
+          "link": "https://www.nist.gov/news-events/events/2026/10/devsecops-and-impact-agentic-si-0",
+          "source": "NIST",
+          "license": "Public domain (US government)",
+          "summary": "Join the NIST National Cybersecurity Center of Excellence (NCCoE) on October 28, 2026 for a webinar dedicated to exploring the Secure Software Development, Security, and Operations (DevSecOps) Practic...",
+          "paragraph": "Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites. https://www.nist.gov/news-events/events/2026/10/devsecops-and-impact-agentic-si-0 The NCCoE is collaborating with 14 technology companies to demonstrate how to implement the security practices and tasks from the NIST Secure Software Development Framework (SSDF) using modern DevSecOps pipelines and commercially available technologies.",
+          "image": "https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_mark.png"
+        },
+        {
+          "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+          "link": "https://arxiv.org/abs/2610.23866",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks.",
+          "paragraph": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model is released. We base our evaluation on general-use tasks and make our results publicly accessible via a live dashboard, diversifying existing approaches to LLM testing.",
+          "image": null
+        },
+        {
+          "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+          "link": "https://arxiv.org/abs/2610.23921",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more.",
+          "paragraph": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares seven methods on a benchmark of 1,000 arithmetic expressions where semantics of operator precedence has to be preserved.",
+          "image": null
+        },
+        {
+          "title": "What Social Media Teaches Us About Accumulative AI Risks",
+          "link": "https://arxiv.org/abs/2610.24006",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks.",
+          "paragraph": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gradually narrow perspectives, weaken independent judgment, or enable exploitative influence without a single clearly harmful event.",
+          "image": null
+        },
+        {
+          "title": "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
+          "link": "https://arxiv.org/abs/2610.24051",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts.",
+          "paragraph": "Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts. Alongside this progress, numerous benchmarks have been developed to evaluate capabilities such as attribute binding, numeracy, spatial reasoning, and commonsense reasoning. In this work, we propose a new perspective on T2I evaluation by casting it as a constraint-satisfaction problem. We introduce a logical framework that formally specifies the benchmark domain, including objects, attributes, and relations, alongside the constraints that generated images must satisfy.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "LF Decentralized Trust Demonstrates the First Open Source Verifiable Trust Community in Prague",
+          "link": "https://www.linuxfoundation.org/blog/lf-decentralized-trust-demonstrates-the-first-open-source-verifiable-trust-community-in-prague",
+          "source": "Linux Foundation",
+          "license": "CC BY 3.0",
+          "summary": "Two LF Decentralized Trust (LFDT) communities\u2014the ToIP / DIF Decentralized Trust Graph Working Group (DTGWG) and OpenVTC, an LFDT lab\u2014reached a major milestone at the Linux Plumbers Conference and LF...",
+          "paragraph": "LFDT\u2019s DTGWG and OpenVTC demonstrated a verifiable trust community for open source projects at Linux Plumbers and OSS EU in Prague.",
+          "image": "https://www.linuxfoundation.org/hubfs/undefined-Oct-14-2026-07-39-27-7443-PM.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Bring new talent and expertise into your company with InnoNext",
+          "link": "https://eic.ec.europa.eu/news/bring-new-talent-and-expertise-your-company-innonext-2026-10-19_en",
+          "source": "European Innovation Council",
+          "license": "CC BY 4.0 (EU)",
+          "summary": "EIC-supported companies can host talented researchers and innovators for up to six months, fully funded.",
+          "paragraph": "EIC-supported companies can host talented researchers and innovators for up to six months, fully funded. Looking to access new expertise or bring a fresh perspective to your company? EIC-supported companies can host talented researchers and innovators through the Next Generation Innovation Talents\u2019 Initiative InnoNext - with placements of 3 to 6 months fully funded. The model is already delivering results: 415 matches between companies and talents have been validated, with 112 internships already activated and 226 opportunities currently open for talented researchers and innovators. Hosting an InnoNext talent gives companies the opportunity to bring highly skilled researchers and innovators into their teams, adding knowledge, perspectives and technical expertise to ongoing projects.",
+          "image": "https://eic.ec.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png"
+        },
+        {
+          "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
+          "link": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
+          "source": "SEC",
+          "license": "Public domain (US government)",
+          "summary": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m.",
+          "paragraph": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m. to continue discussing IPO modernization and explore potential policy\u2026",
+          "image": null
+        },
+        {
+          "title": "European Innovation Council backs 43 projects to turn breakthrough research into prototypes",
+          "link": "https://eic.ec.europa.eu/news/european-innovation-council-backs-43-projects-turn-breakthrough-research-prototypes-2026-10-14_en",
+          "source": "European Innovation Council",
+          "license": "CC BY 4.0 (EU)",
+          "summary": "The selected projects bring together 218 organisations from 30 countries, including 24 EU Member States.",
+          "paragraph": "The selected projects bring together 218 organisations from 30 countries, including 24 EU Member States. The European Innovation Council (EIC) has selected 43 groundbreaking projects under the EIC Pathfinder Open 2026 call, each of them receiving up to \u20ac4 million in grant funding. From pioneering cancer treatments and quantum computing to advanced manufacturing and climate-resilient technologies, these projects aim to push the boundaries of scientific discovery and lay the foundations for tomorrow's breakthrough innovations. The 2026 call received for the second consecutive year a record number of proposals, making the Pathfinder open call one of the Horizon Europe most competitive calls and showing the relevance of bottom-up funding.",
+          "image": "https://eic.ec.europa.eu/sites/default/files/2026-10/EIC%20Pathfinder%20Results%20Oct%202026%202.png"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+          "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "Editor\u2019s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights.",
+          "paragraph": "Editor\u2019s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. Article Editor\u2019s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissions from animal feeding operations. Agricultural emissions represent an important and understudied part of Earth\u2019s land and atmosphere systems.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg"
+        },
+        {
+          "title": "NASA\u2019s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+          "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "Destined for Mars and beyond, NASA\u2019s Space Reactor-1 (SR-1) Freedom will be humanity\u2019s first fission-powered spacecraft to travel outside Earth\u2019s orbit.",
+          "paragraph": "\u201cThese contract actions not only reduce technical risk and help us maintain momentum toward our 2028 launch, but they also strengthen collaboration across our Article Space Reactor-1 Freedom will be the first spacecraft ever to demonstrate fission power beyond Earth\u2019s orbit, traveling to Mars to deliver a science payload called SkyFall. NASA/Alberto Bertolin Destined for Mars and beyond, NASA\u2019s Space Reactor-1 (SR-1) Freedom will be humanity\u2019s first fission-powered spacecraft to travel outside Earth\u2019s orbit. Announced during NASA\u2019s \u201cIgnition\u201d event, this mission will demonstrate nuclear electric propulsion in deep space, and progress is underway on its key element: the nuclear power module.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg"
+        },
+        {
+          "title": "Depth-dependent soil water-salt relationships in the Hetao Irrigation District, arid Northwest China: Implications for sustainable management",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360976",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Yuanqing Cao, Huihui Wang, Xuan Chen, Li Zhu Soil salinization threatens agricultural productivity in arid gravity irrigation systems worldwide, yet the depth-stratified relationships between soil...",
+          "paragraph": "by Yuanqing Cao, Huihui Wang, Xuan Chen, Li Zhu Soil salinization threatens agricultural productivity in arid gravity irrigation systems worldwide, yet the depth-stratified relationships between soil water and salt content remain poorly characterized. We monitored soil moisture and electrical conductivity (EC) at six depths (0\u2013100 cm) across 15 sites in the Hetao Irrigation District, China, during the 2025 growing season. Our results indicate a depth-dependent divergence in water\u2013salt associations. The EC-derived salinity index varied from 0.08 to 42.91 g/kg, exhibiting extreme spatial heterogeneity (coefficient of variation (CV) = 185.2%) across the salinity gradient. However, moisture-salinity relationships showed marked depth dependency.",
+          "image": null
+        },
+        {
+          "title": "Integrating machine learning and geospatial technologies for spatio-temporal analysis of urban expansion and land use transformation in Gambella Town, Ethiopia",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360419",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Kanenus Fufa Dararo, Goanar Jal Dup, Weyesa Merga Chemeda, Shankar Karuppannan Rapid urbanization and the associated expansion of built-up areas are transforming land resources, ecosystem functions...",
+          "paragraph": "by Kanenus Fufa Dararo, Goanar Jal Dup, Weyesa Merga Chemeda, Shankar Karuppannan Rapid urbanization and the associated expansion of built-up areas are transforming land resources, ecosystem functions, and the spatial structure of cities. Distinguishing urban growth, urban expansion, and urban sprawl is essential for understanding the processes and patterns of urban transformation and supporting sustainable urban planning. This study integrates machine learning and geospatial technologies to analyze spatio-temporal land use and land cover (LULC) dynamics and urban expansion in Gambella Town, Ethiopia.",
+          "image": null
+        },
+        {
+          "title": "New Chip-Based \u2018Tape Measure\u2019 for Light Could Revolutionize Mobile Timekeeping and Enhance National Security",
+          "link": "https://www.nist.gov/news-events/news/2026/10/new-chip-based-tape-measure-light-could-revolutionize-mobile-timekeeping",
+          "source": "NIST",
+          "license": "Public domain (US government)",
+          "summary": "The new device could help provide vital navigation signals when GPS is either unavailable or has been jammed.",
+          "paragraph": "The new device could help provide vital navigation signals when GPS is either unavailable or has been jammed. Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you\u2019ve safely connected to the .gov website. Share sensitive information only on official, secure websites. https://www.nist.gov/news-events/news/2026/10/new-chip-based-tape-measure-light-could-revolutionize-mobile-timekeeping Researchers at the National Institute of Standards and Technology (NIST) and their colleagues have demonstrated a new way to generate a miniature tape measure for light.",
+          "image": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/10/16/P9290629_whiteBG.jpeg?itok=2bzseI7P"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Bitcoin Optech Newsletter #427 Recap Podcast",
+          "link": "https://bitcoinops.org/en/podcast/2026/10/20/",
+          "source": "Bitcoin Optech",
+          "license": "MIT license",
+          "summary": "Mark \u201cMurch\u201d Erhardt, Gustavo Flores Echaiz, and Mike Schmidt are joined by Erick Cestari and Adam Gibson to discuss Newsletter #427.",
+          "paragraph": "The Bitcoin Optech Podcast and transcription content is licensed Creative Commons CC BY-SA 2.0 \u25cf Disclosure of two DoS vulnerabilities fixed in Eclair v0.14.1 (0:530:53)",
+          "image": "https://bitcoinops.org/img/logos/optech-notext.png"
+        },
+        {
+          "title": "Bitcoin Optech Newsletter #427",
+          "link": "https://bitcoinops.org/en/newsletters/2026/10/16/",
+          "source": "Bitcoin Optech",
+          "license": "MIT license",
+          "summary": "This week\u2019s newsletter summarizes the disclosure of two denial-of-service vulnerabilities in older versions of Eclair and describes a proposed scheme for running complex multi-round contracts inside L...",
+          "paragraph": "\u25cf Disclosure of two DoS vulnerabilities fixed in Eclair v0.14.1: Erick Cestari posted to Delving Bitcoin the responsible disclosure of two denial-of-service (DoS) vulnerabilities in the channel opening process of Eclair v0.14.0 and earlier. Both were fixed in Eclair #3324 and released in v0.14.1 in July, and users running an older version should upgrade. The first, found by Matt Morehouse with his smite fuzzer, is a race condition in a duplicate temporary_channel_id check. Eclair checked whether the ID was already in use before accepting an open_channel message, but did not record the new channel until a later step, so an attacker sending several identical open_channel messages in quick succession could get two past the check.",
+          "image": "https://bitcoinops.org/img/logos/optech-notext.png"
+        }
+      ]
+    }
+  ]
+}
