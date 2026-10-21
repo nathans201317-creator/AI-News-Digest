@@ -267,7 +267,7 @@
         </div>
         <h3>AI & Machine Learning</h3>
         <p>The models, papers, and breakthroughs reshaping how software gets built — distilled before the hype does.</p>
-        <div class="topic-cta" style="color:#8B5CF6;">See today's 5 stories →</div>
+        <div class="topic-cta" style="color:#8B5CF6;">See today's stories →</div>
       </a>
 
       <a class="topic-card" href="/topic.html?c=bigtech">
@@ -276,7 +276,7 @@
         </div>
         <h3>Big Tech & Gadgets</h3>
         <p>The moves from Google, Apple, Meta — plus the phones and wearables everyone's actually talking about.</p>
-        <div class="topic-cta" style="color:#38BDF8;">See today's 5 stories →</div>
+        <div class="topic-cta" style="color:#38BDF8;">See today's stories →</div>
       </a>
 
       <a class="topic-card" href="/topic.html?c=startups">
@@ -285,7 +285,7 @@
         </div>
         <h3>Startups & Funding</h3>
         <p>Who raised, who launched, and which unknown names are about to be everywhere.</p>
-        <div class="topic-cta" style="color:#FB923C;">See today's 5 stories →</div>
+        <div class="topic-cta" style="color:#FB923C;">See today's stories →</div>
       </a>
 
       <a class="topic-card" href="/topic.html?c=science">
@@ -294,7 +294,7 @@
         </div>
         <h3>Science & Research</h3>
         <p>The discoveries worth knowing about, long before they hit the mainstream headlines.</p>
-        <div class="topic-cta" style="color:#2DD4BF;">See today's 5 stories →</div>
+        <div class="topic-cta" style="color:#2DD4BF;">See today's stories →</div>
       </a>
 
       <a class="topic-card" href="/topic.html?c=crypto" style="grid-column: 1 / -1;">
@@ -303,7 +303,7 @@
         </div>
         <h3>Crypto</h3>
         <p>Market swings and protocol shifts that matter — minus the hype and the noise.</p>
-        <div class="topic-cta" style="color:#FBBF24;">See today's 5 stories →</div>
+        <div class="topic-cta" style="color:#FBBF24;">See today's stories →</div>
       </a>
     </div>
   </section>
@@ -411,7 +411,7 @@
             ${thumbHtml}
             <div>
               <div class="today-story-title">${escapeHtmlToday(article.title)}</div>
-              <div class="today-story-source" style="color:${cat.color};">${escapeHtmlToday(article.source)}</div>
+              <div class="today-story-source" style="color:${cat.color};">${escapeHtmlToday(article.source)}${article.license ? " · " + escapeHtmlToday(article.license) : ""}</div>
               <div class="today-story-summary">${escapeHtmlToday(article.summary)}</div>
             </div>
           `;
