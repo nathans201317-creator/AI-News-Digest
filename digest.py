@@ -43,17 +43,39 @@ MAX_ARCHIVED_DAYS = 30   # how many past days the site keeps browsable
 # 1. Sources, grouped by section — add or remove feeds/sections here
 # ---------------------------------------------------------------------------
 
+# Only openly licensed / public-domain sources, so the site and email can be
+# monetised later. Each feed can set: name, license (shown to readers),
+# include / exclude (regex on title+summary), max (stories per run),
+# license_filter (regex the entry's own license URL must match),
+# only_new (arXiv: skip 'replace'/'cross' repeats), no_fetch (don't open the
+# article page — the feed already carries the text).
+# Sources that are checked but NOT included yet are listed in the project doc
+# "uplink-sources-and-monetization" (pending permission or licence confirmation).
+
+US_GOV = "Public domain (US government)"
+CC_BY_ARXIV = r"creativecommons\.org/(licenses/by(-sa)?/|publicdomain/zero)"
+AI_WORDS = r"\b(AI|artificial intelligence|machine learning|agentic|LLMs?|language models?)\b"
+CRYPTO_WORDS = r"\b(crypto\w*|bitcoin|digital assets?|blockchain|stablecoin\w*|tokeniz\w+|prediction markets?|decentralized finance|DeFi)\b"
+BIGTECH_WORDS = (r"\b(Google|Alphabet|Apple|Amazon|Meta|Facebook|Instagram|Microsoft|Nvidia|OpenAI|TikTok|"
+                 r"artificial intelligence|chatbots?|app store|social media|online platforms?|big tech|"
+                 r"children'?s privacy|COPPA|algorithm\w*)\b")
+STARTUP_WORDS = (r"\b(startups?|start-ups?|crowdfunding|small business\w*|venture|capital formation|"
+                 r"emerging growth|accredited investor|private offerings?)\b")
+
 CATEGORIES = {
     "AI & Machine Learning": {
         "emoji": "🤖",
         "color": "#8B5CF6",
         "tint": "#F1EDFF",
         "feeds": [
-            "https://techcrunch.com/category/artificial-intelligence/feed/",
-            "https://venturebeat.com/category/ai/feed/",
-            "https://export.arxiv.org/rss/cs.AI",
-            "https://www.wired.com/feed/tag/ai/latest/rss",
-            "https://www.artificialintelligence-news.com/feed/",
+            {"url": "https://rss.arxiv.org/atom/cs.AI", "name": "arXiv", "license": "CC BY (author-selected)",
+             "license_filter": CC_BY_ARXIV, "only_new": True, "no_fetch": True, "max": 6},
+            {"url": "https://rss.arxiv.org/atom/cs.LG", "name": "arXiv", "license": "CC BY (author-selected)",
+             "license_filter": CC_BY_ARXIV, "only_new": True, "no_fetch": True, "max": 6},
+            {"url": "https://rss.arxiv.org/atom/cs.CL", "name": "arXiv", "license": "CC BY (author-selected)",
+             "license_filter": CC_BY_ARXIV, "only_new": True, "no_fetch": True, "max": 6},
+            {"url": "https://www.nist.gov/news-events/information%20technology/rss.xml", "name": "NIST",
+             "license": US_GOV, "include": AI_WORDS, "max": 4},
         ],
     },
     "Big Tech & Gadgets": {
@@ -61,12 +83,12 @@ CATEGORIES = {
         "color": "#38BDF8",
         "tint": "#E8F5FC",
         "feeds": [
-            "https://www.theverge.com/rss/index.xml",
-            "https://feeds.arstechnica.com/arstechnica/technology-lab",
-            "https://techcrunch.com/feed/",
-            "https://www.engadget.com/rss.xml",
-            "https://gizmodo.com/rss",
-            "https://www.techradar.com/rss",
+            {"url": "https://www.linuxfoundation.org/blog/rss.xml", "name": "Linux Foundation",
+             "license": "CC BY 3.0", "max": 5},
+            {"url": "https://www.ftc.gov/feeds/press-release.xml", "name": "FTC", "license": US_GOV,
+             "include": BIGTECH_WORDS, "max": 4},
+            {"url": "https://www.justice.gov/news/rss?type=press_release&m=1", "name": "US Dept. of Justice",
+             "license": US_GOV, "include": BIGTECH_WORDS, "max": 4},
         ],
     },
     "Startups & Funding": {
@@ -74,9 +96,12 @@ CATEGORIES = {
         "color": "#FB923C",
         "tint": "#FFEEE3",
         "feeds": [
-            "https://techcrunch.com/category/startups/feed/",
-            "https://news.crunchbase.com/feed/",
-            "https://techcrunch.com/category/venture/feed/",
+            {"url": "https://eic.ec.europa.eu/node/2/rss_en", "name": "European Innovation Council",
+             "license": "CC BY 4.0 (EU)", "max": 5},
+            {"url": "https://www.gov.uk/government/organisations/innovate-uk.atom", "name": "Innovate UK",
+             "license": "Open Government Licence v3.0", "max": 5},
+            {"url": "https://www.sec.gov/news/pressreleases.rss", "name": "SEC", "license": US_GOV,
+             "include": STARTUP_WORDS, "max": 3},
         ],
     },
     "Science & Research": {
@@ -84,9 +109,16 @@ CATEGORIES = {
         "color": "#2DD4BF",
         "tint": "#E3F7F3",
         "feeds": [
-            "https://www.technologyreview.com/feed/",
-            "https://www.sciencedaily.com/rss/top/technology.xml",
-            "https://phys.org/rss-feed/",
+            {"url": "https://www.nasa.gov/feed/", "name": "NASA", "license": US_GOV, "max": 6},
+            {"url": "https://www.nist.gov/news-events/news/rss.xml", "name": "NIST", "license": US_GOV,
+             "exclude": AI_WORDS, "max": 3},
+            {"url": "https://www.noaa.gov/rss.xml", "name": "NOAA", "license": US_GOV, "max": 4},
+            {"url": "https://www.nsf.gov/rss/rss_www_news.xml", "name": "NSF", "license": US_GOV,
+             "exclude": r"podcast", "max": 3},
+            {"url": "https://journals.plos.org/plosone/feed/atom", "name": "PLOS ONE", "license": "CC BY 4.0",
+             "exclude": r"^\s*(Correction|Retraction|Expression of Concern)", "no_fetch": True, "max": 4},
+            {"url": "https://www.mdpi.com/rss/journal/universe", "name": "MDPI Universe", "license": "CC BY 4.0",
+             "no_fetch": True, "max": 4},
         ],
     },
     "Crypto": {
@@ -94,19 +126,21 @@ CATEGORIES = {
         "color": "#FBBF24",
         "tint": "#FFF7DC",
         "feeds": [
-            "https://www.coindesk.com/arc/outboundfeeds/rss/",
-            "https://cointelegraph.com/rss",
-            "https://decrypt.co/feed",
+            {"url": "https://bitcoinops.org/feed.xml", "name": "Bitcoin Optech", "license": "MIT license", "max": 3},
+            {"url": "https://www.cftc.gov/RSS/RSSGP/rssgp.xml", "name": "CFTC", "license": US_GOV,
+             "include": CRYPTO_WORDS, "max": 4},
+            {"url": "https://www.sec.gov/news/pressreleases.rss", "name": "SEC", "license": US_GOV,
+             "include": CRYPTO_WORDS, "max": 4},
         ],
     },
 }
 
-MAX_PER_CATEGORY = 5   # default stories per section, unless a category sets "max_items"
-HOURS_BACK = 24        # only include articles published in this window
-# Slow news day? Sections look back this far so they can still fill all
-# MAX_PER_CATEGORY slots. Stories are sorted newest-first, so the extra
-# window only ever fills gaps — fresh stories always win.
-FILL_HOURS_BACK = 72
+MAX_PER_CATEGORY = 5   # most stories shown per section (thin sections simply show fewer)
+HOURS_BACK = 24        # default look-back for fetch_rss_articles()
+# Free-to-use sources publish less, so each section looks back a week. A story
+# is never shown twice: anything already published in the last 7 days of site
+# data is skipped (see load_recent_links), so each day only adds new items.
+FILL_HOURS_BACK = 168
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -139,14 +173,35 @@ def publisher_name(link, fallback):
     return host.split(".")[0].capitalize() if host else fallback
 
 
+def cc_label(license_url):
+    """'http://creativecommons.org/licenses/by/4.0/' -> 'CC BY 4.0'."""
+    m = re.search(r"creativecommons\.org/licenses/([a-z\-]+)/([\d.]+)", license_url or "", re.I)
+    if m:
+        return f"CC {m.group(1).upper().replace('-', ' ')} {m.group(2)}"
+    if "publicdomain/zero" in (license_url or ""):
+        return "CC0"
+    return ""
+
+
 def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
+    """Each entry in `feeds` is either a plain URL string or a dict:
+        {"url": ..., "name": "Publisher name", "license": "Public domain",
+         "include": "regex a story must match", "exclude": "regex that rejects it",
+         "max": 8}
+    `include`/`exclude` keep off-topic items (e.g. a regulator's feed) out of a
+    section; `max` stops one very busy feed from flooding it."""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
     }
     articles = []
-    for url in feeds:
+    for feed in feeds:
+        cfg = feed if isinstance(feed, dict) else {"url": feed}
+        url = cfg["url"]
+        include = re.compile(cfg["include"], re.I) if cfg.get("include") else None
+        exclude = re.compile(cfg["exclude"], re.I) if cfg.get("exclude") else None
+        lic_filter = re.compile(cfg["license_filter"], re.I) if cfg.get("license_filter") else None
         try:
             # feedparser.parse(url) has no built-in timeout and can hang
             # indefinitely on a slow/unresponsive feed. Fetching the raw
@@ -157,6 +212,7 @@ def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
         except Exception as e:
             print(f"Skipping feed (fetch failed): {url} — {e}")
             continue
+        kept = 0
         for entry in parsed.entries:
             published = entry.get("published_parsed") or entry.get("updated_parsed")
             if not published:
@@ -164,13 +220,34 @@ def fetch_rss_articles(feeds, hours_back=HOURS_BACK):
             pub_dt = datetime(*published[:6], tzinfo=timezone.utc)
             if pub_dt < cutoff:
                 continue
+            pub_dt = min(pub_dt, datetime.now(timezone.utc))   # some feeds carry future dates
+            if cfg.get("only_new") and entry.get("arxiv_announce_type", "new") != "new":
+                continue
+            entry_license = entry.get("rights", "") or ""
+            if lic_filter and not lic_filter.search(entry_license):
+                continue
+            title = " ".join(entry.get("title", "No title").split())
+            full = re.sub("<[^<]+?>", "", entry.get("summary", ""))
+            full = re.sub(r"^arXiv:\S+\s+Announce Type:\s*\w+\s*Abstract:\s*", "", full).strip()
+            full = " ".join(htmllib.unescape(full).split())
+            raw = full[:600]
+            if include and not include.search(f"{title} {raw}"):
+                continue
+            if exclude and exclude.search(f"{title} {raw}"):
+                continue
+            if kept >= cfg.get("max", 10):
+                break
+            kept += 1
             articles.append({
-                "title": entry.get("title", "No title"),
+                "title": title,
                 "link": entry.get("link", ""),
-                "raw_summary": re.sub("<[^<]+?>", "", entry.get("summary", ""))[:600],
+                "raw_summary": raw,
                 "published": pub_dt,
-                "source": publisher_name(entry.get("link", ""), parsed.feed.get("title", url)),
+                "source": cfg.get("name") or publisher_name(entry.get("link", ""), parsed.feed.get("title", url)),
+                "license": cc_label(entry_license) or cfg.get("license", ""),
                 "image": extract_feed_image(entry),
+                "no_fetch": bool(cfg.get("no_fetch")),
+                "page_text": full[:3000] if cfg.get("no_fetch") else "",
             })
     return articles
 
@@ -288,25 +365,55 @@ def dedupe_articles(articles):
     return unique
 
 
-def collect_by_category():
+MAX_PER_SOURCE = 2   # no single source supplies more than this many of a section's stories
+
+
+def pick_diverse(articles, limit):
+    """Newest-first, but at most MAX_PER_SOURCE per source so one busy feed
+    can't take over a section (also a good aggregation practice: don't draw
+    most of your content from a single source). If that leaves the section
+    short, the remaining slots are filled with the next-newest stories."""
+    chosen, counts = [], {}
+    for a in articles:
+        if len(chosen) >= limit:
+            break
+        if counts.get(a["source"], 0) < MAX_PER_SOURCE:
+            chosen.append(a)
+            counts[a["source"]] = counts.get(a["source"], 0) + 1
+    for a in articles:
+        if len(chosen) >= limit:
+            break
+        if a not in chosen:
+            chosen.append(a)
+    chosen.sort(key=lambda a: a["published"], reverse=True)
+    return chosen
+
+
+def collect_by_category(skip_links=frozenset()):
     result = {}
+    seen_links = set(skip_links)
     for name, info in CATEGORIES.items():
         articles = fetch_rss_articles(info["feeds"], hours_back=FILL_HOURS_BACK)
+        articles = [a for a in articles if a["link"] and a["link"] not in seen_links]
         articles = dedupe_articles(articles)
         articles.sort(key=lambda a: a["published"], reverse=True)
         limit = info.get("max_items", MAX_PER_CATEGORY)
-        top = articles[:limit]
+        top = pick_diverse(articles, limit)
         if top:
+            seen_links.update(a["link"] for a in top)
             result[name] = {
                 "emoji": info["emoji"],
                 "color": info["color"],
                 "tint": info["tint"],
                 "articles": top,
             }
+        else:
+            print(f"No new stories for {name} today.")
 
     # Only the articles that made the cut get the extra page request — done
-    # in parallel with a tight timeout so it stays fast.
-    chosen = [a for c in result.values() for a in c["articles"]]
+    # in parallel with a tight timeout so it stays fast. Feeds that already
+    # carry the full text (no_fetch) are skipped.
+    chosen = [a for c in result.values() for a in c["articles"] if not a.get("no_fetch")]
     with ThreadPoolExecutor(max_workers=6) as pool:
         contexts = list(pool.map(lambda a: fetch_page_context(a["link"]), chosen))
     for a, c in zip(chosen, contexts):
@@ -314,6 +421,22 @@ def collect_by_category():
             a["image"] = c["image"]
         a["page_text"] = c["text"]
     return result
+
+
+def load_recent_links(today_date_str, days=7):
+    """Links already published on the site in the last `days` days (not
+    counting today, so re-running today's digest gives the same result)."""
+    links = set()
+    try:
+        with open(f"{SITE_DATA_DIR}/index.json") as f:
+            dates = json.load(f).get("dates", [])
+        for d in [d for d in dates if d != today_date_str][:days]:
+            with open(f"{SITE_DATA_DIR}/{d}.json") as f:
+                for cat in json.load(f).get("categories", []):
+                    links.update(a["link"] for a in cat.get("articles", []))
+    except Exception:
+        pass
+    return links
 
 
 # ---------------------------------------------------------------------------
@@ -471,7 +594,7 @@ def build_html_email(categorized, today_str):
                         {a['title']}
                       </a>
                       <div style="color:{color}; font-size:11px; font-weight:700; letter-spacing:0.3px; margin-top:5px; margin-bottom:7px;">
-                        {a['source']}
+                        {a['source']}{(' &nbsp;·&nbsp; ' + a['license']) if a.get('license') else ''}
                       </div>
                       <div style="color:#4A4B5C; font-size:14.5px; line-height:1.6;">
                         {a['ai_summary']}
@@ -539,7 +662,8 @@ def build_html_email(categorized, today_str):
               </tr>
               <tr>
                 <td style="background-color:#FFFBF5; padding: 22px 32px; text-align:center;">
-                  <span style="color:#9A93AE; font-size:12px;">Uplink — free, daily, independent. &nbsp;·&nbsp; <a href="__UNSUBSCRIBE_LINK__" style="color:#9A93AE;">Unsubscribe</a></span>
+                  <span style="color:#9A93AE; font-size:12px;">Uplink — free, daily, independent. &nbsp;·&nbsp; <a href="__UNSUBSCRIBE_LINK__" style="color:#9A93AE;">Unsubscribe</a></span><br/>
+                  <span style="color:#B5AFC6; font-size:11px; line-height:1.6;">Stories come from public-domain and openly licensed sources. Summaries are AI-generated from the original; tap a headline for the full article and its license.</span>
                 </td>
               </tr>
             </table>
@@ -585,6 +709,7 @@ def write_site_data(categorized, date_str, today_str):
                         "title": a["title"],
                         "link": a["link"],
                         "source": a["source"],
+                        "license": a.get("license", ""),
                         "summary": a["ai_summary"],
                         "paragraph": a.get("paragraph", ""),
                         "image": a.get("image"),
@@ -693,7 +818,8 @@ def run_daily_digest():
     digest_to = os.environ["DIGEST_TO"]
     today_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
 
-    categorized = collect_by_category()
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    categorized = collect_by_category(skip_links=load_recent_links(date_str))
     if not categorized:
         print("No new articles found across any category — skipping email.")
         return
@@ -734,7 +860,6 @@ def run_daily_digest():
 
     # Save today's stories for the website, independent of email sending —
     # the site should stay up to date even if something downstream fails.
-    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     try:
         write_site_data(categorized, date_str, today_str)
     except Exception as e:
