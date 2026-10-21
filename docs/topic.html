@@ -160,7 +160,7 @@
           ${thumb}
           <div>
             <a class="story-title" href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a>
-            <div class="story-source" style="color:${cat.color};">${esc(a.source)}</div>
+            <div class="story-source" style="color:${cat.color};">${esc(a.source)}${a.license ? " · " + esc(a.license) : ""}</div>
           </div>
         </div>
         <p class="story-paragraph">${esc(paragraph)}</p>
