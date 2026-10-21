@@ -18,39 +18,39 @@
           "image": "https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_mark.png"
         },
         {
-          "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-          "link": "https://arxiv.org/abs/2610.23866",
+          "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+          "link": "https://arxiv.org/abs/2610.26887",
           "source": "arXiv",
           "license": "CC BY 4.0",
-          "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks.",
-          "paragraph": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses across model providers and versions. We account for daily variations in model accuracy, capturing both model progress and degradation, for instance, when a model is changed post-deployment or when a new model is released. We base our evaluation on general-use tasks and make our results publicly accessible via a live dashboard, diversifying existing approaches to LLM testing.",
+          "summary": "Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution.",
+          "paragraph": "Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for Cowork Agents that combines verifiable task synthesis with long-horizon post-training.",
           "image": null
         },
         {
-          "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
-          "link": "https://arxiv.org/abs/2610.23921",
+          "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+          "link": "https://arxiv.org/abs/2610.26924",
           "source": "arXiv",
           "license": "CC BY 4.0",
-          "summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more.",
-          "paragraph": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Simple Object Access Protocol (SOAP), and the Model Context Protocol (MCP), particularly when development speed, performance, and operational cost are considered. We investigate this question using a controlled mathematical task that compares seven methods on a benchmark of 1,000 arithmetic expressions where semantics of operator precedence has to be preserved.",
+          "summary": "General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence.",
+          "paragraph": "General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks directly from raw data often overlooks deeper questions that emerge through analysis and provides limited evidence for verification. To address these limitations, we introduce DataPraxis, an analytics task synthesis framework based on verified workspace evolution. The framework progressively enriches workspaces with validated findings and artifacts, then inherits and combines these workspaces to uncover deeper questions.",
           "image": null
         },
         {
-          "title": "What Social Media Teaches Us About Accumulative AI Risks",
-          "link": "https://arxiv.org/abs/2610.24006",
+          "title": "Fix, Not Just Resample: Bounded Compiler-Guided Repair in Lean 4",
+          "link": "https://arxiv.org/abs/2610.26942",
           "source": "arXiv",
           "license": "CC BY 4.0",
-          "summary": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks.",
-          "paragraph": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must also address accumulative harms that develop through repeated use, recurring decisions, and feedback across interconnected deployments. Repeated reassurance, selective exposure, recurring decision biases, and growing personal profiles may gradually narrow perspectives, weaken independent judgment, or enable exploitative influence without a single clearly harmful event.",
+          "summary": "Automated theorem provers often rely on sampling language models, but proof assistants like Lean reject each failed step with a precise error message --- information that pure sampling discards.",
+          "paragraph": "Automated theorem provers often rely on sampling language models, but proof assistants like Lean reject each failed step with a precise error message --- information that pure sampling discards. To overcome this, we introduce a bounded, online step-level repair module. Our search samples $K$ candidate tactics at each step and repairs a failed tactic at most $R$ times. Instead of discarding failed tactics, we feed the compiler's error message to a pretrained repair model to fix individual rejected steps in place. This approach improves the solve rate over a sampling-only baseline across all tested candidate budgets ($K \\in \\{1,3,5,8\\}$), achieving up to a $32\\%$ relative gain and solving $82$ additional theorems on a $1{,}990$-theorem subset of the LeanDojo benchmark.",
           "image": null
         },
         {
-          "title": "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
-          "link": "https://arxiv.org/abs/2610.24051",
+          "title": "When Planning Problems Become Hard for LLMs: Separating Structural Complexity from Semantic Interpretability",
+          "link": "https://arxiv.org/abs/2610.26964",
           "source": "arXiv",
-          "license": "CC BY 4.0",
-          "summary": "Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts.",
-          "paragraph": "Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts. Alongside this progress, numerous benchmarks have been developed to evaluate capabilities such as attribute binding, numeracy, spatial reasoning, and commonsense reasoning. In this work, we propose a new perspective on T2I evaluation by casting it as a constraint-satisfaction problem. We introduce a logical framework that formally specifies the benchmark domain, including objects, attributes, and relations, alongside the constraints that generated images must satisfy.",
+          "license": "CC BY SA 4.0",
+          "summary": "Large language models (LLMs) struggle with classical planning, but benchmarks rarely distinguish structural difficulty from the difficulty of interpreting symbolic vocabulary.",
+          "paragraph": "Large language models (LLMs) struggle with classical planning, but benchmarks rarely distinguish structural difficulty from the difficulty of interpreting symbolic vocabulary. We examine seven STRIPS domains with BFS-optimal plan lengths. For predicting structural difficulty without solving an instance, the zero-training delete-relaxation heuristic $h_{\\mathrm{add}}$ outperforms learned alternatives on held-out domains (mean Spearman $|\\rho|=0.931$), including ridge regression ($0.707$), object count ($0.657$), and the episodic retrieval architecture ARC ($0.400$). ARC also fails to outperform a linear model using the same features. To isolate semantic effects, we progressively rename predicates while preserving states, transitions, and optimal plans.",
           "image": null
         }
       ]
@@ -86,24 +86,6 @@
           "summary": "EIC-supported companies can host talented researchers and innovators for up to six months, fully funded.",
           "paragraph": "EIC-supported companies can host talented researchers and innovators for up to six months, fully funded. Looking to access new expertise or bring a fresh perspective to your company? EIC-supported companies can host talented researchers and innovators through the Next Generation Innovation Talents\u2019 Initiative InnoNext - with placements of 3 to 6 months fully funded. The model is already delivering results: 415 matches between companies and talents have been validated, with 112 internships already activated and 226 opportunities currently open for talented researchers and innovators. Hosting an InnoNext talent gives companies the opportunity to bring highly skilled researchers and innovators into their teams, adding knowledge, perspectives and technical expertise to ongoing projects.",
           "image": "https://eic.ec.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/ec-socialmedia-fallback.png"
-        },
-        {
-          "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
-          "link": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
-          "source": "SEC",
-          "license": "Public domain (US government)",
-          "summary": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m.",
-          "paragraph": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m. to continue discussing IPO modernization and explore potential policy\u2026",
-          "image": null
-        },
-        {
-          "title": "European Innovation Council backs 43 projects to turn breakthrough research into prototypes",
-          "link": "https://eic.ec.europa.eu/news/european-innovation-council-backs-43-projects-turn-breakthrough-research-prototypes-2026-10-14_en",
-          "source": "European Innovation Council",
-          "license": "CC BY 4.0 (EU)",
-          "summary": "The selected projects bring together 218 organisations from 30 countries, including 24 EU Member States.",
-          "paragraph": "The selected projects bring together 218 organisations from 30 countries, including 24 EU Member States. The European Innovation Council (EIC) has selected 43 groundbreaking projects under the EIC Pathfinder Open 2026 call, each of them receiving up to \u20ac4 million in grant funding. From pioneering cancer treatments and quantum computing to advanced manufacturing and climate-resilient technologies, these projects aim to push the boundaries of scientific discovery and lay the foundations for tomorrow's breakthrough innovations. The 2026 call received for the second consecutive year a record number of proposals, making the Pathfinder open call one of the Horizon Europe most competitive calls and showing the relevance of bottom-up funding.",
-          "image": "https://eic.ec.europa.eu/sites/default/files/2026-10/EIC%20Pathfinder%20Results%20Oct%202026%202.png"
         }
       ]
     },
@@ -114,39 +96,39 @@
       "tint": "#E3F7F3",
       "articles": [
         {
-          "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
-          "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+          "title": "NASA to Conduct NCAA Flyover, Engage Fans at University of Alabama",
+          "link": "https://www.nasa.gov/news-release/nasa-to-conduct-ncaa-flyover-engage-fans-at-university-of-alabama/",
           "source": "NASA",
           "license": "Public domain (US government)",
-          "summary": "Editor\u2019s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights.",
-          "paragraph": "Editor\u2019s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. Article Editor\u2019s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location of the flights. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissions from animal feeding operations. Agricultural emissions represent an important and understudied part of Earth\u2019s land and atmosphere systems.",
-          "image": "https://www.nasa.gov/wp-content/uploads/2026/09/a200-king-air-da.jpg"
+          "summary": "As part of the agency\u2019s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&M football game in Tuscaloosa, Alabama, on Saturday, Oct. 24.",
+          "paragraph": "As part of the agency\u2019s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&M football game in Tuscaloosa, Alabama, on MEDIA ADVISORYM26-003Marshall Space Flight Center NASA\u2019s Freedom 250 F-5 team, including NASA Administrator Jared Isaacman, performs a flyover during the national anthem at an NFL game between the Cleveland Browns and the Carolina Panthers at Huntington Bank Field, Sept. 27, 2026, in Cleveland. NASA/Jordan Cochran As part of the agency\u2019s Inspiration Tour, NASA will conduct a flyover at the University of Alabama vs. Texas A&M football game in Tuscaloosa, Alabama, on Saturday, Oct. 24.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/grc-2026-c-06389large.jpg"
         },
         {
-          "title": "NASA\u2019s SR-1 Freedom Advances with Progress on Nuclear Power Module",
-          "link": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+          "title": "Tracks Along the Longest Drive on Another World",
+          "link": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
           "source": "NASA",
           "license": "Public domain (US government)",
-          "summary": "Destined for Mars and beyond, NASA\u2019s Space Reactor-1 (SR-1) Freedom will be humanity\u2019s first fission-powered spacecraft to travel outside Earth\u2019s orbit.",
-          "paragraph": "\u201cThese contract actions not only reduce technical risk and help us maintain momentum toward our 2028 launch, but they also strengthen collaboration across our Article Space Reactor-1 Freedom will be the first spacecraft ever to demonstrate fission power beyond Earth\u2019s orbit, traveling to Mars to deliver a science payload called SkyFall. NASA/Alberto Bertolin Destined for Mars and beyond, NASA\u2019s Space Reactor-1 (SR-1) Freedom will be humanity\u2019s first fission-powered spacecraft to travel outside Earth\u2019s orbit. Announced during NASA\u2019s \u201cIgnition\u201d event, this mission will demonstrate nuclear electric propulsion in deep space, and progress is underway on its key element: the nuclear power module.",
-          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/sr-1-freedom-lmo-2.jpg"
+          "summary": "Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA\u2019s Jet Propulsion Laboratory Oct. 12, 2026 Since the last blog update, Perseverance has achieved a major milestone on Mars.",
+          "paragraph": "Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA's Jet Propulsion Laboratory Article This image, taken by Perseverance on Mars, shows wheel tracks from the drive that broke the record for the farthest distance driven on another celestial body. The image was acquired with its Left Navigation Camera on Oct. 11, 2026 (Sol 2006) at a local mean solar time of 14:40:39.NASA/JPL-Caltech Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA's Jet Propulsion Laboratory Since the last blog update, Perseverance has achieved a major milestone on Mars. On Sol 2006 (Oct. 11, 2026), its odometer reached 45.22 kilometers (28.10 miles), setting a new record for the farthest distance driven on another celestial body.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_NLF_2006_0845030184_441ECM_N0911496NCAM03006_04_195J.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
         },
         {
-          "title": "Depth-dependent soil water-salt relationships in the Hetao Irrigation District, arid Northwest China: Implications for sustainable management",
-          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360976",
+          "title": "Nurses\u2019 perceptions of an audiovisual material to support patient education on oral health management in diabetes care",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361280",
           "source": "PLOS ONE",
           "license": "CC BY 4.0",
-          "summary": "by Yuanqing Cao, Huihui Wang, Xuan Chen, Li Zhu Soil salinization threatens agricultural productivity in arid gravity irrigation systems worldwide, yet the depth-stratified relationships between soil...",
-          "paragraph": "by Yuanqing Cao, Huihui Wang, Xuan Chen, Li Zhu Soil salinization threatens agricultural productivity in arid gravity irrigation systems worldwide, yet the depth-stratified relationships between soil water and salt content remain poorly characterized. We monitored soil moisture and electrical conductivity (EC) at six depths (0\u2013100 cm) across 15 sites in the Hetao Irrigation District, China, during the 2025 growing season. Our results indicate a depth-dependent divergence in water\u2013salt associations. The EC-derived salinity index varied from 0.08 to 42.91 g/kg, exhibiting extreme spatial heterogeneity (coefficient of variation (CV) = 185.2%) across the salinity gradient. However, moisture-salinity relationships showed marked depth dependency.",
+          "summary": "by Rie Kudoh, Taiga Shibayama Educational support for nurses is essential to promote oral health management education for patients with diabetes.",
+          "paragraph": "by Rie Kudoh, Taiga Shibayama Educational support for nurses is essential to promote oral health management education for patients with diabetes. However, few studies have focused on supporting nurses in this context. This study explored the effects of an audiovisual material designed to support nurses\u2019 patient education on oral health management in diabetes care. Semi-structured interviews were conducted with eight certified diabetes nurse educators. Data were analyzed using content analysis.",
           "image": null
         },
         {
-          "title": "Integrating machine learning and geospatial technologies for spatio-temporal analysis of urban expansion and land use transformation in Gambella Town, Ethiopia",
-          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360419",
+          "title": "Cognitive effects of untreated unilateral and bilateral hearing loss in midlife: Preliminary evidence",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361204",
           "source": "PLOS ONE",
           "license": "CC BY 4.0",
-          "summary": "by Kanenus Fufa Dararo, Goanar Jal Dup, Weyesa Merga Chemeda, Shankar Karuppannan Rapid urbanization and the associated expansion of built-up areas are transforming land resources, ecosystem functions...",
-          "paragraph": "by Kanenus Fufa Dararo, Goanar Jal Dup, Weyesa Merga Chemeda, Shankar Karuppannan Rapid urbanization and the associated expansion of built-up areas are transforming land resources, ecosystem functions, and the spatial structure of cities. Distinguishing urban growth, urban expansion, and urban sprawl is essential for understanding the processes and patterns of urban transformation and supporting sustainable urban planning. This study integrates machine learning and geospatial technologies to analyze spatio-temporal land use and land cover (LULC) dynamics and urban expansion in Gambella Town, Ethiopia.",
+          "summary": "by Lakshmi Satheesan, Usha Shastri, Gagan Bajaj, Mohan Kumar Kalaiah Hearing loss has been identified as a modifiable risk factor for cognitive decline and dementia, although most of the evidence is d...",
+          "paragraph": "by Lakshmi Satheesan, Usha Shastri, Gagan Bajaj, Mohan Kumar Kalaiah Hearing loss has been identified as a modifiable risk factor for cognitive decline and dementia, although most of the evidence is derived from studies in older adults. Identifying such cognitive impairment in midlife is crucial, as it serves as a baseline for understanding changes in cognitive abilities that occur later in life. The present study aimed to compare the cognitive performance of age- and socioeconomic status-matched middle-aged adults with normal hearing and those with untreated hearing loss. This study included 48 participants aged 40\u201365 years, comprising 24 adults with normal hearing and 24 with untreated hearing loss. Among the latter participants, 9 had unilateral loss and 15 had bilateral loss.",
           "image": null
         },
         {
