@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-22",
+  "display_date": "October 22, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+          "link": "https://arxiv.org/abs/2610.28686",
+          "source": "arXiv",
+          "license": "CC BY SA 4.0",
+          "summary": "Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries.",
+          "paragraph": "Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The task is to recognize both such cases and then generate an appropriate clarification request to the user. We present ClariEdge, a new dataset of approximately 3,900 examples that include such ambiguous queries along with negative examples that do not require clarification.",
+          "image": null
+        },
+        {
+          "title": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+          "link": "https://arxiv.org/abs/2610.28815",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as evolving evidence.",
+          "paragraph": "Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as evolving evidence. While more evolution tasks should intuitively improve performance, our preliminary study reveals a paradoxical failure mode: the performance of existing methods degrades as the task pool expands. Our further analysis demonstrates that this degradation stems from suboptimal evidence selection during optimization, as different evidence combinations lead to substantially different evolution outcomes. To address this issue, we propose Successive Scale Racing (SSR), a framework that adaptively searches for optimal evidence combinations in each evolution round.",
+          "image": null
+        },
+        {
+          "title": "Sketch2Sim: an end-to-end modular framework for hand-drawn circuit analysis",
+          "link": "https://arxiv.org/abs/2610.28836",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "This study proposes a sketch-to-simulation system to solve handwritten circuit diagrams. The system converts raw images into a Simulation Program with Integrated Circuit Emphasis (SPICE)-compatible ne...",
+          "paragraph": "This study proposes a sketch-to-simulation system to solve handwritten circuit diagrams. The system converts raw images into a Simulation Program with Integrated Circuit Emphasis (SPICE)-compatible netlist and automatically calculates the circuit's nodal voltages and currents. Another objective is to propose a holistic framework that benefits students and educators by enhancing the teaching and learning experience of electric circuits and expediting engineering design reviews. This article presents a multistage pipeline that converts raw photographs of handwritten electric circuits into executable SPICE-like netlists, providing a solution.",
+          "image": null
+        },
+        {
+          "title": "Speedrunning Relational Foundation Model Pretraining",
+          "link": "https://arxiv.org/abs/2610.28855",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Progress on foundation model pretraining is gated by who can afford a trial, and relational pretraining is no exception.",
+          "paragraph": "Progress on foundation model pretraining is gated by who can afford a trial, and relational pretraining is no exception. Recipes are developed inside individual labs, reported under private protocols, and do not accumulate. Speedrun leaderboards remove that barrier by decentralizing the search rather than the training run. The problem is fixed, the stack is open, entries are ranked by wall-clock time to a quality target, and one GPU is enough to hold the record. We introduce modded-nanoRT, the first such leaderboard for Relational Transformers. Which database to hold out decides whether the benchmark can resolve improvements at all, so we fix it by calibration, ranking six candidates by how sharply a 45-minute learning curve separates improvement from seed noise.",
+          "image": null
+        },
+        {
+          "title": "To Manipulate or Not: Opinion Dynamics in LLM Interactions",
+          "link": "https://arxiv.org/abs/2610.28875",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Large language models increasingly take part in extended conversations where they can both shape and be shaped by another party's views, yet most persuasion research measures only one side of that exc...",
+          "paragraph": "Large language models increasingly take part in extended conversations where they can both shape and be shaped by another party's views, yet most persuasion research measures only one side of that exchange. We introduce a controlled LLM-LLM debate framework in which two language-model roles repeatedly discuss a contested topic (climate-change attribution): one is given an assigned stance and, in some conditions, an explicit instruction to persuade, while the other receives no assigned position. Across four ordered model combinations involving GPT-6 Luna and Gemini 2.5 Flash Lite, we track both each role's explicitly reported position and a separate measure of its turn-by-turn behavior inside the conversation.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Linux Foundation Newsletter: October 2026",
+          "link": "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-october-2026",
+          "source": "Linux Foundation",
+          "license": "CC BY 3.0",
+          "summary": "Welcome to the October 2026 edition of the Linux Foundation Newsletter Cybersecurity Awareness Month is ending, and LF Education is discounting training for a limited time.",
+          "paragraph": "Welcome to the October 2026 edition of the Linux Foundation Newsletter Cybersecurity Awareness Month is ending, and LF Education is discounting training for a limited time. You cansave 40% on eligible cybersecurity training and certifications, and you can save 35% on other training and certifications. A THRIVE-ONE Annual subscription is 30% off. This month's biggest announcements include a new Platinum Member and two new foundations. AWSbecame a Platinum Member of the Linux Foundation, after more than a decade of taking part in LF projects. The Linux Foundation launched theBUILD Foundation, wh",
+          "image": "https://www.linuxfoundation.org/hubfs/Blog%20%2824%29-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "6 cities competing for the 2027 European Capital of Innovation Awards (iCapital)",
+          "link": "https://eic.ec.europa.eu/news/6-cities-competing-2027-european-capital-innovation-awards-icapital-2026-10-22_en",
+          "source": "European Innovation Council",
+          "license": "CC BY 4.0 (EU)",
+          "summary": "The European Commission announced today the finalists of the 2027 European Capital of Innovation Awards (iCapital), celebrating the European cities that are leading the way in urban innovation and sha...",
+          "paragraph": "The European Commission announced today the finalists of the 2027 European Capital of Innovation Awards (iCapital), celebrating the European cities that are leading the way in urban innovation and shaping more sustainable, inclusive and resilient communities The European Commission announced today the finalists of the 2027 European Capital of Innovation Awards (iCapital), celebrating the European cities that are leading the way in urban innovation and shaping more sustainable, inclusive and resilient communities. Supported by the European Innovation Council (EIC) under Horizon Europe, the iCapital prize recognises cities that harness innovation to address urban challenges, improve citizens\u2019 quality of life and create new opportunities for sustainable growth.",
+          "image": "https://eic.ec.europa.eu/sites/default/files/2026-10/CapitalOfInnovation_Finalists-2027_01%20%281%29.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "NASA\u2019s Hubble Charts Path for Roman with Gravitational Lenses",
+          "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
+          "paragraph": "This Hubble gravitational lensing image is one of many taken in preparation for science with the Nancy Grace Roman Space Telescope. Article A sinuous spiral galaxy (center) appears in the same field of view as a vivid gravitational lens (right corner) in this Hubble image. The lens consists of a reddish elliptical foreground galaxy and the blue arcs of a magnified background galaxy.NASA, ESA, and X. Huang (University of San Francisco); Processing: Gladys Kober (NASA/Catholic University of America) A sweeping barred spiral galaxy marks the spot in this image, but the real treasure is the gravitational lens in the lower-right corner, where a distant background galaxy is being magnified and distorted by the gravity of a closer galaxy.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/gravitational-lens/Hubble_DESI194.5345+03.5358_74_flat_FINALok.tif/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "The impact of perceived social support on college athletes\u2019 academic burnout: The moderating role of cognitive reappraisal within a serial mediation model",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361222",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Guihua Xu, Xirui Yang, Qiyong Zhang College athletes face substantial challenges from the combined demands of academic study and athletic training, placing them at elevated risk for academic burnou...",
+          "paragraph": "by Guihua Xu, Xirui Yang, Qiyong Zhang College athletes face substantial challenges from the combined demands of academic study and athletic training, placing them at elevated risk for academic burnout (AB). This study examined how perceived social support (PSS) is associated with AB by testing the mediating roles of mental toughness (MT) and athlete burnout (ATHB) and the moderating effect of cognitive reappraisal (CR). Using a cross-sectional design, 1,918 college athletes from over 20 Chinese universities completed standardized questionnaires assessing PSS, MT, ATHB, CR, and AB. Serial and moderated serial mediation were analyzed with the PROCESS macro (Models 6 and 89) while controlling for demographic and sport-related variables.",
+          "image": null
+        },
+        {
+          "title": "Predicting under-five child mortality in Zambia: Machine learning versus parametric survival models",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361197",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Kassaye Getaneh Arge Background In sub-Saharan Africa, child mortality remains a critical public health challenge, with Zambia exhibiting some of the highest rates in the region.",
+          "paragraph": "by Kassaye Getaneh Arge Background In sub-Saharan Africa, child mortality remains a critical public health challenge, with Zambia exhibiting some of the highest rates in the region. While survival analysis has identified key risk factors, these methods often fail to capture complex non-linear interactions and the dynamic, time-varying nature of longitudinal markers like birth intervals. This study aimed to develop and compare predictive survival models to improve risk stratification for under-five mortality using the 2024 Zambia Demographic and Health Survey (ZDHS).",
+          "image": null
+        },
+        {
+          "title": "CohAlign: Predicting the first-order noise susceptibility of gradients in equivariant quantum neural networks",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361139",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Hassan Ugail, Newton Howard Quantum neural networks learn by following gradients, and on real hardware those gradients are washed out by noise.",
+          "paragraph": "by Hassan Ugail, Newton Howard Quantum neural networks learn by following gradients, and on real hardware those gradients are washed out by noise. Predicting how quickly this happens, before any finite noise experiment or circuit sweep is run, remains an open problem. We present CohAlign, an open source toolkit that computes the first order noise susceptibility of the ensemble second moment of a specified parameter gradient in a charge conserving brickwork quantum neural network. The computation needs only a classical description of the circuit, the noise model, the prepared state, the readout and the initialisation prior. The predicted quantity is distinct from training convergence or final accuracy.",
+          "image": null
+        },
+        {
+          "title": "APOD: 2026 October 22 \u2013 The First Green Star, WD J1330+6435",
+          "link": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "APOD Science APOD APOD: 2026 October 22 \u2013 The\u2026 Today\u2019s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "paragraph": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Explanation: Star light, star bright: is there a green star out tonight? Other than the Sun, all stars are so far from Earth that they appear as points in the sky. They are mostly white, but sometimes noticeably red or blue. This color typically relates to the temperature: blue stars are hotter than red stars. What about other colors? The featured image is an illustration showing WD J1330+6435, a white dwarf star, surrounded by an accretion disk with gas and rocks orbiting the star. White dwarfs are small, faint stars that are left over when a star like the Sun exhausts its nuclear fuel.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/green_wd_mark-garlick_annotated.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        }
+      ]
+    }
+  ]
+}
