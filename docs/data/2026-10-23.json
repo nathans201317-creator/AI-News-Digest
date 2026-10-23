@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-23",
+  "display_date": "October 23, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+          "link": "https://arxiv.org/abs/2610.30151",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent...",
+          "paragraph": "Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent. Surveys of agent communication protocols name handshake overhead as an efficiency criterion, yet none report measurements. This paper presents the first empirical, phase-decomposed benchmark of the handshake in three major agent protocols: MCP (in both its 2025 initialize and 2026 discover eras), A2A, and ACP. Using each protocol's official SDK, we instrument every request for round trips, per-phase latency, wire bytes, and token cost across cold-start, warm-repeat, capability-mismatch, and degraded-metadata scenarios (N=50 per cell, on loopback and under an emulated 50 ms RTT).",
+          "image": null
+        },
+        {
+          "title": "Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework",
+          "link": "https://arxiv.org/abs/2610.30170",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Canada's increasing wildfire activity requires frequent national hazard mapping to guide proactive mitigation, including fuel management, land-use planning, infrastructure protection, and evacuation r...",
+          "paragraph": "Canada's increasing wildfire activity requires frequent national hazard mapping to guide proactive mitigation, including fuel management, land-use planning, infrastructure protection, and evacuation routing. However, process-based wildfire simulation frameworks (e.g., BurnP3 and BurnP3+) rely on computationally intensive Monte Carlo simulations to model burn probability, fire intensity, and rate of spread. These workflows can take days to weeks to process a single regional modelling unit.",
+          "image": null
+        },
+        {
+          "title": "Neural Networks with Differentiable Belief-Function Layers",
+          "link": "https://arxiv.org/abs/2610.30173",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Yager's 1987 rule of combination $\\boxplus$ was proposed on epistemic grounds: under high conflict, mass should be redistributed to ignorance rather than renormalised onto the class simplex.",
+          "paragraph": "Yager's 1987 rule of combination $\\boxplus$ was proposed on epistemic grounds: under high conflict, mass should be redistributed to ignorance rather than renormalised onto the class simplex. We observe that backpropagation needs the same rule: Dempster's normaliser $(1{-}\\kappa)^{-1}$, where $\\kappa$ is the conflict mass, puts a $(1{-}\\kappa)^{-2}$ term in the gradient that diverges exactly when evidence sources disagree, while Yager's $\\boxplus$ is bilinear and has no such term. Building on this, we construct a deep evidential pipeline in which every mass in the chain from heads to output is a valid Dempster--Shafer mass function, combined by Yager's rule. The output mass on the ignorance set, $m(\\Theta)$, serves as the network's ``I do not know'' signal.",
+          "image": null
+        },
+        {
+          "title": "Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?",
+          "link": "https://arxiv.org/abs/2610.30205",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "When an LLM agent's move fails, the harness writes the move and the failure message into the transcript and asks again.",
+          "paragraph": "When an LLM agent's move fails, the harness writes the move and the failure message into the transcript and asks again. In tool calling, this record makes small models more likely to repeat the failed action. We test whether the same holds in games (Sokoban, Connect Four, Othello), where a move can fail by being illegal or by being legal but losing, both verified exactly. On fixed probe items built by perturbing a correct move, the record backfires: pooled over 8 instruction-tuned models (135M-1.7B) it makes the failed move more likely (corrective gain G = -1.38 nats per token), through the move's surface form, for illegal moves but not for losing ones, and not for every model.",
+          "image": null
+        },
+        {
+          "title": "Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs",
+          "link": "https://arxiv.org/abs/2610.30351",
+          "source": "arXiv",
+          "license": "CC BY 4.0",
+          "summary": "Large language models often apply complex reasoning indiscriminately, leading to overthinking on simple tasks and underthinking on harder ones.",
+          "paragraph": "Large language models often apply complex reasoning indiscriminately, leading to overthinking on simple tasks and underthinking on harder ones. We present Route-and-Generate (Rouge), a hierarchical training framework that enables LLMs to adaptively decide when and how much reasoning is required for each input. Our approach decouples reasoning effort allocation from answer generation by introducing a routing policy that allocates a fixed sampling budget across multiple reasoning formats, while the base model is optimized with GRPO using per-sample rewards. To promote efficient reasoning, we employ a rank-based reward that favors shorter correct solutions, and update the routing policy via a closed-form KL-regularized policy improvement step distilled into a neural router.",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Multienzyme cascade biotransformation of L-Tyrosine to Danshensu by engineered <i>Escherichia coli</i>",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361484",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Tianzhen Xiong, Shuqing Li, Xiaoya Li, Xinmeng Li, Mengdan Wu, Jinru Liu, Jinxiu Guo, Xinrui Li Danshensu (DSS), a water-soluble bioactive compound with significant antioxidant, anti-inflammatory,...",
+          "paragraph": "by Tianzhen Xiong, Shuqing Li, Xiaoya Li, Xinmeng Li, Mengdan Wu, Jinru Liu, Jinxiu Guo, Xinrui Li Danshensu (DSS), a water-soluble bioactive compound with significant antioxidant, anti-inflammatory, cardioprotective and neuroprotective properties, is widely utilized in cardiovascular and cerebrovascular disease. In this study, we established a multi-enzyme cascade system in engineered Escherichia coli to synthesize DSS from L-Tyrosine. The initial co-expression of 4-hydroxyphenylacetate 3-monooxygenase (HpaBC), L-amino acid deaminase (aadL), glucose dehydrogenase (gdh) and D-lactate dehydrogenase (ldhD) yielded 5.1 mM DSS. The production of DSS increased to 6.53 mM through optimizing plasmid copy number. After optimizing the conditions, the yield of DSS reached 8.66 mM from strain 6.",
+          "image": null
+        },
+        {
+          "title": "Cross-cultural adaptation, validation, and measurement invariance of the First Aid Willingness Questionnaire (FAWQ) among Turkish adolescents",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361329",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Harun \u00d6zbey, \u00d6zlem \u00c7al\u0131\u015f\u0131r, Meral Bayat, Sultan Be\u015fikta\u015f, Aklilu Abrham Roba Background This study translated, culturally adapted, and evaluated the First Aid Willingness Questionnaire for Schoolch...",
+          "paragraph": "by Harun \u00d6zbey, \u00d6zlem \u00c7al\u0131\u015f\u0131r, Meral Bayat, Sultan Be\u015fikta\u015f, Aklilu Abrham Roba Background This study translated, culturally adapted, and evaluated the First Aid Willingness Questionnaire for Schoolchildren to assess adolescents\u2019 self-reported readiness to help and potential barriers to first-aid provision. Methods This cross-sectional psychometric study included 470 high school students in Aksaray, T\u00fcrkiye. The questionnaire underwent forward\u2013backward translation, review by 12 experts, and pilot testing with 35 students. Exploratory factor analysis derived the structure, which was subsequently evaluated via ordinal confirmatory factor analysis in the same sample.",
+          "image": null
+        },
+        {
+          "title": "The hidden burden of viral meningitis in ethiopia: Etiology and clinical outcomes",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361291",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Derso Wale Mesele, Lema Ayele, Jemal Aman, Dawit Hailu Alemayehu, Ashenafi Alemu, Aschalew Gelaw, Yared Merid, Adane Mihret, Andargachew Mulu, Getachew Tesfaye Beyene Background Viral meningitis re...",
+          "paragraph": "by Derso Wale Mesele, Lema Ayele, Jemal Aman, Dawit Hailu Alemayehu, Ashenafi Alemu, Aschalew Gelaw, Yared Merid, Adane Mihret, Andargachew Mulu, Getachew Tesfaye Beyene Background Viral meningitis remains a significant global public health problem, particularly in resource-limited settings where the diagnosis of viral etiology is mainly based on clinical assessment. This study aimed to identify the common viral etiologies of meningitis, describe their associated clinical features, and assess patient outcomes among individuals suspected of meningitis without evidence of bacterial meningitis. Methods We conducted a multicenter study involving 430 patients clinically suspected of meningitis. Clinical data and cerebrospinal fluid samples (CSF) were collected following standard procedures.",
+          "image": null
+        },
+        {
+          "title": "APOD: 2026 October 23 \u2013 Andromeda in Southern Spring",
+          "link": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "APOD Science APOD APOD: 2026 October 23 \u2013\u2026 Today\u2019s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "paragraph": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Explanation: Looking toward the north from Mullion, New South Wales, Australia, the Andromeda Galaxy never gets more than a few degrees above the horizon. During the southern hemisphere spring, Andromeda is highest in the sky around midnight though. And in this telephoto scene from October 10/11, multiple exposures were used to reveal the spiral galaxy in tantalizing detail as it climbed above rolling Australian hills. Also known as M31, the Andromeda Galaxy is one of the brightest objects in the Messier catalog, but is only visible to the unaided eye as a small, faint, fuzzy patch.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/APOD_Lucy.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "El Ni\u00f1o Then and Now",
+          "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "A 35-year satellite altimetry record lets scientists hold this year\u2019s El Ni\u00f1o up against its strongest predecessors.",
+          "paragraph": "A 35-year satellite altimetry record lets scientists hold this year's El Ni\u00f1o up against its strongest predecessors. A 35-year satellite altimetry record lets scientists hold this year's El Ni\u00f1o up against its strongest predecessors. Article View more Images of the Day: Oct 22, 2026Instruments:JASON-2Sentinel-6 Michael FreilichTOPEX/PoseidonTopics:El Nino Southern OscillationSea Surface Topography october 13, 1997 october 12, 2026 Sea levels are higher than normal across the central and eastern equatorial Pacific in October 2026 (right), a hallmark of El Ni\u00f1o.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni\u00f1o-then-and-now/elninocomp_sen6_20261012_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Bitcoin Optech Newsletter #428",
+          "link": "https://bitcoinops.org/en/newsletters/2026/10/23/",
+          "source": "Bitcoin Optech",
+          "license": "MIT license",
+          "summary": "This week\u2019s newsletter describes a design for a single-issuer layer 2 whose users can redeem their bitcoin onchain without the issuer\u2019s cooperation and summarizes a proposal for including hash preimag...",
+          "paragraph": "Each user locks bitcoin in their own 2-of-2 output with the hub and receives the same amount of tokens on the layer 2 ledger, where users pay each other without touching the chain. To exit, a user hands tokens back to the hub and collects bitcoin from their own output. Because that output is the only one a user can draw on, the hub also locks some of its own bitcoin in each output up to a negotiated cap, like LN inbound liquidity, so that the user can redeem tokens received from others. Tokens received beyond the cap are redeemable only at the hub\u2019s discretion. In the cooperative case, the hub simply signs a settlement of the output paying the user. If it refuses or does not respond, the user generates a Groth16 proof that the sequencer signed a state recording the returned tokens.",
+          "image": "https://bitcoinops.org/img/logos/optech-notext.png"
+        }
+      ]
+    }
+  ]
+}
