@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-24",
+  "display_date": "October 24, 2026",
+  "categories": [
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "APOD: 2026 October 24 \u2013 Rosetta\u2019s Selfie",
+          "link": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "APOD Science APOD APOD: 2026 October 24 \u2013\u2026 Today\u2019s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos!",
+          "paragraph": "Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Explanation: This Rosetta spacecraft selfie was snapped on October 7th, 2014. At the time the comet-chasing spacecraft was about 472 million kilometers from planet Earth, but only 16 kilometers from the surface of comet 67P/Churyumov-Gerasimenko. Looming beyond the spacecraft near the top of the frame, dust and gas stream away from the comet's curious double-lobed nucleus. Bright sunlight glints off one of Rosetta's 14 meter long solar arrays. In fact, two exposures, one short and one long, were combined to record the dramatic high contrast scene using the CIVA camera system on Rosetta's still-attached Philae lander.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/ESA_Rosetta_Philae_CIVA_141007.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+        },
+        {
+          "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+          "link": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have...",
+          "paragraph": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing Article Contents Starship lander concept of operations Blue Moon lander concept of operations Returning American astronauts to the Moon As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed both concepts of operations for its future crewed landers.",
+          "image": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg"
+        },
+        {
+          "title": "NASA\u2019s Artemis III Mission to Test Future Moon Lander Operations",
+          "link": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency\u2019s history.",
+          "paragraph": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency's history. Article Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency\u2019s history. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit to perform a series of demonstrations with test versions, or test articles, of human landing systems being developed by industry partners Blue Origin and SpaceX.",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg"
+        },
+        {
+          "title": "NASA\u2019s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+          "link": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "NASA\u2019s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth\u2019s surface.",
+          "paragraph": "NASA\u2019s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth\u2019s Article NASA\u2019s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth\u2019s surface. The greater atmospheric drag at this height prevents the satellite\u2019s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to re-enter the atmosphere in the next few weeks.",
+          "image": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/news/2026/end-of-mission/Swift_in_space_15_ac.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "No phenotypes in <i>Ttc22</i> knockout mice",
+          "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361340",
+          "source": "PLOS ONE",
+          "license": "CC BY 4.0",
+          "summary": "by Jiaoyang Liu, Liankun Gu, Abin You, Hongfan Yuan, Jing Zhou, Wei Tian, Dajun Deng The TTC22 gene encodes a protein containing seven tetratricopeptide repeats (TPRs), which mediate protein\u2012protein i...",
+          "paragraph": "by Jiaoyang Liu, Liankun Gu, Abin You, Hongfan Yuan, Jing Zhou, Wei Tian, Dajun Deng The TTC22 gene encodes a protein containing seven tetratricopeptide repeats (TPRs), which mediate protein\u2012protein interactions as chaperones. We previously reported that the level of TTC22 transcript variant 1 (TTC22v1) was downregulated in human colon adenocarcinoma (COAD) and that TTC22 upregulated m6A-mediated WTAP and SNAI1 expression via the TTC22\u2012RPL4 interaction and subsequently promoted COAD metastasis. Thus, a commercially available C57BL/6N mouse model in which the Ttc22 exon 2&3 encoding the TPR4 (equal to the human TTC22 TPR3) domain was knocked out via CRISPR-Cas9 was used to evaluate the contribution of Ttc22 to the development of mice and COAD.",
+          "image": null
+        }
+      ]
+    }
+  ]
+}
