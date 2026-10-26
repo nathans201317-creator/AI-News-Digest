@@ -43,24 +43,17 @@ MAX_ARCHIVED_DAYS = 30   # how many past days the site keeps browsable
 # 1. Sources, grouped by section — add or remove feeds/sections here
 # ---------------------------------------------------------------------------
 
-# Only openly licensed / public-domain sources, so the site and email can be
-# monetised later. Each feed can set: name, license (shown to readers),
+# Popular tech sites (the same kind of sources newsletters like TLDR link to),
+# plus a couple of openly licensed ones (NASA, Linux Foundation). Uplink only
+# shows each story's headline (link), the publisher's name and ONE short
+# sentence written in its own words — never the article text.
+# A feed can be a plain URL or a dict with: name, license (shown to readers),
 # include / exclude (regex on title+summary), max (stories per run),
-# license_filter (regex the entry's own license URL must match),
-# only_new (arXiv: skip 'replace'/'cross' repeats), no_fetch (don't open the
-# article page — the feed already carries the text).
-# Sources that are checked but NOT included yet are listed in the project doc
-# "uplink-sources-and-monetization" (pending permission or licence confirmation).
+# license_filter, only_new, no_fetch (see fetch_rss_articles).
+# The free-only source list built on Oct 19 is saved in the project doc
+# "uplink-sources-and-monetization" and can be switched back on any time.
 
 US_GOV = "Public domain (US government)"
-CC_BY_ARXIV = r"creativecommons\.org/(licenses/by(-sa)?/|publicdomain/zero)"
-AI_WORDS = r"\b(AI|artificial intelligence|machine learning|agentic|LLMs?|language models?)\b"
-CRYPTO_WORDS = r"\b(crypto\w*|bitcoin|digital assets?|blockchain|stablecoin\w*|tokeniz\w+|prediction markets?|decentralized finance|DeFi)\b"
-BIGTECH_WORDS = (r"\b(Google|Alphabet|Apple|Amazon|Meta|Facebook|Instagram|Microsoft|Nvidia|OpenAI|TikTok|"
-                 r"artificial intelligence|chatbots?|app store|social media|online platforms?|big tech|"
-                 r"children'?s privacy|COPPA|algorithm\w*)\b")
-STARTUP_WORDS = (r"\b(startups?|start-ups?|crowdfunding|small business\w*|venture|capital formation|"
-                 r"emerging growth|accredited investor|private offerings?)\b")
 
 CATEGORIES = {
     "AI & Machine Learning": {
@@ -68,14 +61,12 @@ CATEGORIES = {
         "color": "#8B5CF6",
         "tint": "#F1EDFF",
         "feeds": [
-            {"url": "https://rss.arxiv.org/atom/cs.AI", "name": "arXiv", "license": "CC BY (author-selected)",
-             "license_filter": CC_BY_ARXIV, "only_new": True, "no_fetch": True, "max": 6},
-            {"url": "https://rss.arxiv.org/atom/cs.LG", "name": "arXiv", "license": "CC BY (author-selected)",
-             "license_filter": CC_BY_ARXIV, "only_new": True, "no_fetch": True, "max": 6},
-            {"url": "https://rss.arxiv.org/atom/cs.CL", "name": "arXiv", "license": "CC BY (author-selected)",
-             "license_filter": CC_BY_ARXIV, "only_new": True, "no_fetch": True, "max": 6},
-            {"url": "https://www.nist.gov/news-events/information%20technology/rss.xml", "name": "NIST",
-             "license": US_GOV, "include": AI_WORDS, "max": 4},
+            "https://techcrunch.com/category/artificial-intelligence/feed/",
+            "https://venturebeat.com/category/ai/feed/",
+            "https://www.wired.com/feed/tag/ai/latest/rss",
+            "https://www.artificialintelligence-news.com/feed/",
+            "https://arstechnica.com/ai/feed/",
+            "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         ],
     },
     "Big Tech & Gadgets": {
@@ -83,12 +74,15 @@ CATEGORIES = {
         "color": "#38BDF8",
         "tint": "#E8F5FC",
         "feeds": [
-            {"url": "https://www.linuxfoundation.org/blog/rss.xml", "name": "Linux Foundation",
-             "license": "CC BY 3.0", "max": 5},
-            {"url": "https://www.ftc.gov/feeds/press-release.xml", "name": "FTC", "license": US_GOV,
-             "include": BIGTECH_WORDS, "max": 4},
-            {"url": "https://www.justice.gov/news/rss?type=press_release&m=1", "name": "US Dept. of Justice",
-             "license": US_GOV, "include": BIGTECH_WORDS, "max": 4},
+            "https://www.theverge.com/rss/index.xml",
+            "https://feeds.arstechnica.com/arstechnica/technology-lab",
+            "https://techcrunch.com/feed/",
+            "https://www.engadget.com/rss.xml",
+            "https://gizmodo.com/rss",
+            "https://www.techradar.com/rss",
+            "https://www.theregister.com/headlines.atom",
+            "https://thenextweb.com/feed",
+            {"url": "https://www.linuxfoundation.org/blog/rss.xml", "name": "Linux Foundation", "license": "CC BY 3.0", "max": 3},
         ],
     },
     "Startups & Funding": {
@@ -96,12 +90,9 @@ CATEGORIES = {
         "color": "#FB923C",
         "tint": "#FFEEE3",
         "feeds": [
-            {"url": "https://eic.ec.europa.eu/node/2/rss_en", "name": "European Innovation Council",
-             "license": "CC BY 4.0 (EU)", "max": 5},
-            {"url": "https://www.gov.uk/government/organisations/innovate-uk.atom", "name": "Innovate UK",
-             "license": "Open Government Licence v3.0", "max": 5},
-            {"url": "https://www.sec.gov/news/pressreleases.rss", "name": "SEC", "license": US_GOV,
-             "include": STARTUP_WORDS, "max": 3},
+            "https://techcrunch.com/category/startups/feed/",
+            "https://news.crunchbase.com/feed/",
+            "https://techcrunch.com/category/venture/feed/",
         ],
     },
     "Science & Research": {
@@ -109,16 +100,10 @@ CATEGORIES = {
         "color": "#2DD4BF",
         "tint": "#E3F7F3",
         "feeds": [
-            {"url": "https://www.nasa.gov/feed/", "name": "NASA", "license": US_GOV, "max": 6},
-            {"url": "https://www.nist.gov/news-events/news/rss.xml", "name": "NIST", "license": US_GOV,
-             "exclude": AI_WORDS, "max": 3},
-            {"url": "https://www.noaa.gov/rss.xml", "name": "NOAA", "license": US_GOV, "max": 4},
-            {"url": "https://www.nsf.gov/rss/rss_www_news.xml", "name": "NSF", "license": US_GOV,
-             "exclude": r"podcast", "max": 3},
-            {"url": "https://journals.plos.org/plosone/feed/atom", "name": "PLOS ONE", "license": "CC BY 4.0",
-             "exclude": r"^\s*(Correction|Retraction|Expression of Concern)", "no_fetch": True, "max": 4},
-            {"url": "https://www.mdpi.com/rss/journal/universe", "name": "MDPI Universe", "license": "CC BY 4.0",
-             "no_fetch": True, "max": 4},
+            "https://www.technologyreview.com/feed/",
+            "https://www.sciencedaily.com/rss/top/technology.xml",
+            "https://phys.org/rss-feed/",
+            {"url": "https://www.nasa.gov/feed/", "name": "NASA", "license": US_GOV, "max": 4},
         ],
     },
     "Crypto": {
@@ -126,21 +111,19 @@ CATEGORIES = {
         "color": "#FBBF24",
         "tint": "#FFF7DC",
         "feeds": [
-            {"url": "https://bitcoinops.org/feed.xml", "name": "Bitcoin Optech", "license": "MIT license", "max": 3},
-            {"url": "https://www.cftc.gov/RSS/RSSGP/rssgp.xml", "name": "CFTC", "license": US_GOV,
-             "include": CRYPTO_WORDS, "max": 4},
-            {"url": "https://www.sec.gov/news/pressreleases.rss", "name": "SEC", "license": US_GOV,
-             "include": CRYPTO_WORDS, "max": 4},
+            "https://www.coindesk.com/arc/outboundfeeds/rss/",
+            "https://cointelegraph.com/rss",
+            "https://decrypt.co/feed",
         ],
     },
 }
 
-MAX_PER_CATEGORY = 5   # most stories shown per section (thin sections simply show fewer)
+MAX_PER_CATEGORY = 5   # stories shown per section
 HOURS_BACK = 24        # default look-back for fetch_rss_articles()
-# Free-to-use sources publish less, so each section looks back a week. A story
-# is never shown twice: anything already published in the last 7 days of site
-# data is skipped (see load_recent_links), so each day only adds new items.
-FILL_HOURS_BACK = 168
+# If a section has fewer than 5 stories from the last day, it looks back this
+# far to fill the gap (newest first, so fresh stories always win). Anything
+# already published on the site in the last 7 days is skipped (load_recent_links).
+FILL_HOURS_BACK = 48
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -159,7 +142,8 @@ PUBLISHERS = {
     "techradar.com": "TechRadar", "crunchbase.com": "Crunchbase News",
     "technologyreview.com": "MIT Technology Review", "sciencedaily.com": "ScienceDaily",
     "phys.org": "Phys.org", "coindesk.com": "CoinDesk", "cointelegraph.com": "Cointelegraph",
-    "decrypt.co": "Decrypt",
+    "decrypt.co": "Decrypt", "theregister.com": "The Register", "thenextweb.com": "The Next Web",
+    "nasa.gov": "NASA",
 }
 
 
@@ -413,13 +397,12 @@ def collect_by_category(skip_links=frozenset()):
     # Only the articles that made the cut get the extra page request — done
     # in parallel with a tight timeout so it stays fast. Feeds that already
     # carry the full text (no_fetch) are skipped.
-    chosen = [a for c in result.values() for a in c["articles"] if not a.get("no_fetch")]
+    chosen = [a for c in result.values() for a in c["articles"]
+              if not a.get("no_fetch") and not a.get("image")]
     with ThreadPoolExecutor(max_workers=6) as pool:
         contexts = list(pool.map(lambda a: fetch_page_context(a["link"]), chosen))
     for a, c in zip(chosen, contexts):
-        if not a.get("image"):
-            a["image"] = c["image"]
-        a["page_text"] = c["text"]
+        a["image"] = c["image"]   # only the preview image is used; article text is never kept
     return result
 
 
@@ -487,41 +470,26 @@ def _trim(text, limit):
     return cut[:end + 1] if end > limit * 0.5 else cut.rstrip() + "..."
 
 
-def summarize_story(title, raw_summary, page_text, api_key):
-    """Returns (one_liner, paragraph, used_ai). One Gemini call produces both:
-    the one-line blurb used in the email and a short paragraph for the website."""
-    source_text = page_text or raw_summary
-    fallback_line = _trim(raw_summary or title, 200)
-    fallback_para = _trim(source_text or title, 800)
+def summarize_line(title, raw_summary, api_key):
+    """Returns (one_liner, used_ai). ONE short sentence in our own words, built
+    only from the headline and the feed's short excerpt — never the article."""
+    fallback = _trim(raw_summary or title, 160)
     if not api_key:
-        return fallback_line, fallback_para, False
+        return fallback, False
 
     prompt = (
-        "You write for a tech newsletter. Using ONLY the story information below "
-        "(never invent facts, numbers or names), write two things separated by a "
-        "line containing exactly ###\n"
-        "1) ONE punchy plain-English sentence (max 25 words) giving the news — no "
-        "fluff, never say 'this article'.\n"
-        "2) A news summary paragraph of 6 to 8 sentences (about 120-150 words), in "
-        "your own words, so a reader gets the full insight without clicking: what "
-        "happened, who is involved, the key numbers and details, the background, "
-        "and why it matters. If the information is limited, write as many sentences "
-        "as the facts support (minimum 4) rather than padding.\n"
-        "STRICT RULES: ignore and never mention anything promotional or unrelated to "
-        "the story — event ads, ticket or registration offers, discounts, "
-        "newsletter or subscription prompts, cookie notices. Do not copy sentences "
-        "verbatim. No markdown, no bullet points.\n\n"
-        f"Title: {title}\nStory information: {source_text[:5500]}"
+        "Write ONE punchy plain-English sentence (max 25 words) saying what this "
+        "tech news story is about, in your own words. Use ONLY the information "
+        "below — never invent facts, numbers or names. Do not copy phrases from "
+        "the headline or details. No fluff, never say 'this article', no "
+        "markdown, no quotation marks. Ignore any promotional text.\n\n"
+        f"Headline: {title}\nDetails: {raw_summary[:800]}"
     )
-    result = call_gemini(prompt, api_key, max_tokens=3000)
+    result = call_gemini(prompt, api_key, max_tokens=600)
     if not result:
-        return fallback_line, fallback_para, False
-    if "###" in result:
-        line, para = [x.strip() for x in result.split("###", 1)]
-    else:
-        para = result.strip()
-        line = _trim(para, 160)
-    return (line or fallback_line), (para or fallback_para), True
+        return fallback, False
+    line = " ".join(result.split()).strip('"')
+    return (line or fallback), bool(line)
 
 
 def generate_subject_line(categorized, api_key, today_str):
@@ -593,11 +561,8 @@ def build_html_email(categorized, today_str):
                       <a href="{a['link']}" style="color:#14162B; font-size:17px; font-weight:800; text-decoration:none; line-height:1.35;">
                         {a['title']}
                       </a>
-                      <div style="color:{color}; font-size:11px; font-weight:700; letter-spacing:0.3px; margin-top:5px; margin-bottom:7px;">
+                      <div style="color:{color}; font-size:11px; font-weight:700; letter-spacing:0.3px; margin-top:6px;">
                         {a['source']}{(' &nbsp;·&nbsp; ' + a['license']) if a.get('license') else ''}
-                      </div>
-                      <div style="color:#4A4B5C; font-size:14.5px; line-height:1.6;">
-                        {a['ai_summary']}
                       </div>
                     </td>
                     <td width="14">&nbsp;</td>
@@ -663,7 +628,7 @@ def build_html_email(categorized, today_str):
               <tr>
                 <td style="background-color:#FFFBF5; padding: 22px 32px; text-align:center;">
                   <span style="color:#9A93AE; font-size:12px;">Uplink — free, daily, independent. &nbsp;·&nbsp; <a href="__UNSUBSCRIBE_LINK__" style="color:#9A93AE;">Unsubscribe</a></span><br/>
-                  <span style="color:#B5AFC6; font-size:11px; line-height:1.6;">Stories come from public-domain and openly licensed sources. Summaries are AI-generated from the original; tap a headline for the full article and its license.</span>
+                  <span style="color:#B5AFC6; font-size:11px; line-height:1.6;">Every story links to the original publisher — headlines belong to their publishers — tap one to read the full article there.</span>
                 </td>
               </tr>
             </table>
@@ -682,7 +647,6 @@ def build_plain_text_fallback(categorized):
         lines.append(f"\n{cat_data['emoji']} {cat_name}")
         for a in cat_data["articles"]:
             lines.append(f"- {a['title']} ({a['source']})")
-            lines.append(f"  {a['ai_summary']}")
             lines.append(f"  {a['link']}")
     lines.append("\n---\nUnsubscribe: __UNSUBSCRIBE_LINK__")
     return "\n".join(lines)
@@ -710,8 +674,8 @@ def write_site_data(categorized, date_str, today_str):
                         "link": a["link"],
                         "source": a["source"],
                         "license": a.get("license", ""),
-                        "summary": a["ai_summary"],
-                        "paragraph": a.get("paragraph", ""),
+                        "summary": "",
+                        "paragraph": "",
                         "image": a.get("image"),
                     }
                     for a in cat_data["articles"]
@@ -824,35 +788,11 @@ def run_daily_digest():
         print("No new articles found across any category — skipping email.")
         return
 
-    # Write an AI summary for every article we're about to send.
-    # A short pause between calls keeps us under Gemini's free-tier rate limit.
-    # If Gemini fails 3 times in a row (e.g. daily quota exhausted), stop calling
-    # it for the rest of this run instead of retrying uselessly on every article —
-    # saves time and doesn't burn quota you don't have left today.
-    consecutive_failures = 0
-    gemini_disabled = False
+    # Headline-only mode: no per-story summaries. Each story is the
+    # publisher's own headline, a link, the source name and a thumbnail.
     for cat_data in categorized.values():
         for a in cat_data["articles"]:
-            line, para, used_ai = summarize_story(
-                a["title"], a["raw_summary"], a.get("page_text", ""),
-                "" if gemini_disabled else gemini_key,
-            )
-            a["ai_summary"], a["paragraph"] = line, para
-            a["used_ai"] = used_ai
-            if gemini_disabled or not gemini_key:
-                continue
-            if used_ai:
-                consecutive_failures = 0
-            else:
-                consecutive_failures += 1
-                if consecutive_failures >= 4:
-                    print("Gemini failed 4 times in a row — skipping AI summaries for the rest of this run.")
-                    gemini_disabled = True
-            time.sleep(3)
-
-    all_a = [a for c in categorized.values() for a in c["articles"]]
-    print(f"AI-written summaries: {sum(1 for a in all_a if a.get('used_ai'))}/{len(all_a)} stories "
-          "(the rest used the cleaned article text instead).")
+            a["ai_summary"], a["paragraph"] = "", ""
 
     subject = generate_subject_line(categorized, gemini_key, today_str)
     html_body = build_html_email(categorized, today_str)
