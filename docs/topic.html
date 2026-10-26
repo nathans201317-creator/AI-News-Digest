@@ -150,8 +150,6 @@
       const thumb = a.image
         ? `<img class="story-thumb" src="${esc(a.image)}" alt="" style="background-color:${cat.tint};">`
         : `<div class="story-thumb" style="background-color:${cat.tint};">${cat.emoji}</div>`;
-      // Older saved days only have the one-line summary — fall back to it.
-      const paragraph = a.paragraph || a.summary || "";
       const el = document.createElement("div");
       el.className = "story";
       el.style.borderLeftColor = cat.color;
@@ -163,9 +161,6 @@
             <div class="story-source" style="color:${cat.color};">${esc(a.source)}${a.license ? " · " + esc(a.license) : ""}</div>
           </div>
         </div>
-        <p class="story-paragraph">${esc(paragraph)}</p>
-        <a class="story-link" href="${esc(a.link)}" target="_blank" rel="noopener"
-           style="background:${cat.tint};color:${cat.color};">Read the full story on ${esc(a.source)} ↗</a>
       `;
       content.appendChild(el);
     });
