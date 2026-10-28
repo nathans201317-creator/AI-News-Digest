@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-28",
+  "display_date": "October 28, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Microsoft is ending Copilot support on smart TVs",
+          "link": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/copilot.jpg?quality=90&strip=all&crop=0%2C10.841832569581%2C100%2C78.316334860837&w=1200"
+        },
+        {
+          "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They\u2019re Not Better Than Humans\u2014Yet",
+          "link": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg"
+        },
+        {
+          "title": "Google AI gets cagey when asked who won the 2020 elections",
+          "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg"
+        },
+        {
+          "title": "Chrome\u2019s AI-powered Autofill can now dig through your Gmail to fill out forms",
+          "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/autofill-ai-chrome.jpg?resize=1200,643"
+        },
+        {
+          "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+          "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/ConnectedAppshero.width-2200.format-webp.webp?resize=1200,675"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "SK Hynix profit jumps 632% as it says memory shortage will last to 2030",
+          "link": "https://thenextweb.com/news/sk-hynix-q3-2026-record-profit-memory-shortage-2030",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/10/sk-hynix-logo-tablet-screen-circuit-board.avif"
+        },
+        {
+          "title": "Bank of America tells customers to stop sharing banking passwords with AI agents \u2014 agentic payments are becoming a major thorn in the side of banking",
+          "link": "https://www.techradar.com/pro/bank-of-america-tells-customers-to-stop-sharing-banking-passwords-with-ai-agents-agentic-payments-are-becoming-a-major-thorn-in-the-side-of-banking",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/aMnv6YJ3VwpDPXH8ZsNx3j-1920-80.jpg"
+        },
+        {
+          "title": "Surprise: The Google Xreal glasses debut at a Meta-beating $1,099",
+          "link": "https://www.theverge.com/tech/1020960/google-xreal-glasses-debut-meta-vr-glasses-price-release-date",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/Aura_4_TAS_XR_-Nov-06-2025_113.jpg?quality=90&strip=all&crop=0%2C6.9047953874279%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Here\u2019s where to preorder the latest MacBook Pros",
+          "link": "https://www.theverge.com/gadgets/1019109/apple-macbook-pro-m6-proled-xdr-how-to-buy-price-release-date",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/MacBook-Pro-M6-2026-preorder-3_5144c7.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Anthropic gives US governments 40% off Claude in new GSA deal",
+          "link": "https://thenextweb.com/news/anthropic-gsa-onegov-40-percent-claude-discount",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/10/dario-amodei-anthropic-logo-phone-screen.avif"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "The Crunchbase Tech Layoffs Tracker",
+          "link": "https://news.crunchbase.com/startups/tech-layoffs/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Layoffs-scissors.jpg"
+        },
+        {
+          "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+          "link": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-audience.jpg?resize=1200,800"
+        },
+        {
+          "title": "Exclusive: Numeracle Raises $28M To Keep Legitimate Business Calls From Spam Label",
+          "link": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Conversation_Phone.jpg"
+        },
+        {
+          "title": "The Invisible Graph: How Companies Grow Revenue And Still Lose Value",
+          "link": "https://news.crunchbase.com/ma/grow-revenue-lose-enterprise-value-sagie/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/valuation-measurement-1024x576.jpg"
+        },
+        {
+          "title": "VCs will make billions on Anthropic\u2019s IPO, but Amazon is set to make much (much) more",
+          "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Supersonic waves could explain the strange orbits of hot Jupiters and Neptunes",
+          "link": "https://phys.org/news/2026-10-supersonic-strange-orbits-hot-jupiters.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/supersonic-waves-could.jpg"
+        },
+        {
+          "title": "US adults say craft and sustained commitment, not fame, separate creators from influencers",
+          "link": "https://phys.org/news/2026-10-adults-craft-sustained-commitment-fame.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/what-makes-a-creator-d.jpg"
+        },
+        {
+          "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
+          "link": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/usrc-gardner-ag3-team.jpg"
+        },
+        {
+          "title": "NASA Selects 19 New Citizen Science Proposals in 2026",
+          "link": "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/citizen-science/highlights/2026/NASA_citizen_science_projects_2026.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "Smaller EV batteries, longer range? Scientists may have found a way",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/smaller-and-lighter-ev-batteries.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Fed Stands Pat, Bitcoin Holds Steady\u2014But a December Rate Hike Is in Play",
+          "link": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg"
+        },
+        {
+          "title": "Crypto isn\u2019t a partisan fight, proven by data",
+          "link": "https://www.coindesk.com/opinion/2026/10/28/crypto-isn-t-a-partisan-fight-proven-by-data",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/e98f209041ecd5a04ce8bf6fe4b143261a758bcc-5150x3433.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Strategy shareholders approve daily dividends for four preferred stocks",
+          "link": "https://cointelegraph.com/news/strategy-shareholders-approve-daily-dividends-for-four-preferred-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M61RMMV26WRZDXS27BN2ZMZH/hi-strategyb-3.jpg"
+        },
+        {
+          "title": "Fed leaves interest rates unchanged, as expected",
+          "link": "https://www.coindesk.com/markets/2026/10/28/fed-leaves-interest-rates-unchanged-as-expected",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/122c7325c0be35556b3113612a0e2dbc323846f5-1920x980.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "AI Can Quietly Influence Experts\u2019 Decisions, Anthropic Study Finds",
+          "link": "https://decrypt.co/382065/ai-can-quietly-influence-experts-decisions",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png"
+        }
+      ]
+    }
+  ]
+}
