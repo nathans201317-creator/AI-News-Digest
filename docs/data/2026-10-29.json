@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-29",
+  "display_date": "October 29, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+          "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif"
+        },
+        {
+          "title": "Granola crunches up a dictation feature to compete with Wispr",
+          "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Granola.jpg?resize=1200,675"
+        },
+        {
+          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+          "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/06/GettyImages-1760104305.jpg?resize=1200,798"
+        },
+        {
+          "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+          "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg"
+        },
+        {
+          "title": "Microsoft\u2019s AI future has fewer jobs",
+          "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832912/STK095_MICROSOFT_2_CVirginia_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Don't expect more Assassin's Creed remakes anytime soon",
+          "link": "https://www.engadget.com/2301452/dont-expect-more-assassins-creed-remakes-anytime-soon/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/dont-expect-more-assassins-creed-remakes-anytime-soon/l-intro-1793298942.jpg"
+        },
+        {
+          "title": "Marvell nears a deal to buy Nvidia-backed Lumentum, Bloomberg reports",
+          "link": "https://thenextweb.com/news/marvell-lumentum-deal-talks-bloomberg",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/10/matt-murphy-marvell-ceo-portrait.avif"
+        },
+        {
+          "title": "NVIDIA CEO Jensen Huang may have been the target of a Chinese government spy",
+          "link": "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/l-intro-1793298712.jpg"
+        },
+        {
+          "title": "FuriosaAI raises $620m at a $2.9bn valuation for its Nvidia rival chips",
+          "link": "https://thenextweb.com/news/furiosaai-series-d-620m-2-9bn-valuation",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/10/june-paik-furiosaai-ceo-rngd-stage.avif"
+        },
+        {
+          "title": "EV owners get some welcome UK Budget news \u2014 but big questions remain",
+          "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/is-the-uk-budget-good-or-bad-news-for-ev-owners-here-are-5-things-you-need-to-know",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/ebMpLzMYhQKTCsTu7jaAMU-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+          "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/TeamPhoto_1.png?resize=1200,675"
+        },
+        {
+          "title": "Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy",
+          "link": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/mintive-founders.jpg?resize=1200,900"
+        },
+        {
+          "title": "Who will you learn from in 6 days at TechCrunch Founder Summit? Meet the founders and investors taking the stages",
+          "link": "https://techcrunch.com/2026/10/29/who-will-you-learn-from-in-6-days-at-techcrunch-founder-summit-meet-the-founders-and-investors-taking-the-stage/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800"
+        },
+        {
+          "title": "Series B Funding Is Up, But Fewer Deals Are Getting Done",
+          "link": "https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Series-B.jpg"
+        },
+        {
+          "title": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+          "link": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Seed_1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "A blue laser for underwater communication and sensing",
+          "link": "https://phys.org/news/2026-10-blue-laser-underwater-communication.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-blue-laser-for-under.jpg"
+        },
+        {
+          "title": "Built to take the blast: Students test prototype landing pad to make moon landings safer",
+          "link": "https://phys.org/news/2026-10-built-blast-students-prototype-pad.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/built-to-take-the-blas-1.jpg"
+        },
+        {
+          "title": "NASA-funded Study Details One of Oldest Mars Meteorites Ever Found",
+          "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-closeup-of-teghaza-001-mars-meteorite.jpg"
+        },
+        {
+          "title": "NASA Names Troy Asher Armstrong Flight Research Center Director",
+          "link": "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": null
+        },
+        {
+          "title": "NASA discovers Jupiter\u2019s invisible shield is more complex than Earth\u2019s",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261028232715.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/jupiters-bow-shock.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Crypto Spends $176 Million on Midterms, But Only 13% of Voters See It as a Priority",
+          "link": "https://decrypt.co/382179/crypto-spends-176-million-midterms-only-13-percent-voters-priority",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-04-gID_7.png"
+        },
+        {
+          "title": "$11 Billion in Bitcoin Options Expire Tomorrow\u2014Here's What It Means",
+          "link": "https://decrypt.co/382171/11-billion-bitcoin-options-expire-tomorrow-what-means",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png"
+        },
+        {
+          "title": "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps",
+          "link": "https://cointelegraph.com/markets/hype-price-all-time-high-ice-us-hyperliquid-perps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M64A2KNXVBJKMFSK75GFQ3JG/hyperliquid-futures-2.jpg"
+        },
+        {
+          "title": "KuCoin suspends services in Russia and Belarus",
+          "link": "https://cointelegraph.com/news/kucoin-services-russia-belarus-suspended?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6474T6TR1T4C3BDRR2HK11E/hi-crypto-offers-russia-no-way-out-from-western-sanctions-stablecoin.jpg"
+        },
+        {
+          "title": "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment",
+          "link": "https://www.coindesk.com/business/2026/10/29/stanley-druckenmiller-s-first-x-post-backs-hyperliquid-venture-after-usd23-million-indirect-investment",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/946dceb465036cf8f4975520a5a2bd414745cd3c-3000x2000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
