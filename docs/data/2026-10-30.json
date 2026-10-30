@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-30",
+  "display_date": "October 30, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+          "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&strip=all&crop=0%2C1.4420367390612%2C100%2C97.115926521878&w=1200"
+        },
+        {
+          "title": "Zest\u2019s new AI agent finds restaurants and books reservations over text",
+          "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/zest.jpg?resize=1200,764"
+        },
+        {
+          "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+          "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg"
+        },
+        {
+          "title": "Starbucks wants to use AI to show you a \u2018personalized digital menu\u2019 at the drive-thru",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&strip=all&crop=0%2C10.727816900681%2C100%2C78.544366198639&w=1200"
+        },
+        {
+          "title": "Google\u2019s first data center satellite is online and writing poetry",
+          "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "The Boulies EP200 is our best-value office chair pick \u2014 now the 'the archetypal office chair for most people' drops in price in an early Black Friday sale",
+          "link": "https://www.techradar.com/pro/the-boulies-ep200-is-our-best-value-office-chair-pick-now-the-the-archetypal-office-chair-for-most-people-drops-in-price-in-an-early-black-friday-sale",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/xnUvvEXPHRwvLKd3ibKVUT-1920-80.png"
+        },
+        {
+          "title": "AI-generated code is still frequently failing security checks \u2014 with Claude and GPT-6 topping the leader board",
+          "link": "https://www.techradar.com/pro/security/ai-generated-code-is-still-frequently-failing-security-checks-with-claude-and-gpt-6-topping-the-leader-board",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/dyqv6mszWWV7hVh4EWjzKT-1920-80.jpg"
+        },
+        {
+          "title": "Fan fiction website AO3 is down, and it could take weeks to recover",
+          "link": "https://www.engadget.com/2302649/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/fan-fiction-website-ao3-is-down-and-it-could-take-weeks-to-recover/l-intro-1793383456.jpg"
+        },
+        {
+          "title": "Satlyt takes another step toward turning satellites into space data centers",
+          "link": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Just_Super-Getty.jpg?resize=1200,750"
+        },
+        {
+          "title": "The delightfully messy state of Apple gadgets",
+          "link": "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/VRG_VST_1030_SiteB.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "The Week\u2019s 10 Biggest Funding Rounds: Physical AI And Predictions Lead The Lineup",
+          "link": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Top_10_.jpeg"
+        },
+        {
+          "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+          "link": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-networking-1.jpg?resize=1200,800"
+        },
+        {
+          "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+          "link": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/03/Early-Stage-2024-Breakout-Session.jpg?resize=1200,800"
+        },
+        {
+          "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+          "link": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Runware-Factory-.jpg?w=1200"
+        },
+        {
+          "title": "Sector Snapshot: Travel Tech Funding Heads Toward Multiyear Low Despite AI Push",
+          "link": "https://news.crunchbase.com/travel-tourism/travel-tech-startup-venture-funding-low-ai/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Vacation-AI.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Rediscovered 1935 recordings reveal earliest known spoken audio of endangered Louisiana Creole",
+          "link": "https://phys.org/news/2026-10-rediscovered-reveal-earliest-spoken-audio.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/earliest-spoken-audio.jpg"
+        },
+        {
+          "title": "Drone-based AI system tracks cattle growth without stressful trips to scales",
+          "link": "https://phys.org/news/2026-10-drone-based-ai-tracks-cattle.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/beef-cattle.jpg"
+        },
+        {
+          "title": "NASA\u2019s James Webb Space Telescope Captures Eerie Cat\u2019s Head",
+          "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/10/full-res-for-display.png"
+        },
+        {
+          "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+          "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2023/04/2/27946391011_d40ff10573_h.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "Physicists created a tiny universe and watched time emerge without a clock",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261028234703.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/glowing-mini-universe.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "$8 Million Crypto Kidnapping Lands Texas Brothers 15-Year Prison Terms",
+          "link": "https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png"
+        },
+        {
+          "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
+          "link": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Coinbase leads crypto stock selloff following $6.3B Binance hack",
+          "link": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66WKPS8FDGYTHCJZHC1FP3Y/hi-why-bitcoin-treasury-stocks-fall-faster-than-the-assets-they-hold.png"
+        },
+        {
+          "title": "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem",
+          "link": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M66WK9FWJATF4KMADN8DRH10/hi-will-googles-quantum-supremacy-break-bitcoin-in-2022.jpg"
+        },
+        {
+          "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
+          "link": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/ba7711718abff560f6bffba93947c12093554e65-4498x3000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
