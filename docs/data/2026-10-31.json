@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-31",
+  "display_date": "October 31, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024"
+        },
+        {
+          "title": "I built an AI Tamagotchi before Meta could",
+          "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&strip=all&crop=4%2C9.7534360513847%2C96%2C75.393048208485&w=1200"
+        },
+        {
+          "title": "Spooky New Infostealer Malware Uses AI to \u2018Autodox\u2019 Victims",
+          "link": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg"
+        },
+        {
+          "title": "Meta\u2019s Muse Could Upend All Kinds of Businesses. It Hasn\u2019t Yet",
+          "link": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6ae513e3393ae92e17e66a04/master/pass/Business_Everyone%E2%80%99s%20Questioning%20Meta%E2%80%99s%20Hype%20About%20Muse%20Meta%20Says%20Muse%20Is%20Already%20a%20Big%20Shopper_v1.jpg"
+        },
+        {
+          "title": "Nvidia weighs playing the cosigner for Nscale\u2019s AI data center in West Virginia",
+          "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "These Samsung Galaxy Watches won't be getting the new One UI update",
+          "link": "https://www.engadget.com/2301961/samsung-galaxy-watches-not-getting-one-ui-update/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/these-samsung-galaxy-watches-wont-be-getting-the-new-one-ui-update/l-intro-1793353080.jpg"
+        },
+        {
+          "title": "How to watch AC Milan vs Inter Milan: FREE live streams, TV channels and kick-off time",
+          "link": "https://www.techradar.com/entertainment/football/ac-milan-vs-inter-milan-free-serie-a-2026-27",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/5F67zsqxxRMPyWBF94n27-1920-80.jpg"
+        },
+        {
+          "title": "How to fix your phone screen when it's unresponsive to touch\u200b",
+          "link": "https://www.engadget.com/2301246/how-to-fix-phone-screen-unresponsive-to-touch/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/how-to-fix-your-phone-screen-when-its-unresponsive-to-touch/l-intro-1793286831.jpg"
+        },
+        {
+          "title": "The RAM crisis feels relentless, but Black Friday could come to your rescue",
+          "link": "https://www.techradar.com/computing/memory/the-ram-crisis-has-become-a-monster-heres-why-black-friday-is-your-best-chance-of-slaying-the-beast-and-what-pc-bargains-you-should-look-for",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/UBQMw8dYBNFzpfT3ikjDCU-1920-80.jpg"
+        },
+        {
+          "title": "From restaurant guides to payments, here\u2019s how TikTok is building a super app",
+          "link": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259084458.jpg?resize=1200,801"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+          "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Beezer-and-Amit.jpg?w=799"
+        },
+        {
+          "title": "Salesforce\u2019s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+          "link": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2221463618.jpg?resize=1200,800"
+        },
+        {
+          "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+          "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/Ollie_Hero.png?resize=1200,847"
+        },
+        {
+          "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+          "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/06/Crosby-cofounders.jpg?resize=1200,900"
+        },
+        {
+          "title": "OpenAI-backed Thrive Holdings acquires ADT",
+          "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/ADT-logo.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Ultracold atoms simulate hard-to-observe matter-antimatter pair production",
+          "link": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/using-cold-atoms-to-ex.jpg"
+        },
+        {
+          "title": "Four superconducting cables link two large quantum processors into one",
+          "link": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/four-cables-link-two-q.jpg"
+        },
+        {
+          "title": "Scientists discover metals that defy the deep freeze at -424\u00b0F",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/new-defects-forming-between-neighboring-crystals.webp"
+        },
+        {
+          "title": "APOD: 2026 October 31 \u2013 Night on a Spooky Planet",
+          "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/Hverir_Vetter_1300.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "Scientists smash oxygen nuclei to recreate matter from the Big Bang",
+          "link": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/back-to-back-jets-produced-in-quark-gluon-plasma.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "A stolen iPhone, $14,000 in losses and London's crypto theft problem",
+          "link": "https://www.coindesk.com/business/2026/11/01/a-stolen-iphone-usd14-000-in-losses-and-london-s-crypto-theft-problem",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/1458f4eec0e8154eaa9b11e97609c2c89c405642-1200x675.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts",
+          "link": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/8fd95443e3e2c921397c19baef34ed692d264598-6000x3375.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
+          "link": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M699FRTD1VV81MBCZE1W7405/binance-robot-hands.png"
+        },
+        {
+          "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+          "link": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M6784E305ZRSTBDYV0WKG4RR/hi-true-or-false-91-of-surveys-about-bitcoin-and-crypto-are-totally-wrong.png"
+        },
+        {
+          "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
+          "link": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png"
+        }
+      ]
+    }
+  ]
+}
