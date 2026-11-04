@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-04",
+  "display_date": "November 04, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
+          "link": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6aeb7c5b7b2c9d5f35a29177/master/pass/110426-google-search-schools.jpg"
+        },
+        {
+          "title": "Open source AI is booming. Hugging Face explains who profits.",
+          "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024"
+        },
+        {
+          "title": "DuckDuckGo pitches itself to schools amid backlash over Google\u2019s AI policy",
+          "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/DuckDuckGo_NoAI.png?resize=1200,784"
+        },
+        {
+          "title": "Hugging Face\u2019s CEO Says His P(Doom) Is \u2018Close to Zero\u2019",
+          "link": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6aeb63414e1d5cfd3959e919/master/pass/WWF-Placeholder-Clement-Delangue.jpg"
+        },
+        {
+          "title": "Nothing teases a screen-free AI device ahead of launch next month",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/nothing-phone-4a-2.jpg?quality=90&strip=all&crop=0%2C10.741906587151%2C100%2C78.516186825698&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Leak TruStream review: a gifted network audio player that just lacks a bit of dynamic headroom",
+          "link": "https://www.techradar.com/audio/audio-streaming/leak-trustream-may-look-like-a-1960s-radio-but-its-thoroughly-modern-and-gifted-network-music-player-albeit-one-that-sounds-a-tad-toothy-at-the-top",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/ZL4Tru3YjXVK2E8QzeGPqW-1920-80.jpg"
+        },
+        {
+          "title": "SpaceX is snapping up hundreds of homes near its new flagship AI data center \u2014 but only if the owners agree to one incredible catch",
+          "link": "https://www.techradar.com/pro/spacex-is-snapping-up-hundreds-of-homes-near-its-new-flagship-ai-data-center-but-only-if-the-owners-agree-to-one-incredible-catch",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/h8PtKoPckFsFwU8xPtXRhk-1920-80.jpg"
+        },
+        {
+          "title": "Palantir CEO says it's pioneering an antiwar movement \u2013 while happily accepting defense dollars",
+          "link": "https://www.theregister.com/offbeat/2026/11/04/palantir-ceo-says-its-pioneering-an-antiwar-movement-while-happily-accepting-defense-dollars/5307605",
+          "source": "The Register",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://image.theregister.com/?imageId=258394&width=800"
+        },
+        {
+          "title": "ChatGPT can now make animated GIFs with OpenAI\u2019s Images 2.6",
+          "link": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/chatgpt-app-iphone-wooden-table-openai-logo.avif"
+        },
+        {
+          "title": "Google\u2019s Pixel 11 phones are up to 27 percent off",
+          "link": "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-review-photos-5.jpg?quality=90&strip=all&crop=0%2C10.731298651824%2C100%2C78.537402696352&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States",
+          "link": "https://news.crunchbase.com/venture/2026-post-election-funding-red-states-drops/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Post_Election.jpg"
+        },
+        {
+          "title": "Building on open source AI? Hugging Face\u2019s policy chief on the costs, risks, and trade-offs",
+          "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/55593309776_55e4a08b03_o.jpg?resize=1200,800"
+        },
+        {
+          "title": "Sequoia hits rewind, undoing 20 years of expansion",
+          "link": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/01/Screen-Shot-2023-01-13-at-3.33.43-PM.png?resize=1200,649"
+        },
+        {
+          "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+          "link": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/01/TC-All-Stage-2025-Breakout-QA.jpg?resize=1200,800"
+        },
+        {
+          "title": "Most Venture Capital Is Going To Companies That Are Founded Or Led By Billionaires",
+          "link": "https://news.crunchbase.com/venture/startup-billionaire-founders-ai-defense-anthropic-spcx/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/generic-money.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Northern permafrost greening masks declining plant resilience, study finds",
+          "link": "https://phys.org/news/2026-11-northern-permafrost-greening-masks-declining.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/boreal-ecosystems.jpg"
+        },
+        {
+          "title": "Gold mining introduces an overlooked threat to wild caimans",
+          "link": "https://phys.org/news/2026-11-gold-overlooked-threat-wild-caimans.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/mercury-pollution-disr.jpg"
+        },
+        {
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600"
+        },
+        {
+          "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+          "link": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/MITTR-Roundtables-Nov26-With-border.png?resize=1200,600"
+        },
+        {
+          "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+          "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2022/02/nasa_meatball_large.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "US Bank Regulator Issues First AI Framework as Banks Battle Rogue Agents",
+          "link": "https://decrypt.co/382560/us-bank-regulator-issues-first-ai-framework-banks-battle-rogue-agents",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/office-of-the-comptroller-of-the-currency-occ-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
+          "link": "https://cointelegraph.com/news/trump-linked-tokens-lead-crypto-losses-after-democrats-sweep-in-the-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6KTGBVFHWKW3CZF0886CX5A/trumpcoinelections.png"
+        },
+        {
+          "title": "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss",
+          "link": "https://cointelegraph.com/news/riots-28b-ai-deal-lifts-shares-as-hut-8-faces-transition-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6KQ5FY3D9P23X31GYKTVT1C/hi-bitcoin-miners-unaffected-by-heat-waves-still-plan-to-establish-operations-in-texas-ai-2.jpg"
+        },
+        {
+          "title": "US Voters Back AI Data Center Restrictions in At Least 29 Communities",
+          "link": "https://decrypt.co/382556/us-voters-back-ai-data-center-restrictions",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-11-gID_7.png"
+        },
+        {
+          "title": "U.S. Democratic sweep could be the final nail in the \u2018Clarity Act\u2019s coffin\u2019",
+          "link": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/bb0e02fe77cc6bb9eae2b1c4887014c319e9800f-4928x2772.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
