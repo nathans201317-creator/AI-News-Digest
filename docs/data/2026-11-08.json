@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-08",
+  "display_date": "November 08, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Elvis and Eminem rights holders are suing Suno",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&strip=all&crop=0%2C3.4730210448443%2C100%2C41.13900448979&w=1200"
+        },
+        {
+          "title": "I Used NYT Cooking\u2019s New AI-Powered Recipe Modifier, and It\u2019s Actually Pretty Good",
+          "link": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6aee77f4ece1c19963602401/master/pass/gear-nyt-cooking-ai-assistant.jpg"
+        },
+        {
+          "title": "World Models Will Soon Be Inescapable. Here\u2019s What You Need to Know",
+          "link": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6aee7497bf81da8802edc3e6/master/pass/gear-ai-world-models-3d.jpg"
+        },
+        {
+          "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+          "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2207245107-1.jpg?resize=1200,765"
+        },
+        {
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+          "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "SNL has a new impression of Elon Musk, \u2018the worst thing South Africa has ever done\u2019",
+          "link": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/elon-musk-snl.jpg?resize=1200,595"
+        },
+        {
+          "title": "Building a smart home across different brands? Here's what you should know",
+          "link": "https://www.engadget.com/2308878/smart-home-across-brands-guide/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/building-a-smart-home-across-different-brands-heres-what-you-should-know/l-intro-1793965378.jpg"
+        },
+        {
+          "title": "The pros and cons of using your laptop with the lid closed",
+          "link": "https://www.engadget.com/2308391/using-laptop-lid-closed-pros-and-cons/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/the-pros-and-cons-of-using-your-laptop-with-the-lid-closed/l-intro-1793907582.jpg"
+        },
+        {
+          "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he\u2019s a cybersecurity VC.",
+          "link": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Stephen_Ward_horiztonal.jpeg?resize=1200,1077"
+        },
+        {
+          "title": "How to watch Atletico Madrid vs Barcelona: live stream La Liga match for free online from anywhere",
+          "link": "https://www.techradar.com/entertainment/football/how-to-watch-atletico-madrid-vs-barcelona-live-stream-la-liga-match-for-free-online-from-anywhere",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/ciHAWAnPPY2YxgBZhksMnm-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "100 buses long: Scientists map one of the world's largest known coral colonies",
+          "link": "https://phys.org/news/2026-11-buses-scientists-world-largest-coral.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/100-buses-long-scienti.jpg"
+        },
+        {
+          "title": "New species of ground-dwelling bird, the largest of its kind, identified in same cave as Homo floresiensis",
+          "link": "https://phys.org/news/2026-11-species-ground-bird-largest-kind.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-species-of-ground.jpg"
+        },
+        {
+          "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+          "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/stmd-exteriorlunarbase-hdlandscapeversion-2026-0521.png"
+        },
+        {
+          "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/asteroid-explosion-above-earth.webp"
+        },
+        {
+          "title": "APOD: 2026 November 8 \u2013 Major Fireball Meteor",
+          "link": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/meteor2017_Taylor_1200.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "This Bitcoin Developer\u2019s Idea Would Make Quantum Attacks a Losing Bet",
+          "link": "https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Binance France emails announce closure of its users\u2019 accounts on Dec. 31",
+          "link": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6XKMA4GCCY02X2C5H5XBVBP/hi-consortium-open-doors-binance.jpg"
+        },
+        {
+          "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+          "link": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/aee234db418da001bf5ae613c8da62131873c838-1330x998.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Amsterdam protesters break into Microsoft data center construction site: Report",
+          "link": "https://cointelegraph.com/news/amsterdam-data-center-protesters-break-into-construction-site-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6X8JFEEG972QNHB7E2TQ63J/hi-the-rise-of-major-institutions-is-inevitable-microsoft.jpg"
+        },
+        {
+          "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+          "link": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
