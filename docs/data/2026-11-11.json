@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-11",
+  "display_date": "November 11, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+          "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304376406.jpg?w=1024"
+        },
+        {
+          "title": "With $720M round, Britain\u2019s Fractile gets a leg up in the race for AI chips",
+          "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2183896789.jpg?resize=1200,800"
+        },
+        {
+          "title": "Taiwan\u2019s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+          "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg"
+        },
+        {
+          "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+          "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png"
+        },
+        {
+          "title": "A Startup Wants to Fight AI Bioweapons With AI",
+          "link": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6af2619c5a9cd51895c4c0be/master/pass/science_ai_fight_bioweapon.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "ByteDance is reportedly working on its own AI agent",
+          "link": "https://www.engadget.com/2314064/bytedance-is-reportedly-working-on-its-own-ai-agent/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/bytedance-is-reportedly-working-on-its-own-ai-agent/l-intro-1794426101.jpg"
+        },
+        {
+          "title": "For Singles Day, World explains why real is the new attractive",
+          "link": "https://thenextweb.com/news/singles-day-world-proof-of-human-dating",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/singles-day-11-11-text-graphic.avif"
+        },
+        {
+          "title": "London\u2019s Fractile raises $720M for memory-first AI chips and hits $7B valuation",
+          "link": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/fractile-walter-goodwin-panel-mic.avif"
+        },
+        {
+          "title": "How many SpaceX Starship rocket tests have failed?",
+          "link": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/how-many-spacex-starship-rocket-tests-have-failed/l-intro-1794424186.jpg"
+        },
+        {
+          "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+          "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Exclusive: Nubank Alum Raises $14M For Colombia\u2019s Palomma To Tackle Rent Payments, Landlord Financing",
+          "link": "https://news.crunchbase.com/fintech/nubank-alum-colombia-startup-palomma-ai-rental-services/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Payments.jpg"
+        },
+        {
+          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+          "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?resize=1200,801"
+        },
+        {
+          "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
+          "link": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/headshot-Proximal.jpg?resize=1200,675"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Biodegradable bubble moves away from lactic acid without a motor\u2014a step toward artificial cells",
+          "link": "https://phys.org/news/2026-11-biodegradable-lactic-acid-motor-artificial.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/biodegradable-bubble-m.jpg"
+        },
+        {
+          "title": "Scientists challenge the dream of bringing extinct species back to life",
+          "link": "https://phys.org/news/2026-11-scientists-extinct-species-life.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-challenge-t.jpg"
+        },
+        {
+          "title": "What to know about this year\u2019s UN climate talks",
+          "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP26314112526132.jpg?resize=1200,600"
+        },
+        {
+          "title": "The Download: preserving minds and weighing open AI risks",
+          "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/eye-brains.jpg?resize=1200,600"
+        },
+        {
+          "title": "A radical theory says the universe is twice as old as we thought",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/universe-cosmology-theory.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Tether's Tiny AI Agent Beats Models 2.5 Times Its Size at Controlling Your Phone",
+          "link": "https://decrypt.co/383066/tether-tiny-ai-agent-beats-models-phone",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/hs-paolo-ardonio-tether-decrypt-style-01-gID_7.png"
+        },
+        {
+          "title": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
+          "link": "https://decrypt.co/383067/deutsche-bank-goes-live-with-crypto-custody-after-a-five-year-buildup",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "OKXICE moves ahead with tokenized stocks as blue chips push back",
+          "link": "https://cointelegraph.com/news/okxice-tokenized-stocks-blue-chips-push-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M75S911M6Z2QY1MHSS3BEKGB/hi-how-binance-plans-to-bring-tokenized-us-stocks-5.png"
+        },
+        {
+          "title": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
+          "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M75N52D7VC58F2MJTGJCRMV1/bungee-jumping-bitcoin-1-960x640.webp"
+        },
+        {
+          "title": "Crypto Long & Short: The GENIUS Act\u2019s guarantees don\u2019t cover DeFi lending",
+          "link": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/b997b6fce8b36ab68140a325baf99f71a6118eec-1280x853.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
