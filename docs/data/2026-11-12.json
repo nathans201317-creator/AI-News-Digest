@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-12",
+  "display_date": "November 12, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Jensen Huang Didn\u2019t Name His Own Replacement as One of Tech\u2019s Most Powerful Women",
+          "link": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6af5df9b506e35cfaae88b85/master/pass/111226-Jensen%20Power%20Women%20tech.jpg"
+        },
+        {
+          "title": "Jensen Huang was having a third affair, Reuters reports",
+          "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800"
+        },
+        {
+          "title": "Ars Live: Can the cloud survive drone strikes on data centers?",
+          "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ukraine-data-center-under-attack-1152x648.jpg"
+        },
+        {
+          "title": "No, AI agents did not discover a previously unknown Maya site",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&strip=all&crop=2.4327168367347%2C0%2C95.134566326531%2C100&w=1200"
+        },
+        {
+          "title": "Google\u2019s latest Search upgrade promises better answers to your most complicated questions",
+          "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg?resize=1200,589"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Google\u2019s Gemini 4 Hydrogen brings a fast, cheaper model to everyone",
+          "link": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/google-gemini-4-hydrogen-bubble-graphic.avif"
+        },
+        {
+          "title": "Lego marketplace BrickLink in pieces after 'unusual activity' takes it offline for almost a week",
+          "link": "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425",
+          "source": "The Register",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://image.theregister.com/?imageId=252955&width=800"
+        },
+        {
+          "title": "Jensen Huang's self-sabotage sends Nvidia into a midlife crisis",
+          "link": "https://www.theregister.com/ai-and-ml/2026/11/12/jensen-huangs-self-sabotage-sends-nvidia-into-a-midlife-crisis/5309480",
+          "source": "The Register",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://image.theregister.com/?imageId=236933&width=800"
+        },
+        {
+          "title": "Navies queue up for billion-dollar European miltech company which humbles fiber-optic",
+          "link": "https://www.techradar.com/pro/detect-an-oil-tanker-at-66-miles-navies-queue-up-for-billion-dollar-european-miltech-company-that-humbles-fiber-optic-to-listen-to-acoustic-vibrations-underwater",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/KNhXAgHiyBas2R6YDf3XYf-1920-80.jpg"
+        },
+        {
+          "title": "Meet the people who want peptides to be made in America",
+          "link": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/SS-Jeremiah-3.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676"
+        },
+        {
+          "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+          "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/04_Holiday_Lights_before_after.jpg?resize=1200,867"
+        },
+        {
+          "title": "Norwest pushes deeper into AI with new $4B fund",
+          "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/norwest_team-partner-offsite-2026-1-copy.jpg?resize=1200,805"
+        },
+        {
+          "title": "How Founders Can Reduce Platform Risk Before It Threatens Growth",
+          "link": "https://news.crunchbase.com/ai/startup-founders-reduce-platform-risk-filippenko-intch/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Social_Media_1.jpg"
+        },
+        {
+          "title": "VCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor",
+          "link": "https://news.crunchbase.com/venture/protein-startups-raise-funding-medici/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Food_App_Icons.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Sound without physical force creates a sense of resistance to hand movement",
+          "link": "https://phys.org/news/2026-11-physical-resistance-movement.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/sound-without-physical-1.jpg"
+        },
+        {
+          "title": "eDNA study reveals drivers of dramatic restructuring of marine food web",
+          "link": "https://phys.org/news/2026-11-edna-reveals-drivers-marine-food.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/edna-study-reveals-cau.jpg"
+        },
+        {
+          "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+          "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/foster-huang.jpg?resize=1200,600"
+        },
+        {
+          "title": "I Am Artemis Katie Spicer",
+          "link": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e402724-i-am-artemis-katie.jpeg"
+        },
+        {
+          "title": "Heart in the Sky at NASA Kennedy",
+          "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/55640210122-dae9d5e6b9-o.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Why the Path to Quantum Resistance Runs Uphill for Bitcoin Wallet Makers",
+          "link": "https://decrypt.co/383201/why-path-quantum-resistance-runs-uphill-bitcoin-wallet",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png"
+        },
+        {
+          "title": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
+          "link": "https://cointelegraph.com/news/dtcc-plans-solana-expansion-wallet-rules-limit-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M78HYSFQRVZZRHHY3ZZHRTMW/hi-what-is-chainlink-dtcc.png"
+        },
+        {
+          "title": "Who Is Colette Kress, Jensen Huang\u2019s Successor as Nvidia CEO?",
+          "link": "https://decrypt.co/383189/who-colette-kress-jensen-huang-successor-nvidia-ceo",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/colette-kress-nvidia-ceo-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+          "link": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/e33b3fcac1c0e8c98ef703b71e95d78b3237411a-8192x5464.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
+          "link": "https://cointelegraph.com/markets/bitcoin-price-drops-71k-stocks-nvidia-huang-resignation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7859A9F3JFAC903AM8D1SAR/hi-beyond-bitcoin-the-future-of-digital-assets-bitcoin-price-us-iran-960x640.webp"
+        }
+      ]
+    }
+  ]
+}
