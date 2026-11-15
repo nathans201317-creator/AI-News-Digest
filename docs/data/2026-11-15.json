@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-15",
+  "display_date": "November 15, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "An overview of Jensen Huang\u2019s messy days",
+          "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0%2C14.751764993408%2C100%2C70.496470013184&w=1200"
+        },
+        {
+          "title": "AI DJs Completely Kill My Groove",
+          "link": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6af7840bd2837972f5ddf4f3/master/pass/Untitled-1.jpg"
+        },
+        {
+          "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+          "link": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6af4802ffbe5af43ea5dee0a/master/pass/Screenshot%202026-11-11%20at%2014.47.44.png"
+        },
+        {
+          "title": "Where was Nvidia\u2019s security team?",
+          "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024"
+        },
+        {
+          "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+          "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "How to watch Grey Cup 2026: FREE live streams, TV channels & kick-off time for Elks vs Alouettes",
+          "link": "https://www.techradar.com/entertainment/sport/watch-grey-cup-2026-free-elks-vs-alouettes",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/PX2hLMSWz4gigVmz4KfboY-1920-80.jpg"
+        },
+        {
+          "title": "What happens to Facebook and Instagram accounts when the owner dies?",
+          "link": "https://www.engadget.com/2313815/facebook-instagram-meta-accounts-what-happens-when-owner-dies/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/what-happens-to-facebook-and-instagram-accounts-when-the-owner-dies/l-intro-1794308400.jpg"
+        },
+        {
+          "title": "The camera sensor cleaning mistake you don't want to make",
+          "link": "https://www.engadget.com/2313770/camera-sensor-cleaning-mistake-to-avoid/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/the-camera-sensor-cleaning-mistake-you-dont-want-to-make/l-intro-1794336026.jpg"
+        },
+        {
+          "title": "Flaming Hydra\u2019s new Kickstarter campaign rethinks e-book ownership and digital lending",
+          "link": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-601797365.jpg?resize=1200,800"
+        },
+        {
+          "title": "The iPhone 18 Pro's C2 modem has transformed my terrible signal",
+          "link": "https://www.techradar.com/phones/iphone/the-iphone-18-pros-c2-modem-has-transformed-my-terrible-signal-and-im-not-the-only-one-whos-noticed-the-benefits",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/NAappVPEo6oJ6JWHjF3S9F-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "The experiments improving our understanding of volcanic tsunamis",
+          "link": "https://phys.org/news/2026-11-volcanic-tsunamis.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-experiments-improv.jpg"
+        },
+        {
+          "title": "Tangled quantum whirlpools caught unraveling in an ultracold gas",
+          "link": "https://phys.org/news/2026-11-tangled-quantum-whirlpools-caught-unraveling.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/tangled-quantum-whirlp.jpg"
+        },
+        {
+          "title": "Climate response: Why previous warming makes all the difference",
+          "link": "https://phys.org/news/2026-11-climate-response-previous-difference.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/smokestacks.jpg"
+        },
+        {
+          "title": "Uranus and Neptune\u2019s bizarre magnetic fields may finally be explained",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/uranus-and-neptune-dynamo-models.webp"
+        },
+        {
+          "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/binary-white-dwarf-beam.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "How Wall Street Is Racing to Claim the Onchain Dollar",
+          "link": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-wall-street-gID_7.png"
+        },
+        {
+          "title": "Enterprise blockchain is going to come back from the dead",
+          "link": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M6ZMF6J25WASD4RQJDF0BRKT/hi-if-blockchain-is-the-door-to-the-future-of-finance-liquidity-is-the-key.jpg"
+        },
+        {
+          "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+          "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg"
+        },
+        {
+          "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+          "link": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/fbc7e541d283d1ca139795169dd388c0890fdf2e-2854x1606.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+          "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7FBMZXNH6CNG3W9M8RNBHCN/hi-meet-the-trader-who-lost-bitcoin-bear-market.jpg"
+        }
+      ]
+    }
+  ]
+}
