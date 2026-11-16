@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-16",
+  "display_date": "November 16, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "All the questions Nvidia should answer on Tuesday \u2014 but probably won\u2019t",
+          "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2018/02/tc-backlight-e1689786273147.png?w=1200"
+        },
+        {
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
+        },
+        {
+          "title": "Sam Altman says he wants everyone \u2018to have a lot of RAM\u2019",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0%2C12.629941573716%2C100%2C74.740116852568&w=1200"
+        },
+        {
+          "title": "California state AG sues OpenAI over rogue agent incidents",
+          "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/1920px-Rob_Bonta_at_Central_Bay_Operations_and_Maintenance_Facility_opening_December_2018.jpeg?resize=1200,981"
+        },
+        {
+          "title": "US moves to cut China\u2019s remote access to AI chips",
+          "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Microsoft blames its Microsoft 365 outage on a dormant July update defect",
+          "link": "https://thenextweb.com/news/microsoft-365-outage-july-defect-post-incident-report",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/microsoft-365-apps-list-screen-outlook-teams.avif"
+        },
+        {
+          "title": "Tiny Corp's refurbished MI300X tinybox packs 768GB of HBM into a desktop box, and the price has already jumped by $29,000",
+          "link": "https://www.techradar.com/pro/tiny-corps-refurbished-mi300x-tinybox-packs-768gb-of-hbm-into-a-desktop-box-and-the-price-has-already-jumped-by-usd29-000",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/n9QrZ8mixWzcJKcRWrBeY4-1920-80.jpg"
+        },
+        {
+          "title": "Cyber giant Infoblox confirms security incident after hackers access \u2018company information\u2019",
+          "link": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/02/connectwise-flaw-huntress-security.jpg?resize=1200,800"
+        },
+        {
+          "title": "Satya Nadella says Claude Code caught Microsoft off guard and the IDE faded",
+          "link": "https://thenextweb.com/news/satya-nadella-claude-code-ide-pragmatic-engineer",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/10/satya-nadella-microsoft-build-2026-keynote-stage.avif"
+        },
+        {
+          "title": "Save $500 on Acer's ProDesigner PE320QXT 6K monitor for Black Friday",
+          "link": "https://www.techradar.com/pro/acers-prodesigner-pe320qxt-6k-touchscreen-monitor-drops-to-usd999-99-for-black-friday-saving-you-usd500-on-a-professional-creative-display",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/oUmLgUN23QmWfw7pRFBHzc-1920-80.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Island is a new screen-time app that turns staying off your phone into a game",
+          "link": "https://techcrunch.com/2026/11/16/island-is-a-new-screen-time-app-that-turns-staying-off-your-phone-into-a-game/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/island-graphic.png?resize=1200,586"
+        },
+        {
+          "title": "Serena Williams winds down her VC firm, launches new fund, seeks $200M",
+          "link": "https://techcrunch.com/2026/11/16/serena-williams-winds-down-her-vc-firm-launches-new-fund-targets-200m/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301975852.jpg?w=1024"
+        },
+        {
+          "title": "After dodging death, battery startup Our Next Energy is now going public",
+          "link": "https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/our-next-energy-pack-inspection.jpg?resize=1200,900"
+        },
+        {
+          "title": "In The AI Era, Keep Hiring New College Grads \u2014 And Make Them Managers From Day One",
+          "link": "https://news.crunchbase.com/ai/new-college-grads-workforce-management-morse-strattam-quoia-kse/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/HR.jpeg"
+        },
+        {
+          "title": "VC Firm Plural Closes On $1.1B To Invest In European Startups With Potential For \u2018GDP-Level Impact\u2019",
+          "link": "https://news.crunchbase.com/venture/plural-closes-billion-euro-fund-european-ai-robotics-defense-startup-investment/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/concentrated-capital.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Ultracold diamond microwave laser amplifies quantum signals 1,000-fold",
+          "link": "https://phys.org/news/2026-11-ultracold-diamond-microwave-laser-amplifies.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultracold-diamond-micr.jpg"
+        },
+        {
+          "title": "Why marine climate refugia matter for safeguarding the world's oceans",
+          "link": "https://phys.org/news/2026-11-marine-climate-refugia-safeguarding-world.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/why-marine-climate-ref.jpg"
+        },
+        {
+          "title": "A Collage Showing 49 Drill Holes Made by NASA\u2019s Curiosity Mars Rover",
+          "link": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26804/PIA26804.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "NASA Receives 16th Consecutive \u2018Clean\u2019 Financial Audit Opinion",
+          "link": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/04/nasa-meatball-1.webp"
+        },
+        {
+          "title": "The open-source movement wants Jensen Huang back",
+          "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP26289708196110.jpg?resize=1200,600"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Binance hack may push institutions to outside custody, FalconX exec says",
+          "link": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7JYN3X9NPASHKCFA1BBHM7P/bank-building-hall-entrance-door-binance-2.png"
+        },
+        {
+          "title": "Bitcoin Wallet Maker Trezor Says Customer Data Was Exposed Again",
+          "link": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/trezor-safe-7-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
+          "link": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/f11975329dd01123cc1f9509e592571e6e20430b-1500x1000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
+          "link": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/bitcoin-dollar-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump",
+          "link": "https://cointelegraph.com/markets/bitmine-nears-5-eth-supply-treasuries-report-buys-amid-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7JZ53YRDRJQGKMN9M3767RB/hi-10-public-companies-that-quietly-turned-their-balance-sheets-into-bitcoin-treasuries.png"
+        }
+      ]
+    }
+  ]
+}
