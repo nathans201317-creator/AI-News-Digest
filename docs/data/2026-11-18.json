@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-18",
+  "display_date": "November 18, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Sam Altman says his life is so weird that he\u2019s unfazed by Andrew Garfield portraying him in upcoming movie",
+          "link": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305723022.jpg?w=594"
+        },
+        {
+          "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+          "link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg?w=1200"
+        },
+        {
+          "title": "Trump\u2019s latest land grab is an AI hub in the Philippines",
+          "link": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305507602.jpg?quality=90&strip=all&crop=0%2C10.737892056687%2C100%2C78.524215886627&w=1200"
+        },
+        {
+          "title": "What\u2019s next for Nvidia? Whatever doesn\u2019t rock the mind-bogglingly profitable boat",
+          "link": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/acastro_STK083_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+          "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "The CEO behind GTA VI doesn\u2019t play games. Analysts say he bet up to $1.5B",
+          "link": "https://thenextweb.com/news/take-two-zelnick-gta-vi-1-5b-budget-doesnt-play-games",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/strauss-zelnick-take-two-ceo-portrait.avif"
+        },
+        {
+          "title": "9 of the best iPhone 18 Pro cases",
+          "link": "https://www.techradar.com/phones/phone-accessories/best-iphone-18-pro-cases-9-hand-tested-accessories-for-your-new-apple-device",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/Xkh8qEKAeoZFzCVJ2pLbfd-1920-80.jpg"
+        },
+        {
+          "title": "Over half of Android and iOS banking apps have serious security flaws \u2014 2,686 apps across top global banks expose bypassable biometric logins and hardcoded secret keys",
+          "link": "https://www.techradar.com/pro/security/over-half-of-android-and-ios-banking-apps-have-serious-security-flaws-2-686-apps-across-top-global-banks-expose-bypassable-biometric-logins-and-hardcoded-secret-keys",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/tcF5fR669mhPcH4akLWpTL-1920-80.jpg"
+        },
+        {
+          "title": "Google opens its Genie 4 world model to AI Ultra subscribers",
+          "link": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/google-logo-neon-sign-office-wall-sydney.avif"
+        },
+        {
+          "title": "GTA 6's cops will remember you thanks to the 'Heat' system",
+          "link": "https://www.engadget.com/2320983/gta-6s-cops-will-remember-you-thanks-to-the-heat-system/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/gta-6s-cops-will-remember-you-thanks-to-the-heat-system/l-intro-1795030355.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "The Key Numbers I\u2019m Watching As Anthropic Makes Its IPO Debut",
+          "link": "https://news.crunchbase.com/ai/anthropic-ant-ipo-revenue-growth-risks-s1-analysis/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/IPO-on-horizon-1024x576.jpg"
+        },
+        {
+          "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+          "link": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-1414277307.jpg?resize=1200,776"
+        },
+        {
+          "title": "What To Measure When ARR Isn\u2019t Enough",
+          "link": "https://news.crunchbase.com/startups/arr-measure-ai-venture-growth-capital-zayani-rtp/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/magic-carpet-money-1024x576.jpg"
+        },
+        {
+          "title": "Sector Snapshot: Investors Turn Up The Volume On Voice AI",
+          "link": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Talk.jpg"
+        },
+        {
+          "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+          "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/unsiloed-AI-founders-adnan-abbas-aman-mishra.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Yes, men and boys should be shamed for misogyny. It's part of how we stamp it out",
+          "link": "https://phys.org/news/2026-11-men-boys-shamed-misogyny.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/yes-men-and-boys-shoul.jpg"
+        },
+        {
+          "title": "Wild barley's genetic diversity opens up new avenues for research and breeding",
+          "link": "https://phys.org/news/2026-11-wild-barley-genetic-diversity-avenues.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-genetic-diversity.jpg"
+        },
+        {
+          "title": "MAF EAP \u2013 Holidays \u2013 How to manage the BAH HUMBUG that tries to sneak in",
+          "link": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/mafeap-holidays.jpeg"
+        },
+        {
+          "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+          "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2023/03/hall-thruster.jpg"
+        },
+        {
+          "title": "The AI Hype Index: AI is everywhere",
+          "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/11-Hype-thumb2.jpg?resize=1200,600"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Bain Capital Crypto leads $110M Variational round at $1.5B valuation",
+          "link": "https://cointelegraph.com/news/variational-series-b-bain-capital-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7R0D2KWR63KE06GWG9BD8K1/hi-sp-bitcoin-funding-stays-negative-1.png"
+        },
+        {
+          "title": "Binance says it obtained $6.5B worldwide freezing order after hack",
+          "link": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7R2ZP1K5NGA1TMSVV7XWE7F/hi-the-aftermath-of-binance-consequences-of-cryptos-ongoing-regulatory-process.jpg"
+        },
+        {
+          "title": "Google's Genie 4 Is Here, Letting Ultra Subscribers Build AI Worlds in Real Time",
+          "link": "https://decrypt.co/383572/google-genie-4-ultra-subscribers-build-ai-worlds-real-time",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-google-3-gID_7.png"
+        },
+        {
+          "title": "Why CoinShares Just Sold All Its Ethereum and Half Its Solana",
+          "link": "https://decrypt.co/383570/why-coinshares-just-sold-all-ethereum-half-solana",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-dogecoin-bitcoin-cardano-xrp-decrypt-style-1-gID_7.jpg"
+        },
+        {
+          "title": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
+          "link": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/2180f062d339af02b2052281b305e8f75b13fdef-1920x1281.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
