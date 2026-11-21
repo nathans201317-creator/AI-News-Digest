@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-21",
+  "display_date": "November 21, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Here are the top AI agents that can live in your text messages",
+          "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
+        },
+        {
+          "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+          "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200"
+        },
+        {
+          "title": "Can Anthropic afford to put safety first?",
+          "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Chess.com\u2019s next move is a new hub for classic games, from mahjong to sudoku",
+          "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/classic-games-home-page-trimmed.jpeg?quality=90&strip=all&crop=0%2C6.9226294357184%2C100%2C93.077370564282&w=1200"
+        },
+        {
+          "title": "The Outages Are Just Getting Started",
+          "link": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6b00ba06fb286bb31d23be2b/master/pass/Kernel-Panic-Brace-for-More-Outages-Security.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Anthropic employee claims to have proven the most famous math problem using Claude",
+          "link": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/l-intro-1795290107.jpg"
+        },
+        {
+          "title": "Here's how much a Sony Walkman cost in 1980 vs. 2026",
+          "link": "https://www.engadget.com/2318873/how-much-sony-walkman-cost-1980-vs-2026/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/heres-how-much-a-sony-walkman-cost-in-1980-vs-2026/l-intro-1794562570.jpg"
+        },
+        {
+          "title": "FT, NYT tie Alice Huang\u2019s chip network to gaming tycoons and PLA suppliers",
+          "link": "https://thenextweb.com/news/alice-huang-chip-network-ft-nyt-prince-group-pla-suppliers",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/nvidia-headquarters-santa-clara-sign-solar-canopy.avif"
+        },
+        {
+          "title": "Days after Nvidia CEO Jensen Huang resigned, journalists unearth covert influence operation using right-wing outlets to promote Nvidia AI chip export to...China",
+          "link": "https://www.techradar.com/pro/days-after-nvidia-ceo-resigned-journalists-unearth-covert-influence-operation-using-right-wing-outlets-to-promote-nvidia-ai-chip-export-to-china",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/Gj6FC8sbfFe3MUp4FZwMJ5-1920-80.jpg"
+        },
+        {
+          "title": "Palmer Luckey says nobody in the West actually wants Ukraine to win",
+          "link": "https://thenextweb.com/news/palmer-luckey-dealbook-ukraine-starshield-nuclear-tests-meridian",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/palmer-luckey-space-systems-command-podium-arms-race-slide.avif"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
+          "link": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Moor-Studio.jpg?resize=1200,705"
+        },
+        {
+          "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+          "link": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Chenyu-Zhao.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Dropping degree requirements linked to higher pay for workers without degrees",
+          "link": "https://phys.org/news/2026-11-degree-requirements-linked-higher-pay.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/dropping-degree-requir.jpg"
+        },
+        {
+          "title": "Babies in ancient Greek colony started solid food at 3 months but nursed for nearly 4 years, chemical signatures suggest",
+          "link": "https://phys.org/news/2026-11-babies-ancient-greek-colony-solid.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/babies-in-an-ancient-g.jpg"
+        },
+        {
+          "title": "AI may not work like the human brain after all, scientists discover",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/human-vs-ai-brain-thinking-understanding.webp"
+        },
+        {
+          "title": "Time may be far stranger than we realize. Scientists have a way to test it",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/physics-time-flow-illustration.webp"
+        },
+        {
+          "title": "APOD: 2026 November 21 \u2013 Voyager\u2019s Neptune",
+          "link": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
+          "link": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/grand-theft-auto-6-gta-vi-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday\u2019s stock open",
+          "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/6a50d7f76698cadd3cc56a5abf007eb4039d9d74-1163x450.png?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+          "link": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png"
+        },
+        {
+          "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+          "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/eeb54516a3b0a19f03d51ee5552619fa13b3be71-1920x1440.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Here\u2019s what happened in crypto today",
+          "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        }
+      ]
+    }
+  ]
+}
