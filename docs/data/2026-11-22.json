@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-22",
+  "display_date": "November 22, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Why data centers are at the center of the Big Tech backlash",
+          "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024"
+        },
+        {
+          "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+          "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+        },
+        {
+          "title": "The vibe-coding revolution is coming to all the gadgets",
+          "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "Banks Have Had It Up to Here With Your AI Agent",
+          "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/master/pass/GettyImages-2285133719.jpg"
+        },
+        {
+          "title": "Signal restricts mobile screenshots as it confronts \u2018existential threat\u2019 of AI surveillance",
+          "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Want more control over your YouTube homepage? Try using custom feeds",
+          "link": "https://www.engadget.com/2319492/try-using-youtube-custom-feeds-control-homepage/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/want-more-control-over-your-youtube-homepage-try-using-custom-feeds/l-intro-1794432277.jpg"
+        },
+        {
+          "title": "How long is a new Fitbit actually supposed to last?",
+          "link": "https://www.engadget.com/2319487/how-long-new-fitbit-last-lifespan-software-support/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/how-long-is-a-new-fitbit-actually-supposed-to-last/l-intro-1794499519.jpg"
+        },
+        {
+          "title": "'Remember, there is a lot of stuff in our critical infrastructure that\u2019s unpatchable': Microsoft CEO Satya Nadella warns more outages of key networks could be coming",
+          "link": "https://www.techradar.com/pro/security/remember-there-is-a-lot-of-stuff-in-our-critical-infrastructure-thats-unpatchable-microsoft-ceo-satya-nadella-warns-more-outages-of-key-networks-could-be-coming",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/HS5CbFLcRsMoLxgvoUyPun-1920-80.jpg"
+        },
+        {
+          "title": "How to watch The Witch Farm for free \u2014 stream supernatural drama from anywhere",
+          "link": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-the-witch-farm",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/oGVGiupN9miGNjDuNm8vCV-1920-80.jpg"
+        },
+        {
+          "title": "Delta flights in and out of Atlanta delayed due to system outage",
+          "link": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/gettyimages-2223798482.jpg?quality=90&strip=all&crop=0%2C10.740554568055%2C100%2C78.518890863889&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Silver briefly forms a rare crystal structure seen in radioactive polonium",
+          "link": "https://phys.org/news/2026-11-silver-briefly-rare-crystal-radioactive.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/discovery-of-a-new-sil.jpg"
+        },
+        {
+          "title": "65 Years of Human Spaceflight at NASA Johnson",
+          "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e426920.jpg"
+        },
+        {
+          "title": "Atmospheric organic nitrogen emerges as a major nutrient source for global oceans",
+          "link": "https://phys.org/news/2026-11-atmospheric-nitrogen-emerges-major-nutrient.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hkust-co-led-study-rev.jpg"
+        },
+        {
+          "title": "APOD: 2026 November 22 \u2013 Swirls and Colors on Jupiter from Juno",
+          "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "A giant star swallowed another star. James Webb reveals the aftermath",
+          "link": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+          "source": "ScienceDaily",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.sciencedaily.com/images/1920/andromeda-star-merger.webp"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "More on the pending oversight hearings: State of Crypto",
+          "link": "https://www.coindesk.com/",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/39aef47b93f60ebf7e668e371d51320693bb79e3-3364x1894.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "The future of onchain FX could start with users, not institutional liquidity",
+          "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7HXR8PX0V9ND83QRBCRCYJB/hi-international-association-of-trusted-blockchain-applications-dollar.jpg"
+        },
+        {
+          "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
+          "link": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg"
+        },
+        {
+          "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+          "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/aeeabe28669425a95b4918b55a4680c3e968c1c7-6002x4001.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        },
+        {
+          "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+          "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M819JW0D1CC9W3NZY32KQ4A0/hi-kraken2-1.jpg"
+        }
+      ]
+    }
+  ]
+}
