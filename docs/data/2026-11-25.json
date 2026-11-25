@@ -1,0 +1,262 @@
+{
+  "date": "2026-11-25",
+  "display_date": "November 25, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Google\u2019s patent for custom AI video feeds paints a bleak picture of entertainment\u2019s future",
+          "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&strip=all&crop=2.859375%2C11.97652241473%2C93.788122558594%2C75.148782257541&w=1200"
+        },
+        {
+          "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+          "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800"
+        },
+        {
+          "title": "Jensen Huang broke Nvidia\u2019s code of conduct, and his employees may not forget it",
+          "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227140868.jpg?w=1024"
+        },
+        {
+          "title": "FCC signs off on SpaceX\u2019s plan to put up to 1 million data center satellites into space",
+          "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&strip=all&crop=0%2C10.756615395926%2C100%2C78.486769208148&w=1200"
+        },
+        {
+          "title": "Ars Live recap: Don\u2019t expect military attacks on data centers to stop",
+          "link": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+          "source": "Ars Technica",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "No, Path of Exile 2 isn't worried about Diablo V because 'whenever Blizzard makes a game, it attracts more people to the genre'",
+          "link": "https://www.techradar.com/gaming/no-path-of-exile-2-isnt-worried-about-diablo-v-because-whenever-blizzard-makes-a-game-it-attracts-more-people-to-the-genre",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/cNNuTHH3AboPvicvZHL88P-1920-80.jpg"
+        },
+        {
+          "title": "Take our Black Friday deal quiz and find your perfect Dyson cordless vacuum",
+          "link": "https://www.techradar.com/home/vacuums/trying-to-choose-a-dyson-cordless-vacuum-take-our-quick-quiz-to-find-out-which-ones-right-for-you",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/HYUDSUGHzkg47iBjaMB4Xe-1920-80.jpg"
+        },
+        {
+          "title": "7 gadgets that'll instantly upgrade your Thanksgiving feast",
+          "link": "https://www.engadget.com/2328767/gadgets-instantly-upgrade-thanksgiving-feast/",
+          "source": "Engadget",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.engadget.com/img/gallery/7-cool-gadgets-to-instantly-upgrade-your-thanksgiving-feast/l-intro-1795617573.jpg"
+        },
+        {
+          "title": "FCC approves SpaceX plan to put AI data centers in space",
+          "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801"
+        },
+        {
+          "title": "Perplexity\u2019s Time Machine lets AI agents search the web of the past",
+          "link": "https://thenextweb.com/news/perplexity-time-machine-ai-agents-past-web",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/11/perplexity-time-machine-api-artwork.avif"
+        }
+      ]
+    },
+    {
+      "name": "Startups & Funding",
+      "emoji": "\ud83d\ude80",
+      "color": "#FB923C",
+      "tint": "#FFEEE3",
+      "articles": [
+        {
+          "title": "Character.AI\u2019s plan to auction off users\u2019 private chats challenged by state AGs",
+          "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675"
+        },
+        {
+          "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+          "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Anita-Verma-Lallian-2.jpg?w=1024"
+        },
+        {
+          "title": "The Art of The Terrible Startup Name",
+          "link": "https://news.crunchbase.com/startups/bad-startup-name-examples-advice-grok/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Naming-Trends-resized.jpg"
+        },
+        {
+          "title": "Your AI Startup\u2019s Exit Is Being Shaped By The Deals You Sign Today",
+          "link": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
+          "source": "Crunchbase News",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://news.crunchbase.com/wp-content/uploads/Exits_2023.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Draining peatlands leaves a long legacy of warming",
+          "link": "https://phys.org/news/2026-11-peatlands-legacy.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/draining-peatlands-lea.jpg"
+        },
+        {
+          "title": "Stabilizing atomically thin metals with sandwich structures: Machine learning expands the search",
+          "link": "https://phys.org/news/2026-11-stabilizing-atomically-thin-metals-sandwich.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/machine-learning-ident.jpg"
+        },
+        {
+          "title": "NASA Enhances Supplier Program, Announces Mentor-Prot\u00e9g\u00e9 Agreement",
+          "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/lrs00622.jpg"
+        },
+        {
+          "title": "NASA Eyes Crop Candidates for Future Menus",
+          "link": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://assets.science.nasa.gov/content/dam/science/bps/space-crops/SpaceCrops_thanksgiving.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
+        },
+        {
+          "title": "How data centers are driving a US natural-gas boom",
+          "link": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/261124_RichlandParishDataCenter.jpg?resize=1200,600"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Switzerland clears 57 jurisdictions for crypto tax data sharing",
+          "link": "https://cointelegraph.com/news/switzerland-clears-57-jurisdictions-crypto-tax-data-sharing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8A4536P99DZ11ZD4K1M4RQA/hi-how-to-file-crypto-taxes-in-the-us.png"
+        },
+        {
+          "title": "What Happened to Alice Huang, the Woman at the Center of Nvidia\u2019s Scandal?",
+          "link": "https://decrypt.co/384001/what-happened-alice-huang-nvidia-spy-scandal",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2026/11/alice-huang-social-gID_7.jpg"
+        },
+        {
+          "title": "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites",
+          "link": "https://cointelegraph.com/news/braiins-warns-bitcoin-mining-attacks-affecting-1000-sites?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8A6MMEPRZNERDMM8DPPCV1R/hi-hacker-launders-nearly-all-money-in-stolen-funds.jpg"
+        },
+        {
+          "title": "The 1Password Breach Didn\u2019t Touch Your Vault. The Phishing Emails Might",
+          "link": "https://decrypt.co/384002/1password-breach-vaults-phishing-emails",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2023/07/scammers-impersonators-gID_7.jpeg"
+        },
+        {
+          "title": "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
+          "link": "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/00b7e1c817f9bb6b94eeb329d9a6b8a89fc44930-6000x4000.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
