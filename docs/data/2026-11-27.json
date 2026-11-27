@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-27",
+  "display_date": "November 27, 2026",
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "emoji": "\ud83e\udd16",
+      "color": "#8B5CF6",
+      "tint": "#F1EDFF",
+      "articles": [
+        {
+          "title": "Android\u2019s DIY widgets are a bit of vibe-coding fun",
+          "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04405_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
+        },
+        {
+          "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+          "link": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+          "source": "WIRED",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.wired.com/photos/6b073e1d34813a006d725bef/master/pass/QANT-CEO-QandA-Business.jpg"
+        },
+        {
+          "title": "S&P considers Nvidia credit downgrade over governance and \u2018key man\u2019 risks",
+          "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+          "source": "TechCrunch",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "name": "Big Tech & Gadgets",
+      "emoji": "\ud83c\udfe2",
+      "color": "#38BDF8",
+      "tint": "#E8F5FC",
+      "articles": [
+        {
+          "title": "Save 75% off Britbox Prime Video add-on and watch The Other Bennet Sister",
+          "link": "https://www.techradar.com/entertainment/how-to-watch/save-75-percent-off-britbox-prime-video-add-on-and-watch-the-other-bennet-sister",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/Doj3zgMxpRBxFKWeW6azy9-1920-80.jpg"
+        },
+        {
+          "title": "The absolute best Black Friday deals we\u2019ve found (so far)",
+          "link": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268838_BF_CM_BLACK_FRIDAY_Headers_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        },
+        {
+          "title": "The super-thin-and-light, but pricey foldable is available for an almost unbelievable Black Friday deal price",
+          "link": "https://www.techradar.com/phones/samsung-galaxy-phones/the-best-all-around-foldable-ive-ever-tried-has-an-amazing-black-friday-deal-and-no-its-not-the-iphone-duo",
+          "source": "TechRadar",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.mos.cms.futurecdn.net/wTtV7Di863TVpmqZFNZe79-1920-80.jpg"
+        },
+        {
+          "title": "OpenAI countersues Apple, accusing it of pressuring suppliers",
+          "link": "https://thenextweb.com/news/openai-countersues-apple-suppliers-pressure-devices",
+          "source": "The Next Web",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://media.thenextweb.com/2026/10/openai-about-page-laptop-screen-close-up.avif"
+        },
+        {
+          "title": "My favorite MPC beat maker is ready for your vibe-coded firmware and effects",
+          "link": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
+          "source": "The Verge",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268415_MPC_Sample_TO_Brien_0006.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        }
+      ]
+    },
+    {
+      "name": "Science & Research",
+      "emoji": "\ud83d\udd2c",
+      "color": "#2DD4BF",
+      "tint": "#E3F7F3",
+      "articles": [
+        {
+          "title": "Why a warmer atmosphere doesn't guarantee more water in rivers",
+          "link": "https://phys.org/news/2026-11-warmer-atmosphere-doesnt-rivers.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/more-water-in-the-atmo.jpg"
+        },
+        {
+          "title": "Can storybook characters teach children about perseverance?",
+          "link": "https://phys.org/news/2026-11-storybook-characters-children-perseverance.html",
+          "source": "Phys.org",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/storybook-and-child.jpg"
+        },
+        {
+          "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+          "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20261117-ph-kls02-0020orig.jpg"
+        },
+        {
+          "title": "NASA\u2019s NG-25 Mission to Launch Pioneering Space Crops Research",
+          "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+          "source": "NASA",
+          "license": "Public domain (US government)",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://images-assets.nasa.gov/image/jsc2026e415098/jsc2026e415098~large.jpg"
+        },
+        {
+          "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+          "link": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
+          "source": "MIT Technology Review",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/IU35-2027-SA.jpg?resize=1200,600"
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "emoji": "\ud83d\udcb0",
+      "color": "#FBBF24",
+      "tint": "#FFF7DC",
+      "articles": [
+        {
+          "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
+          "link": "https://cointelegraph.com/news/franklin-templeton-hype-crypto-index-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3AEQ9Y8JV78QH3H8M1G3403/analitycs2021-hype-1.jpg"
+        },
+        {
+          "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
+          "link": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png"
+        },
+        {
+          "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
+          "link": "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market",
+          "source": "Decrypt",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.decrypt.co/wp-content/uploads/2024/04/bear-holding-bitcoin-btc-gID_7.jpeg"
+        },
+        {
+          "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
+          "link": "https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "Cointelegraph",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M8EZRZTWET1C6FPBGDJZHHK2/diamond-encased-bitcoins.png"
+        },
+        {
+          "title": "Kalshi turns to small businesses as legal battles threaten forecasts on sports",
+          "link": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports",
+          "source": "CoinDesk",
+          "license": "",
+          "summary": "",
+          "paragraph": "",
+          "image": "https://cdn.sanity.io/images/s3y3vcno/production/f19cbe2eff297e6c2bd76b21568ebd507b6b42b2-6016x3600.jpg?fm=jpg&w=800&h=450&crop=focalpoint&fit=clip"
+        }
+      ]
+    }
+  ]
+}
